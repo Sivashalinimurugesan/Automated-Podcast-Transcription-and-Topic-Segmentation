@@ -1,251 +1,207 @@
-
----
-
 # Automated Medical Podcast Transcription and Topic Segmentation
 
 ## Project Overview
 
 Medical podcasts contain valuable discussions on diseases, treatments, research findings, and clinical experiences. However, these podcasts are often long and difficult to navigate.
 
-This project aims to build an AI-powered system that automatically transcribes medical podcast audio, detects topic boundaries, and segments the content into meaningful medical topics with summaries and keywords.
+This project builds an AI-powered system that automatically transcribes medical podcast audio, detects topic boundaries, and segments the content into meaningful medical topics with summaries, keywords, sentiment analysis, and quality evaluation.
 
-The system helps students, researchers, and healthcare professionals quickly access relevant medical information without listening to the entire podcast episode.
+The system enables students, researchers, and healthcare professionals to quickly access relevant medical information without listening to the entire podcast episode.
 
 ---
 
 ## Use Case (Medical Domain)
 
-This project is designed specifically for medical podcasts, including:
+This system is designed specifically for medical podcasts, including:
 
-* Clinical discussions
-* Disease awareness talks
-* Medical education podcasts
-* Expert interviews and panel discussions
-* Public health awareness programs
+- Clinical discussions  
+- Disease awareness talks  
+- Medical education podcasts  
+- Expert interviews and panel discussions  
+- Public health awareness programs  
 
 ### Benefits
 
-* Quickly locate discussions about specific diseases or treatments
-* Navigate podcasts using topic-wise chapters
-* Understand content through summaries and keywords
-* Save time for medical students and professionals
+- Quickly locate discussions about specific diseases or symptoms  
+- Navigate podcasts using topic-wise segmentation  
+- Understand content through summaries, keywords, and sentiment  
+- Save time for medical students and professionals  
 
 ---
 
 ## Project Objectives
 
 ### 1. Transcription (Speech-to-Text)
-
-* Convert long medical podcast audio into text using ASR models
-* Handle noisy, real-world medical audio
-* Generate timestamps for each transcribed segment
+- Convert long medical podcast audio into text using ASR models  
+- Handle noisy, real-world medical audio  
+- Generate timestamps for each transcribed segment  
 
 ### 2. Topic Segmentation
-
-* Detect topic shifts in medical discussions
-* Segment transcripts into meaningful medical chapters
-* Use NLP techniques such as:
-
-  * TextTiling
-  * Embedding similarity (Sentence Transformers / BERT)
-  * Change-point detection methods
+- Detect topic shifts in medical discussions  
+- Segment transcripts into meaningful medical chapters  
+- Apply NLP techniques such as:
+  - TextTiling  
+  - Embedding similarity (Sentence Transformers / BERT)  
+  - Change-point detection  
 
 ### 3. Summarization and Keyword Extraction
+- Generate concise summaries for each segment  
+- Extract domain-relevant medical keywords  
 
-* Generate short summaries for each topic segment
-* Extract important medical keywords
+### 4. Sentiment and Quality Analysis
+- Perform sentiment analysis on segmented topics  
+- Normalize sentiment for medical-domain context  
+- Compute quality metrics such as WER, CER, and semantic similarity  
 
-### 4. Frontend UI for Navigation
-
-* Topic-wise transcript navigation
-* Timestamp-based audio playback
-* Visualization of summaries and keywords
+### 5. Frontend UI for Navigation
+- Topic-wise transcript visualization  
+- Timestamp-based audio playback  
+- Keyword, sentiment, and quality dashboards  
+- Interactive UI integrated with backend APIs  
 
 ---
 
-## System Architecture Flow
+## System Architecture
 
-```text
-+---------------------+
-|     Audio Input     |
-+---------------------+
-           |
-           v
-+---------------------+
-| Audio Preprocessing |
-+---------------------+
-           |
-           v
-+------------------------------+
-| Medical Speech-to-Text (ASR) |
-+------------------------------+
-           |
-           v
-+---------------------+
-| Transcript Cleaning |
-+---------------------+
-           |
-           v
-+---------------------+
-|  Embedding Model    |
-+---------------------+
-           |
-           v
-+---------------------+
-|  Topic Segmentation |
-+---------------------+
-           |
-           v
-+--------------------------------+
-| Medical Summaries & Keywords   |
-+--------------------------------+
-           |
-           v
-+---------------------+
-|      Indexing       |
-+---------------------+
-           |
-           v
-+---------------------------------------------+
-| Frontend UI                                 |
-| (Search, Playback, Visualization)           |
-+---------------------------------------------+
-```
+Audio Input  
+↓  
+Audio Preprocessing  
+↓  
+Medical Speech-to-Text (ASR)  
+↓  
+Transcript Cleaning  
+↓  
+Embedding Model  
+↓  
+Topic Segmentation  
+↓  
+Medical Summaries, Keywords & Sentiment  
+↓  
+Quality Evaluation  
+↓  
+Indexing  
+↓  
+Frontend UI (Search, Playback, Visualization)
 
 ---
 
 ## Tech Stack
 
 ### Backend
-
-* Python 3.9+
-* Flask
-* Whisper (OpenAI) / Faster-Whisper
-* Librosa, PyDub, FFmpeg
+- Python 3.9+  
+- Flask  
+- Whisper (OpenAI) / Faster-Whisper  
+- Librosa, PyDub, FFmpeg  
 
 ### NLP and Machine Learning
-
-* NLTK
-* SpaCy
-* HuggingFace Transformers
-* Sentence Transformers
-* KeyBERT / YAKE / RAKE
+- NLTK  
+- SpaCy  
+- HuggingFace Transformers  
+- Sentence Transformers  
+- KeyBERT / YAKE / RAKE  
 
 ### Frontend
-
-* React.js
-* HTML, CSS, JavaScript
-* REST API integration
+- React.js  
+- HTML, CSS, JavaScript  
+- REST API integration  
 
 ### Visualization
-
-* Plotly
-* Matplotlib
+- Chart.js  
+- Plotly  
+- Matplotlib  
 
 ### Storage
-
-* JSON / CSV
-* SQLite (optional)
-* FAISS / Vector Database (optional)
+- JSON / CSV  
+- SQLite (optional)  
+- FAISS / Vector Database (optional)  
 
 ---
 
 ## Project Structure
 
 ```text
-Automated-Medical-Podcast-Transcription-and-Topic-Segmentation/
+Automated-Podcast-Transcription-and-Topic-Segmentation/
 │
-├── Data/                               # Audio datasets (not committed)
-│   ├── audio_raw/
-│   ├── audio_processed/
+├── src/                             # Backend processing logic
+│   ├── preprocessing.py
+│   ├── transcription.py
+│   ├── segmentation.py
+│   ├── evaluation_summary.py
+│   ├── evaluation.py
+│   ├── keyword_cloud.py
+│   ├── keywords.py
+│   ├── sentiment.py
+│   ├── pipeline_controller.py
+│   └── user_state_manager.py
 │
-├── src/                                # Backend processing logic
-│   ├── preprocessing.py               # Audio preprocessing
-│   ├── transcription.py               # ASR transcription
-│   ├── segmentation.py                # Topic segmentation
-│   ├── summarization.py               # Summaries
-│   ├── keyword_extraction.py           # Keywords
-│   └── evaluation_summary.py           # Evaluation
-│
-├── ui_app/                             # Frontend (React)
+├── ui_app/                          # Frontend (React)
 │   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── App.js
-│   │   ├── api.js
-│   │   └── index.js
-│   ├── package.json
-│   └── .gitignore
+│   └── src/
+│       ├── components/
+│       │   ├── KeywordCloudView.jsx
+│       │   ├── QualityDashboard.jsx
+│       │   └── SegmentSentiment.jsx
+│       ├── App.js
+│       └── index.js
 │
-├── Inference/                          # Outputs (not committed)
+├── Inference/                       # Generated outputs (not committed)
 │   ├── transcripts/
 │   ├── segments/
 │   └── keywords/
 │
-├── notebooks/                          # Experiments
-├── docs/                               # Documentation
-├── tests/                              # Test cases
-│
+├── notebooks/                       # Experiments
+├── docs/                           # Documentation
+├── tests/                          # Test cases
 ├── README.md
 ├── requirements.txt
-├── LICENSE
 └── .env.example
-```
-
----
-
 ## Milestone-wise Implementation
 
 ### Milestone 1: Audio Preprocessing & Transcription
+- Audio normalization  
+- ASR-based transcription  
 
-* Audio normalization
-* ASR-based transcription
+### Milestone 2: Topic Segmentation & Keyword Extraction
+- Topic boundary detection  
+- Medical keyword extraction  
 
-### Milestone 2: Topic Segmentation & Keywords
+### Milestone 3: Sentiment & Quality Evaluation
+- Segment-level sentiment analysis  
+- WER, CER, and semantic similarity computation  
 
-* Topic boundary detection
-* Keyword extraction
+### Milestone 4: Frontend Integration & Visualization
+- React-based UI  
+- Topic navigation and playback  
+- Keyword, sentiment, and quality dashboards  
 
-### Milestone 3: Frontend Integration
-
-* React-based UI
-* Timestamp navigation
-
-### Milestone 4: Documentation & Final Delivery
-
-* Technical documentation
-* Final demo
+### Milestone 5: Documentation & Final Delivery
+- Technical documentation  
+- Final demo and evaluation  
 
 ---
 
 ## Data and Privacy Considerations
-
-* Raw audio not committed
-* Environment variables for API keys
-* Only source code is version-controlled
+- Raw audio and large files are not committed to the repository  
+- API keys are managed using environment variables  
+- Only source code and configuration files are version-controlled  
 
 ---
 
 ## Future Enhancements
-
-* Medical entity recognition
-* Speaker diarization
-* Semantic search
-* Multi-language support
+- Medical entity recognition (NER)  
+- Speaker diarization  
+- Semantic search across episodes  
+- Multi-language support  
 
 ---
 
 ## Intended Users
-
-* Medical students
-* Healthcare professionals
-* Researchers
-* Medical educators
+- Medical students  
+- Healthcare professionals  
+- Researchers  
+- Medical educators  
 
 ---
 
 ## License
-
 This project is licensed under the **MIT License**.
-
----
