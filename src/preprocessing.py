@@ -23,9 +23,6 @@ def get_sorted_files(folder_path):
     except Exception:
         return []
 
-# ==========================================
-# THIS IS THE MISSING FUNCTION
-# ==========================================
 def preprocess_audio(input_path, output_path):
     """
     Process a single audio file: VAD -> Normalize -> Save as WAV
@@ -73,29 +70,36 @@ def preprocess_audio(input_path, output_path):
         return False
 
 # ==========================================
-# BATCH FUNCTION (Kept for compatibility)
+# NEW FUNCTION ADDED FOR UI COMPATIBILITY
 # ==========================================
-def preprocess_audio_batch(input_dir, output_dir, limit=None):
+def clean_audio(file_path):
+    """
+    Wrapper for UI App. 
+    Takes input path -> Clean -> Returns output path.
+    """
+    # Create a temp output filename
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    output_dir = os.path.join(base_dir, "audio_processed")
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    all_files = get_sorted_files(input_dir)
-    if limit: all_files = all_files[:limit]
-    
-    print(f"Processing {len(all_files)} files...")
+    filename = os.path.basename(file_path)
+    new_filename = f"cleaned_{os.path.splitext(filename)[0]}.wav"
+    output_path = os.path.join(output_dir, new_filename)
 
-    for filename in all_files:
-        input_path = os.path.join(input_dir, filename)
-        new_filename = f"cleaned_{os.path.splitext(filename)[0]}.wav"
-        output_path = os.path.join(output_dir, new_filename)
-        
-        print(f"Processing: {filename}", end="\r")
-        preprocess_audio(input_path, output_path)
+    # Run the actual processing logic
+    success = preprocess_audio(file_path, output_path)
 
-    print("\nPreprocessing Complete.")
+    if success:
+        return output_path
+    else:
+        # If VAD fails (e.g., silence), just return original or handle error
+        print("Warning: VAD failed or no speech. Returning original file.")
+        return file_path
 
 if __name__ == "__main__":
+    # Test block
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     default_input = os.path.join(base_dir, "audio_raw")
     default_output = os.path.join(base_dir, "audio_processed")
-    preprocess_audio_batch(default_input, default_output, limit=5)
+    # preprocess_audio_batch(default_input, default_output, limit=5)

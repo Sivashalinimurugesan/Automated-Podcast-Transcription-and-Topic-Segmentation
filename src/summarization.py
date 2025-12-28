@@ -9,13 +9,14 @@ SUMMARIZATION_MODEL = "sshleifer/distilbart-cnn-12-6"
 
 def load_summarizer():
     """Loads the summarization model on GPU if available."""
+    # Check if we are already in a streamlit context to avoid re-loading often
+    # (Optional optimization, keeping it simple for now)
+    
     print("[STATUS] Loading AI Models...")
     
     # --- GPU CHECK ---
     if torch.cuda.is_available():
         device_id = 0
-        device_name = torch.cuda.get_device_name(0)
-        print(f"SUCCESS: Found GPU: {device_name}")
     else:
         device_id = -1
         print("WARNING: GPU not found. Running on CPU.")
@@ -31,28 +32,26 @@ def generate_summary(summarizer, text):
     if not summarizer:
         return "Summary unavailable"
     
+    # Safety: If text is too short, just return the text itself
+    if len(text) < 50:
+        return text
+    
     try:
         # Truncate text to avoid model size limits (simple safety check)
-        # We limit to roughly 3000 chars to stay safe within token limits
         safe_text = text[:3000] 
         
-        res = summarizer(safe_text, max_length=60, min_length=10, do_sample=False)
+        # Dynamic length: don't force 60 words if input is only 20 words
+        max_len = min(60, len(safe_text.split()))
+        min_len = min(10, max_len - 1)
+        
+        res = summarizer(safe_text, max_length=max_len, min_length=min_len, do_sample=False)
         return res[0]['summary_text']
-    except Exception:
+    except Exception as e:
+        print(f"Summarization error: {e}")
         return "Summary unavailable"
 
-# Only runs if you execute this file directly
 if __name__ == "__main__":
     print("--- TESTING SUMMARIZATION ---")
-    
     model = load_summarizer()
-    
-    sample_text = """
-    Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans.
-    AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.
-    The term "artificial intelligence" had previously been used to describe machines that mimic and display "human" cognitive skills that are associated with the human mind, such as "learning" and "problem-solving".
-    """
-    
-    print(f"\nOriginal Text Length: {len(sample_text)} characters")
-    summary = generate_summary(model, sample_text)
-    print(f"\nSummary: {summary}")
+    sample_text = "Artificial intelligence (AI) is intelligence demonstrated by machines..."
+    print(f"\nSummary: {generate_summary(model, sample_text)}")

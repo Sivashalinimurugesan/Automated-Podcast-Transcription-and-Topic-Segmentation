@@ -8,6 +8,21 @@ from nltk.tokenize import TextTilingTokenizer
 warnings.filterwarnings("ignore")
 
 # ==========================================
+# IMPORT HELPERS (Safe Import for UI & Script)
+# ==========================================
+try:
+    # Try importing as if running from root (Streamlit way)
+    from src.summarization import load_summarizer, generate_summary
+    from src.keyword_extraction import extract_keywords
+except ImportError:
+    try:
+        # Try importing as if running locally (Script way)
+        from summarization import load_summarizer, generate_summary
+        from keyword_extraction import extract_keywords
+    except ImportError:
+        pass # Handle inside functions if needed
+
+# ==========================================
 # CORE FUNCTIONS
 # ==========================================
 def create_word_timeline(segments_json):
@@ -48,7 +63,60 @@ def segment_text(segmenter, full_text):
         return [full_text]
 
 # ==========================================
-# MAIN EXECUTION BLOCK (Runs Step 3)
+# NEW FUNCTION: REQUIRED FOR STREAMLIT UI
+# ==========================================
+def segment_transcript(full_text):
+    """
+    Called by ui_app.py to process a single live transcript.
+    Input: "This is the full text..."
+    Output: List of dicts with 'start', 'end', 'topic', 'text', 'summary'
+    """
+    segmenter = load_segmenter()
+    
+    # Load Summarizer (Fixed Import Logic)
+    try:
+        from src.summarization import load_summarizer
+    except ImportError:
+        from summarization import load_summarizer
+        
+    summarizer = load_summarizer() 
+    
+    # 1. Segment Text
+    segments = segment_text(segmenter, full_text)
+    
+    final_segments = []
+    current_time = 0.0
+    chars_per_sec = 15 # Estimate time (since UI might not have JSON timings)
+
+    for i, seg_text in enumerate(segments):
+        clean_text = seg_text.replace("\n", " ").strip()
+        if not clean_text: continue
+
+        # 2. Estimate Time (Fallback for live UI)
+        duration = len(clean_text) / chars_per_sec
+        start = current_time
+        end = current_time + duration
+        current_time = end
+
+        # 3. Intelligence
+        summary = generate_summary(summarizer, clean_text)
+        keywords = extract_keywords(clean_text)
+        topic_title = keywords[0].title() if keywords else f"Topic {i+1}"
+
+        final_segments.append({
+            "index": i,
+            "start": start,
+            "end": end,
+            "text": clean_text,
+            "topic": topic_title,
+            "summary": summary,
+            "keywords": keywords
+        })
+    
+    return final_segments
+
+# ==========================================
+# MAIN EXECUTION BLOCK (Batch CSV Processing)
 # ==========================================
 if __name__ == "__main__":
     # 1. Setup paths to allow importing sibling modules
@@ -56,14 +124,6 @@ if __name__ == "__main__":
     project_root = os.path.dirname(current_dir)
     sys.path.append(project_root)
     
-    # 2. Import Summarization and Keywords (These must exist in src/)
-    try:
-        from src.summarization import load_summarizer, generate_summary
-        from src.keyword_extraction import extract_keywords
-    except ImportError:
-        print("Error: Could not import summarization or keyword_extraction modules.")
-        sys.exit()
-
     # 3. Define File Paths
     input_csv = os.path.join(project_root, "transcripts", "clean_transcripts.csv")
     output_csv = os.path.join(project_root, "segments", "final_search_index.csv")
@@ -75,6 +135,11 @@ if __name__ == "__main__":
 
     print(f"Loading Intelligence Models...")
     segmenter = load_segmenter()
+    # Safe load for script execution
+    try:
+        from src.summarization import load_summarizer
+    except ImportError:
+        from summarization import load_summarizer
     summarizer = load_summarizer()
     
     print(f"Reading transcripts from: {input_csv}")
@@ -104,10 +169,8 @@ if __name__ == "__main__":
             if not words: continue
             
             # C. Align Time
-            # We estimate time based on word counts matching the timeline
             seg_len = len(words)
             start_time = timeline[current_idx]['start'] if current_idx < len(timeline) else 0
-            
             end_idx = min(current_idx + seg_len, len(timeline) - 1)
             end_time = timeline[end_idx]['end'] if timeline else 0
             

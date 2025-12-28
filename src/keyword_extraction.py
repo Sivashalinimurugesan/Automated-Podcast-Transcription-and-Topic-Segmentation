@@ -1,46 +1,90 @@
 import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 from collections import Counter
-import ssl
+import string
 import warnings
 
 warnings.filterwarnings("ignore")
 
-def setup_nlp():
-    try:
-        _create_unverified_https_context = ssl._create_unverified_context
-    except AttributeError:
-        pass
-    else:
-        ssl._create_default_https_context = _create_unverified_https_context
+# --- NLTK SETUP (Auto-Download) ---
+def download_nltk_resources():
+    """Ensures necessary NLTK data is available."""
+    resources = ['punkt', 'stopwords', 'punkt_tab']
+    for res in resources:
+        try:
+            nltk.data.find(f'tokenizers/{res}')
+        except LookupError:
+            try:
+                nltk.download(res, quiet=True)
+            except Exception:
+                pass # Handle offline cases gracefully
 
-    try:
-        nltk.download('punkt', quiet=True)
-        nltk.download('stopwords', quiet=True)
-        nltk.download('averaged_perceptron_tagger', quiet=True)
-        nltk.download('punkt_tab', quiet=True)
-    except Exception:
-        pass
+download_nltk_resources()
 
-def extract_keywords(text):
-    setup_nlp()
+def extract_keywords(text, top_n=5):
+    """
+    Extracts top keywords for a single segment using NLTK.
+    """
+    if not text: return []
+    
     try:
-        tokens = nltk.word_tokenize(text)
-        tagged = nltk.pos_tag(tokens)
-        stop_words = set(nltk.corpus.stopwords.words('english'))
+        # 1. Tokenize & Lowercase
+        tokens = word_tokenize(text.lower())
         
-        candidates = [
-            w.lower() for w, t in tagged 
-            if w.isalpha() and len(w) > 3 and w.lower() not in stop_words and t.startswith(('NN', 'JJ'))
+        # 2. Get Stopwords & Punctuation
+        stop_words = set(stopwords.words('english'))
+        punctuation = set(string.punctuation)
+        
+        # 3. Filter Tokens
+        filtered_tokens = [
+            word for word in tokens 
+            if word not in stop_words 
+            and word not in punctuation 
+            and len(word) > 3 # Ignore short words like "is", "go"
+            and word.isalnum() # Ensure it's alphanumeric
         ]
         
-        if not candidates:
-            return "General Topic"
-            
-        return ", ".join([w for w, c in Counter(candidates).most_common(5)])
-    except Exception:
-        return "Topic"
+        # 4. Count Frequency
+        common_words = Counter(filtered_tokens).most_common(top_n)
+        return [word for word, count in common_words]
+        
+    except Exception as e:
+        print(f"NLTK Error: {e}")
+        return []
 
-# Only runs if you execute this file directly
-if __name__ == "__main__":
-    test_text = "Artificial Intelligence and Machine Learning are transforming the world."
-    print(f"Keywords: {extract_keywords(test_text)}")
+def get_global_keyword_counts(full_text, top_n=20):
+    """
+    Analyzes the WHOLE transcript to count word frequencies for the Bubble Chart.
+    Returns: [{'keyword': 'Money', 'count': 15}, ...]
+    """
+    if not full_text: return []
+
+    try:
+        # 1. Tokenize & Lowercase
+        tokens = word_tokenize(full_text.lower())
+        
+        # 2. Get Stopwords
+        stop_words = set(stopwords.words('english'))
+        punctuation = set(string.punctuation)
+        
+        # 3. Filter
+        filtered_tokens = [
+            word for word in tokens 
+            if word not in stop_words 
+            and word not in punctuation 
+            and len(word) > 4 # Stricter length for global bubbles
+            and word.isalnum()
+        ]
+        
+        # 4. Count & Format for UI
+        counter = Counter(filtered_tokens)
+        most_common = counter.most_common(top_n)
+        
+        # Convert to list of dicts for Plotly
+        result = [{"keyword": word.title(), "count": count} for word, count in most_common]
+        return result
+
+    except Exception as e:
+        print(f"Global Count Error: {e}")
+        return []
