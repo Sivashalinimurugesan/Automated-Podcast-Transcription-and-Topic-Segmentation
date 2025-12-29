@@ -3,6 +3,9 @@ import librosa
 import soundfile as sf
 import numpy as np
 
+from src.logger import get_logger
+logger = get_logger("PREPROCESSING", "pipeline.log")
+
 # -----------------------------
 # Project Folder Paths (Batch)
 # -----------------------------
@@ -25,32 +28,37 @@ def reduce_noise(audio):
 # Audio Preprocessing (CORE)
 # -----------------------------
 def preprocess_audio(input_path, output_path):
-    print(f"Processing: {input_path}")
+    logger.info(f"Processing audio: {input_path}")
 
-    # Load audio → mono, 16kHz (Whisper requirement)
-    audio, sr = librosa.load(input_path, sr=16000, mono=True)
+    try:
+        # Load audio → mono, 16kHz (Whisper requirement)
+        audio, sr = librosa.load(input_path, sr=16000, mono=True)
 
-    # Light noise cleanup
-    cleaned = reduce_noise(audio)
+        # Light noise cleanup
+        cleaned = reduce_noise(audio)
 
-    # Normalize volume
-    normalized = librosa.util.normalize(cleaned)
+        # Normalize volume
+        normalized = librosa.util.normalize(cleaned)
 
-    # Remove long silence (important for ASR accuracy)
-    trimmed, _ = librosa.effects.trim(
-        normalized,
-        top_db=25,
-        frame_length=2048,
-        hop_length=512
-    )
+        # Remove long silence (important for ASR accuracy)
+        trimmed, _ = librosa.effects.trim(
+            normalized,
+            top_db=25,
+            frame_length=2048,
+            hop_length=512
+        )
 
-    # Prevent clipping
-    trimmed = np.clip(trimmed, -1.0, 1.0)
+        # Prevent clipping
+        trimmed = np.clip(trimmed, -1.0, 1.0)
 
-    # Save as WAV
-    sf.write(output_path, trimmed, sr)
+        # Save as WAV
+        sf.write(output_path, trimmed, sr)
 
-    print(f"Saved: {output_path}")
+        logger.info(f"Saved processed audio: {output_path}")
+
+    except Exception as e:
+        logger.error(f"Preprocessing failed for {input_path}: {str(e)}")
+        raise
 
 # =========================================================
 # Single Audio Preprocessing (FOR UI / FLASK BACKEND)
@@ -74,18 +82,24 @@ def preprocess_single_audio(input_audio_path):
 # Batch Mode Processing
 # -----------------------------
 def main():
-    print("Starting audio preprocessing...")
+    logger.info("Starting batch audio preprocessing")
+
+    processed = 0
 
     for file in os.listdir(INPUT_FOLDER):
         if file.lower().endswith((".mp3", ".wav", ".flac", ".ogg")):
             input_path = os.path.join(INPUT_FOLDER, file)
-
             output_name = os.path.splitext(file)[0] + ".wav"
             output_path = os.path.join(OUTPUT_FOLDER, output_name)
 
-            preprocess_audio(input_path, output_path)
+            if os.path.exists(output_path):
+                logger.info(f"Skipping already processed file: {file}")
+                continue
 
-    print("Audio preprocessing completed successfully.")
+            preprocess_audio(input_path, output_path)
+            processed += 1
+
+    logger.info(f"Audio preprocessing completed. Files processed: {processed}")
 
 # -----------------------------
 # Run (Batch Mode)

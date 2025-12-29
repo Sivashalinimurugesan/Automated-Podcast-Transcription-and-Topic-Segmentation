@@ -1,34 +1,44 @@
 import os
+import sys
 import whisper
 
-# -----------------------------
+# Fix import path to work from any directory
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from src.logger import get_logger
+
+# ---------------------------------------------------------
+# LOGGER
+# ---------------------------------------------------------
+logger = get_logger("TRANSCRIPTION", "pipeline.log")
+
+# ---------------------------------------------------------
 # 1. MODEL SELECTION
-# -----------------------------
+# ---------------------------------------------------------
 MODEL_NAME = "base"
 
-print(f"Loading Whisper Model: {MODEL_NAME} ...")
+logger.info(f"Loading Whisper Model: {MODEL_NAME} ...")
 model = whisper.load_model(MODEL_NAME)
-print("Model loaded successfully!")
+logger.info("Whisper model loaded successfully")
 
-# -----------------------------
+# ---------------------------------------------------------
 # 2. FOLDER PATHS (Batch Mode)
-# -----------------------------
+# ---------------------------------------------------------
 INPUT_FOLDER = r"C:\Users\Venka\OneDrive\Desktop\MedicalPodcastAI\Data\audio_processed"
 OUTPUT_FOLDER = r"C:\Users\Venka\OneDrive\Desktop\MedicalPodcastAI\transcripts"
 
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-# -----------------------------
+# ---------------------------------------------------------
 # 3. TIMESTAMP FORMAT
-# -----------------------------
+# ---------------------------------------------------------
 def format_timestamp(seconds):
     mins = int(seconds // 60)
     secs = seconds % 60
     return f"{mins:02d}:{secs:05.2f}"
 
-# -----------------------------
-# 4. SIMPLE D/P HEURISTIC
-# -----------------------------
+# ---------------------------------------------------------
+# 4. SIMPLE D / P HEURISTIC (UNCHANGED)
+# ---------------------------------------------------------
 def infer_speaker(text, previous_was_doctor):
     """
     Simple conversational heuristic:
@@ -40,7 +50,7 @@ def infer_speaker(text, previous_was_doctor):
     return "P" if previous_was_doctor else "D"
 
 # =========================================================
-# 5A. TRANSCRIBE SINGLE AUDIO (FOR UI / BACKEND USE)
+# 5A. TRANSCRIBE SINGLE AUDIO (UI / BACKEND USE)
 # =========================================================
 def transcribe_single_audio(audio_path):
     """
@@ -49,9 +59,13 @@ def transcribe_single_audio(audio_path):
     Returns transcript as string.
     """
 
-    print(f"Transcribing single file: {audio_path}")
+    logger.info(f"Transcribing single audio file: {audio_path}")
 
-    result = model.transcribe(audio_path, fp16=False, language="en")
+    try:
+        result = model.transcribe(audio_path, fp16=False, language="en")
+    except Exception as e:
+        logger.error(f"Transcription failed for {audio_path}: {str(e)}")
+        raise
 
     previous_speaker = "D"
     lines = []
@@ -72,45 +86,52 @@ def transcribe_single_audio(audio_path):
 # 5B. TRANSCRIBE FILE AND SAVE (BATCH MODE)
 # =========================================================
 def transcribe_file(audio_path, output_path):
-    print(f"\nTranscribing: {audio_path}")
+    logger.info(f"Starting transcription: {audio_path}")
 
     transcript_text = transcribe_single_audio(audio_path)
 
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(transcript_text)
 
-    print(f"Saved transcript with timestamps + D/P to: {output_path}")
+    logger.info(f"Transcript saved: {output_path}")
 
-# -----------------------------
+# ---------------------------------------------------------
 # 6. SAFE RESUME MAIN (BATCH)
-# -----------------------------
+# ---------------------------------------------------------
 def main():
-    print("\nStarting transcription (timestamps + D/P enabled)...\n")
+    logger.info("Starting batch transcription (timestamps + D/P enabled)")
 
     count_done = 0
     count_skipped = 0
 
     for filename in os.listdir(INPUT_FOLDER):
-        if filename.lower().endswith(".wav"):
-            file_path = os.path.join(INPUT_FOLDER, filename)
-            output_name = filename.replace(".wav", ".txt")
-            output_txt = os.path.join(OUTPUT_FOLDER, output_name)
+        if not filename.lower().endswith(".wav"):
+            continue
 
-            if os.path.exists(output_txt):
-                print(f"Skipping (already processed): {filename}")
-                count_skipped += 1
-                continue
+        file_path = os.path.join(INPUT_FOLDER, filename)
+        output_name = filename.replace(".wav", ".txt")
+        output_txt = os.path.join(OUTPUT_FOLDER, output_name)
 
+        # Resume logic
+        if os.path.exists(output_txt):
+            logger.info(f"Skipping already processed file: {filename}")
+            count_skipped += 1
+            continue
+
+        try:
             transcribe_file(file_path, output_txt)
             count_done += 1
+        except Exception:
+            logger.error(f"Stopping pipeline due to failure at file: {filename}")
+            break
 
-    print("\nTranscription Completed.")
-    print(f"New transcripts generated: {count_done}")
-    print(f"Files skipped (already processed): {count_skipped}")
-    print(f"Output folder: {OUTPUT_FOLDER}")
+    logger.info("Transcription stage completed")
+    logger.info(f"New transcripts generated: {count_done}")
+    logger.info(f"Files skipped (already processed): {count_skipped}")
+    logger.info(f"Output folder: {OUTPUT_FOLDER}")
 
-# -----------------------------
+# ---------------------------------------------------------
 # RUN (Batch Mode)
-# -----------------------------
+# ---------------------------------------------------------
 if __name__ == "__main__":
     main()
