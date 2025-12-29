@@ -155,6 +155,7 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 ├── README.md
 ├── requirements.txt
 └── .env.example
+
 ## Milestone-wise Implementation
 
 ### Milestone 1: Audio Preprocessing & Transcription
@@ -180,7 +181,7 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 
 ---
 
-## Data and Privacy Considerations
+### Data and Privacy Considerations
 - Raw audio and large files are not committed to the repository  
 - API keys are managed using environment variables  
 - Only source code and configuration files are version-controlled  
