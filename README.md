@@ -156,6 +156,71 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 ├── requirements.txt
 └── .env.example
 
+Milestone-wise Implementation
+Milestone 1: Audio Preprocessing & Transcription
+
+Audio normalization
+
+ASR-based transcription
+
+Milestone 2: Topic Segmentation & Keyword Extraction
+
+Topic boundary detection
+
+Medical keyword extraction
+
+Milestone 3: Sentiment & Quality Evaluation
+
+Segment-level sentiment analysis
+
+WER, CER, and semantic similarity computation
+
+Milestone 4: Frontend Integration & Visualization
+
+React-based UI
+
+Topic navigation and playback
+
+Keyword, sentiment, and quality dashboards
+
+Milestone 5: Documentation & Final Delivery
+
+Technical documentation
+
+Final demo and evaluation
+
+Data and Privacy Considerations
+
+Raw audio and large files are not committed to the repository
+
+API keys are managed using environment variables
+
+Only source code and configuration files are version-controlled
+
+Future Enhancements
+
+Medical entity recognition (NER)
+
+Speaker diarization
+
+Semantic search across episodes
+
+Multi-language support
+
+Intended Users
+
+Medical students
+
+Healthcare professionals
+
+Researchers
+
+Medical educators
+
+License
+
+This project is licensed under the MIT License.
+
 ## Milestone-wise Implementation
 
 ### Milestone 1: Audio Preprocessing & Transcription
