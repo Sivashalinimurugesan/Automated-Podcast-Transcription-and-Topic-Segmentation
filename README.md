@@ -28,7 +28,7 @@ The goal of this project is to develop an end-to-end pipeline that:
 - Implementing NLP-based topic segmentation methods  
 - Building a complete processing pipeline from audio ingestion to indexing  
 - Visualizing topic segments, keywords, and summaries  
-- Preparing detailed documentation and a final project presentation :contentReference[oaicite:2]{index=2}
+- Preparing detailed documentation and a final project presentation 
 
 ---
 
