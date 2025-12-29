@@ -21,17 +21,6 @@ The goal of this project is to develop an end-to-end pipeline that:
 - Enhances podcast accessibility and user experience
 
 ---
-
-## ✅ Expected Outcomes
-
-- Understanding speech recognition techniques for audio-to-text conversion  
-- Implementing NLP-based topic segmentation methods  
-- Building a complete processing pipeline from audio ingestion to indexing  
-- Visualizing topic segments, keywords, and summaries  
-- Preparing detailed documentation and a final project presentation 
-
----
-
 ## 📊 Dataset
 
 Open-source datasets such as:
@@ -39,9 +28,6 @@ Open-source datasets such as:
 - **Podcast Transcripts Dataset (Kaggle)**  
 
 These datasets provide thousands of podcast recordings, with or without transcripts, enabling supervised or semi-supervised learning approaches :contentReference[oaicite:3]{index=3}.
-
----
-
 ## 🧠 System Architecture & Modules
 
 ### 1️⃣ Dataset Acquisition and Exploration
@@ -72,6 +58,20 @@ These datasets provide thousands of podcast recordings, with or without transcri
 ### 6️⃣ Documentation and Presentation
 - Document the full pipeline and methodologies  
 - Prepare slides highlighting system workflow, evaluation, and applications :contentReference[oaicite:4]{index=4}
+
+## ✅ Expected Outcomes
+
+- Understanding speech recognition techniques for audio-to-text conversion  
+- Implementing NLP-based topic segmentation methods  
+- Building a complete processing pipeline from audio ingestion to indexing  
+- Visualizing topic segments, keywords, and summaries  
+- Preparing detailed documentation and a final project presentation 
+
+---
+
+
+---
+
 
 ---
 
