@@ -21,13 +21,17 @@ The goal of this project is to develop an end-to-end pipeline that:
 - Enhances podcast accessibility and user experience
 
 ---
+
 ## 📊 Dataset
 
 Open-source datasets such as:
 - **Spotify Podcast Dataset**
 - **Podcast Transcripts Dataset (Kaggle)**  
 
-These datasets provide thousands of podcast recordings, with or without transcripts, enabling supervised or semi-supervised learning approaches :contentReference[oaicite:3]{index=3}.
+These datasets provide thousands of podcast recordings, with or without transcripts, enabling supervised or semi-supervised learning approaches.
+
+---
+
 ## 🧠 System Architecture & Modules
 
 ### 1️⃣ Dataset Acquisition and Exploration
@@ -59,6 +63,27 @@ These datasets provide thousands of podcast recordings, with or without transcri
 - Document the full pipeline and methodologies  
 - Prepare slides highlighting system workflow, evaluation, and applications :contentReference[oaicite:4]{index=4}
 
+---
+
+## Project Structure
+## 📂 Project Structure
+
+```text
+Automated-Podcast-Transcription-and-Topic-Segmentation/
+├── audio/                 # Podcast audio files
+├── transcripts/           # Generated text transcripts
+├── audio_cleaner.py       # Audio preprocessing
+├── audio_transcriber.py   # Speech-to-text conversion
+├── text_segmenter.py      # Topic segmentation
+├── summarizer.py          # Keyword extraction & summaries
+├── run_pipeline.py        # Main execution script
+├── config.py              # Configuration settings
+├── requirements.txt       # Project dependencies
+├── README.md              # Documentation
+└── LICENSE                # License file
+
+
+---
 ## ✅ Expected Outcomes
 
 - Understanding speech recognition techniques for audio-to-text conversion  
@@ -66,11 +91,6 @@ These datasets provide thousands of podcast recordings, with or without transcri
 - Building a complete processing pipeline from audio ingestion to indexing  
 - Visualizing topic segments, keywords, and summaries  
 - Preparing detailed documentation and a final project presentation 
-
----
-
-
----
 
 
 ---
