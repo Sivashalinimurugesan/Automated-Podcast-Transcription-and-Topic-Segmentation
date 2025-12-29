@@ -18,7 +18,7 @@ The goal of this project is to develop an end-to-end pipeline that:
 - Transcribes podcast audio into accurate textual form  
 - Identifies natural topic boundaries within transcripts  
 - Organizes content into searchable and navigable segments  
-- Enhances podcast accessibility and user experience :contentReference[oaicite:1]{index=1}
+- Enhances podcast accessibility and user experience
 
 ---
 
