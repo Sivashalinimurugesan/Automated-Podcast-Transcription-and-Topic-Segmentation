@@ -155,7 +155,8 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 ├── README.md
 ├── requirements.txt
 └── .env.example
-
+```
+---
 ## Milestone-wise Implementation
 
 ### Milestone 1: Audio Preprocessing & Transcription
