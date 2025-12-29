@@ -1,0 +1,126 @@
+{
+    "source_file": "first_document.json",
+    "segments": [
+        {
+            "segment_id": 1,
+            "segment_label": "Segment 1",
+            "keywords": [
+                "chest pain",
+                "left chest",
+                "chest",
+                "pain located",
+                "did chest"
+            ]
+        },
+        {
+            "segment_id": 2,
+            "segment_label": "Segment 2",
+            "keywords": [
+                "night pain",
+                "pain",
+                "sharp burning",
+                "pain better",
+                "ok pain"
+            ]
+        },
+        {
+            "segment_id": 3,
+            "segment_label": "Segment 3",
+            "keywords": [
+                "say pain",
+                "pain scale",
+                "pain worse",
+                "worst pain",
+                "pain"
+            ]
+        },
+        {
+            "segment_id": 4,
+            "segment_label": "Segment 4",
+            "keywords": [
+                "breathing pain",
+                "issues breathing",
+                "trouble breathing",
+                "symptoms feel",
+                "symptoms"
+            ]
+        },
+        {
+            "segment_id": 5,
+            "segment_label": "Segment 5",
+            "keywords": [
+                "symptoms ok",
+                "symptoms",
+                "difficulty breathing",
+                "infectious symptoms",
+                "trouble breathing"
+            ]
+        },
+        {
+            "segment_id": 6,
+            "segment_label": "Segment 6",
+            "keywords": [
+                "neck pain",
+                "neck ok",
+                "ok neck",
+                "jerked neck",
+                "neck"
+            ]
+        },
+        {
+            "segment_id": 7,
+            "segment_label": "Segment 7",
+            "keywords": [
+                "recent hospitalizations",
+                "medications regularly",
+                "hospitalizations",
+                "hospitalizations ok",
+                "medications alright"
+            ]
+        },
+        {
+            "segment_id": 8,
+            "segment_label": "Segment 8",
+            "keywords": [
+                "marijuana smoke",
+                "smoke cannabis",
+                "smoke cigarettes",
+                "smoking",
+                "cigarettes"
+            ]
+        },
+        {
+            "segment_id": 9,
+            "segment_label": "Segment 9",
+            "keywords": [
+                "10 drinks",
+                "drink week",
+                "drinks week",
+                "maybe milligrams",
+                "milligrams ok"
+            ]
+        },
+        {
+            "segment_id": 10,
+            "segment_label": "Segment 10",
+            "keywords": [
+                "diet exercise",
+                "diet",
+                "eat healthy",
+                "exercise",
+                "exercise sure"
+            ]
+        },
+        {
+            "segment_id": 11,
+            "segment_label": "Segment 11",
+            "keywords": [
+                "family cholesterol",
+                "family stroke",
+                "family heart",
+                "cancers family",
+                "family ok"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "segments": [
+        {
+            "segment_id": 1,
+            "segment_label": "D: What brought you in today?",
+            "segment_summary": "D: What brought you in today?",
+            "start_time": "00:00.00",
+            "end_time": "00:10.00",
+            "segment_text": "D: What brought you in today?\n\nP: Sure, I'm just having a lot of chest pain and so I thought I should get it checked out."
+        },
+        {
+            "segment_id": 2,
+            "segment_label": "D: OK, and, so how long has it been going on",
+            "segment_summary": "D: OK, and, so how long has it been going on for?",
+            "start_time": "00:10.00",
+            "end_time": "00:20.00",
+            "segment_text": "D: OK, and, so how long has it been going on for? P: It started last night but it's getting sharper."
+        },
+        {
+            "segment_id": 3,
+            "segment_label": "P: Um not laying down helps",
+            "segment_summary": "P: Um not laying down helps.",
+            "start_time": "00:20.00",
+            "end_time": "00:30.00",
+            "segment_text": "P: Um not laying down helps. D: OK, so do you find laying down makes the pain worse?"
+        },
+        {
+            "segment_id": 4,
+            "segment_label": "P: I'd say it's like a seven or eight",
+            "segment_summary": "P: I'd say it's like a seven or eight.",
+            "start_time": "00:30.00",
+            "end_time": "00:40.00",
+            "segment_text": "P: I'd say it's like a seven or eight. It's pretty bad."
+        },
+        {
+            "segment_id": 5,
+            "segment_label": "P: Yes",
+            "segment_summary": "P: Yes.",
+            "start_time": "00:40.00",
+            "end_time": "00:50.00",
+            "segment_text": "P: Yes. D: OK. Um recently have you had any other symptoms?"
+        },
+        {
+            "segment_id": 6,
+            "segment_label": "D: OK. Has anything like this ever happened",
+            "segment_summary": "D: OK. Has anything like this ever happened to you before?",
+            "start_time": "00:50.00",
+            "end_time": "01:00.00",
+            "segment_text": "D: OK. Has anything like this ever happened to you before? P: No."
+        },
+        {
+            "segment_id": 7,
+            "segment_label": "P: No",
+            "segment_summary": "P: No.",
+            "start_time": "01:00.00",
+            "end_time": "01:10.00",
+            "segment_text": "P: No. D: OK, any recent hospitalizations?"
+        },
+        {
+            "segment_id": 8,
+            "segment_label": "P: I'm an accountant",
+            "segment_summary": "P: I'm an accountant.",
+            "start_time": "01:10.00",
+            "end_time": "01:20.00",
+            "segment_text": "P: I'm an accountant. D: OK, sounds like a pretty stressful job."
+        },
+        {
+            "segment_id": 9,
+            "segment_label": "P: Per week, maybe about 5 milligrams",
+            "segment_summary": "P: Per week, maybe about 5 milligrams.",
+            "start_time": "01:20.00",
+            "end_time": "01:30.00",
+            "segment_text": "P: Per week, maybe about 5 milligrams. Not that much."
+        },
+        {
+            "segment_id": 10,
+            "segment_label": "D: OK, uh, yeah and um alright",
+            "segment_summary": "D: OK, uh, yeah and um alright, and then briefly could you tell me about your diet and exercise?",
+            "start_time": "01:30.00",
+            "end_time": "01:40.00",
+            "segment_text": "D: OK, uh, yeah and um alright, and then briefly could you tell me a little bit about your diet and exercise?"
+        }
+    ]
+}
