@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The **Automated Podcast Transcription and Topic Segmentation** project focuses on building an **AI-powered system** that automatically converts podcast audio recordings into text and segments them into distinct topical sections.
 
@@ -12,7 +12,7 @@ By leveraging advancements in **speech-to-text technology** and **natural langua
 
 ---
 
-## 🎯 Project Statement
+##  Project Statement
 
 The goal of this project is to develop an end-to-end pipeline that:
 - Transcribes podcast audio into accurate textual form  
@@ -22,7 +22,7 @@ The goal of this project is to develop an end-to-end pipeline that:
 
 ---
 
-## 🧠 System Architecture & Modules
+##  System Architecture & Modules
 
 ### 1. Dataset Acquisition and Exploration
 - Collect podcast audio files and transcripts  
@@ -103,7 +103,21 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 
 ---
 
-### How to Run the Project
+
+## 🚀 How to Run the Project
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/springboardmentor13579x-proj/Automated-Podcast-Transcription-and-Topic-Segmentation.git
+   cd Automated-Podcast-Transcription-and-Topic-Segmentation
+   ```
+2.Install dependencies
+  ```bash pip install -r requirements.txt
+ ```
+
+3.Usage
+   
+
 
 
 ## ✅ Expected Outcomes
@@ -113,53 +127,6 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 - Building a complete processing pipeline from audio ingestion to indexing  
 - Visualizing topic segments, keywords, and summaries  
 - Preparing detailed documentation and a final project presentation :contentReference[oaicite:2]{index=2}
-
----
-
-
-## 🗓️ Project Workflow (Week-wise Plan)
-
-### 🔹 Milestone 1
-**Week 1: Project Initialization & Dataset Acquisition**
-- Define project scope, objectives, and outcomes  
-- Download and explore podcast datasets  
-
-**Week 2: Audio Preprocessing & Speech-to-Text**
-- Implement audio cleaning  
-- Apply ASR models and validate transcription quality  
-
----
-
-### 🔹 Milestone 2
-**Week 3: Topic Segmentation**
-- Implement and evaluate segmentation algorithms  
-- Extract keywords and generate summaries  
-
-**Week 4: Indexing & User Interface**
-- Build transcript navigation and topic jumping  
-- Implement keyword search and filtering  
-
----
-
-### 🔹 Milestone 3
-**Week 5: Visualization Enhancements**
-- Interactive timelines with sentiment analysis  
-- Improved formatting and summaries  
-
-**Week 6: System Testing**
-- Test on diverse podcast samples  
-- Collect feedback and refine system  
-
----
-
-### 🔹 Milestone 4
-**Week 7: Documentation & Presentation**
-- Compile technical documentation and user manuals  
-- Prepare final presentation  
-
-**Week 8: Project Delivery**
-- Rehearse presentation  
-- Submit final deliverables and attend Q&A :contentReference[oaicite:5]{index=5}
 
 ---
 
