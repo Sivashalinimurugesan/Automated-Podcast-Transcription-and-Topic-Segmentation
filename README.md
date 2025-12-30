@@ -1,94 +1,60 @@
-🎙️ Automated Podcast Transcription & Topic Segmentation
+AUTOMATED PODCAST TRANSCRIPTION AND TOPIC SEGMENTATION
 
 I. Overview
 
-This project provides an end-to-end AI system designed to unlock the value hidden in long-form audio. By applying advanced Speech Processing and NLP techniques, this tool automatically transcribes podcasts, segments them into coherent chapters, analyzes emotional tone, and provides a searchable, interactive dashboard for navigation. It is designed to efficiently process long-form audio suitable for real-world applications such as automated meeting minutes, podcast summarization, and interview analysis.
+This project provides an end-to-end pipeline to automatically convert meeting or podcast audio into accurate text transcripts, followed by topic-based segmentation, summarization, and keyword extraction using natural language processing techniques. It is designed to efficiently process long-form audio and is suitable for real-world applications such as automated meeting minutes, podcast summarization, and interview analysis.
 
 II. Objectives
 
-Transcription (Speech-to-Text)
+Convert audio recordings into accurate text transcripts using OpenAI Whisper.
 
-Convert long podcast audio files into accurate text using OpenAI's Whisper model.
+Segment long conversations into meaningful topics using semantic analysis.
 
-Generate precise timestamps for each transcribed segment to enable timeline visualization.
+Generate concise summaries for each identified segment.
 
-Support noisy, multi-speaker, real-world audio.
+Extract important keywords for quick understanding of content.
 
-Topic Segmentation
-
-Detect shifts in content and break the transcript into meaningful chapters.
-
-Use TF-IDF Vectorization and Cosine Similarity to mathematically identify topic boundaries.
-
-Summarization & Intelligence
-
-Generate abstractive summaries for each segment using DistilBART (Hugging Face).
-
-Extract unique Keywords using TF-IDF ranking.
-
-Analyze emotional tone using VADER Sentiment Analysis.
-
-UI for Navigation & Visualization
-
-Provide a Streamlit dashboard for uploading and processing audio.
-
-Visualize segment-level analytics like sentiment trends over time with interactive Plotly charts.
-
-Allow users to jump to specific topics and search transcripts instantly.
+Visualize sentiment and timelines via an interactive dashboard.
 
 III. Key Features
 
-Automatic Speech Recognition (ASR): High-accuracy transcription using OpenAI Whisper.
+Automatic Speech Recognition (ASR) using OpenAI Whisper for high-accuracy transcription.
 
-Topic Segmentation: Automatically detects natural topic boundaries in long conversations.
+Topic Segmentation for long transcripts using TF-IDF and Cosine Similarity.
 
-Smart Summarization: Generates concise abstractive summaries for every detected chapter.
+Summary Generation for segmented content using HuggingFace Transformers (DistilBART).
 
-Sentiment Analysis: Tracks the emotional journey (Positive/Negative/Neutral) of the speaker over time.
+Keyword Extraction using TF-IDF ranking.
 
-Keyword Extraction: Identifies key themes and tags for quick content discovery.
+Sentiment Analysis using NLTK VADER to track emotional tone.
 
-Interactive Dashboard: A modern UI to upload files, visualize data, and navigate transcripts.
+Optimized for long meeting and podcast audio.
 
 IV. Dataset
 
-This project was developed and tested using a subset of the TED Talks dataset sourced from Kaggle, ensuring robustness across diverse speakers and topics.
+This project was developed and tested using a subset of the TED Talks Audio Dataset.
 
-Source: TED Talks Audio (Kaggle)
+Source: Kaggle (TED Talks Audio)
 
-Data Type: Real-world educational and conversational audio recordings.
+Nature: Real-world educational and conversational audio recordings suitable for long-form transcription and topic segmentation tasks.
+
 
 V. Tech Stack
 
-Core
-
 Python 3.9+
 
-OpenAI Whisper: State-of-the-art ASR model.
+OpenAI Whisper: Speech-to-text
 
-Librosa / Soundfile: Audio loading, resampling, and normalization.
+NLTK: Sentence tokenization & Sentiment Analysis
 
-FFmpeg: System-level audio processing engine.
+Scikit-learn: TF-IDF Vectorization & Cosine Similarity
 
-NLP & AI
+HuggingFace Transformers: Summarization (DistilBART)
 
-Hugging Face Transformers: sshleifer/distilbart-cnn-12-6 for summarization.
+Streamlit: User Interface
 
-Scikit-Learn: TF-IDF Vectorizer, Cosine Similarity.
+Plotly: Data Visualization
 
-NLTK: VADER for sentiment, Punkt for sentence tokenization.
-
-Visualization & UI
-
-Streamlit: Interactive web application framework.
-
-Plotly Express: Interactive charts (Sentiment Timeline, Pie Charts).
-
-Storage
-
-JSON: Structured storage for transcripts, segments, and analysis data.
-
-TXT: Human-readable summaries and logs.
 
 VI. Project Structure
 
@@ -106,109 +72,88 @@ AUTOMATED-PODCAST-TRANSCRIPTION/
 ├── src/                       # Source Code
 │   ├── dashboard.py           # Frontend: Streamlit Dashboard UI
 │   ├── podcast_backend.py     # Backend: Master AI Logic Pipeline
-│   ├── download_kaggle_subset.py # Utility: Data acquisition script
 │   └── __init__.py
 │
 ├── docs/                      # Documentation
+│   └── images/                # Screenshots for README
 ├── tests/                     # Unit Tests
 ├── .env                       # Environment Variables
-├── requirements.txt           # Dependency management
 ├── README.md                  # Project Documentation
+├── requirements.txt           # Dependency management
 └── LICENSE
 
+* System architecture :
+  Audio Input → Preprocessing → Transcription (ASR) → Transcript Cleaning
+             ↓
+    Embedding Model → Topic Segmentation → Segment Summaries & Keywords
+             ↓
+          Indexing → UI (Search, Playback, Visualization)
+  
 
 VII. How to Run the Project
 
-1. Clone the Repository
+1. Create and Activate Virtual Environment
 
-git clone [https://github.com/your-username/Automated-Podcast-Transcription.git](https://github.com/your-username/Automated-Podcast-Transcription.git)
-cd Automated-Podcast-Transcription
-
-
-2. Create Virtual Environment (Optional but Recommended)
+Create a virtual environment using:
 
 python -m venv venv
-# Windows
+
+
+Activate the environment (Windows):
+
 venv\Scripts\activate
-# Mac/Linux
-source venv/bin/activate
 
 
-3. Install Dependencies
+2. Install Dependencies
+
+Install all required packages using:
 
 pip install -r requirements.txt
 
 
-(Note: Ensure FFmpeg is installed on your system path)
+3. Prepare Audio Files
 
-4. Run the Dashboard
+Supported formats: .mp3, .wav, .m4a
+Place audio files inside the data/audio/ directory or use the Upload feature in the UI.
+
+4. Run the Application
+
+Execute the main dashboard application:
 
 streamlit run src/dashboard.py
 
 
-The application will open in your browser at http://localhost:8501.
+Output files (transcripts, summaries, keywords) will be generated in the data/ directory.
 
 VIII. System Architecture
 
-graph TD
-    A[Audio Input (File/URL)] --> B(Preprocessing: 16kHz Mono WAV);
-    B --> C{AI Pipeline};
-    C --> D[Transcription: OpenAI Whisper];
-    C --> E[Sentiment: NLTK VADER];
-    D --> F[NLP Processing];
-    F --> G[Topic Segmentation: TF-IDF + Cosine Sim];
-    F --> H[Summarization: DistilBART];
-    F --> I[Keyword Extraction: TF-IDF];
-    G --> J[Dashboard: Streamlit + Plotly];
-    H --> J;
-    I --> J;
-    E --> J;
+AUDIO FILES (.MP3 / .WAV)
+       ↓
+PREPROCESSING (16kHz Mono)
+       ↓
+OPENAI WHISPER (ASR)
+       ↓
+TRANSCRIPT FILES (JSON)
+       ↓
+TOPIC SEGMENTATION (TF-IDF + Cosine Sim)
+       ↓
+KEYWORD EXTRACTION (TF-IDF)
+       ↓
+SUMMARY GENERATION (DistilBART)
+       ↓
+SENTIMENT ANALYSIS (VADER)
+       ↓
+STRUCTURED OUTPUT & VISUALIZATION
 
 
-IX. Project Workflow & Milestones
+IX. Use Cases
 
-The project implementation follows an 8-week modular roadmap:
+Automated meeting minutes
 
-Milestone 1
+Podcast summarization
 
-Week 1: Project Initialization and Dataset Acquisition. Defined scope and downloaded TED Talks dataset.
+Interview analysis
 
-Week 2: Audio Preprocessing and Speech-to-Text. Implemented audio cleaning and Whisper transcription.
+Research documentation
 
-Milestone 2
-
-Week 3: Topic Segmentation Implementation. Developed TF-IDF/Cosine Similarity algorithms for segmentation.
-
-Week 4: User Interface and Indexing. Built the Streamlit app with search and navigation.
-
-Milestone 3
-
-Week 5: Visualization and Detail Enhancements. Added interactive Plotly timelines and sentiment analysis.
-
-Week 6: System Testing and Feedback Collection. Refined UI based on user experience testing.
-
-Milestone 4
-
-Week 7: Final Documentation and Presentation Preparation. Compiled technical guides and user manuals.
-
-Week 8: Project Wrap-up and Delivery. Final polish and submission.
-
-X. Evaluation Criteria
-
-The success of the project is measured against the following criteria:
-
-Completion of Milestones: Successful implementation of audio processing, transcription, segmentation, UI, visualization, and documentation.
-
-Transcription and Segmentation Accuracy: Quality of speech-to-text conversion and precision of topic boundaries relative to natural conversation shifts.
-
-User Experience and Documentation Quality: Clarity and usability of the interface (Dashboard responsiveness, ease of navigation), plus well-structured, thorough project documentation.
-
-XI. Use Cases
-
-Podcast Analytics: Understand listener engagement and content structure.
-
-Meeting Minutes: Automatically generate summaries and action items from meeting recordings.
-
-Content Indexing: Make large audio archives searchable by topic and keyword.
-
-Sentiment Tracking: Monitor the tone of conversations in interviews or customer support calls.
+Content Indexing
