@@ -1,0 +1,23 @@
+.features-section { padding: 80px 20px; background: #fafbff; }
+.section-header { text-align: center; margin-bottom: 50px; }
+.section-header h2 { font-size: 2.2rem; font-weight: 800; color: #1a1a1a; }
+.badge-text { color: #6366f1; font-weight: 600; font-size: 14px; text-transform: uppercase; margin-bottom: 8px; }
+
+.features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; max-width: 1200px; margin: 0 auto; }
+
+.feature-card {
+  background: white; padding: 35px; border-radius: 24px; text-align: left;
+  border: 1px solid #f0f0f0; transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.5s ease;
+}
+.feature-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.06); }
+
+.feature-img-box { width: 54px; height: 54px; border-radius: 14px; display: flex; align-items: center; justify-content: center; margin-bottom: 24px; overflow: hidden; }
+.feature-img-box img { width: 28px; height: 28px; object-fit: contain; }
+
+.bg-orange { background: #fff7ed; }
+.bg-purple { background: #faf5ff; }
+.bg-blue { background: #eff6ff; }
+.bg-green { background: #f0fdf4; }
+
+.feature-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 12px; }
+.feature-card p { font-size: 14px; color: #666; line-height: 1.6; }
