@@ -81,15 +81,7 @@ AUTOMATED-PODCAST-TRANSCRIPTION/
 ├── README.md                  # Project Documentation
 ├── requirements.txt           # Dependency management
 └── LICENSE
-
-* System architecture :
-  Audio Input → Preprocessing → Transcription (ASR) → Transcript Cleaning
-             ↓
-    Embedding Model → Topic Segmentation → Segment Summaries & Keywords
-             ↓
-          Indexing → UI (Search, Playback, Visualization)
   
-
 VII. How to Run the Project
 
 1. Create and Activate Virtual Environment
