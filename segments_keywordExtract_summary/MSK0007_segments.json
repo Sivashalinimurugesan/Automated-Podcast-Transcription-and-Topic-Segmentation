@@ -1,0 +1,554 @@
+[
+  {
+    "segment_id": 1,
+    "start_time": 0.0,
+    "end_time": 20.2952,
+    "text": "how many help you? Hi, I'm Yasuham's pain in my left elbow for a couple of weeks now and it's not getting any better. So I'm just here to kind of figure out what it is. Okay, are you feeling this pain on the lateral side of the elbow or on the side of the elbow? on the medial side.",
+    "keywords": [
+      "elbow",
+      "pain",
+      "yasuham",
+      "okay",
+      "weeks"
+    ],
+    "summary": "Hi, I'm Yasuham's pain in my left elbow for a couple of weeks now and it's not getting any better. Okay, are you feeling this pain on the lateral side of the elbow or on the side of the elbow?"
+  },
+  {
+    "segment_id": 2,
+    "start_time": 20.2952,
+    "end_time": 40.5904,
+    "text": "Okay and sorry, what did this paint exactly start? So it's been ongoing for like the past three months but it's gotten worse over the last I'd say three weeks. Okay and has the paint been getting worse any better? Oh, the paint's been getting worse, yeah. Okay.",
+    "keywords": [
+      "worse",
+      "okay",
+      "paint",
+      "getting",
+      "yeah"
+    ],
+    "summary": "Okay and sorry, what did this paint exactly start? So it's been ongoing for like the past three months but it's gotten worse over the last I'd say three weeks."
+  },
+  {
+    "segment_id": 3,
+    "start_time": 40.5904,
+    "end_time": 60.885600000000004,
+    "text": "Was there any triggers or precipitating events to the paint, such as like a fall or any types of trauma to the elbow? No, no, no, no thought I can think of. Have you had any pain or injury to the elbow in the past? No. Could you describe the character of the pain?",
+    "keywords": [
+      "pain",
+      "elbow",
+      "types",
+      "thought",
+      "think"
+    ],
+    "summary": "Was there any triggers or precipitating events to the paint, such as like a fall or any types of trauma to the elbow? Have you had any pain or injury to the elbow in the past?"
+  },
+  {
+    "segment_id": 4,
+    "start_time": 60.885600000000004,
+    "end_time": 81.1808,
+    "text": "Is it sharp, achy, or dull? It's usually achy, but it can be sharp. Okay. Does the pain radiate anywhere? No, it's pretty much in that one area.",
+    "keywords": [
+      "sharp",
+      "achy",
+      "usually",
+      "radiate",
+      "pain"
+    ],
+    "summary": "Is it sharp, achy, or dull? Does the pain radiate anywhere?"
+  },
+  {
+    "segment_id": 5,
+    "start_time": 81.1808,
+    "end_time": 101.476,
+    "text": "Okay, just on the video side of the left elbow. Yeah. Okay. And is there anything that you've done to help make the pain go away or any alleviating factors? Um, I've taken some NSAIDs and that helps with the pain temporarily.",
+    "keywords": [
+      "pain",
+      "ve",
+      "okay",
+      "yeah",
+      "video"
+    ],
+    "summary": "And is there anything that you've done to help make the pain go away or any alleviating factors? Um, I've taken some NSAIDs and that helps with the pain temporarily."
+  },
+  {
+    "segment_id": 6,
+    "start_time": 101.476,
+    "end_time": 121.77120000000001,
+    "text": "Okay. And are there any factors that make the pain worse? When I, I guess when I like extend my elbow out, it gets worse. Okay. So with some movements, okay, straightening the elbow.",
+    "keywords": [
+      "okay",
+      "worse",
+      "elbow",
+      "straightening",
+      "pain"
+    ],
+    "summary": "And are there any factors that make the pain worse? When I, I guess when I like extend my elbow out, it gets worse."
+  },
+  {
+    "segment_id": 7,
+    "start_time": 121.77120000000001,
+    "end_time": 142.06640000000002,
+    "text": "Yeah. Okay. And what is the severity of the pain on a scale of 1 to 10 with 10 being the worst pain you've ever felt? I say about 5 Okay and So did you have any other symptoms associated with albopein? Um, no, not really.",
+    "keywords": [
+      "okay",
+      "10",
+      "pain",
+      "yeah",
+      "symptoms"
+    ],
+    "summary": "And what is the severity of the pain on a scale of 1 to 10 with 10 being the worst pain you've ever felt? I say about 5 Okay and So did you have any other symptoms associated with albopein?"
+  },
+  {
+    "segment_id": 8,
+    "start_time": 142.06640000000002,
+    "end_time": 162.3616,
+    "text": "I'm otherwise pretty healthy. Okay. So have you had any fevers or chills? No. Have you had any night sweats?",
+    "keywords": [
+      "sweats",
+      "pretty",
+      "okay",
+      "night",
+      "healthy"
+    ],
+    "summary": "So have you had any fevers or chills? Have you had any night sweats?"
+  },
+  {
+    "segment_id": 9,
+    "start_time": 162.3616,
+    "end_time": 182.6568,
+    "text": "No. Any weight loss? No. Okay. Have you had any headaches?",
+    "keywords": [
+      "weight",
+      "okay",
+      "loss",
+      "headaches"
+    ],
+    "summary": "Any weight loss? Have you had any headaches?"
+  },
+  {
+    "segment_id": 10,
+    "start_time": 182.6568,
+    "end_time": 202.952,
+    "text": "No. Any sensory changes like I can't just your vision or hearing or even your smell or taste? No. Okay. Have you had any eye redness or eye discharge or your pain?",
+    "keywords": [
+      "eye",
+      "taste",
+      "smell",
+      "sensory",
+      "vision"
+    ],
+    "summary": "Any sensory changes like I can't just your vision or hearing or even your smell or taste? Have you had any eye redness or eye discharge or your pain?"
+  },
+  {
+    "segment_id": 11,
+    "start_time": 202.952,
+    "end_time": 223.24720000000002,
+    "text": "No. Okay. Have you had a runny nose or a sore throat? No. Have you had a cough or shortness of breath?",
+    "keywords": [
+      "throat",
+      "sore",
+      "shortness",
+      "runny",
+      "okay"
+    ],
+    "summary": "Have you had a runny nose or a sore throat? Have you had a cough or shortness of breath?"
+  },
+  {
+    "segment_id": 12,
+    "start_time": 223.24720000000002,
+    "end_time": 243.54240000000001,
+    "text": "No. If you had any weezing. No. Okay, have you had any test pain? No.",
+    "keywords": [
+      "weezing",
+      "test",
+      "pain",
+      "okay"
+    ],
+    "summary": "If you had any weezing. Okay, have you had any test pain?"
+  },
+  {
+    "segment_id": 13,
+    "start_time": 243.54240000000001,
+    "end_time": 263.8376,
+    "text": "Any light headiness or busyness? No. Have you had any heart complications? No. Okay, and have you had any nausea or vomiting?",
+    "keywords": [
+      "vomiting",
+      "okay",
+      "nausea",
+      "light",
+      "heart"
+    ],
+    "summary": "Any light headiness or busyness? Okay, and have you had any nausea or vomiting?"
+  },
+  {
+    "segment_id": 14,
+    "start_time": 263.8376,
+    "end_time": 284.13280000000003,
+    "text": "No. Have you had any abdominal pain? No. Any diarrhea or constipation? No.",
+    "keywords": [
+      "pain",
+      "diarrhea",
+      "constipation",
+      "abdominal"
+    ],
+    "summary": "Have you had any abdominal pain? Any diarrhea or constipation?"
+  },
+  {
+    "segment_id": 15,
+    "start_time": 284.13280000000003,
+    "end_time": 304.428,
+    "text": "Have you had any Are there any problems? No. Okay. Have you had any skin rashes? No.",
+    "keywords": [
+      "skin",
+      "rashes",
+      "problems",
+      "okay"
+    ],
+    "summary": "Have you had any Are there any problems? Have you had any skin rashes?"
+  },
+  {
+    "segment_id": 16,
+    "start_time": 304.428,
+    "end_time": 324.7232,
+    "text": "Okay. Have you had any numbness or tingling? No. And how about any muscle weakness? No.",
+    "keywords": [
+      "weakness",
+      "tingling",
+      "okay",
+      "numbness",
+      "muscle"
+    ],
+    "summary": "Have you had any numbness or tingling? And how about any muscle weakness?"
+  },
+  {
+    "segment_id": 17,
+    "start_time": 324.7232,
+    "end_time": 345.01840000000004,
+    "text": "Okay. I had any joint pains anywhere else? No. Okay. And any changes to your memory or or any confusion?",
+    "keywords": [
+      "okay",
+      "pains",
+      "memory",
+      "joint",
+      "confusion"
+    ],
+    "summary": "I had any joint pains anywhere else? And any changes to your memory or or any confusion?"
+  },
+  {
+    "segment_id": 18,
+    "start_time": 345.01840000000004,
+    "end_time": 365.3136,
+    "text": "No. Okay. And have you had any fatigue? No. Okay.",
+    "keywords": [
+      "okay",
+      "fatigue"
+    ],
+    "summary": "And have you had any fatigue? Okay."
+  },
+  {
+    "segment_id": 19,
+    "start_time": 365.3136,
+    "end_time": 385.60880000000003,
+    "text": "And I'll say, have you had any changes to your appetite? No. Okay. And have you been diagnosed with any medical conditions in the past? No.",
+    "keywords": [
+      "say",
+      "past",
+      "okay",
+      "medical",
+      "ll"
+    ],
+    "summary": "And I'll say, have you had any changes to your appetite? And have you been diagnosed with any medical conditions in the past?"
+  },
+  {
+    "segment_id": 20,
+    "start_time": 385.60880000000003,
+    "end_time": 405.904,
+    "text": "Okay. So do you take any medications either prescribed or over the counter? No, I just take some multivitamins. Okay, and do you have any allergies to medications? No.",
+    "keywords": [
+      "okay",
+      "medications",
+      "prescribed",
+      "multivitamins",
+      "just"
+    ],
+    "summary": "So do you take any medications either prescribed or over the counter? Okay, and do you have any allergies to medications?"
+  },
+  {
+    "segment_id": 21,
+    "start_time": 405.904,
+    "end_time": 426.1992,
+    "text": "Okay, and have you had any hospitalizations or prior surgeries? I had a fracture when I was younger. It was in my humorous bone on the right side. Okay so it's the for the fracture was on the other arm? Yes.",
+    "keywords": [
+      "okay",
+      "fracture",
+      "younger",
+      "surgeries",
+      "yes"
+    ],
+    "summary": "Okay, and have you had any hospitalizations or prior surgeries? It was in my humorous bone on the right side."
+  },
+  {
+    "segment_id": 22,
+    "start_time": 426.1992,
+    "end_time": 446.49440000000004,
+    "text": "Okay. Into that heel okay? Yes. Alright so can you tell me about your living situation currently like whereabouts and who you're living with? I look with my My partner of five years, we live in an apartment together.",
+    "keywords": [
+      "okay",
+      "living",
+      "years",
+      "whereabouts",
+      "tell"
+    ],
+    "summary": "Alright so can you tell me about your living situation currently like whereabouts and who you're living with? I look with my My partner of five years, we live in an apartment together."
+  },
+  {
+    "segment_id": 23,
+    "start_time": 446.49440000000004,
+    "end_time": 466.7896,
+    "text": "Okay. And are you working currently? I am. And what do you do? I work on the assembly line for Chrysler.",
+    "keywords": [
+      "working",
+      "work",
+      "okay",
+      "line",
+      "currently"
+    ],
+    "summary": "And are you working currently? I work on the assembly line for Chrysler."
+  },
+  {
+    "segment_id": 24,
+    "start_time": 466.7896,
+    "end_time": 487.08480000000003,
+    "text": "Okay. And do you do repetitive tasks that work? I do. Okay. And do you notice this pain after more so after a shift or after a long day?",
+    "keywords": [
+      "okay",
+      "work",
+      "tasks",
+      "repetitive",
+      "shift"
+    ],
+    "summary": "And do you do repetitive tasks that work? And do you notice this pain after more so after a shift or after a long day?"
+  },
+  {
+    "segment_id": 25,
+    "start_time": 487.08480000000003,
+    "end_time": 507.38000000000005,
+    "text": "Yes, definitely. Okay. And what types of hobbies do you play golf or tennis or any kind of like sports, I guess? Yeah, I used to play golf before this pain in my arm and my elbow. So I haven't played it in the past six months.",
+    "keywords": [
+      "play",
+      "golf",
+      "used",
+      "yeah",
+      "yes"
+    ],
+    "summary": "And what types of hobbies do you play golf or tennis or any kind of like sports, I guess? Yeah, I used to play golf before this pain in my arm and my elbow."
+  },
+  {
+    "segment_id": 26,
+    "start_time": 507.38000000000005,
+    "end_time": 527.6752,
+    "text": "Okay. Um, okay. And, um, do you smoke cigarettes? I don't. And you drink alcohol?",
+    "keywords": [
+      "um",
+      "okay",
+      "smoke",
+      "drink",
+      "don"
+    ],
+    "summary": "Um, okay. And, um, do you smoke cigarettes?"
+  },
+  {
+    "segment_id": 27,
+    "start_time": 527.6752,
+    "end_time": 547.9704,
+    "text": "I'll have a glass of wine every other day. Okay. How about the use of any recreational drugs, like cannabis or anything else? I'll smoke a joint once a week. Okay.",
+    "keywords": [
+      "okay",
+      "ll",
+      "use",
+      "week",
+      "wine"
+    ],
+    "summary": "I'll have a glass of wine every other day. How about the use of any recreational drugs, like cannabis or anything else?"
+  },
+  {
+    "segment_id": 28,
+    "start_time": 547.9704,
+    "end_time": 568.2656000000001,
+    "text": "And is there any family history of any hard or lung problems? No. any musculoskeletal or neurological diseases? I know. Okay.",
+    "keywords": [
+      "problems",
+      "okay",
+      "neurological",
+      "musculoskeletal",
+      "lung"
+    ],
+    "summary": "And is there any family history of any hard or lung problems? any musculoskeletal or neurological diseases?"
+  },
+  {
+    "segment_id": 29,
+    "start_time": 568.2656000000001,
+    "end_time": 588.5608000000001,
+    "text": "I would have any autoimmune diseases like thyroid disease or diabetes? No. Okay. And so, next I just wanted to walk through a physical exam. So when you look at the elbow yourself, do you see any swelling or redness?",
+    "keywords": [
+      "wanted",
+      "walk",
+      "thyroid",
+      "swelling",
+      "redness"
+    ],
+    "summary": "I would have any autoimmune diseases like thyroid disease or diabetes? And so, next I just wanted to walk through a physical exam."
+  },
+  {
+    "segment_id": 30,
+    "start_time": 588.5608000000001,
+    "end_time": 608.856,
+    "text": "No. Okay. Does it look like there is any muscle atrophy, either forearm or the biceps or triceps? No. Okay.",
+    "keywords": [
+      "okay",
+      "triceps",
+      "muscle",
+      "look",
+      "like"
+    ],
+    "summary": "Does it look like there is any muscle atrophy, either forearm or the biceps or triceps? Okay."
+  },
+  {
+    "segment_id": 31,
+    "start_time": 608.856,
+    "end_time": 629.1512,
+    "text": "And how about any misalignment or joint deformity? No, I don't see any of that. Okay. And are there any scars? No.",
+    "keywords": [
+      "scars",
+      "okay",
+      "misalignment",
+      "joint",
+      "don"
+    ],
+    "summary": "And how about any misalignment or joint deformity? Okay."
+  },
+  {
+    "segment_id": 32,
+    "start_time": 629.1512,
+    "end_time": 649.4464,
+    "text": "Okay. And when you press on the medial part of the elbow, do you feel pain? I do. How about over the electron or the, yeah, any pain over the electron on? A little bit.",
+    "keywords": [
+      "electron",
+      "pain",
+      "press",
+      "yeah",
+      "medial"
+    ],
+    "summary": "And when you press on the medial part of the elbow, do you feel pain? How about over the electron or the, yeah, any pain over the electron on?"
+  },
+  {
+    "segment_id": 33,
+    "start_time": 649.4464,
+    "end_time": 669.7416000000001,
+    "text": "Okay. And is there any pain over the lateral part of the elbow? No. Okay, and any paid over the forearm or biceps or triceps muscles? Okay, and does the joints feel like it's hot?",
+    "keywords": [
+      "okay",
+      "triceps",
+      "pain",
+      "paid",
+      "muscles"
+    ],
+    "summary": "Okay, and any paid over the forearm or biceps or triceps muscles? Okay, and does the joints feel like it's hot?"
+  },
+  {
+    "segment_id": 34,
+    "start_time": 669.7416000000001,
+    "end_time": 690.0368000000001,
+    "text": "No Okay, and any pain with shoulder or elbow movements? No actually sorry with the elbow when I straighten it out all the way it hurts a little bit. Okay when it's straightening it out all the way. Okay but no pain with wrist shoulder movements and forehand motion. No no pain with shoulder.",
+    "keywords": [
+      "pain",
+      "okay",
+      "shoulder",
+      "way",
+      "elbow"
+    ],
+    "summary": "No actually sorry with the elbow when I straighten it out all the way it hurts a little bit. Okay but no pain with wrist shoulder movements and forehand motion."
+  },
+  {
+    "segment_id": 35,
+    "start_time": 690.0368000000001,
+    "end_time": 710.332,
+    "text": "Okay and how about pain with pronation and supination with pronation at hurts okay I have to medial side yes okay and how about with wrist so with resisted Yeah, wrist flexion. wrist flexion? Yeah, that hurts too. Okay. And then how about if you possibly extend your wrist as far down as as you can go?",
+    "keywords": [
+      "wrist",
+      "okay",
+      "pronation",
+      "flexion",
+      "hurts"
+    ],
+    "summary": "Okay and how about pain with pronation and supination with pronation at hurts okay I have to medial side yes okay and how about with wrist so with resisted Yeah, wrist flexion. And then how about if you possibly extend your wrist as far down as as you can go?"
+  },
+  {
+    "segment_id": 36,
+    "start_time": 710.332,
+    "end_time": 730.6272,
+    "text": "Down. Yes, that hurts too. Okay. Um, and is there any, uh, numbness or tingling anywhere? Um, I'll look at no, no, no, numbness or tingling.",
+    "keywords": [
+      "um",
+      "numbness",
+      "tingling",
+      "yes",
+      "uh"
+    ],
+    "summary": "Um, and is there any, uh, numbness or tingling anywhere? Um, I'll look at no, no, no, numbness or tingling."
+  },
+  {
+    "segment_id": 37,
+    "start_time": 730.6272,
+    "end_time": 750.9224,
+    "text": "Okay. Um, okay. Um, so that that was everything that I wanted to ask about today. Um, was there anything else that you wanted to mention? No, that was it.",
+    "keywords": [
+      "um",
+      "wanted",
+      "okay",
+      "today",
+      "mention"
+    ],
+    "summary": "Um, so that that was everything that I wanted to ask about today. Um, was there anything else that you wanted to mention?"
+  },
+  {
+    "segment_id": 38,
+    "start_time": 750.9224,
+    "end_time": 771.2176000000001,
+    "text": "What do you think I have and how can I fix it? Yeah, so it certainly it sounds like with the medial aspect of your elbow having pain there the last several months and so the physical exam, mood, or even such as passive wrist extension, resisted risk flexion as well as pronation and the point tenderness over the medial elbow. It could be a medial epicon delitis or a tendinopathy in that area. And so this is typically treated with activity modification. So this could be trying to avoid repetitive movements that cause pain and using medications such as Advil and Tylenol and doing strengthening and stretching exercises which you can learn from physiotherapists or on your own as well.",
+    "keywords": [
+      "medial",
+      "pain",
+      "elbow",
+      "typically",
+      "yeah"
+    ],
+    "summary": "Yeah, so it certainly it sounds like with the medial aspect of your elbow having pain there the last several months and so the physical exam, mood, or even such as passive wrist extension, resisted risk flexion as well as pronation and the point tenderness over the medial elbow. So this could be trying to avoid repetitive movements that cause pain and using medications such as Advil and Tylenol and doing strengthening and stretching exercises which you can learn from physiotherapists or on your own as well."
+  },
+  {
+    "segment_id": 39,
+    "start_time": 771.2176000000001,
+    "end_time": 791.5128000000001,
+    "text": "And also other things that the the other thing you're considering is an all-ner ligament injury. And so if the pain isn't going away, then we might consider an ultrasound or something to look at the structures there. Okay, that sounds great. Thank you. there.",
+    "keywords": [
+      "ultrasound",
+      "things",
+      "thing",
+      "thank",
+      "structures"
+    ],
+    "summary": "And also other things that the the other thing you're considering is an all-ner ligament injury. And so if the pain isn't going away, then we might consider an ultrasound or something to look at the structures there."
+  },
+  {
+    "segment_id": 40,
+    "start_time": 791.5128000000001,
+    "end_time": 811.808,
+    "text": "Okay, that sounds great. Thank you.",
+    "keywords": [
+      "thank",
+      "sounds",
+      "okay",
+      "great"
+    ],
+    "summary": "Okay, that sounds great. Thank you."
+  }
+]

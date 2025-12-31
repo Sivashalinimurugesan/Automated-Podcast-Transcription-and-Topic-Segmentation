@@ -1,0 +1,686 @@
+[
+    {
+        "segment_id": 1,
+        "start_time": 0.0,
+        "end_time": 19.6,
+        "text": " What brings you in? I've had this pain in the right buddhist area. It's been really intense. And more recently, I'm feeling it radiates down my right leg as well. OK. And sorry, when did you say it started?",
+        "keywords": [
+            "right",
+            "ve",
+            "started",
+            "sorry",
+            "say"
+        ],
+        "summary": "And more recently, I'm feeling it radiates down my right leg as well. OK. And sorry, when did you say it started?"
+    },
+    {
+        "segment_id": 2,
+        "start_time": 19.6,
+        "end_time": 39.19,
+        "text": "So if we're going on for, well, it's just gotten really intense in the last two days. OK. And before that, did you have anything at all or was it just like sun? Yeah, I do have a bit of pain down in the buddhist area. But it's gotten really more painful over these last couple of days. OK. And is it a persistent kind of pain or does it come and go?",
+        "keywords": [
+            "really",
+            "just",
+            "gotten",
+            "ok",
+            "pain"
+        ],
+        "summary": "So if we're going on for, well, it's just gotten really intense in the last two days. OK. And is it a persistent kind of pain or does it come and go?"
+    },
+    {
+        "segment_id": 3,
+        "start_time": 39.19,
+        "end_time": 58.79,
+        "text": "It's persistent. It does get worse though, depending on what I'm doing. OK. When does it get worse? It gets worse with walking, with sitting really any kind of movements.",
+        "keywords": [
+            "worse",
+            "does",
+            "sitting",
+            "walking",
+            "really"
+        ],
+        "summary": "It does get worse though, depending on what I'm doing. It gets worse with walking, with sitting really any kind of movements."
+    },
+    {
+        "segment_id": 4,
+        "start_time": 58.79,
+        "end_time": 78.39,
+        "text": "I just kind of stay still. And that's the only thing that really helps it. OK. Have you tried anything for it? Yeah. I've just stated some pain medications over the counter for these last couple of days like that.",
+        "keywords": [
+            "just",
+            "yeah",
+            "ve",
+            "thing",
+            "tried"
+        ],
+        "summary": "And that's the only thing that really helps it. I've just stated some pain medications over the counter for these last couple of days like that."
+    },
+    {
+        "segment_id": 5,
+        "start_time": 78.39,
+        "end_time": 97.99,
+        "text": "I've gone in high on all, but that's it. OK. And is it helping? It does. I mean, not really. It hasn't really helped much.",
+        "keywords": [
+            "really",
+            "ve",
+            "ok",
+            "mean",
+            "high"
+        ],
+        "summary": "I've gone in high on all, but that's it. It hasn't really helped much."
+    },
+    {
+        "segment_id": 6,
+        "start_time": 97.99,
+        "end_time": 117.58,
+        "text": "OK. And all right. And if you were to describe the quality of the pain, would you say it's sharp, dull, achy, grobby? It's like I'll take a sharp pain in the butt off again. It's kind of like burning down the leg. OK. OK.",
+        "keywords": [
+            "ok",
+            "pain",
+            "sharp",
+            "like",
+            "right"
+        ],
+        "summary": "And if you were to describe the quality of the pain, would you say it's sharp, dull, achy, grobby? It's like I'll take a sharp pain in the butt off again."
+    },
+    {
+        "segment_id": 7,
+        "start_time": 117.58,
+        "end_time": 137.18,
+        "text": "So I'll retake your kind of pain. Amen. OK. And if you were to rate the severity of your pain once you can't be the worst pain you've ever felt, what would you rate it? Eight. OK. And does this pain radiate elsewhere?",
+        "keywords": [
+            "pain",
+            "ok",
+            "rate",
+            "worst",
+            "ve"
+        ],
+        "summary": "So I'll retake your kind of pain. OK. And if you were to rate the severity of your pain once you can't be the worst pain you've ever felt, what would you rate it?"
+    },
+    {
+        "segment_id": 8,
+        "start_time": 137.18,
+        "end_time": 156.78,
+        "text": "I know you said it starts on your butt. It goes down your legs. Does it go up your back or down into the other leg at all? No. I feel it just in the butt acting down the legs.",
+        "keywords": [
+            "legs",
+            "butt",
+            "starts",
+            "said",
+            "leg"
+        ],
+        "summary": "I know you said it starts on your butt. I feel it just in the butt acting down the legs."
+    },
+    {
+        "segment_id": 9,
+        "start_time": 156.78,
+        "end_time": 176.37,
+        "text": "OK. Have you ever experienced this kind of pain before? I have, yeah. I'm a truck driver. And so I do a lot of sitting. And I've had some kind of sciatic pain in the past.",
+        "keywords": [
+            "kind",
+            "pain",
+            "yeah",
+            "ve",
+            "sitting"
+        ],
+        "summary": "OK. Have you ever experienced this kind of pain before? And I've had some kind of sciatic pain in the past."
+    },
+    {
+        "segment_id": 10,
+        "start_time": 176.37,
+        "end_time": 195.97,
+        "text": "OK. And have you ever had any trauma or anything that could have triggered this initially in the past? No, I don't think so. I haven't really done much. I just kind of worked in. Yeah, I haven't had any trauma to the back or anything like that.",
+        "keywords": [
+            "trauma",
+            "haven",
+            "worked",
+            "triggered",
+            "think"
+        ],
+        "summary": "OK. And have you ever had any trauma or anything that could have triggered this initially in the past? Yeah, I haven't had any trauma to the back or anything like that."
+    },
+    {
+        "segment_id": 11,
+        "start_time": 195.97,
+        "end_time": 215.57,
+        "text": "OK. And are you experienced any sort of weakness that your legs? No weakness. Just while I'm, yeah, I guess maybe a little bit of leg weakness. I have had a little bit of difficulty walking, but limping. Oh, I see.",
+        "keywords": [
+            "weakness",
+            "little",
+            "bit",
+            "walking",
+            "sort"
+        ],
+        "summary": "Just while I'm, yeah, I guess maybe a little bit of leg weakness. I have had a little bit of difficulty walking, but limping."
+    },
+    {
+        "segment_id": 12,
+        "start_time": 215.57,
+        "end_time": 235.16,
+        "text": "OK. OK. And just in your right leg, right? Yeah. Any urinary or stool incontinence? No. No.",
+        "keywords": [
+            "right",
+            "ok",
+            "urinary",
+            "yeah",
+            "stool"
+        ],
+        "summary": "OK. OK. And just in your right leg, right? Any urinary or stool incontinence?"
+    },
+    {
+        "segment_id": 13,
+        "start_time": 235.16,
+        "end_time": 254.76,
+        "text": "Any sexual dysfunction? No, I haven't had anything like that. OK. Any numbness or tingling? Yeah. I've had some numbness and tingling down the right leg.",
+        "keywords": [
+            "tingling",
+            "numbness",
+            "yeah",
+            "ve",
+            "sexual"
+        ],
+        "summary": "OK. Any numbness or tingling? I've had some numbness and tingling down the right leg."
+    },
+    {
+        "segment_id": 14,
+        "start_time": 254.76,
+        "end_time": 274.36,
+        "text": "OK. Have it in the growing area. No. Is this kind of down the back of my leg? OK. All right. And otherwise, do you have any other symptoms?",
+        "keywords": [
+            "ok",
+            "symptoms",
+            "right",
+            "leg",
+            "kind"
+        ],
+        "summary": "OK. Have it in the growing area. Is this kind of down the back of my leg?"
+    },
+    {
+        "segment_id": 15,
+        "start_time": 274.36,
+        "end_time": 293.96,
+        "text": "No. It's just been just been this pain. OK. All right. And I'll just kind of go through some questions with you. Do you have any joint pains with muscle aches elsewhere?",
+        "keywords": [
+            "just",
+            "questions",
+            "right",
+            "pains",
+            "pain"
+        ],
+        "summary": "And I'll just kind of go through some questions with you. Do you have any joint pains with muscle aches elsewhere?"
+    },
+    {
+        "segment_id": 16,
+        "start_time": 293.96,
+        "end_time": 313.55,
+        "text": "No. No weight loss? No weight loss? Fevers or chills? No, fevers or chills?",
+        "keywords": [
+            "weight",
+            "loss",
+            "fevers",
+            "chills"
+        ],
+        "summary": "Fevers or chills? No, fevers or chills?"
+    },
+    {
+        "segment_id": 17,
+        "start_time": 313.55,
+        "end_time": 333.15,
+        "text": "Rashes? And no rashes? Changes to your vision hearing smell or taste? No. Are you coughing?",
+        "keywords": [
+            "rashes",
+            "taste",
+            "vision",
+            "smell",
+            "hearing"
+        ],
+        "summary": "Changes to your vision hearing smell or taste? Are you coughing?"
+    },
+    {
+        "segment_id": 18,
+        "start_time": 333.15,
+        "end_time": 352.75,
+        "text": "I'm sure I'm a threat. They're weeping. No. I haven't been having anything like that. Any chest pain, palpitations, or dizziness or fainting spells?",
+        "keywords": [
+            "weeping",
+            "threat",
+            "sure",
+            "spells",
+            "palpitations"
+        ],
+        "summary": "I haven't been having anything like that. Any chest pain, palpitations, or dizziness or fainting spells?"
+    },
+    {
+        "segment_id": 19,
+        "start_time": 352.75,
+        "end_time": 372.34,
+        "text": "No, nothing like that. Any changes to your bowel movements? No diarrhea or constipation? And no bleeding in the stool? No blood in the stool.",
+        "keywords": [
+            "stool",
+            "movements",
+            "like",
+            "diarrhea",
+            "constipation"
+        ],
+        "summary": "Any changes to your bowel movements? No diarrhea or constipation?"
+    },
+    {
+        "segment_id": 20,
+        "start_time": 372.34,
+        "end_time": 391.94,
+        "text": "And then how about nausea or vomiting? No. I haven't had any nausea or vomiting. Changes to your urine? No, no changes to your urine.",
+        "keywords": [
+            "vomiting",
+            "urine",
+            "nausea",
+            "changes",
+            "haven"
+        ],
+        "summary": "I haven't had any nausea or vomiting. No, no changes to your urine."
+    },
+    {
+        "segment_id": 21,
+        "start_time": 391.94,
+        "end_time": 411.54,
+        "text": "OK. And are you otherwise healthy? Do you have any long standing medical conditions? I do have high blood pressure and high cholesterol. And I take medications for those. I take amotapine and astatine.",
+        "keywords": [
+            "high",
+            "pressure",
+            "ok",
+            "medications",
+            "standing"
+        ],
+        "summary": "Do you have any long standing medical conditions? I do have high blood pressure and high cholesterol."
+    },
+    {
+        "segment_id": 22,
+        "start_time": 411.54,
+        "end_time": 431.14,
+        "text": "OK. Do you have any other medications besides those? I just have a multivitamin. And are you up to date with all your immunizations? I am, yes. OK. Any allergies?",
+        "keywords": [
+            "ok",
+            "yes",
+            "multivitamin",
+            "medications",
+            "just"
+        ],
+        "summary": "I just have a multivitamin. And are you up to date with all your immunizations?"
+    },
+    {
+        "segment_id": 23,
+        "start_time": 431.14,
+        "end_time": 450.73,
+        "text": "No, I don't believe so. Families you have musculoskeletal or neurological issues? No. Nothing like that. I don't have any conditions.",
+        "keywords": [
+            "don",
+            "neurological",
+            "like",
+            "musculoskeletal",
+            "issues"
+        ],
+        "summary": "Families you have musculoskeletal or neurological issues? I don't have any conditions."
+    },
+    {
+        "segment_id": 24,
+        "start_time": 450.73,
+        "end_time": 470.33,
+        "text": "No, nothing like that. Cancers? No. No, OK. And do you smoke? Yeah, I smoke about half the packet cigarettes per day.",
+        "keywords": [
+            "smoke",
+            "yeah",
+            "packet",
+            "ok",
+            "like"
+        ],
+        "summary": "No, OK. And do you smoke? Yeah, I smoke about half the packet cigarettes per day."
+    },
+    {
+        "segment_id": 25,
+        "start_time": 470.33,
+        "end_time": 489.93,
+        "text": "OK. For how long have you been doing that? For about 40 years. 40 years? OK. Have you ever thought of putting? I have.",
+        "keywords": [
+            "years",
+            "40",
+            "ok",
+            "putting",
+            "thought"
+        ],
+        "summary": "OK. For how long have you been doing that? OK. Have you ever thought of putting?"
+    },
+    {
+        "segment_id": 26,
+        "start_time": 489.93,
+        "end_time": 509.52,
+        "text": "Yeah. I've caught down over the years. I used to smoke more. It's just the culture with, but I don't know. Everybody's driving a truck and smoking.",
+        "keywords": [
+            "years",
+            "yeah",
+            "ve",
+            "used",
+            "truck"
+        ],
+        "summary": "It's just the culture with, but I don't know. Everybody's driving a truck and smoking."
+    },
+    {
+        "segment_id": 27,
+        "start_time": 509.52,
+        "end_time": 529.12,
+        "text": "OK. Yeah, that's hard. If you ever need any resources, we have some that we can refer you to. Thank you. Yeah, no worries. And do you consume marijuana?",
+        "keywords": [
+            "yeah",
+            "worries",
+            "thank",
+            "resources",
+            "refer"
+        ],
+        "summary": "OK. Yeah, that's hard. If you ever need any resources, we have some that we can refer you to."
+    },
+    {
+        "segment_id": 28,
+        "start_time": 529.12,
+        "end_time": 548.72,
+        "text": "No, I don't. Have what other recreational drugs? Nope. Nothing like that before. OK. Do you drink alcohol?",
+        "keywords": [
+            "recreational",
+            "ok",
+            "nope",
+            "like",
+            "drugs"
+        ],
+        "summary": "Have what other recreational drugs? OK. Do you drink alcohol?"
+    },
+    {
+        "segment_id": 29,
+        "start_time": 548.72,
+        "end_time": 568.31,
+        "text": "Yeah, I'll have a beer to you on the weekend. So maybe a couple of drinks per week. OK. And how about to do a sip contest? Have you been in touch with any of you recently? No, I haven't been around anybody who's been sick.",
+        "keywords": [
+            "yeah",
+            "weekend",
+            "week",
+            "touch",
+            "sip"
+        ],
+        "summary": "Yeah, I'll have a beer to you on the weekend. So maybe a couple of drinks per week."
+    },
+    {
+        "segment_id": 30,
+        "start_time": 568.31,
+        "end_time": 587.91,
+        "text": "Any troubles, please? Just for the drop offs that I make driving, I do have to make some pretty long halls back and forth. Yeah. OK. And where do you currently live? So I live in a house with my wife.",
+        "keywords": [
+            "make",
+            "live",
+            "troubles",
+            "yeah",
+            "pretty"
+        ],
+        "summary": "Just for the drop offs that I make driving, I do have to make some pretty long halls back and forth. So I live in a house with my wife."
+    },
+    {
+        "segment_id": 31,
+        "start_time": 587.91,
+        "end_time": 607.51,
+        "text": "All right. Yeah. And Son. OK. All right. And OK.",
+        "keywords": [
+            "ok",
+            "right",
+            "son",
+            "yeah"
+        ],
+        "summary": "OK. All right. And OK."
+    },
+    {
+        "segment_id": 32,
+        "start_time": 607.51,
+        "end_time": 627.11,
+        "text": "So now I'm just going to move on to the physical sound part of this. And I'm going to ask you to do a few things. So just by looking at your lights or if you have a mirror, and you can look at your right buttock area, do you see any swelling or redness? No, I don't see anything like that. And does it feel hot?",
+        "keywords": [
+            "going",
+            "just",
+            "things",
+            "swelling",
+            "right"
+        ],
+        "summary": "So now I'm just going to move on to the physical sound part of this. So just by looking at your lights or if you have a mirror, and you can look at your right buttock area, do you see any swelling or redness?"
+    },
+    {
+        "segment_id": 33,
+        "start_time": 627.11,
+        "end_time": 646.7,
+        "text": "No, it doesn't feel hot. OK. Do you see any skin changes? No skin changes. Any ashes here deformity in the area? No.",
+        "keywords": [
+            "skin",
+            "changes",
+            "ok",
+            "feel",
+            "hot"
+        ],
+        "summary": "No, it doesn't feel hot. Any ashes here deformity in the area?"
+    },
+    {
+        "segment_id": 34,
+        "start_time": 646.7,
+        "end_time": 666.3,
+        "text": "No. Taser date changed. Are you limping, hobbling, anything like that? Yeah, I feel like I've been limping a little bit. Yeah.",
+        "keywords": [
+            "yeah",
+            "like",
+            "limping",
+            "taser",
+            "ve"
+        ],
+        "summary": "Taser date changed. Yeah, I feel like I've been limping a little bit."
+    },
+    {
+        "segment_id": 35,
+        "start_time": 666.3,
+        "end_time": 685.9,
+        "text": "Are you putting more pressure on the left foot then? I am. Yeah. Yeah. I guess you're going to get an impulsive food.",
+        "keywords": [
+            "yeah",
+            "putting",
+            "pressure",
+            "left",
+            "impulsive"
+        ],
+        "summary": "Are you putting more pressure on the left foot then? I guess you're going to get an impulsive food."
+    },
+    {
+        "segment_id": 36,
+        "start_time": 685.9,
+        "end_time": 705.49,
+        "text": "OK. All right. And then if you press down on your hip bone, do you feel any pain there on your right hip bone? No, I don't. OK. How about when you press down on your hot ox itself? I, yeah.",
+        "keywords": [
+            "right",
+            "press",
+            "ok",
+            "bone",
+            "hip"
+        ],
+        "summary": "And then if you press down on your hip bone, do you feel any pain there on your right hip bone? OK. How about when you press down on your hot ox itself?"
+    },
+    {
+        "segment_id": 37,
+        "start_time": 705.49,
+        "end_time": 725.09,
+        "text": "There is a little bit of tenderness over the back area. How about the back of your legs? No. How about that? How about the front of your legs?",
+        "keywords": [
+            "legs",
+            "tenderness",
+            "little",
+            "bit",
+            "area"
+        ],
+        "summary": "There is a little bit of tenderness over the back area. How about the front of your legs?"
+    },
+    {
+        "segment_id": 38,
+        "start_time": 725.09,
+        "end_time": 744.69,
+        "text": "I don't know. No. OK. All right. And then I'm going to just get you to do a few movements with me as well. Would you, OK, so are you sitting down right now?",
+        "keywords": [
+            "right",
+            "ok",
+            "sitting",
+            "movements",
+            "know"
+        ],
+        "summary": "And then I'm going to just get you to do a few movements with me as well. Would you, OK, so are you sitting down right now?"
+    },
+    {
+        "segment_id": 39,
+        "start_time": 744.69,
+        "end_time": 764.29,
+        "text": "Yeah. OK. Would you mind standing up from a sitting position? Yeah, for sure. Does that hurt? Yeah.",
+        "keywords": [
+            "yeah",
+            "sure",
+            "standing",
+            "sitting",
+            "position"
+        ],
+        "summary": "OK. Would you mind standing up from a sitting position? Does that hurt?"
+    },
+    {
+        "segment_id": 40,
+        "start_time": 764.29,
+        "end_time": 783.88,
+        "text": "That causes pain. So that causes it on hip extension. That causes some pain. And as well as knee extension. So would you mind kicking your right leg up in front of you all the way up as far as you can go?",
+        "keywords": [
+            "causes",
+            "extension",
+            "pain",
+            "right",
+            "way"
+        ],
+        "summary": "So that causes it on hip extension. So would you mind kicking your right leg up in front of you all the way up as far as you can go?"
+    },
+    {
+        "segment_id": 41,
+        "start_time": 783.88,
+        "end_time": 803.48,
+        "text": "Oh, yeah. It does. Yeah. So right hip flexion also causes pain. And then would you mind folding your knees backwards and just sort of flexing it?",
+        "keywords": [
+            "yeah",
+            "sort",
+            "right",
+            "pain",
+            "oh"
+        ],
+        "summary": "So right hip flexion also causes pain. And then would you mind folding your knees backwards and just sort of flexing it?"
+    },
+    {
+        "segment_id": 42,
+        "start_time": 803.48,
+        "end_time": 823.08,
+        "text": "Does that hurt? No. OK. So no pain on knee flexion. And how about when you point your feet and toes up towards the ceiling?",
+        "keywords": [
+            "toes",
+            "point",
+            "pain",
+            "ok",
+            "knee"
+        ],
+        "summary": "So no pain on knee flexion. And how about when you point your feet and toes up towards the ceiling?"
+    },
+    {
+        "segment_id": 43,
+        "start_time": 823.08,
+        "end_time": 842.67,
+        "text": "Yeah. Yeah. I do get some pain when my, yeah, when that's all straight note, yeah. OK. So some pain on plantar flexion at the right foot.",
+        "keywords": [
+            "yeah",
+            "pain",
+            "straight",
+            "right",
+            "plantar"
+        ],
+        "summary": "I do get some pain when my, yeah, when that's all straight note, yeah. So some pain on plantar flexion at the right foot."
+    },
+    {
+        "segment_id": 44,
+        "start_time": 842.67,
+        "end_time": 862.27,
+        "text": "And have it if you point your feet and toes towards the ground. No pain there. OK. All right. And have it when you kick your legs to the side and upwards. Oh, no pain with abduction.",
+        "keywords": [
+            "pain",
+            "upwards",
+            "right",
+            "toes",
+            "point"
+        ],
+        "summary": "And have it if you point your feet and toes towards the ground. And have it when you kick your legs to the side and upwards."
+    },
+    {
+        "segment_id": 45,
+        "start_time": 862.27,
+        "end_time": 881.87,
+        "text": "OK. So no pain on right hip abduction. And then how about when you bring it back down? No. OK. And no pain on hip abduction.",
+        "keywords": [
+            "pain",
+            "ok",
+            "abduction",
+            "hip",
+            "right"
+        ],
+        "summary": "So no pain on right hip abduction. OK. And no pain on hip abduction."
+    },
+    {
+        "segment_id": 46,
+        "start_time": 881.87,
+        "end_time": 901.46,
+        "text": "OK. Well, those were all the questions that I had for you. Do you have any questions from myself? Just wondering about possibly like what it could be. Yeah. So it sounds right now like you may have some sort of a sacral nerve ridiculousity or like a lower lung bar ridiculousity.",
+        "keywords": [
+            "like",
+            "ridiculousity",
+            "questions",
+            "yeah",
+            "sort"
+        ],
+        "summary": "Just wondering about possibly like what it could be. So it sounds right now like you may have some sort of a sacral nerve ridiculousity or like a lower lung bar ridiculousity."
+    },
+    {
+        "segment_id": 47,
+        "start_time": 901.46,
+        "end_time": 921.06,
+        "text": "And basically that's known as sciatica where your nerve roots can become pressed causing some of these symptoms. And to diagnose these things, usually it's just done by history and physicality. But if after we try out some measurement things, it doesn't go away or you're having some red flags, including numbness in the growing area, bowel, bladder and continents, then we can look at some imaging for the spine including MRI. And so in terms of management of this, we can try a couple of like conservative approaches first. So that includes taking NSAIDs for the pain and then like activity modification.",
+        "keywords": [
+            "try",
+            "things",
+            "like",
+            "including",
+            "taking"
+        ],
+        "summary": "And basically that's known as sciatica where your nerve roots can become pressed causing some of these symptoms. But if after we try out some measurement things, it doesn't go away or you're having some red flags, including numbness in the growing area, bowel, bladder and continents, then we can look at some imaging for the spine including MRI."
+    },
+    {
+        "segment_id": 48,
+        "start_time": 921.06,
+        "end_time": 940.66,
+        "text": "So if you're sitting down all the time, perhaps like taking little breaks, stretching out your legs, doing some physio as well during those breaks can help. And as well, I'm going to give you a referral for physical therapy. They'll do some exercises with you and slowly increase those exercises. And if those still don't work, we can try steroids, steroid injections as well. We talked about the imaging if it doesn't go away.",
+        "keywords": [
+            "breaks",
+            "exercises",
+            "time",
+            "try",
+            "work"
+        ],
+        "summary": "So if you're sitting down all the time, perhaps like taking little breaks, stretching out your legs, doing some physio as well during those breaks can help. And if those still don't work, we can try steroids, steroid injections as well."
+    },
+    {
+        "segment_id": 49,
+        "start_time": 940.66,
+        "end_time": 960.26,
+        "text": "And about six to eight weeks does that sound OK? Yeah, that sounds good. Thank you. OK, yeah, no problem.",
+        "keywords": [
+            "yeah",
+            "ok",
+            "weeks",
+            "sounds",
+            "thank"
+        ],
+        "summary": "And about six to eight weeks does that sound OK? Yeah, that sounds good."
+    }
+]
