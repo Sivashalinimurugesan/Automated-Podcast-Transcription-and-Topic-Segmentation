@@ -10,7 +10,7 @@ The **Automated Podcast Transcription and Topic Segmentation** project focuses o
 
 By leveraging advancements in **speech-to-text technology** and **natural language processing (NLP)**, the system enables users to efficiently navigate podcasts by browsing topics, keywords, and summaries—without listening to the entire episode.
 
----
+
 
 ##  Project Statement
 
@@ -44,8 +44,8 @@ The goal of this project is to develop an end-to-end pipeline that:
 
 ### 5. Documentation and Presentation
 - Document the full pipeline and methodologies  
-- Prepare slides highlighting system workflow, evaluation, and applications  
-
+- Prepare slides highlighting system workflow, evaluation, and applications
+  
 ---
 
 ##  Dataset
@@ -54,7 +54,6 @@ Open-source datasets such as:
 - **Spotify Podcast Dataset**
 - **Podcast Transcripts Dataset (Kaggle)**  
 
----
 
 ##  Technologies Used
 
@@ -128,7 +127,6 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 - Visualizing topic segments, keywords, and summaries  
 - Preparing detailed documentation and a final project presentation :contentReference[oaicite:2]{index=2}
 
----
 
 ##  Evaluation Criteria
 
@@ -136,14 +134,12 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 - **Accuracy:** Quality of transcription and topic segmentation  
 - **User Experience:** Clarity of interface and documentation quality :contentReference[oaicite:6]{index=6}
 
----
 
 
 ##  License
 
 This project is released under the **MIT License**.
 
----
 
 ##  Acknowledgements
 
@@ -151,3 +147,9 @@ This project is released under the **MIT License**.
 - Mentors and evaluators  
 - Open-source community  
 
+
+
+# **Contact**
+
+For questions or doubts:
+[springboardmentor13579x@gmail.com](mailto:springboardmentor13579x@gmail.com) (official mentor email)
