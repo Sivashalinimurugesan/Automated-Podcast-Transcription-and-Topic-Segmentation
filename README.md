@@ -48,7 +48,7 @@ The goal of this project is to develop an end-to-end pipeline that:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 Open-source datasets such as:
 - **Spotify Podcast Dataset**
@@ -85,7 +85,7 @@ Open-source datasets such as:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Automated-Podcast-Transcription-and-Topic-Segmentation/
@@ -104,7 +104,7 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 ---
 
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. Clone the repository
    ```bash
@@ -130,7 +130,7 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 
 ---
 
-## 📈 Evaluation Criteria
+##  Evaluation Criteria
 
 - **Milestone Completion:** Successful implementation of all modules  
 - **Accuracy:** Quality of transcription and topic segmentation  
@@ -139,13 +139,13 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 ---
 
 
-## 📄 License
+##  License
 
 This project is released under the **MIT License**.
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
 - Springboard Internship Program  
 - Mentors and evaluators  
