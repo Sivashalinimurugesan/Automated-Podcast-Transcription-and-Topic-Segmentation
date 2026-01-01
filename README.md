@@ -81,23 +81,19 @@ This project addresses that challenge by:
 Automated-Medical-Podcast-Transcription
 ├── audio_raw/                          # Original uploaded podcast audio files
 ├── audio_processed/                    # Preprocessed / cleaned audio files
-├── docs/                               # Project documentation and references
-├── logs/
-│   └── app.log                         # Application logs and error tracking
-├── notebooks/                          # Jupyter notebooks for experimentation
-├── segments_keywordExtract_summary/   # Topic segments, keywords & summaries
-├── src/                                # Core source code
-│   ├── app.py                          # Main Streamlit application
+├── segments_keywordExtract_summary/    # Generated segments, keywords & summaries
+├── src/                                # Core processing scripts
 │   ├── preprocessing.py                # Audio preprocessing logic
 │   ├── transcription.py                # Whisper-based transcription module
 │   └── segmentation_keywordExtract_Summary.py
-│                                      # Topic segmentation, keyword extraction,
-│                                      # and summary generation
-├── temp_audio/                         # Temporary audio chunks during processing
-├── tests/                              # Test cases and validation scripts
-├── transcripts/                        # Final generated transcripts
-├── requirements.txt                    # Python dependencies
-└── README.md                           # Project documentation
+│                                        # Segmentation, keyword extraction & summary
+├── transcripts/                        # Final transcript text files (.txt)
+├── .env.example                        # Environment variable template
+├── .gitignore                          # Git ignore rules
+├── LICENSE                             # License information
+├── README.md                           # Project documentation
+├── app.py                              # Main Streamlit application
+└── config.py                           # Centralized configuration & paths
 
 
 ```
