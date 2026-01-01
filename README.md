@@ -112,9 +112,9 @@ flowchart TD
         C[Transcription using Whisper]
         D[Sentence Tokenization & Topic Segmentation]
         E[Keyword Extraction & Summarization]
-        K[Keyword Cloud Generation]
         F[Search & Segment Mapping]
         H[Sentiment Analysis]
+        K[Keyword Cloud Generation]
        
     end
 
@@ -124,7 +124,7 @@ flowchart TD
     end
 
     %% Connections
-    A --> B --> C --> D --> E --> K --> F --> H --> G 
+    A --> B --> C --> D --> E  --> F --> H --> K --> G
 ```
 
 ---
