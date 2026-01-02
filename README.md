@@ -1,151 +1,113 @@
-AUTOMATED PODCAST TRANSCRIPTION AND TOPIC SEGMENTATION
+# 🎙️ Automated Podcast Transcription and Topic Segmentation
 
-I. Overview
+## I. Overview
 
-This project provides an end-to-end pipeline to automatically convert meeting or podcast audio into accurate text transcripts, followed by topic-based segmentation, summarization, and keyword extraction using natural language processing techniques. It is designed to efficiently process long-form audio and is suitable for real-world applications such as automated meeting minutes, podcast summarization, and interview analysis.
+This project provides an **end-to-end AI-powered pipeline** to automatically convert **meeting or podcast audio** into accurate text transcripts, followed by **topic-based segmentation, summarization, keyword extraction, and sentiment analysis** using modern Natural Language Processing (NLP) techniques.
 
-II. Objectives
+It is designed to efficiently process **long-form audio content** and is suitable for real-world applications such as:
 
-Convert audio recordings into accurate text transcripts using OpenAI Whisper.
+- Automated meeting minutes
+- Podcast summarization
+- Interview analysis
+- Research documentation
 
-Segment long conversations into meaningful topics using semantic analysis.
+---
 
-Generate concise summaries for each identified segment.
+## II. Objectives
 
-Extract important keywords for quick understanding of content.
+- 🎧 Convert audio recordings into accurate text transcripts using **OpenAI Whisper**
+- 🧠 Segment long conversations into meaningful topics using **semantic analysis**
+- ✍️ Generate concise summaries for each identified topic segment
+- 🔑 Extract important keywords for quick content understanding
+- 📊 Visualize sentiment trends and timelines through an interactive dashboard
 
-Visualize sentiment and timelines via an interactive dashboard.
+---
 
-III. Key Features
+## III. Key Features
 
-Automatic Speech Recognition (ASR) using OpenAI Whisper for high-accuracy transcription.
+- **Automatic Speech Recognition (ASR)**  
+  High-accuracy transcription using **OpenAI Whisper**
 
-Topic Segmentation for long transcripts using TF-IDF and Cosine Similarity.
+- **Topic Segmentation**  
+  Semantic topic detection using **TF-IDF** and **Cosine Similarity**
 
-Summary Generation for segmented content using HuggingFace Transformers (DistilBART).
+- **Summary Generation**  
+  AI-based summarization using **HuggingFace Transformers (DistilBART)**
 
-Keyword Extraction using TF-IDF ranking.
+- **Keyword Extraction**  
+  Important keyword identification using **TF-IDF ranking**
 
-Sentiment Analysis using NLTK VADER to track emotional tone.
+- **Sentiment Analysis**  
+  Emotional tone analysis using **NLTK VADER**
 
-Optimized for long meeting and podcast audio.
+- **Optimized for Long Audio**  
+  Designed to handle long meeting and podcast recordings efficiently
 
-IV. Dataset
+---
 
-This project was developed and tested using a subset of the TED Talks Audio Dataset.
+## IV. Dataset
 
-Source: Kaggle (TED Talks Audio)
+This project was developed and tested using a subset of the **TED Talks Audio Dataset**.
 
-Nature: Real-world educational and conversational audio recordings suitable for long-form transcription and topic segmentation tasks.
+- **Source:** Kaggle – TED Talks Audio Dataset  
+- **Nature:** Real-world educational and conversational audio recordings  
+- **Use Case:** Suitable for long-form transcription and topic segmentation tasks
 
+---
 
-V. Tech Stack
+## V. Tech Stack
 
-Python 3.9+
+- **Python 3.9+**
+- **OpenAI Whisper** – Speech-to-text transcription
+- **NLTK** – Sentence tokenization & sentiment analysis
+- **Scikit-learn** – TF-IDF vectorization & cosine similarity
+- **HuggingFace Transformers** – Text summarization (DistilBART)
+- **Streamlit** – Interactive dashboard UI
+- **Plotly** – Data visualization
 
-OpenAI Whisper: Speech-to-text
+---
 
-NLTK: Sentence tokenization & Sentiment Analysis
+## VI. Project Structure
 
-Scikit-learn: TF-IDF Vectorization & Cosine Similarity
-
-HuggingFace Transformers: Summarization (DistilBART)
-
-Streamlit: User Interface
-
-Plotly: Data Visualization
-
-
-VI. Project Structure
-
+```text
 AUTOMATED-PODCAST-TRANSCRIPTION/
 │
-├── data/                      # Auto-generated Data Storage
-│   ├── audio/                 # Raw Input Audio
-│   ├── processed_audio/       # 16kHz WAVs
-│   ├── transcripts/           # JSON Transcripts with timestamps
-│   ├── semantic_segments/     # Topic Segmentation Reports
-│   ├── sentiment_data/        # Sentiment scores for graphing
-│   ├── short_summary/         # AI Summaries
-│   └── keywords/              # Extracted Keywords
+├── data/                         # Auto-generated Data Storage
+│   ├── audio/                    # Raw Input Audio
+│   ├── processed_audio/          # 16kHz Mono WAV Files
+│   ├── transcripts/              # JSON Transcripts with timestamps
+│   ├── semantic_segments/        # Topic Segmentation Reports
+│   ├── sentiment_data/           # Sentiment scores for visualization
+│   ├── short_summary/            # AI-generated summaries
+│   └── keywords/                 # Extracted keywords
 │
-├── src/                       # Source Code
-│   ├── dashboard.py           # Frontend: Streamlit Dashboard UI
-│   ├── podcast_backend.py     # Backend: Master AI Logic Pipeline
+├── src/                          # Source Code
+│   ├── dashboard.py              # Streamlit Dashboard (Frontend)
+│   ├── podcast_backend.py        # Master AI Processing Pipeline
 │   └── __init__.py
 │
-├── docs/                      # Documentation
-│   └── images/                # Screenshots for README
-├── tests/                     # Unit Tests
-├── .env                       # Environment Variables
-├── README.md                  # Project Documentation
-├── requirements.txt           # Dependency management
+├── docs/                         # Documentation
+├── images/                       # Screenshots for README
+├── tests/                        # Unit Tests
+│
+├── .env                          # Environment Variables
+├── requirements.txt              # Dependency Management
+├── README.md                     # Project Documentation
 └── LICENSE
-  
-VII. How to Run the Project
 
-1. Create and Activate Virtual Environment
+## IX. Use Cases
 
-Create a virtual environment using:
+### Automated Meeting Minutes
+Converts recorded meetings into structured transcripts with topic-wise summaries, enabling faster review and better documentation.
 
-python -m venv venv
+### Podcast and Media Analysis
+Helps podcasters and content creators analyze long episodes using AI-generated summaries, extracted keywords, and sentiment trends.
 
+### Interview and Research Analysis
+Useful for journalists, researchers, and HR teams to efficiently analyze interviews and qualitative research recordings.
 
-Activate the environment (Windows):
+### Educational Content Indexing
+Enables semantic indexing of lectures, talks, and seminars, allowing quick content search and improved knowledge accessibility.
 
-venv\Scripts\activate
-
-
-2. Install Dependencies
-
-Install all required packages using:
-
-pip install -r requirements.txt
-
-
-3. Prepare Audio Files
-
-Supported formats: .mp3, .wav, .m4a
-Place audio files inside the data/audio/ directory or use the Upload feature in the UI.
-
-4. Run the Application
-
-Execute the main dashboard application:
-
-streamlit run src/dashboard.py
-
-
-Output files (transcripts, summaries, keywords) will be generated in the data/ directory.
-
-VIII. System Architecture
-
-AUDIO FILES (.MP3 / .WAV)
-       ↓
-PREPROCESSING (16kHz Mono)
-       ↓
-OPENAI WHISPER (ASR)
-       ↓
-TRANSCRIPT FILES (JSON)
-       ↓
-TOPIC SEGMENTATION (TF-IDF + Cosine Sim)
-       ↓
-KEYWORD EXTRACTION (TF-IDF)
-       ↓
-SUMMARY GENERATION (DistilBART)
-       ↓
-SENTIMENT ANALYSIS (VADER)
-       ↓
-STRUCTURED OUTPUT & VISUALIZATION
-
-
-IX. Use Cases
-
-Automated meeting minutes
-
-Podcast summarization
-
-Interview analysis
-
-Research documentation
-
-Content Indexing
+### Enterprise Knowledge Management
+Supports organizations in organizing, analyzing, and retrieving insights from large volumes of internal audio data.
