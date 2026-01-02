@@ -24,7 +24,7 @@ This system is designed specifically for medical podcasts, including:
 
 - Quickly locate discussions about specific diseases or symptoms  
 - Navigate podcasts using topic-wise segmentation  
-- Understand content through summaries, keywords, and sentiment  
+- Understand content through summaries, keywords, sentiment, and quality metrics  
 - Save time for medical students and professionals  
 
 ---
@@ -47,16 +47,22 @@ This system is designed specifically for medical podcasts, including:
 ### 3. Summarization and Keyword Extraction
 - Generate concise summaries for each segment  
 - Extract domain-relevant medical keywords  
+- Generate keyword frequency visualizations  
 
 ### 4. Sentiment and Quality Analysis
 - Perform sentiment analysis on segmented topics  
 - Normalize sentiment for medical-domain context  
-- Compute quality metrics such as WER, CER, and semantic similarity  
+- Compute transcription quality metrics:
+  - Word Error Rate (WER)  
+  - Character Error Rate (CER)  
+  - Semantic similarity using Sentence Transformers  
+- Produce a normalized quality score for UI display  
 
 ### 5. Frontend UI for Navigation
 - Topic-wise transcript visualization  
 - Timestamp-based audio playback  
-- Keyword, sentiment, and quality dashboards  
+- Keyword cloud visualization  
+- Sentiment and quality dashboards  
 - Interactive UI integrated with backend APIs  
 
 ---
@@ -69,7 +75,7 @@ Audio Preprocessing
 ↓  
 Medical Speech-to-Text (ASR)  
 ↓  
-Transcript Cleaning  
+Transcript Cleaning & Normalization  
 ↓  
 Embedding Model  
 ↓  
@@ -77,7 +83,7 @@ Topic Segmentation
 ↓  
 Medical Summaries, Keywords & Sentiment  
 ↓  
-Quality Evaluation  
+Quality Evaluation (WER, CER, Similarity)  
 ↓  
 Indexing  
 ↓  
@@ -132,7 +138,8 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 │   ├── keywords.py
 │   ├── sentiment.py
 │   ├── pipeline_controller.py
-│   └── user_state_manager.py
+│   ├── user_state_manager.py
+│   └── logger.py
 │
 ├── ui_app/
 │   ├── public/
@@ -149,14 +156,55 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 │   ├── segments/
 │   └── keywords/
 │
-├── notebooks/
-├── docs/
-├── tests/
+├── test/
+│   ├── conftest.py
+│   ├── test_evaluation.py
+│   ├── test_keywords.py
+│   ├── test_logger.py
+│   ├── test_segmentation.py
+│   └── test_sentiment.py
+│
+├── pytest.ini
 ├── README.md
 ├── requirements.txt
 └── .env.example
 ```
+## Testing and Validation (Recently Added)
+
+Comprehensive **Pytest-based unit testing** has been added to validate the reliability and correctness of the backend modules without altering the core application logic.
+
+### Test Coverage
+
+Unit tests have been implemented for the following backend components:
+
+- **Sentiment Analysis**
+  - Validates output structure and sentiment score range
+- **Keyword Extraction & Visualization**
+  - Ensures keyword processing works correctly
+  - Verifies keyword cloud image generation
+- **Topic Segmentation**
+  - Confirms segmentation output structure for UI compatibility
+- **Logger Module**
+  - Verifies logger creation and configuration
+- **Quality Evaluation**
+  - Tests WER, CER, semantic similarity, and normalized quality score computation
+
+### Testing Guarantees
+
+- All unit tests **pass successfully**
+- Core business logic remains **unchanged**
+- Outputs are **UI-safe and test-safe**
+- Edge cases such as empty inputs and invalid data are handled gracefully
+
+### Running Tests
+
+To execute all tests locally:
+
+```bash
+pytest -v
+```
 ---
+
 ## Milestone-wise Implementation
 
 ### Milestone 1: Audio Preprocessing & Transcription
