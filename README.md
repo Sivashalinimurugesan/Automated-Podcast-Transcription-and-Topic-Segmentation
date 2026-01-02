@@ -15,11 +15,11 @@ It is designed to efficiently process **long-form audio content** and is suitabl
 
 ## II. Objectives
 
-- 🎧 Convert audio recordings into accurate text transcripts using **OpenAI Whisper**
-- 🧠 Segment long conversations into meaningful topics using **semantic analysis**
-- ✍️ Generate concise summaries for each identified topic segment
-- 🔑 Extract important keywords for quick content understanding
-- 📊 Visualize sentiment trends and timelines through an interactive dashboard
+-  Convert audio recordings into accurate text transcripts using **OpenAI Whisper**
+-  Segment long conversations into meaningful topics using **semantic analysis**
+-  Generate concise summaries for each identified topic segment
+-  Extract important keywords for quick content understanding
+-  Visualize sentiment trends and timelines through an interactive dashboard
 
 ---
 
@@ -53,7 +53,7 @@ This project was developed and tested using a subset of the **TED Talks Audio Da
 - **Nature:** Real-world educational and conversational audio recordings  
 - **Use Case:** Suitable for long-form transcription and topic segmentation tasks
 
----
+
 
 ## V. Tech Stack
 
@@ -66,6 +66,26 @@ This project was developed and tested using a subset of the **TED Talks Audio Da
 - **Plotly** – Data visualization
 
 ---
+
+## IX. Use Cases
+
+### Automated Meeting Minutes
+Converts recorded meetings into structured transcripts with topic-wise summaries, enabling faster review and better documentation.
+
+### Podcast and Media Analysis
+Helps podcasters and content creators analyze long episodes using AI-generated summaries, extracted keywords, and sentiment trends.
+
+### Interview and Research Analysis
+Useful for journalists, researchers, and HR teams to efficiently analyze interviews and qualitative research recordings.
+
+### Educational Content Indexing
+Enables semantic indexing of lectures, talks, and seminars, allowing quick content search and improved knowledge accessibility.
+
+### Enterprise Knowledge Management
+Supports organizations in organizing, analyzing, and retrieving insights from large volumes of internal audio data.
+
+---
+
 
 ## VI. Project Structure
 
@@ -94,20 +114,3 @@ AUTOMATED-PODCAST-TRANSCRIPTION/
 ├── requirements.txt              # Dependency Management
 ├── README.md                     # Project Documentation
 └── LICENSE
-
-## IX. Use Cases
-
-### Automated Meeting Minutes
-Converts recorded meetings into structured transcripts with topic-wise summaries, enabling faster review and better documentation.
-
-### Podcast and Media Analysis
-Helps podcasters and content creators analyze long episodes using AI-generated summaries, extracted keywords, and sentiment trends.
-
-### Interview and Research Analysis
-Useful for journalists, researchers, and HR teams to efficiently analyze interviews and qualitative research recordings.
-
-### Educational Content Indexing
-Enables semantic indexing of lectures, talks, and seminars, allowing quick content search and improved knowledge accessibility.
-
-### Enterprise Knowledge Management
-Supports organizations in organizing, analyzing, and retrieving insights from large volumes of internal audio data.
