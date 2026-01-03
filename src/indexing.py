@@ -132,3 +132,34 @@ class TopicIndexer:
             if t.get('id') == topic_id:
                 return t
         return None
+
+    def highlight_text(self, text, query):
+        """
+        Highlights query occurrences in text using HTML tags.
+        Case-insensitive. Handles multi-word queries loosely or strictly.
+        Here we do a simple strict phrase match for the query, 
+        and fallback to individual keyword matching if no phrase match.
+        """
+        if not query or not text:
+            return text
+            
+        import re
+        
+        # 1. Try exact phrase match first
+        escaped_query = re.escape(query.strip())
+        pattern = re.compile(f"({escaped_query})", re.IGNORECASE)
+        
+        # Check if we have any match
+        if pattern.search(text):
+            return pattern.sub(r"<mark style='background:rgba(255, 235, 59, 0.4); color:black; padding:0 2px; border-radius:2px;'>\1</mark>", text)
+            
+        # 2. Fallback: Split query into words and highlight them individually
+        # Filter out small words to avoid highlighting 'the', 'is', etc.
+        words = [re.escape(w) for w in query.split() if len(w) > 3]
+        if not words:
+            return text
+            
+        pattern_str = "|".join(words)
+        pattern = re.compile(f"({pattern_str})", re.IGNORECASE)
+        
+        return pattern.sub(r"<mark style='background:rgba(255, 235, 59, 0.4); color:black; padding:0 2px; border-radius:2px;'>\1</mark>", text)

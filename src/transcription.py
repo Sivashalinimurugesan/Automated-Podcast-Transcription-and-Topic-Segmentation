@@ -104,11 +104,124 @@ class Transcriber:
             logger.error(f"Failed to save outputs: {e}")
             raise
 
-    def process_file(self, audio_path, transcript_dir, segments_dir):
+    def diarize_audio(self, audio_path, hf_token):
         """
-        Orchestrates transcription and saving.
+        Performs speaker diarization using pyannote.audio.
         """
+        if not hf_token:
+            logger.warning("No Hugging Face token provided. Skipping diarization.")
+            return None
+            
+        logger.info("Initializing Diarization Pipeline (pyannote.audio)...")
+        try:
+            from pyannote.audio import Pipeline
+            pipeline = Pipeline.from_pretrained(
+                "pyannote/speaker-diarization-3.1",
+                use_auth_token=hf_token
+            )
+            
+            if pipeline is None:
+                logger.error("Failed to download/load diarization pipeline (check HF token and model access permissions).")
+                return None
+                
+            # Move to GPU if available
+            if self.device == "cuda":
+                pipeline.to(torch.device("cuda"))
+                
+            logger.info("Running diarization...")
+            diarization = pipeline(audio_path)
+            
+            # Convert to list of segments
+            # diarization.itertracks(yield_label=True) yields (segment, track, label)
+            # segment has .start and .end
+            speaker_segments = []
+            for turn, _, speaker in diarization.itertracks(yield_label=True):
+                speaker_segments.append({
+                    "start": turn.start,
+                    "end": turn.end,
+                    "speaker": speaker
+                })
+            
+            logger.info(f"Diarization complete. Found {len(speaker_segments)} speaker turns.")
+            return speaker_segments
+            
+        except ImportError:
+            logger.error("pyannote.audio not installed. Cannot perform diarization.")
+            return None
+        except Exception as e:
+            logger.error(f"Diarization failed: {e}")
+            return None
+
+    def assign_speakers(self, transcript_segments, speaker_segments):
+        """
+        Assigns speakers to transcript segments based on temporal overlap.
+        """
+        if not speaker_segments:
+            for seg in transcript_segments:
+                seg['speaker'] = "Speaker 1"
+            return transcript_segments
+            
+        for t_seg in transcript_segments:
+            t_start = t_seg['start']
+            t_end = t_seg['end']
+            
+            # Find all speaker turns that overlap with this transcript segment
+            overlaps = []
+            for s_seg in speaker_segments:
+                # Calculate intersection
+                s_start = max(t_start, s_seg['start'])
+                s_end = min(t_end, s_seg['end'])
+                duration = max(0, s_end - s_start)
+                
+                if duration > 0:
+                    overlaps.append((s_seg['speaker'], duration))
+            
+            if overlaps:
+                # Assign to speaker with max overlap duration
+                # Sum duration per speaker in case of fragmented turns
+                speaker_durations = {}
+                for spk, dur in overlaps:
+                    speaker_durations[spk] = speaker_durations.get(spk, 0) + dur
+                    
+                major_speaker = max(speaker_durations, key=speaker_durations.get)
+                t_seg['speaker'] = major_speaker
+            else:
+                # No overlap found (rare), defaults to nearest? or just "Unknown"
+                # Let's try to look for the closest speaker segment
+                t_seg['speaker'] = "Unknown" # Or default to previous?
+        
+        # Post-processing: fill Unknown with nearest neighbors
+        for i, seg in enumerate(transcript_segments):
+            if seg['speaker'] == "Unknown":
+                if i > 0:
+                    seg['speaker'] = transcript_segments[i-1]['speaker']
+                elif i < len(transcript_segments) - 1:
+                     # Wait for next loop to fill? No, just assign "Speaker 00" default if absolute start
+                     seg['speaker'] = "SPEAKER_00" 
+                     
+        return transcript_segments
+
+    def process_file(self, audio_path, transcript_dir, segments_dir, hf_token=None):
+        """
+        Orchestrates transcription, optional diarization, and saving.
+        """
+        # 1. Transcribe
         result = self.transcribe(audio_path)
+        
+        # 2. Diarize (if token provided)
+        if hf_token:
+            speaker_segments = self.diarize_audio(audio_path, hf_token)
+            if speaker_segments:
+                result['segments'] = self.assign_speakers(result['segments'], speaker_segments)
+            else:
+                # Default if diarization failed/skipped
+                for seg in result['segments']:
+                    seg['speaker'] = "Speaker 1"
+        else:
+             for seg in result['segments']:
+                seg['speaker'] = "Speaker 1"
+        
+        # 3. Save
         filename = os.path.basename(audio_path)
         self.save_outputs(result, filename, transcript_dir, segments_dir)
         return result

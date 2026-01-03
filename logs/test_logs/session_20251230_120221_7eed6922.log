@@ -1,0 +1,21 @@
+2025-12-30 12:02:21 - root - INFO - New Session Started: 20251230_120221_7eed6922
+2025-12-30 12:02:23 - src.preprocessing - INFO - Processing test_audio.mp3...
+2025-12-30 12:02:23 - src.preprocessing - INFO - Applying noise reduction...
+2025-12-30 12:02:23 - src.preprocessing - INFO - Normalizing audio...
+2025-12-30 12:02:23 - src.preprocessing - INFO - Saved processed audio to test_processed\test_audio_processed.wav
+2025-12-30 12:02:23 - src.segmentation - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-12-30 12:02:23 - src.segmentation - WARNING - Empty transcript segments provided.
+2025-12-30 12:02:23 - src.segmentation - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-12-30 12:02:23 - src.segmentation - INFO - Segmenting 5 segments...
+2025-12-30 12:02:23 - src.segmentation - INFO - Similarity stats: Mean=0.759, Std=0.016, Threshold=0.751
+2025-12-30 12:02:23 - src.segmentation - INFO - Found 3 topics.
+2025-12-30 12:02:23 - src.summarization - INFO - Loading Summarization model: sshleifer/distilbart-cnn-12-6 on CPU
+2025-12-30 12:02:23 - src.summarization - INFO - Loading Summarization model: sshleifer/distilbart-cnn-12-6 on CPU
+2025-12-30 12:02:23 - src.summarization - INFO - Summarizing 1 topics...
+2025-12-30 12:02:23 - src.summarization - INFO - Summarized Topic 0
+2025-12-30 12:02:23 - src.transcription - INFO - Loading Faster-Whisper model: tiny on cpu with int8
+2025-12-30 12:02:23 - src.transcription - INFO - Saved transcript to test_transcripts\test_audio.txt
+2025-12-30 12:02:23 - src.transcription - INFO - Saved segments to test_segments\test_audio.json
+2025-12-30 12:02:23 - src.transcription - INFO - Loading Faster-Whisper model: tiny on cpu with int8
+2025-12-30 12:02:23 - src.transcription - INFO - Transcribing dummy.wav...
+2025-12-30 12:02:23 - src.transcription - INFO - Transcription complete. Detected language: en (probability: 0.99)

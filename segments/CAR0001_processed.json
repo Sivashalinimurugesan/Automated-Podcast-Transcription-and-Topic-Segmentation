@@ -1,0 +1,359 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.88,
+      "text": "brought you in today? Sure. I'm just having a lot of chest pain and so I thought I should get it",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 8.88,
+      "end": 23.52,
+      "text": "checked out. Okay, and before we start, could you remind me of your gender and age? Sure, 39. I'm a male.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 24.48,
+      "end": 36.16,
+      "text": "Okay, and so when did this chest pain start? It started last night, but it's becoming sharper.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 37.76,
+      "end": 45.44,
+      "text": "Okay, and where is this pain located? It's located on the left side of my chest.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 46.4,
+      "end": 54.64,
+      "text": "Okay, and so how long has it been going on for then if it started last night?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 55.84,
+      "end": 67.04,
+      "text": "So I guess it would be a couple of hours now, maybe like eight. Okay, has it been constant throughout",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 67.04,
+      "end": 79.2,
+      "text": "that time or changing? I would say it's been pretty constant. Yeah. Okay, and how would you describe",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 79.2,
+      "end": 87.44,
+      "text": "the pain? People will use words sometimes like sharp burning, achy. I say it's pretty sharp,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 87.44,
+      "end": 97.44,
+      "text": "yeah. It's sharp. Okay, anything that you have done tried since last night that's made the pain",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 97.44,
+      "end": 109.28,
+      "text": "better? Not laying down helps. Okay, so do you find laying down makes the pain worse? Yes, definitely.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 110.0,
+      "end": 122.96,
+      "text": "Okay, do you find that the pain is radiating anywhere? No. Okay, and is there anything else that makes",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 122.96,
+      "end": 132.96,
+      "text": "the pain worse besides laying down? Not that I've noticed, no. Okay, so not like taking a deep breath",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 133.12,
+      "end": 142.64,
+      "text": "or anything like that? Maybe taking a deep breath. Yeah. Okay, and one of the pains started, could you",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 144.64,
+      "end": 147.92,
+      "text": "tell me, could you think of anything that you were doing at the time?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 151.68,
+      "end": 158.24,
+      "text": "I mean, I was moving some furniture around, but that I've done that before.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 158.24,
+      "end": 172.08,
+      "text": "Okay, so you didn't feel like you hurt yourself when you were doing that? No. Okay, and in regards to",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 172.56,
+      "end": 178.8,
+      "text": "how severe the pain is on a scale of 1 to 10, 10 being the worst pain you've ever felt,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 179.6,
+      "end": 185.28,
+      "text": "how severe would you say the pain is? I'd say it's like a seven or eight. It's pretty bad.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 185.28,
+      "end": 195.2,
+      "text": "Okay, and with the pain, do you have any other associated symptoms? I feel a little light-headed",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 196.08,
+      "end": 212.8,
+      "text": "and I'm having some trouble breathing. Okay, have you had any loss of consciousness? No. Okay,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 212.8,
+      "end": 228.08,
+      "text": "have you been experiencing any, like, bracing of the heart? A little bit, yeah. Okay, and have you",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 228.08,
+      "end": 238.56,
+      "text": "been sweaty at all? Just from the shirt, just from having issues breathing. Okay, have you been having",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 238.64,
+      "end": 252.08,
+      "text": "issues breathing since the pain started? Yes. Okay, and recently, have you had any periods of time",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 252.08,
+      "end": 260.08,
+      "text": "where you, like, have been immobilized or you haven't been, like, able to move around a lot?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 261.04,
+      "end": 272.16,
+      "text": "No. No. Okay, and have you been feeling sick at all, any infectious symptoms? No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 273.6,
+      "end": 285.12,
+      "text": "Okay, have you had any nausea or vomiting? No. Any fevers or chills? No. Okay, how about any abdominal pain?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 286.08,
+      "end": 292.48,
+      "text": "No. Any urinary problems? No. Or bowel problems?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 294.48,
+      "end": 303.12,
+      "text": "Okay, have you had a cough? No. Okay, and you haven't brought up any blood? No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 306.16,
+      "end": 314.24,
+      "text": "Have you had a wheeze with your difficulty breathing? No, not that I've heard. Okay, any changes",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 316.08,
+      "end": 322.88,
+      "text": "to the, like, breath sounds at all, like, 90 noisy breathing? No. Well, I guess if I, when I'm",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 322.88,
+      "end": 330.08,
+      "text": "really having trouble breathing, yeah. Okay. Has anything like this ever happened to you before?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 331.44,
+      "end": 341.04,
+      "text": "No. No. Okay. And have you had any night sweats? No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 342.0,
+      "end": 351.6,
+      "text": "All right, and then how about any rashes or skin changes? No rashes, but I guess, like, my neck seems",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 351.6,
+      "end": 362.32,
+      "text": "to be a little swollen. Okay. Do you have any neck pain? No. Okay, have you had any, like,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 362.32,
+      "end": 368.48,
+      "text": "accidents, like a car accident or anything where you really jerked your neck? No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 368.8,
+      "end": 385.36,
+      "text": "Okay. Any trauma at all to the chest or back? No. No. Okay. So just in regards to past medical history,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 386.16,
+      "end": 397.52,
+      "text": "do you have any prior medical conditions? No. Okay. Any recent hospitalizations? No. Okay,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 397.52,
+      "end": 406.16,
+      "text": "any prior surgeries? No. Okay. Do you take any medications regularly? Are they prescribed or",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 406.16,
+      "end": 417.76,
+      "text": "over the counter? No. All right. How about any allergies to medications? None. All right. Any immunizations",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 417.76,
+      "end": 428.4,
+      "text": "or are they up to date? They're all up to date. Excellent. Great. And could you tell me a little bit",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 428.4,
+      "end": 441.95,
+      "text": "about your living situation currently? Sure. I live in an apartment by myself. Yep, that's about it.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 442.67,
+      "end": 448.67,
+      "text": "Okay. And how do you support yourself financially?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 449.87,
+      "end": 461.07,
+      "text": "I'm an accountant. Okay. Sounds like a pretty stressful job or that it can be. Do you smoke cigarettes?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 461.71,
+      "end": 471.63,
+      "text": "I do. Okay. And how much do you smoke? Smoke about a pack a day. Okay. How long have you been",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 471.63,
+      "end": 481.79,
+      "text": "smoking for? For the past 10 to 15 years. Okay. And do you smoke cannabis? Sometimes.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 483.39,
+      "end": 492.83,
+      "text": "How much marijuana would you smoke per week? Per week? Maybe about five milligrams, not that much.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 493.79,
+      "end": 504.03,
+      "text": "Okay. And do you use any other recreational drugs? Like cocaine, crystal meth, opioids? No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 504.67,
+      "end": 519.79,
+      "text": "Okay. Have you used IV drugs before? No. Okay. And do you drink alcohol? I do. Okay. How much alcohol do you drink each",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 519.79,
+      "end": 529.63,
+      "text": "week? About, I say, I have like one or two drinks a day. So about 10 drinks a week.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 530.91,
+      "end": 541.71,
+      "text": "Okay. And then briefly, could you tell me a little bit about your diet and exercise?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 542.67,
+      "end": 554.75,
+      "text": "Sure. I try to eat healthy for dinner at least, but most of my lunches are, I eat out. And then in terms of",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 554.75,
+      "end": 563.07,
+      "text": "exercise, I try to exercise every other day, I run for about half an hour. Okay. Oh, that's great.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 563.23,
+      "end": 572.43,
+      "text": "You've been working on the activity and the diets as well. So has anything like this happened",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 572.43,
+      "end": 578.83,
+      "text": "in your family before? No. Okay. Has anybody in the family had a heart attack before?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 580.91,
+      "end": 589.15,
+      "text": "Actually, yes. My father had a heart attack when he was 45. Okay. And anybody in the family have",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 590.11,
+      "end": 599.31,
+      "text": "cholesterol problems? I think my father did. I see. Okay. And how about anybody in the family have",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 599.95,
+      "end": 609.47,
+      "text": "stroke? No strokes. Okay. And then any cancers in the family? No. Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 609.95,
+      "end": 619.23,
+      "text": "Okay. Was there anything else that you wanted to tell me about today that on history?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 621.23,
+      "end": 625.63,
+      "text": "No, I don't think so. I think you asked me everything.",
+      "speaker": "Speaker 1"
+    }
+  ]
+}

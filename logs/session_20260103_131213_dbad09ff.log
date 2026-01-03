@@ -1,0 +1,84 @@
+2026-01-03 13:12:13 - root - INFO - New Session Started: 20260103_131213_dbad09ff
+2026-01-03 13:12:13 - __main__ - INFO - UI Triggered Processing for CAR0002.mp3
+2026-01-03 13:12:13 - preprocessing - INFO - Processing CAR0002.mp3...
+2026-01-03 13:12:24 - preprocessing - INFO - Applying noise reduction...
+2026-01-03 13:12:33 - preprocessing - INFO - Normalizing audio...
+2026-01-03 13:12:34 - preprocessing - INFO - Saved processed audio to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\CAR0002_processed.wav
+2026-01-03 13:12:34 - transcription - INFO - Transcribing F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\CAR0002_processed.wav...
+2026-01-03 13:12:35 - faster_whisper - INFO - Processing audio with duration 08:50.351
+2026-01-03 13:12:39 - faster_whisper - INFO - VAD filter removed 00:07.168 of audio
+2026-01-03 13:12:43 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2026-01-03 13:15:33 - transcription - INFO - Transcription complete. Detected language: en (probability: 1.00)
+2026-01-03 13:15:33 - transcription - INFO - Saved transcript to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\transcripts\CAR0002_processed.txt
+2026-01-03 13:15:33 - transcription - INFO - Saved segments to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\segments\CAR0002_processed.json
+2026-01-03 13:15:33 - segmentation - INFO - Segmenting 124 segments...
+2026-01-03 13:15:39 - segmentation - INFO - Similarity stats: Mean=0.484, Std=0.142, Threshold=0.413
+2026-01-03 13:15:39 - segmentation - INFO - Found 14 topics.
+2026-01-03 13:15:39 - summarization - INFO - Summarizing 14 topics...
+2026-01-03 13:15:46 - summarization - INFO - Summarized Topic 0
+2026-01-03 13:16:06 - summarization - INFO - Summarized Topic 1
+2026-01-03 13:16:21 - summarization - INFO - Summarized Topic 2
+2026-01-03 13:16:28 - summarization - INFO - Summarized Topic 3
+2026-01-03 13:16:37 - summarization - INFO - Summarized Topic 4
+2026-01-03 13:16:52 - summarization - INFO - Summarized Topic 5
+2026-01-03 13:17:13 - summarization - INFO - Summarized Topic 6
+2026-01-03 13:17:33 - summarization - INFO - Summarized Topic 7
+2026-01-03 13:17:49 - summarization - INFO - Summarized Topic 8
+2026-01-03 13:17:57 - summarization - INFO - Summarized Topic 9
+2026-01-03 13:18:14 - summarization - INFO - Summarized Topic 10
+2026-01-03 13:18:22 - summarization - INFO - Summarized Topic 11
+2026-01-03 13:18:30 - summarization - INFO - Summarized Topic 12
+2026-01-03 13:18:30 - summarization - INFO - Summarized Topic 13
+2026-01-03 13:18:30 - keyword_extraction - INFO - Extracting keywords for 14 topics...
+2026-01-03 13:18:30 - keyword_extraction - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2...
+2026-01-03 13:18:30 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-03 13:18:30 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-03 13:18:37 - sentiment_analysis - INFO - Starting analysis on 14 topics...
+2026-01-03 13:18:50 - sentiment_analysis - INFO - Topic analysis completed.
+2026-01-03 13:18:50 - indexing - INFO - Loading Indexing Model: all-MiniLM-L6-v2...
+2026-01-03 13:18:50 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-03 13:18:51 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-03 13:18:51 - indexing - INFO - Indexing 14 topics...
+2026-01-03 13:18:53 - indexing - INFO - Topic indexing complete.
+2026-01-03 13:21:02 - chatbot - INFO - Detected SPECIFIC intent. Searching top 5.
+2026-01-03 13:22:24 - chatbot - INFO - Detected SUMMARY intent. Retrieving full context.
+2026-01-03 13:23:43 - chatbot - INFO - Detected SUMMARY intent. Retrieving full context.
+2026-01-03 13:27:06 - chatbot - INFO - Detected SUMMARY intent. Retrieving full context.
+2026-01-03 13:31:43 - transcription - INFO - Loading Faster-Whisper model: base on cpu with int8
+2026-01-03 13:31:45 - segmentation - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2026-01-03 13:31:45 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-03 13:31:46 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-03 13:31:46 - summarization - INFO - Loading Summarization model: sshleifer/distilbart-cnn-12-6 on CPU
+2026-01-03 13:31:57 - sentiment_analysis - INFO - Initializing SentimentAnalysisAgent on CPU...
+2026-01-03 13:31:57 - sentiment_analysis - INFO - Loading Sentiment Model: distilbert-base-uncased-finetuned-sst-2-english
+2026-01-03 13:31:59 - sentiment_analysis - INFO - Loading Emotion Model: j-hartmann/emotion-english-distilroberta-base
+2026-01-03 13:32:02 - sentiment_analysis - INFO - All models loaded successfully.
+2026-01-03 13:32:02 - chatbot - INFO - Initializing Chatbot on CPU with model: google/flan-t5-base...
+2026-01-03 13:32:10 - chatbot - INFO - Chatbot model loaded successfully.
+2026-01-03 13:33:40 - indexing - INFO - Loading Indexing Model: all-MiniLM-L6-v2...
+2026-01-03 13:33:40 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-03 13:33:40 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-03 13:33:40 - indexing - INFO - Indexing 14 topics...
+2026-01-03 13:33:42 - indexing - INFO - Topic indexing complete.
+2026-01-03 13:33:43 - chatbot - INFO - Intent Detection: 'SPECIFIC' (default) for 'when did this paint start'
+2026-01-03 13:33:43 - chatbot - INFO - Processing Query: 'when did this paint start' | Detected Intent: SPECIFIC
+2026-01-03 13:33:43 - chatbot - INFO - Detected SPECIFIC intent. Searching top 5.
+2026-01-03 13:36:34 - transcription - INFO - Loading Faster-Whisper model: base on cpu with int8
+2026-01-03 13:36:36 - segmentation - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2026-01-03 13:36:36 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-03 13:36:36 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-03 13:36:36 - summarization - INFO - Loading Summarization model: sshleifer/distilbart-cnn-12-6 on CPU
+2026-01-03 13:36:50 - sentiment_analysis - INFO - Initializing SentimentAnalysisAgent on CPU...
+2026-01-03 13:36:50 - sentiment_analysis - INFO - Loading Sentiment Model: distilbert-base-uncased-finetuned-sst-2-english
+2026-01-03 13:36:52 - sentiment_analysis - INFO - Loading Emotion Model: j-hartmann/emotion-english-distilroberta-base
+2026-01-03 13:36:55 - sentiment_analysis - INFO - All models loaded successfully.
+2026-01-03 13:36:55 - chatbot - INFO - Initializing Chatbot on CPU with model: google/flan-t5-base...
+2026-01-03 13:37:04 - chatbot - INFO - Chatbot model loaded successfully.
+2026-01-03 13:37:12 - indexing - INFO - Loading Indexing Model: all-MiniLM-L6-v2...
+2026-01-03 13:37:12 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-03 13:37:13 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-03 13:37:13 - indexing - INFO - Indexing 14 topics...
+2026-01-03 13:37:16 - indexing - INFO - Topic indexing complete.
+2026-01-03 13:37:16 - chatbot - INFO - Intent Detection: 'SPECIFIC' (default) for 'When did this paint start'
+2026-01-03 13:37:16 - chatbot - INFO - Processing Query: 'When did this paint start' | Detected Intent: SPECIFIC
+2026-01-03 13:37:16 - chatbot - INFO - Detected SPECIFIC intent. Searching top 5.

@@ -1,0 +1,749 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "what brings you here today?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 2.0,
+      "end": 6.0,
+      "text": "Yeah, I have this paid in my test.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 6.0,
+      "end": 10.0,
+      "text": "Okay, and where is the paint exactly?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 10.0,
+      "end": 14.0,
+      "text": "It's just right over on the left side.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 14.0,
+      "end": 18.0,
+      "text": "Okay, and when did this paint start?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 18.0,
+      "end": 21.0,
+      "text": "It started just 30 minutes ago.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 21.0,
+      "end": 26.0,
+      "text": "Okay, and did it just come on randomly or were you doing something?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 26.0,
+      "end": 34.0,
+      "text": "I was just showing the driveway and it came on.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 34.0,
+      "end": 42.0,
+      "text": "Okay, and has that paint been getting worse at all over the last month or half ago?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 42.0,
+      "end": 48.0,
+      "text": "No, it just came on suddenly and it's sorry.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 48.0,
+      "end": 54.0,
+      "text": "Yeah, the paint has been there this whole time and it's gotten worse ever since it started.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 54.0,
+      "end": 56.0,
+      "text": "And how would you describe the paint?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 56.0,
+      "end": 60.0,
+      "text": "Is it kind of like an aching paint or is it a sharp or tightness kind of paint?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "How would you describe it?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 62.0,
+      "end": 68.0,
+      "text": "It feels dull. I feel like there's a lot of pressure on my chest.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 68.0,
+      "end": 73.0,
+      "text": "And how do you rate the paint right now on a scale of 0 to 10,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 73.0,
+      "end": 76.0,
+      "text": "or being the least someone of paint you've ever felt in your life,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 76.0,
+      "end": 78.0,
+      "text": "10 being the worst?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 78.0,
+      "end": 80.0,
+      "text": "Seven.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 80.0,
+      "end": 84.0,
+      "text": "Okay, have you had any similar episodes before?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 84.0,
+      "end": 88.0,
+      "text": "No, I've never had any chest pain before.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 88.0,
+      "end": 93.0,
+      "text": "Okay, and is the paint just staying in the region, the left chest area that you mentioned,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 93.0,
+      "end": 96.0,
+      "text": "or is it traveling to any other part of your body?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 96.0,
+      "end": 100.0,
+      "text": "No, I'm kind of just feeling it right here on the left side.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 100.0,
+      "end": 107.0,
+      "text": "Okay, is there anything that you do that makes the paint either get worse or go away",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 107.0,
+      "end": 110.0,
+      "text": "or get better?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 110.0,
+      "end": 114.0,
+      "text": "I think it's a bit worse if I'm moving around,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 114.0,
+      "end": 118.0,
+      "text": "or when I was walking in here, I think it made it a bit worse,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 118.0,
+      "end": 123.0,
+      "text": "but do I think it seemed to make you any better since it's starting?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 123.0,
+      "end": 127.0,
+      "text": "Okay, and does it change it all from changing positions,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 127.0,
+      "end": 131.0,
+      "text": "like if you're standing up versus sitting down or laying down?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 131.0,
+      "end": 136.0,
+      "text": "I think it's a little bit worse when I'm laying down.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 137.0,
+      "end": 141.0,
+      "text": "Okay, and other than the pain that you've been having,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 141.0,
+      "end": 146.0,
+      "text": "have you been having any other symptoms like a cough or difficulty breathing",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 146.0,
+      "end": 150.0,
+      "text": "or any pain when you're breathing in or out?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 150.0,
+      "end": 159.0,
+      "text": "I've felt a little bit short of breath or having difficulty breathing since yesterday,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 159.0,
+      "end": 166.0,
+      "text": "since the pain started, but just the difficulty breathing.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 166.0,
+      "end": 174.0,
+      "text": "Okay, and have you recently injured your chest or surrounding area at all,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 174.0,
+      "end": 178.0,
+      "text": "like from fall or anything like that?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 178.0,
+      "end": 186.0,
+      "text": "I do play rugby and was tackled by another play area yesterday,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 187.0,
+      "end": 191.0,
+      "text": "but my chest felt fine after that.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 191.0,
+      "end": 194.0,
+      "text": "Okay, but the pain just started hopping all over.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 194.0,
+      "end": 196.0,
+      "text": "Yeah.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 196.0,
+      "end": 201.0,
+      "text": "Have you been traveling at all recently?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 201.0,
+      "end": 204.0,
+      "text": "No, but at home.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 204.0,
+      "end": 208.0,
+      "text": "Has anyone around you been sick at all?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 208.0,
+      "end": 211.0,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 211.0,
+      "end": 218.0,
+      "text": "Have you been having any symptoms like nausea or vomiting or any fevers or chills?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 218.0,
+      "end": 225.0,
+      "text": "No, nausea or vomiting, but I do feel a little bit hot today.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 225.0,
+      "end": 231.7,
+      "text": "Okay, have you measured your temperature at all?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 231.7,
+      "end": 237.7,
+      "text": "I did, and it was 38 degrees.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 238.7,
+      "end": 246.71,
+      "text": "And have you been having any kind of swelling in your legs or feet?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 246.71,
+      "end": 251.71,
+      "text": "No swelling in my legs.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 251.71,
+      "end": 256.71,
+      "text": "Have you been feeling tired at all like increasingly fatigued?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 256.71,
+      "end": 259.71,
+      "text": "No, my energy has been good.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 259.71,
+      "end": 266.71,
+      "text": "Have you been having any kind of something or palpitations or feel like your heart has been racing at all?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 267.71,
+      "end": 270.71,
+      "text": "It does feel like it's beating faster right now.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 270.71,
+      "end": 275.71,
+      "text": "Usually it only feels like this when I'm playing sports.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 275.71,
+      "end": 280.71,
+      "text": "Okay, and have you noticed any changes in your skin at all?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 280.71,
+      "end": 282.71,
+      "text": "Any rashes?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 282.71,
+      "end": 285.71,
+      "text": "No rashes.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 285.71,
+      "end": 289.71,
+      "text": "Have you had any cough or runny nose or sore throat?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 289.71,
+      "end": 293.71,
+      "text": "Any kind of those symptoms in the past month?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 293.71,
+      "end": 300.71,
+      "text": "A few weeks ago, my nose was all a little runny, but that went away on its own.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 300.71,
+      "end": 304.71,
+      "text": "I haven't had any cough.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 304.71,
+      "end": 310.71,
+      "text": "Have you been feeling dizzy at all or have you fainted?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 310.71,
+      "end": 312.71,
+      "text": "No dizziness.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 312.71,
+      "end": 316.71,
+      "text": "No, I haven't fainted at all.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 316.71,
+      "end": 318.71,
+      "text": "Just a few more questions.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 318.71,
+      "end": 327.71,
+      "text": "Have you had any diagnosis made by any physician or anything like diabetes or high blood pressure?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 327.71,
+      "end": 334.71,
+      "text": "Yeah, I've been told I have high cholesterol and high blood pressure.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 334.71,
+      "end": 340.71,
+      "text": "Okay, and do you take any medications for these things?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 340.71,
+      "end": 348.71,
+      "text": "I do take medications for both blood pressure and cholesterol,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 348.71,
+      "end": 357.34,
+      "text": "Rasubis satin, and",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 357.34,
+      "end": 363.34,
+      "text": "Lucidiprol, and I take a multibitamin.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 363.34,
+      "end": 367.34,
+      "text": "Okay, and do you have any allergies to any medications at all?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 367.34,
+      "end": 370.34,
+      "text": "No allergies.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 370.34,
+      "end": 375.34,
+      "text": "Have you had all in the past been hospitalized for any reason?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 375.34,
+      "end": 377.34,
+      "text": "No hospitalizations.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 377.34,
+      "end": 379.34,
+      "text": "Any previous surgeries?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 379.34,
+      "end": 381.34,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 381.34,
+      "end": 390.34,
+      "text": "Okay, and within your family has anyone that passed away from a heart attack or in cancer with them running the family?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 390.34,
+      "end": 393.34,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 393.34,
+      "end": 396.34,
+      "text": "And currently right now, do you live alone?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 396.34,
+      "end": 401.34,
+      "text": "Do you live with someone and where do you live like an apartment house?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 401.34,
+      "end": 408.34,
+      "text": "I live in a house with my parents.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 408.34,
+      "end": 411.34,
+      "text": "Okay, and do you currently work?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 411.34,
+      "end": 416.34,
+      "text": "Yeah, I drive a bus for the city.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 417.34,
+      "end": 420.34,
+      "text": "And in your daily routine,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 420.34,
+      "end": 425.34,
+      "text": "would you say you get enough exercise throughout the week?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 425.34,
+      "end": 429.34,
+      "text": "Yeah, usually on Sundays I'll go for a run.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 429.34,
+      "end": 430.34,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 430.34,
+      "end": 432.34,
+      "text": "And how about your diet?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 432.34,
+      "end": 440.17,
+      "text": "How's your diet just regularly?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 440.17,
+      "end": 446.17,
+      "text": "Usually I feel like it's fairly balanced overall.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 446.17,
+      "end": 451.17,
+      "text": "I might eat out a little bit too often,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 451.17,
+      "end": 455.17,
+      "text": "but try to eat as many vegetables as I can.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 455.17,
+      "end": 456.17,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 456.17,
+      "end": 460.17,
+      "text": "And do you smoke cigarettes at all?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 460.17,
+      "end": 462.17,
+      "text": "I do, yes.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 462.17,
+      "end": 466.17,
+      "text": "I've been smoking for the last 20 years, roughly.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 467.17,
+      "end": 472.17,
+      "text": "Okay, how much do you smoke on an average day?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 472.17,
+      "end": 475.17,
+      "text": "About a half a pack to a pack a day.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 475.17,
+      "end": 476.17,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 476.17,
+      "end": 479.17,
+      "text": "And do you drink?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 479.17,
+      "end": 481.17,
+      "text": "No alcohol.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 481.17,
+      "end": 482.17,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 482.17,
+      "end": 488.17,
+      "text": "And any recreational drugs like marijuana?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 488.17,
+      "end": 491.17,
+      "text": "No marijuana.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 491.17,
+      "end": 495.17,
+      "text": "But I have used crystal meth in the past.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 495.17,
+      "end": 502.17,
+      "text": "And when was the last time that you used crystal meth?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 502.17,
+      "end": 504.17,
+      "text": "Six days ago.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 504.17,
+      "end": 505.17,
+      "text": "Six days ago?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 505.17,
+      "end": 506.17,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 506.17,
+      "end": 510.17,
+      "text": "And how often do you use crystal meth?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 510.17,
+      "end": 515.17,
+      "text": "I would say a couple of times a month.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 515.17,
+      "end": 517.17,
+      "text": "A couple of times a month?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 517.17,
+      "end": 518.17,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 518.17,
+      "end": 522.17,
+      "text": "And for how long have you been using crystal meth?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 522.17,
+      "end": 527.17,
+      "text": "For the last seven years.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 527.17,
+      "end": 528.17,
+      "text": "Seven years?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 528.17,
+      "end": 529.17,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 529.17,
+      "end": 530.17,
+      "text": "All right.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 530.17,
+      "end": 531.17,
+      "text": "Thank you.",
+      "speaker": "Speaker 1"
+    }
+  ]
+}

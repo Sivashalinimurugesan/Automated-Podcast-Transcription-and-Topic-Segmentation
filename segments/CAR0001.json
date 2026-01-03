@@ -1,0 +1,737 @@
+{
+  "language": "en",
+  "topics": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 45.44,
+      "text": "brought you in today? Sure. I'm just having a lot of chest pain and so I thought I should get it checked out. Okay, and before we start, could you remind me of your gender and age? Sure, 39. I'm a male. Okay, and so when did this chest pain start? It started last night, but it's becoming sharper. Okay, and where is this pain located? It's located on the left side of my chest.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 8.88,
+          "text": "brought you in today? Sure. I'm just having a lot of chest pain and so I thought I should get it",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.38396406173706055
+        },
+        {
+          "start": 8.88,
+          "end": 23.52,
+          "text": "checked out. Okay, and before we start, could you remind me of your gender and age? Sure, 39. I'm a male.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9049914479255676
+        },
+        {
+          "start": 24.48,
+          "end": 36.16,
+          "text": "Okay, and so when did this chest pain start? It started last night, but it's becoming sharper.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.42364466190338135
+        },
+        {
+          "start": 37.76,
+          "end": 45.44,
+          "text": "Okay, and where is this pain located? It's located on the left side of my chest.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6705761551856995
+        }
+      ],
+      "summary": " I'm just having a lot of chest pain and so I thought I should get it checked out. It started last night, but it's becoming sharper. It's located on the left side of my chest.",
+      "tldr": " I'm just having a lot of chest pain and so I thought I should get it checked out. It started last night, but it's becoming sharper. It's located on the left side of my chest.",
+      "title": " I'm just having a lot of chest pain and so I thought I should get it checked out. It started last night, but it's becoming sharper. It's located on the left side of my chest.",
+      "bullets": [
+        "I'm just having a lot of chest pain and so I thought I should get it checked out",
+        "It started last night, but it's becoming sharper",
+        "It's located on the left side of my chest."
+      ],
+      "keywords": [
+        "chest pain",
+        "chest pain start",
+        "chest",
+        "pain start",
+        "pain"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.7067155838012695,
+      "emotion": "disgust",
+      "emotion_score": 0.41254156827926636
+    },
+    {
+      "id": 1,
+      "start": 46.4,
+      "end": 79.2,
+      "text": "Okay, and so how long has it been going on for then if it started last night? So I guess it would be a couple of hours now, maybe like eight. Okay, has it been constant throughout that time or changing? I would say it's been pretty constant. Yeah. Okay, and how would you describe",
+      "segments": [
+        {
+          "start": 46.4,
+          "end": 54.64,
+          "text": "Okay, and so how long has it been going on for then if it started last night?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8870424628257751
+        },
+        {
+          "start": 55.84,
+          "end": 67.04,
+          "text": "So I guess it would be a couple of hours now, maybe like eight. Okay, has it been constant throughout",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9576285481452942
+        },
+        {
+          "start": 67.04,
+          "end": 79.2,
+          "text": "that time or changing? I would say it's been pretty constant. Yeah. Okay, and how would you describe",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.888187050819397
+        }
+      ],
+      "summary": " How long has it been going on for then if it started last night? So I guess it would be a couple of hours now, maybe like eight . I would say it's been pretty constant. Okay, and how would you describe it?",
+      "tldr": " How long has it been going on for then if it started last night? So I guess",
+      "title": " How long has it been going on for then if it started",
+      "bullets": [
+        "How long has it been going on for then if it started last night? So I guess it would be a couple of hours now, maybe like eight",
+        "I would say it's been pretty constant",
+        "Okay, and how would you describe it?"
+      ],
+      "keywords": [
+        "pretty constant",
+        "started last night",
+        "couple of hours",
+        "constant",
+        "hours"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9978442192077637,
+      "emotion": "neutral",
+      "emotion_score": 0.8837544918060303
+    },
+    {
+      "id": 2,
+      "start": 79.2,
+      "end": 132.96,
+      "text": "the pain? People will use words sometimes like sharp burning, achy. I say it's pretty sharp, yeah. It's sharp. Okay, anything that you have done tried since last night that's made the pain better? Not laying down helps. Okay, so do you find laying down makes the pain worse? Yes, definitely. Okay, do you find that the pain is radiating anywhere? No. Okay, and is there anything else that makes the pain worse besides laying down? Not that I've noticed, no. Okay, so not like taking a deep breath",
+      "segments": [
+        {
+          "start": 79.2,
+          "end": 87.44,
+          "text": "the pain? People will use words sometimes like sharp burning, achy. I say it's pretty sharp,",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.7337967753410339
+        },
+        {
+          "start": 87.44,
+          "end": 97.44,
+          "text": "yeah. It's sharp. Okay, anything that you have done tried since last night that's made the pain",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5839958190917969
+        },
+        {
+          "start": 97.44,
+          "end": 109.28,
+          "text": "better? Not laying down helps. Okay, so do you find laying down makes the pain worse? Yes, definitely.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.9305930733680725
+        },
+        {
+          "start": 110.0,
+          "end": 122.96,
+          "text": "Okay, do you find that the pain is radiating anywhere? No. Okay, and is there anything else that makes",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4167948067188263
+        },
+        {
+          "start": 122.96,
+          "end": 132.96,
+          "text": "the pain worse besides laying down? Not that I've noticed, no. Okay, so not like taking a deep breath",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.8623714447021484
+        }
+      ],
+      "summary": " People will use words sometimes like sharp burning, achy, or sharp burning . Not laying down helps, but not laying down makes the pain worse, he says .",
+      "tldr": " People will use words sometimes like sharp burning, achy, or sharp burning . Not laying down helps, but not laying down makes the pain worse, he says .",
+      "title": " People will use words sometimes like sharp burning, achy, or sharp burning . Not laying down helps, but not laying down makes the pain worse, he says .",
+      "bullets": [
+        "People will use words sometimes like sharp burning, achy, or sharp burning",
+        "Not laying down helps, but not laying down makes the pain worse, he says ."
+      ],
+      "keywords": [
+        "pain worse",
+        "makes the pain",
+        "pain",
+        "laying",
+        "sharp burning"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.7945972084999084,
+      "emotion": "disgust",
+      "emotion_score": 0.8148913979530334
+    },
+    {
+      "id": 3,
+      "start": 133.12,
+      "end": 172.08,
+      "text": "or anything like that? Maybe taking a deep breath. Yeah. Okay, and one of the pains started, could you tell me, could you think of anything that you were doing at the time? I mean, I was moving some furniture around, but that I've done that before. Okay, so you didn't feel like you hurt yourself when you were doing that? No. Okay, and in regards to",
+      "segments": [
+        {
+          "start": 133.12,
+          "end": 142.64,
+          "text": "or anything like that? Maybe taking a deep breath. Yeah. Okay, and one of the pains started, could you",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5208051800727844
+        },
+        {
+          "start": 144.64,
+          "end": 147.92,
+          "text": "tell me, could you think of anything that you were doing at the time?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5243944525718689
+        },
+        {
+          "start": 151.68,
+          "end": 158.24,
+          "text": "I mean, I was moving some furniture around, but that I've done that before.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7619967460632324
+        },
+        {
+          "start": 158.24,
+          "end": 172.08,
+          "text": "Okay, so you didn't feel like you hurt yourself when you were doing that? No. Okay, and in regards to",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.30707716941833496
+        }
+      ],
+      "summary": " I was moving some furniture around, but that I've done that before. Maybe taking a deep breath. or anything like that? No. Okay, so you didn't feel like you hurt yourself when you were doing that .",
+      "tldr": " I was moving some furniture around, but that I've done that before. Maybe taking a deep breath. or anything like that? No. Okay, so you didn't feel like you hurt yourself when you were doing that .",
+      "title": " I was moving some furniture around, but that I've done that before. Maybe taking a deep breath. or anything like that? No. Okay, so you didn't feel like you hurt yourself when you were doing that .",
+      "bullets": [
+        "I was moving some furniture around, but that I've done that before",
+        "Maybe taking a deep breath",
+        "or anything like that? No",
+        "Okay, so you didn't feel like you hurt yourself when you were doing that ."
+      ],
+      "keywords": [
+        "pains",
+        "pains started",
+        "hurt",
+        "moving some furniture",
+        "feel"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.5824863910675049,
+      "emotion": "disgust",
+      "emotion_score": 0.37023061513900757
+    },
+    {
+      "id": 4,
+      "start": 172.56,
+      "end": 406.16,
+      "text": "how severe the pain is on a scale of 1 to 10, 10 being the worst pain you've ever felt, how severe would you say the pain is? I'd say it's like a seven or eight. It's pretty bad. Okay, and with the pain, do you have any other associated symptoms? I feel a little light-headed and I'm having some trouble breathing. Okay, have you had any loss of consciousness? No. Okay, have you been experiencing any, like, bracing of the heart? A little bit, yeah. Okay, and have you been sweaty at all? Just from the shirt, just from having issues breathing. Okay, have you been having issues breathing since the pain started? Yes. Okay, and recently, have you had any periods of time where you, like, have been immobilized or you haven't been, like, able to move around a lot? No. No. Okay, and have you been feeling sick at all, any infectious symptoms? No. Okay, have you had any nausea or vomiting? No. Any fevers or chills? No. Okay, how about any abdominal pain? No. Any urinary problems? No. Or bowel problems? Okay, have you had a cough? No. Okay, and you haven't brought up any blood? No. Have you had a wheeze with your difficulty breathing? No, not that I've heard. Okay, any changes to the, like, breath sounds at all, like, 90 noisy breathing? No. Well, I guess if I, when I'm really having trouble breathing, yeah. Okay. Has anything like this ever happened to you before? No. No. Okay. And have you had any night sweats? No. All right, and then how about any rashes or skin changes? No rashes, but I guess, like, my neck seems to be a little swollen. Okay. Do you have any neck pain? No. Okay, have you had any, like, accidents, like a car accident or anything where you really jerked your neck? No. Okay. Any trauma at all to the chest or back? No. No. Okay. So just in regards to past medical history, do you have any prior medical conditions? No. Okay. Any recent hospitalizations? No. Okay, any prior surgeries? No. Okay. Do you take any medications regularly? Are they prescribed or",
+      "segments": [
+        {
+          "start": 172.56,
+          "end": 178.8,
+          "text": "how severe the pain is on a scale of 1 to 10, 10 being the worst pain you've ever felt,",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.9420852661132812
+        },
+        {
+          "start": 179.6,
+          "end": 185.28,
+          "text": "how severe would you say the pain is? I'd say it's like a seven or eight. It's pretty bad.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.46046632528305054
+        },
+        {
+          "start": 185.28,
+          "end": 195.2,
+          "text": "Okay, and with the pain, do you have any other associated symptoms? I feel a little light-headed",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.8568334579467773
+        },
+        {
+          "start": 196.08,
+          "end": 212.8,
+          "text": "and I'm having some trouble breathing. Okay, have you had any loss of consciousness? No. Okay,",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.5219680070877075
+        },
+        {
+          "start": 212.8,
+          "end": 228.08,
+          "text": "have you been experiencing any, like, bracing of the heart? A little bit, yeah. Okay, and have you",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.75320965051651
+        },
+        {
+          "start": 228.08,
+          "end": 238.56,
+          "text": "been sweaty at all? Just from the shirt, just from having issues breathing. Okay, have you been having",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6019278764724731
+        },
+        {
+          "start": 238.64,
+          "end": 252.08,
+          "text": "issues breathing since the pain started? Yes. Okay, and recently, have you had any periods of time",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6805323958396912
+        },
+        {
+          "start": 252.08,
+          "end": 260.08,
+          "text": "where you, like, have been immobilized or you haven't been, like, able to move around a lot?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7887960076332092
+        },
+        {
+          "start": 261.04,
+          "end": 272.16,
+          "text": "No. No. Okay, and have you been feeling sick at all, any infectious symptoms? No.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.5002485513687134
+        },
+        {
+          "start": 273.6,
+          "end": 285.12,
+          "text": "Okay, have you had any nausea or vomiting? No. Any fevers or chills? No. Okay, how about any abdominal pain?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.5896201729774475
+        },
+        {
+          "start": 286.08,
+          "end": 292.48,
+          "text": "No. Any urinary problems? No. Or bowel problems?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.3627719581127167
+        },
+        {
+          "start": 294.48,
+          "end": 303.12,
+          "text": "Okay, have you had a cough? No. Okay, and you haven't brought up any blood? No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4007053077220917
+        },
+        {
+          "start": 306.16,
+          "end": 314.24,
+          "text": "Have you had a wheeze with your difficulty breathing? No, not that I've heard. Okay, any changes",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.48077794909477234
+        },
+        {
+          "start": 316.08,
+          "end": 322.88,
+          "text": "to the, like, breath sounds at all, like, 90 noisy breathing? No. Well, I guess if I, when I'm",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.38168060779571533
+        },
+        {
+          "start": 322.88,
+          "end": 330.08,
+          "text": "really having trouble breathing, yeah. Okay. Has anything like this ever happened to you before?",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.46827834844589233
+        },
+        {
+          "start": 331.44,
+          "end": 341.04,
+          "text": "No. No. Okay. And have you had any night sweats? No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.722571611404419
+        },
+        {
+          "start": 342.0,
+          "end": 351.6,
+          "text": "All right, and then how about any rashes or skin changes? No rashes, but I guess, like, my neck seems",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7803197503089905
+        },
+        {
+          "start": 351.6,
+          "end": 362.32,
+          "text": "to be a little swollen. Okay. Do you have any neck pain? No. Okay, have you had any, like,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.41303354501724243
+        },
+        {
+          "start": 362.32,
+          "end": 368.48,
+          "text": "accidents, like a car accident or anything where you really jerked your neck? No.",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.6182746887207031
+        },
+        {
+          "start": 368.8,
+          "end": 385.36,
+          "text": "Okay. Any trauma at all to the chest or back? No. No. Okay. So just in regards to past medical history,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.457036554813385
+        },
+        {
+          "start": 386.16,
+          "end": 397.52,
+          "text": "do you have any prior medical conditions? No. Okay. Any recent hospitalizations? No. Okay,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3639468848705292
+        },
+        {
+          "start": 397.52,
+          "end": 406.16,
+          "text": "any prior surgeries? No. Okay. Do you take any medications regularly? Are they prescribed or",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5467836856842041
+        }
+      ],
+      "summary": " How severe the pain is on a scale of 1 to 10, 10 being the worst pain you've ever felt, how severe would you say it's like a seven or eight . Do you have any previous medical conditions? No . Have you had any previous hospitalizations? No. No. Do you take any medications regularly? Are they prescribed or prescribed?",
+      "tldr": " Do you have any previous medical conditions? No . Have you had any previous hospitalizations? No. Do you take any medications regularly?",
+      "title": " Do you have any previous medical conditions? No . Have you",
+      "bullets": [
+        "How severe the pain is on a scale of 1 to 10, 10 being the worst pain you've ever felt, how severe would you say it's like a seven or eight",
+        "Do you have any previous medical conditions? No",
+        "Have you had any previous hospitalizations? No",
+        "No",
+        "Do you take any medications regularly? Are they prescribed or prescribed?"
+      ],
+      "keywords": [
+        "issues breathing",
+        "symptoms",
+        "trouble breathing",
+        "severe the pain",
+        "neck pain"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9988501071929932,
+      "emotion": "disgust",
+      "emotion_score": 0.8618015050888062
+    },
+    {
+      "id": 5,
+      "start": 406.16,
+      "end": 441.95,
+      "text": "over the counter? No. All right. How about any allergies to medications? None. All right. Any immunizations or are they up to date? They're all up to date. Excellent. Great. And could you tell me a little bit about your living situation currently? Sure. I live in an apartment by myself. Yep, that's about it.",
+      "segments": [
+        {
+          "start": 406.16,
+          "end": 417.76,
+          "text": "over the counter? No. All right. How about any allergies to medications? None. All right. Any immunizations",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8922288417816162
+        },
+        {
+          "start": 417.76,
+          "end": 428.4,
+          "text": "or are they up to date? They're all up to date. Excellent. Great. And could you tell me a little bit",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.779278576374054
+        },
+        {
+          "start": 428.4,
+          "end": 441.95,
+          "text": "about your living situation currently? Sure. I live in an apartment by myself. Yep, that's about it.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8647099137306213
+        }
+      ],
+      "summary": " Any allergies to medications? None . Any immunizations or are they up-to-date? No. over the counter? No . No. None. No. allergic reactions to medications .",
+      "tldr": " Any allergies to medications? None . Any immunizations or are they up-to-date? No. over the counter? No . No. None. No. allergic reactions to medications .",
+      "title": " Any allergies to medications? None . Any immunizations or are they up-to-date? No. over the counter? No . No. None. No. allergic reactions to medications .",
+      "bullets": [
+        "Any allergies to medications? None",
+        "Any immunizations or are they up-to-date? No",
+        "over the counter? No",
+        "No",
+        "None",
+        "No",
+        "allergic reactions to medications ."
+      ],
+      "keywords": [
+        "allergies to medications",
+        "allergies",
+        "immunizations",
+        "medications",
+        "apartment"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9995369911193848,
+      "emotion": "neutral",
+      "emotion_score": 0.7043651938438416
+    },
+    {
+      "id": 6,
+      "start": 442.67,
+      "end": 519.79,
+      "text": "Okay. And how do you support yourself financially? I'm an accountant. Okay. Sounds like a pretty stressful job or that it can be. Do you smoke cigarettes? I do. Okay. And how much do you smoke? Smoke about a pack a day. Okay. How long have you been smoking for? For the past 10 to 15 years. Okay. And do you smoke cannabis? Sometimes. How much marijuana would you smoke per week? Per week? Maybe about five milligrams, not that much. Okay. And do you use any other recreational drugs? Like cocaine, crystal meth, opioids? No. Okay. Have you used IV drugs before? No. Okay. And do you drink alcohol? I do. Okay. How much alcohol do you drink each",
+      "segments": [
+        {
+          "start": 442.67,
+          "end": 448.67,
+          "text": "Okay. And how do you support yourself financially?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5237314105033875
+        },
+        {
+          "start": 449.87,
+          "end": 461.07,
+          "text": "I'm an accountant. Okay. Sounds like a pretty stressful job or that it can be. Do you smoke cigarettes?",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.4321678578853607
+        },
+        {
+          "start": 461.71,
+          "end": 471.63,
+          "text": "I do. Okay. And how much do you smoke? Smoke about a pack a day. Okay. How long have you been",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4578324854373932
+        },
+        {
+          "start": 471.63,
+          "end": 481.79,
+          "text": "smoking for? For the past 10 to 15 years. Okay. And do you smoke cannabis? Sometimes.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6087431907653809
+        },
+        {
+          "start": 483.39,
+          "end": 492.83,
+          "text": "How much marijuana would you smoke per week? Per week? Maybe about five milligrams, not that much.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.851935088634491
+        },
+        {
+          "start": 493.79,
+          "end": 504.03,
+          "text": "Okay. And do you use any other recreational drugs? Like cocaine, crystal meth, opioids? No.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.4864636957645416
+        },
+        {
+          "start": 504.67,
+          "end": 519.79,
+          "text": "Okay. Have you used IV drugs before? No. Okay. And do you drink alcohol? I do. Okay. How much alcohol do you drink each",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.2892741560935974
+        }
+      ],
+      "summary": " Do you smoke cigarettes? I do. Smoke about a pack a day. How long have you been smoking for? For the past 10 to 15 years. And do you smoke cannabis? Sometimes. How much marijuana would you smoke per week? Per week? Maybe about five milligrams, not that much. Do you use any other recreational drugs? Like cocaine, crystal meth, opioids? No. Have you used IV drugs before?",
+      "tldr": " Do you smoke cigarettes? Smoke about a pack a day . Do you use any other recreational drugs? No. Have you used IV drugs before? Have you",
+      "title": " Do you smoke cigarettes? Smoke about a pack a day .",
+      "bullets": [
+        "Do you smoke cigarettes? I do",
+        "Smoke about a pack a day",
+        "How long have you been smoking for? For the past 10 to 15 years",
+        "And do you smoke cannabis? Sometimes",
+        "How much marijuana would you smoke per week? Per week? Maybe about five milligrams, not that much",
+        "Do you use any other recreational drugs? Like cocaine, crystal meth, opioids? No",
+        "Have you used IV drugs before?"
+      ],
+      "keywords": [
+        "support yourself financially",
+        "smoke cigarettes",
+        "smoke cannabis",
+        "cigarettes",
+        "accountant"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.998029887676239,
+      "emotion": "neutral",
+      "emotion_score": 0.6587011814117432
+    },
+    {
+      "id": 7,
+      "start": 519.79,
+      "end": 563.07,
+      "text": "week? About, I say, I have like one or two drinks a day. So about 10 drinks a week. Okay. And then briefly, could you tell me a little bit about your diet and exercise? Sure. I try to eat healthy for dinner at least, but most of my lunches are, I eat out. And then in terms of exercise, I try to exercise every other day, I run for about half an hour. Okay. Oh, that's great.",
+      "segments": [
+        {
+          "start": 519.79,
+          "end": 529.63,
+          "text": "week? About, I say, I have like one or two drinks a day. So about 10 drinks a week.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.854185938835144
+        },
+        {
+          "start": 530.91,
+          "end": 541.71,
+          "text": "Okay. And then briefly, could you tell me a little bit about your diet and exercise?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8795667290687561
+        },
+        {
+          "start": 542.67,
+          "end": 554.75,
+          "text": "Sure. I try to eat healthy for dinner at least, but most of my lunches are, I eat out. And then in terms of",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9360190033912659
+        },
+        {
+          "start": 554.75,
+          "end": 563.07,
+          "text": "exercise, I try to exercise every other day, I run for about half an hour. Okay. Oh, that's great.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5484122633934021
+        }
+      ],
+      "summary": " I try to eat healthy for dinner at least, but most of my lunches are, I eat out . I exercise every other day, I run for about half an hour . I have like one or two drinks a day, so about 10 drinks a week .",
+      "tldr": " I try to eat healthy for dinner at least, but most of my lunches are, I eat out",
+      "title": " I exercise every other day, I run for about half an",
+      "bullets": [
+        "I try to eat healthy for dinner at least, but most of my lunches are, I eat out",
+        "I exercise every other day, I run for about half an hour",
+        "I have like one or two drinks a day, so about 10 drinks a week ."
+      ],
+      "keywords": [
+        "drinks a week",
+        "drinks a day",
+        "diet",
+        "week",
+        "healthy"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.989180862903595,
+      "emotion": "neutral",
+      "emotion_score": 0.8505881428718567
+    },
+    {
+      "id": 8,
+      "start": 563.23,
+      "end": 625.63,
+      "text": "You've been working on the activity and the diets as well. So has anything like this happened in your family before? No. Okay. Has anybody in the family had a heart attack before? Actually, yes. My father had a heart attack when he was 45. Okay. And anybody in the family have cholesterol problems? I think my father did. I see. Okay. And how about anybody in the family have stroke? No strokes. Okay. And then any cancers in the family? No. Okay. Okay. Was there anything else that you wanted to tell me about today that on history? No, I don't think so. I think you asked me everything.",
+      "segments": [
+        {
+          "start": 563.23,
+          "end": 572.43,
+          "text": "You've been working on the activity and the diets as well. So has anything like this happened",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9039605259895325
+        },
+        {
+          "start": 572.43,
+          "end": 578.83,
+          "text": "in your family before? No. Okay. Has anybody in the family had a heart attack before?",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.4967578649520874
+        },
+        {
+          "start": 580.91,
+          "end": 589.15,
+          "text": "Actually, yes. My father had a heart attack when he was 45. Okay. And anybody in the family have",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.639381468296051
+        },
+        {
+          "start": 590.11,
+          "end": 599.31,
+          "text": "cholesterol problems? I think my father did. I see. Okay. And how about anybody in the family have",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8338362574577332
+        },
+        {
+          "start": 599.95,
+          "end": 609.47,
+          "text": "stroke? No strokes. Okay. And then any cancers in the family? No. Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6702368259429932
+        },
+        {
+          "start": 609.95,
+          "end": 619.23,
+          "text": "Okay. Was there anything else that you wanted to tell me about today that on history?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9157345294952393
+        },
+        {
+          "start": 621.23,
+          "end": 625.63,
+          "text": "No, I don't think so. I think you asked me everything.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5739169716835022
+        }
+      ],
+      "summary": " Has anybody in the family had a heart attack before? Actually, yes, yes. My father had a . heart attack when he was 45. Okay. And how about anybody in . the family have stroke? No strokes. And then any cancers in the . family? No . Okay. I think you asked me everything.",
+      "tldr": " Has anybody in the family had a heart attack before? Actually, yes, yes. My father had a . heart attack",
+      "title": " Has anybody in the family had a heart attack before? Actually",
+      "bullets": [
+        "Has anybody in the family had a heart attack before? Actually, yes, yes",
+        "My father had a",
+        "heart attack when he was 45",
+        "Okay",
+        "And how about anybody in",
+        "the family have stroke? No strokes",
+        "And then any cancers in the",
+        "family? No",
+        "Okay",
+        "I think you asked me everything."
+      ],
+      "keywords": [
+        "cholesterol",
+        "heart attack",
+        "diets",
+        "stroke",
+        "family"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9836419820785522,
+      "emotion": "neutral",
+      "emotion_score": 0.5129132866859436
+    }
+  ]
+}

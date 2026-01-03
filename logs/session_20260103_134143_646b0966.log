@@ -1,0 +1,40 @@
+2026-01-03 13:41:43 - root - INFO - New Session Started: 20260103_134143_646b0966
+2026-01-03 13:41:43 - __main__ - INFO - UI Triggered Processing for CAR0001.mp3
+2026-01-03 13:41:43 - preprocessing - INFO - Processing CAR0001.mp3...
+2026-01-03 13:41:51 - preprocessing - INFO - Applying noise reduction...
+2026-01-03 13:42:03 - preprocessing - INFO - Normalizing audio...
+2026-01-03 13:42:03 - preprocessing - INFO - Saved processed audio to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\CAR0001_processed.wav
+2026-01-03 13:42:03 - transcription - INFO - Transcribing F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\CAR0001_processed.wav...
+2026-01-03 13:42:04 - faster_whisper - INFO - Processing audio with duration 10:25.769
+2026-01-03 13:42:08 - faster_whisper - INFO - VAD filter removed 00:03.392 of audio
+2026-01-03 13:42:11 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2026-01-03 13:44:52 - transcription - INFO - Transcription complete. Detected language: en (probability: 1.00)
+2026-01-03 13:44:52 - transcription - INFO - Saved transcript to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\transcripts\CAR0001_processed.txt
+2026-01-03 13:44:52 - transcription - INFO - Saved segments to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\segments\CAR0001_processed.json
+2026-01-03 13:44:52 - segmentation - INFO - Segmenting 59 segments...
+2026-01-03 13:44:58 - segmentation - INFO - Similarity stats: Mean=0.486, Std=0.145, Threshold=0.414
+2026-01-03 13:44:58 - segmentation - INFO - Found 9 topics.
+2026-01-03 13:44:58 - summarization - INFO - Summarizing 9 topics...
+2026-01-03 13:45:09 - summarization - INFO - Summarized Topic 0
+2026-01-03 13:45:29 - summarization - INFO - Summarized Topic 1
+2026-01-03 13:45:37 - summarization - INFO - Summarized Topic 2
+2026-01-03 13:45:48 - summarization - INFO - Summarized Topic 3
+2026-01-03 13:46:16 - summarization - INFO - Summarized Topic 4
+2026-01-03 13:46:24 - summarization - INFO - Summarized Topic 5
+2026-01-03 13:46:50 - summarization - INFO - Summarized Topic 6
+2026-01-03 13:47:08 - summarization - INFO - Summarized Topic 7
+2026-01-03 13:47:30 - summarization - INFO - Summarized Topic 8
+2026-01-03 13:47:30 - keyword_extraction - INFO - Extracting keywords for 9 topics...
+2026-01-03 13:47:30 - keyword_extraction - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2...
+2026-01-03 13:47:30 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-03 13:47:30 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-03 13:47:34 - sentiment_analysis - INFO - Starting analysis on 9 topics...
+2026-01-03 13:47:45 - sentiment_analysis - INFO - Topic analysis completed.
+2026-01-03 13:47:45 - indexing - INFO - Loading Indexing Model: all-MiniLM-L6-v2...
+2026-01-03 13:47:45 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-03 13:47:47 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-03 13:47:47 - indexing - INFO - Indexing 9 topics...
+2026-01-03 13:47:48 - indexing - INFO - Topic indexing complete.
+2026-01-03 13:49:19 - chatbot - INFO - Intent Detection: 'SPECIFIC' (default) for 'say your gender and age'
+2026-01-03 13:49:19 - chatbot - INFO - Processing Query: 'say your gender and age' | Detected Intent: SPECIFIC
+2026-01-03 13:49:19 - chatbot - INFO - Detected SPECIFIC intent. Searching top 5.

@@ -1,0 +1,56 @@
+2026-01-03 14:08:23 - root - INFO - New Session Started: 20260103_140823_626de8c2
+2026-01-03 14:08:23 - __main__ - INFO - UI Triggered Processing for CAR0002.mp3
+2026-01-03 14:08:23 - preprocessing - INFO - Processing CAR0002.mp3...
+2026-01-03 14:08:29 - preprocessing - INFO - Applying noise reduction...
+2026-01-03 14:08:39 - preprocessing - INFO - Normalizing audio...
+2026-01-03 14:08:40 - preprocessing - INFO - Saved processed audio to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\CAR0002_processed.wav
+2026-01-03 14:08:40 - transcription - INFO - Transcribing F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\CAR0002_processed.wav...
+2026-01-03 14:08:41 - faster_whisper - INFO - Processing audio with duration 08:50.351
+2026-01-03 14:08:45 - faster_whisper - INFO - VAD filter removed 00:07.168 of audio
+2026-01-03 14:08:49 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2026-01-03 14:11:05 - transcription - INFO - Transcription complete. Detected language: en (probability: 1.00)
+2026-01-03 14:11:05 - transcription - INFO - Saved transcript to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\transcripts\CAR0002_processed.txt
+2026-01-03 14:11:05 - transcription - INFO - Saved segments to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\segments\CAR0002_processed.json
+2026-01-03 14:11:05 - segmentation - INFO - Segmenting 124 segments...
+2026-01-03 14:11:11 - segmentation - INFO - Similarity stats: Mean=0.484, Std=0.142, Threshold=0.413
+2026-01-03 14:11:11 - segmentation - INFO - Found 14 topics.
+2026-01-03 14:11:11 - summarization - INFO - Summarizing 14 topics...
+2026-01-03 14:11:20 - summarization - INFO - Summarized Topic 0
+2026-01-03 14:11:42 - summarization - INFO - Summarized Topic 1
+2026-01-03 14:12:02 - summarization - INFO - Summarized Topic 2
+2026-01-03 14:12:07 - summarization - INFO - Summarized Topic 3
+2026-01-03 14:12:14 - summarization - INFO - Summarized Topic 4
+2026-01-03 14:12:26 - summarization - INFO - Summarized Topic 5
+2026-01-03 14:12:43 - summarization - INFO - Summarized Topic 6
+2026-01-03 14:13:01 - summarization - INFO - Summarized Topic 7
+2026-01-03 14:13:16 - summarization - INFO - Summarized Topic 8
+2026-01-03 14:13:24 - summarization - INFO - Summarized Topic 9
+2026-01-03 14:13:38 - summarization - INFO - Summarized Topic 10
+2026-01-03 14:13:46 - summarization - INFO - Summarized Topic 11
+2026-01-03 14:13:53 - summarization - INFO - Summarized Topic 12
+2026-01-03 14:13:53 - summarization - INFO - Summarized Topic 13
+2026-01-03 14:13:53 - keyword_extraction - INFO - Extracting keywords for 14 topics...
+2026-01-03 14:13:53 - keyword_extraction - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2...
+2026-01-03 14:13:53 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-03 14:13:54 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-03 14:13:59 - sentiment_analysis - INFO - Starting analysis on 14 topics...
+2026-01-03 14:14:11 - sentiment_analysis - INFO - Topic analysis completed.
+2026-01-03 14:44:00 - transcription - INFO - Loading Faster-Whisper model: base on cpu with int8
+2026-01-03 14:44:04 - segmentation - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2026-01-03 14:44:04 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-03 14:44:05 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-03 14:44:05 - summarization - INFO - Loading Summarization model: sshleifer/distilbart-cnn-12-6 on CPU
+2026-01-03 14:44:19 - sentiment_analysis - INFO - Initializing SentimentAnalysisAgent on CPU...
+2026-01-03 14:44:19 - sentiment_analysis - INFO - Loading Sentiment Model: distilbert-base-uncased-finetuned-sst-2-english
+2026-01-03 14:44:21 - sentiment_analysis - INFO - Loading Emotion Model: j-hartmann/emotion-english-distilroberta-base
+2026-01-03 14:44:24 - sentiment_analysis - INFO - All models loaded successfully.
+2026-01-03 14:44:24 - chatbot - INFO - Initializing Chatbot on CPU with model: google/flan-t5-base...
+2026-01-03 14:44:33 - chatbot - INFO - Chatbot model loaded successfully.
+2026-01-03 14:45:46 - indexing - INFO - Loading Indexing Model: all-MiniLM-L6-v2...
+2026-01-03 14:45:46 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-03 14:45:47 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-03 14:45:47 - indexing - INFO - Indexing 9 topics...
+2026-01-03 14:45:47 - indexing - INFO - Topic indexing complete.
+2026-01-03 14:46:28 - chatbot - INFO - Intent Detection: 'SPECIFIC' (default) for 'what is my gender'
+2026-01-03 14:46:28 - chatbot - INFO - Processing Query: 'what is my gender' | Detected Intent: SPECIFIC
+2026-01-03 14:46:28 - chatbot - INFO - Detected SPECIFIC intent. Searching top 5.

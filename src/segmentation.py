@@ -128,7 +128,8 @@ class TopicSegmenter:
                 "id": topic_id,
                 "start": start_t,
                 "end": end_t,
-                "text": text
+                "text": text,
+                "segments": chunk
             })
             topic_id += 1
             
@@ -143,5 +144,6 @@ class TopicSegmenter:
             "id": 0,
             "start": segments[0]['start'],
             "end": segments[-1]['end'],
-            "text": text
+            "text": text,
+            "segments": segments
         }]
