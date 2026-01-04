@@ -1,0 +1,43 @@
+2026-01-03 19:57:28 - root - INFO - New Session Started: 20260103_195728_42a323f5
+2026-01-03 19:57:28 - __main__ - INFO - UI Triggered Processing for CAR0004.mp3
+2026-01-03 19:57:28 - preprocessing - INFO - Processing CAR0004.mp3...
+2026-01-03 19:57:35 - preprocessing - INFO - Applying noise reduction...
+2026-01-03 19:57:44 - preprocessing - INFO - Normalizing audio...
+2026-01-03 19:57:45 - preprocessing - INFO - Saved processed audio to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\CAR0004_processed.wav
+2026-01-03 19:57:45 - transcription - INFO - Transcribing F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\CAR0004_processed.wav...
+2026-01-03 19:57:45 - faster_whisper - INFO - Processing audio with duration 07:28.294
+2026-01-03 19:57:50 - faster_whisper - INFO - VAD filter removed 00:36.640 of audio
+2026-01-03 19:57:52 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2026-01-03 20:00:55 - transcription - INFO - Transcription complete. Detected language: en (probability: 1.00)
+2026-01-03 20:00:55 - transcription - INFO - Initializing Diarization Pipeline (pyannote.audio)...
+2026-01-03 20:00:55 - transcription - ERROR - pyannote.audio not installed. Cannot perform diarization.
+2026-01-03 20:00:55 - transcription - INFO - Saved transcript to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\transcripts\CAR0004_processed.txt
+2026-01-03 20:00:55 - transcription - INFO - Saved segments to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\segments\CAR0004_processed.json
+2026-01-03 20:00:55 - segmentation - INFO - Segmenting 146 segments...
+2026-01-03 20:01:02 - segmentation - INFO - Similarity stats: Mean=0.477, Std=0.142, Threshold=0.406
+2026-01-03 20:01:02 - segmentation - INFO - Found 11 topics.
+2026-01-03 20:01:02 - summarization - INFO - Summarizing 11 topics...
+2026-01-03 20:01:25 - summarization - INFO - Summarized Topic 0
+2026-01-03 20:01:34 - summarization - INFO - Summarized Topic 1
+2026-01-03 20:01:56 - summarization - INFO - Summarized Topic 2
+2026-01-03 20:02:17 - summarization - INFO - Summarized Topic 3
+2026-01-03 20:02:24 - summarization - INFO - Summarized Topic 4
+2026-01-03 20:02:34 - summarization - INFO - Summarized Topic 5
+2026-01-03 20:02:43 - summarization - INFO - Summarized Topic 6
+2026-01-03 20:02:52 - summarization - INFO - Summarized Topic 7
+2026-01-03 20:03:02 - summarization - INFO - Summarized Topic 8
+2026-01-03 20:03:13 - summarization - INFO - Summarized Topic 9
+2026-01-03 20:03:13 - summarization - INFO - Summarized Topic 10
+2026-01-03 20:03:13 - keyword_extraction - INFO - Extracting keywords for 11 topics...
+2026-01-03 20:03:13 - keyword_extraction - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2...
+2026-01-03 20:03:13 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-03 20:03:13 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-03 20:03:16 - sentiment_analysis - INFO - Starting analysis on 11 topics...
+2026-01-03 20:03:26 - sentiment_analysis - INFO - Topic analysis completed.
+2026-01-03 20:03:26 - indexing - INFO - Loading Indexing Model: all-MiniLM-L6-v2...
+2026-01-03 20:03:26 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-03 20:03:27 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-03 20:03:27 - indexing - INFO - Indexing 11 topics...
+2026-01-03 20:03:27 - indexing - INFO - Topic indexing complete.
+2026-01-03 20:03:29 - indexing - INFO - Indexing 11 topics...
+2026-01-03 20:03:30 - indexing - INFO - Topic indexing complete.

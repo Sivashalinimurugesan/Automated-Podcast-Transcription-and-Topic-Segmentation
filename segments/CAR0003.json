@@ -1,0 +1,2036 @@
+{
+  "language": "en",
+  "topics": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 33.17,
+      "text": "What brings you in here today? Um, yeah, I've just been feeling breathless and it's getting worse, so I want to check it out. Okay, and when did you first start feeling breathless? About two months ago. Okay, and did it come on about like gradually through time or suddenly just happened? Um, I guess gradually, yeah.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.44,
+          "text": "What brings you in here today?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5253604054450989
+        },
+        {
+          "start": 2.44,
+          "end": 11.08,
+          "text": "Um, yeah, I've just been feeling breathless and it's getting worse, so I want to check it",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.9916369318962097
+        },
+        {
+          "start": 11.08,
+          "end": 12.08,
+          "text": "out.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3792840242385864
+        },
+        {
+          "start": 12.08,
+          "end": 16.28,
+          "text": "Okay, and when did you first start feeling breathless?",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.9908665418624878
+        },
+        {
+          "start": 16.28,
+          "end": 18.92,
+          "text": "About two months ago.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.720180332660675
+        },
+        {
+          "start": 18.92,
+          "end": 26.4,
+          "text": "Okay, and did it come on about like gradually through time or suddenly just happened?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.544143795967102
+        },
+        {
+          "start": 26.4,
+          "end": 33.17,
+          "text": "Um, I guess gradually, yeah.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7872994542121887
+        }
+      ],
+      "summary": " What brings you in here today? Um, yeah, I've just been feeling breathless and it's getting worse, so I want to check it out . About two months ago, when did you first start feeling breathlessly? About 2 months ago? When did it come on gradually through time or suddenly just happened?",
+      "tldr": " About two months ago, when did you first start feeling breathlessly? About 2 months ago? When did it come",
+      "title": " About two months ago, when did you first start feeling breath",
+      "bullets": [
+        "What brings you in here today? Um, yeah, I've just been feeling breathless and it's getting worse, so I want to check it out",
+        "About two months ago, when did you first start feeling breathlessly? About 2 months ago? When did it come on gradually through time or suddenly just happened?"
+      ],
+      "keywords": [
+        "feeling breathless",
+        "start feeling breathless",
+        "breathless",
+        "start feeling",
+        "feeling"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9903801679611206,
+      "emotion": "fear",
+      "emotion_score": 0.9866156578063965
+    },
+    {
+      "id": 1,
+      "start": 33.17,
+      "end": 65.81,
+      "text": "And do you feel, how often do you feel breathless? Um, I'd say it's worse when I walk more than 50 meters. That's kind of the main trigger, just exertion. Okay, and were you able to walk normally more than 50 meters before two months? Yeah, three months ago I was fine. Okay.",
+      "segments": [
+        {
+          "start": 33.17,
+          "end": 38.61,
+          "text": "And do you feel, how often do you feel breathless?",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.9851837158203125
+        },
+        {
+          "start": 38.61,
+          "end": 47.57,
+          "text": "Um, I'd say it's worse when I walk more than 50 meters.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.9539009928703308
+        },
+        {
+          "start": 47.57,
+          "end": 52.09,
+          "text": "That's kind of the main trigger, just exertion.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9124294519424438
+        },
+        {
+          "start": 52.09,
+          "end": 59.21,
+          "text": "Okay, and were you able to walk normally more than 50 meters before two months?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6908933520317078
+        },
+        {
+          "start": 59.21,
+          "end": 62.81,
+          "text": "Yeah, three months ago I was fine.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.603918194770813
+        },
+        {
+          "start": 62.81,
+          "end": 65.81,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        }
+      ],
+      "summary": " How often do you feel breathless? Um, I'd say it's worse when I walk more than 50 meters . That's kind of the main trigger, just exertion .",
+      "tldr": " How often do you feel breathless? Um, I'd say it's worse when I walk more than 50 meters . That's kind of the main trigger, just exertion .",
+      "title": " How often do you feel breathless? Um, I'd say it's worse when I walk more than 50 meters . That's kind of the main trigger, just exertion .",
+      "bullets": [
+        "How often do you feel breathless? Um, I'd say it's worse when I walk more than 50 meters",
+        "That's kind of the main trigger, just exertion ."
+      ],
+      "keywords": [
+        "feel breathless",
+        "breathless",
+        "exertion",
+        "walk",
+        "months"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9989849925041199,
+      "emotion": "fear",
+      "emotion_score": 0.9727076888084412
+    },
+    {
+      "id": 2,
+      "start": 65.81,
+      "end": 96.22,
+      "text": "And do you have any other symptoms like cough or chest pain? I have a cough sometimes, yeah. Okay, but nothing like a constant? No. Okay. Um, do you have any, uh, wet cough or any productive cough or you're, um, producing like speutone or flam? Yeah, I guess I'd say I have this frothy speutone. Okay.",
+      "segments": [
+        {
+          "start": 65.81,
+          "end": 68.61,
+          "text": "And do you have any other symptoms like cough or chest pain?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5957144498825073
+        },
+        {
+          "start": 68.61,
+          "end": 72.94,
+          "text": "I have a cough sometimes, yeah.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.37343472242355347
+        },
+        {
+          "start": 72.94,
+          "end": 77.1,
+          "text": "Okay, but nothing like a constant?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.5242977738380432
+        },
+        {
+          "start": 77.1,
+          "end": 78.1,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 78.1,
+          "end": 79.1,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 79.1,
+          "end": 88.3,
+          "text": "Um, do you have any, uh, wet cough or any productive cough or you're, um, producing like",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7937187552452087
+        },
+        {
+          "start": 88.3,
+          "end": 89.78,
+          "text": "speutone or flam?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8889997601509094
+        },
+        {
+          "start": 89.78,
+          "end": 95.22,
+          "text": "Yeah, I guess I'd say I have this frothy speutone.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.53371661901474
+        },
+        {
+          "start": 95.22,
+          "end": 96.22,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        }
+      ],
+      "summary": " Do you have any other symptoms like cough or chest pain? I have a cough sometimes, yeah. I have this frothy speutone. Okay, but nothing like a constant? No. No. Okay. And do you have, uh, wet cough or any productive cough or you're, um, producing like flam?",
+      "tldr": " Do you have any other symptoms like cough or chest pain? I have this frothy speutone.",
+      "title": " Do you have any other symptoms like cough or chest pain?",
+      "bullets": [
+        "Do you have any other symptoms like cough or chest pain? I have a cough sometimes, yeah",
+        "I have this frothy speutone",
+        "Okay, but nothing like a constant? No",
+        "No",
+        "Okay",
+        "And do you have, uh, wet cough or any productive cough or you're, um, producing like flam?"
+      ],
+      "keywords": [
+        "symptoms like cough",
+        "cough or chest",
+        "wet cough",
+        "productive cough",
+        "chest pain"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9987666606903076,
+      "emotion": "disgust",
+      "emotion_score": 0.4804525375366211
+    },
+    {
+      "id": 3,
+      "start": 96.22,
+      "end": 126.23,
+      "text": "And as your breathlessness, uh, again, I've been getting any worse at all over the last two months? Uh, I would say so, yes. Okay. And you mentioned like exertion makes it worse, but anything else like, uh, going outside or, um, exposure to any chemicals that makes it worse? I know, I don't think so. Okay. And how about, uh, positional changes?",
+      "segments": [
+        {
+          "start": 96.22,
+          "end": 102.98,
+          "text": "And as your breathlessness, uh, again, I've been getting any worse at all over the last two",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6882407069206238
+        },
+        {
+          "start": 102.98,
+          "end": 103.98,
+          "text": "months?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5545974969863892
+        },
+        {
+          "start": 103.98,
+          "end": 107.22,
+          "text": "Uh, I would say so, yes.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7838353514671326
+        },
+        {
+          "start": 107.22,
+          "end": 108.22,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 108.7,
+          "end": 114.38,
+          "text": "And you mentioned like exertion makes it worse, but anything else like, uh, going outside",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.8987123370170593
+        },
+        {
+          "start": 114.38,
+          "end": 118.94,
+          "text": "or, um, exposure to any chemicals that makes it worse?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.9021473526954651
+        },
+        {
+          "start": 118.94,
+          "end": 123.19,
+          "text": "I know, I don't think so.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7039216160774231
+        },
+        {
+          "start": 123.19,
+          "end": 124.19,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 124.19,
+          "end": 126.23,
+          "text": "And how about, uh, positional changes?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9064105749130249
+        }
+      ],
+      "summary": " As your breathlessness, uh, again, I've been getting any worse at all over the last two months? Uh, I would say so, yes. Okay. And you mentioned like exertion makes it worse, but anything else like going outside or exposure to any chemicals that causes it to get worse? I know, I don't think so.",
+      "tldr": " As your breathlessness,  again, again, I've been getting any worse at all over the last two months?",
+      "title": " As your breathlessness,  again, again, I've",
+      "bullets": [
+        "As your breathlessness, uh, again, I've been getting any worse at all over the last two months? Uh, I would say so, yes",
+        "Okay",
+        "And you mentioned like exertion makes it worse, but anything else like going outside or exposure to any chemicals that causes it to get worse? I know, I don't think so."
+      ],
+      "keywords": [
+        "breathlessness",
+        "mentioned like exertion",
+        "exertion",
+        "exertion makes",
+        "makes it worse"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.997215747833252,
+      "emotion": "disgust",
+      "emotion_score": 0.7322477102279663
+    },
+    {
+      "id": 4,
+      "start": 126.23,
+      "end": 157.91,
+      "text": "Does lying flat at all make it worse? I would say so, yes. Yeah, I'm basically gasping for air when I lay, lay down. Okay. So do you ever find yourself waking up at night in the middle of the night to catch your breath? No. No? No? Okay. And when do you feel the breathlessness the most is it more so during the day or, uh, at night? Uh, I guess it's worse at night because I'm laying down.",
+      "segments": [
+        {
+          "start": 126.23,
+          "end": 129.75,
+          "text": "Does lying flat at all make it worse?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.8368632197380066
+        },
+        {
+          "start": 129.75,
+          "end": 131.35,
+          "text": "I would say so, yes.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7341711521148682
+        },
+        {
+          "start": 131.35,
+          "end": 136.35,
+          "text": "Yeah, I'm basically gasping for air when I lay, lay down.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4305818974971771
+        },
+        {
+          "start": 136.35,
+          "end": 137.35,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 137.35,
+          "end": 141.31,
+          "text": "So do you ever find yourself waking up at night in the middle of the night to catch",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.47584405541419983
+        },
+        {
+          "start": 141.31,
+          "end": 142.31,
+          "text": "your breath?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.9103101491928101
+        },
+        {
+          "start": 142.31,
+          "end": 143.31,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 143.31,
+          "end": 144.31,
+          "text": "No?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.8834956884384155
+        },
+        {
+          "start": 144.31,
+          "end": 145.31,
+          "text": "No?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.8834956884384155
+        },
+        {
+          "start": 145.31,
+          "end": 146.31,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 146.31,
+          "end": 152.79,
+          "text": "And when do you feel the breathlessness the most is it more so during the day or, uh, at",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.972588837146759
+        },
+        {
+          "start": 152.79,
+          "end": 153.79,
+          "text": "night?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6682447791099548
+        },
+        {
+          "start": 153.79,
+          "end": 157.91,
+          "text": "Uh, I guess it's worse at night because I'm laying down.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.7635954022407532
+        }
+      ],
+      "summary": " Does lying flat at all make it worse? I would say so, yes. Yeah, I'm basically gasping for air when I lay, lay down. Okay. So do you ever find yourself waking up at night in the middle of the night to catch your breath?",
+      "tldr": " Does lying flat at all make it worse? I would say so, yes. Yeah, I",
+      "title": " I'm basically gasping for air when I lay, lay",
+      "bullets": [
+        "Does lying flat at all make it worse? I would say so, yes",
+        "Yeah, I'm basically gasping for air when I lay, lay down",
+        "Okay",
+        "So do you ever find yourself waking up at night in the middle of the night to catch your breath?"
+      ],
+      "keywords": [
+        "lying flat",
+        "gasping for air",
+        "gasping",
+        "basically gasping",
+        "lay"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.996492326259613,
+      "emotion": "disgust",
+      "emotion_score": 0.7709819078445435
+    },
+    {
+      "id": 5,
+      "start": 157.91,
+      "end": 208.69,
+      "text": "Okay. All right. And, uh, in terms of, uh, how many flights of stairs you can climb before you start feeling breathless, um, do you have a number? Um, I'd say like three, four, three or four steps, okay. And was there anything, um, new that happened in your life, uh, recently any, um, new medical diagnosis recently, or any, or any travel that happened before you started having symptoms? No, nothing like that. And prior to the two months have you ever had, uh, any similar experiences?",
+      "segments": [
+        {
+          "start": 157.91,
+          "end": 158.91,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 158.91,
+          "end": 162.8,
+          "text": "All right.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6785573363304138
+        },
+        {
+          "start": 162.8,
+          "end": 169.12,
+          "text": "And, uh, in terms of, uh, how many flights of stairs you can climb before you start",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8149335980415344
+        },
+        {
+          "start": 169.12,
+          "end": 172.76,
+          "text": "feeling breathless, um, do you have a number?",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.9940518736839294
+        },
+        {
+          "start": 172.76,
+          "end": 183.54,
+          "text": "Um, I'd say like three, four, three or four steps, okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8651924133300781
+        },
+        {
+          "start": 183.54,
+          "end": 191.94,
+          "text": "And was there anything, um, new that happened in your life, uh, recently any, um, new medical",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.679110050201416
+        },
+        {
+          "start": 191.94,
+          "end": 199.42,
+          "text": "diagnosis recently, or any, or any travel that happened before you started having symptoms?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5167341828346252
+        },
+        {
+          "start": 200.14,
+          "end": 204.05,
+          "text": "No, nothing like that.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6979944705963135
+        },
+        {
+          "start": 204.05,
+          "end": 208.69,
+          "text": "And prior to the two months have you ever had, uh, any similar experiences?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8215348124504089
+        }
+      ],
+      "summary": " In terms of how many flights of stairs you can climb before you start feeling breathless, do you have a number? Um, I'd say like three, four, three or four steps, okay. And was there anything, um, new that happened in your life, uh, recently any, or any medical diagnosis recently? No, nothing like that.",
+      "tldr": " In terms of how many flights of stairs you can climb before you start feeling breathless, do you have a number?",
+      "title": " In terms of how many flights of stairs you can climb before",
+      "bullets": [
+        "In terms of how many flights of stairs you can climb before you start feeling breathless, do you have a number? Um, I'd say like three, four, three or four steps, okay",
+        "And was there anything, um, new that happened in your life, uh, recently any, or any medical diagnosis recently? No, nothing like that."
+      ],
+      "keywords": [
+        "flights of stairs",
+        "started having symptoms",
+        "start feeling breathless",
+        "feeling breathless",
+        "stairs"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.996170699596405,
+      "emotion": "fear",
+      "emotion_score": 0.9828813076019287
+    },
+    {
+      "id": 6,
+      "start": 208.69,
+      "end": 264.52,
+      "text": "Prior to the month? No. No. Okay. And, uh, does anything make it better like any positional changes, um, makes the breathlessness go away? Um, I guess when I, I'm not laying down or when I'm laying down, I try to add pillow staccato so that it gets better. Okay. Okay. And, uh, are you having any other symptoms like, um, sore throat, runny nose, uh, chest pain, dizziness, anything like that? No. No? Okay. Have you, uh, recently traveled outside of the country? No. Have you recently had any surgeries? Uh, no recent surgeries, no. Okay.",
+      "segments": [
+        {
+          "start": 208.69,
+          "end": 209.69,
+          "text": "Prior to the month?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.763185441493988
+        },
+        {
+          "start": 209.69,
+          "end": 210.69,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 210.69,
+          "end": 211.69,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 211.69,
+          "end": 212.69,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 212.69,
+          "end": 221.89,
+          "text": "And, uh, does anything make it better like any positional changes, um, makes the breathlessness",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.7143564224243164
+        },
+        {
+          "start": 221.89,
+          "end": 223.89,
+          "text": "go away?",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.6439402103424072
+        },
+        {
+          "start": 223.89,
+          "end": 230.71,
+          "text": "Um, I guess when I, I'm not laying down or when I'm laying down, I try to add pillow",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7441107630729675
+        },
+        {
+          "start": 230.71,
+          "end": 234.45,
+          "text": "staccato so that it gets better.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9359873533248901
+        },
+        {
+          "start": 234.45,
+          "end": 235.45,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 235.45,
+          "end": 238.02,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 238.02,
+          "end": 244.38,
+          "text": "And, uh, are you having any other symptoms like, um, sore throat, runny nose, uh, chest",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5629006028175354
+        },
+        {
+          "start": 244.38,
+          "end": 247.24,
+          "text": "pain, dizziness, anything like that?",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.6312445998191833
+        },
+        {
+          "start": 247.24,
+          "end": 248.24,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 248.24,
+          "end": 249.24,
+          "text": "No?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.8834956884384155
+        },
+        {
+          "start": 249.24,
+          "end": 250.24,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 250.24,
+          "end": 255.32,
+          "text": "Have you, uh, recently traveled outside of the country?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8008936643600464
+        },
+        {
+          "start": 255.32,
+          "end": 256.32,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 256.32,
+          "end": 260.8,
+          "text": "Have you recently had any surgeries?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7093912959098816
+        },
+        {
+          "start": 261.52,
+          "end": 263.52,
+          "text": "Uh, no recent surgeries, no.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7039565443992615
+        },
+        {
+          "start": 263.52,
+          "end": 264.52,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        }
+      ],
+      "summary": " Are you having any other symptoms like, um, sore throat, runny nose, chest pain, dizziness, anything like that? No? Have you, uh, recently traveled outside of the country? No. Have you recently had any surgeries? No .",
+      "tldr": " Are you having any other symptoms like, um, sore throat, runny nose, chest pain, dizziness, anything like that? No? Have you, uh, recently traveled outside of the country? No. Have you recently had any surgeries? No .",
+      "title": " Are you having any other symptoms like, um, sore throat, runny nose, chest pain, dizziness, anything like that? No? Have you, uh, recently traveled outside of the country? No. Have you recently had any surgeries? No .",
+      "bullets": [
+        "Are you having any other symptoms like, um, sore throat, runny nose, chest pain, dizziness, anything like that? No? Have you, uh, recently traveled outside of the country? No",
+        "Have you recently had any surgeries? No ."
+      ],
+      "keywords": [
+        "breathlessness",
+        "pillow staccato",
+        "add pillow",
+        "chest pain",
+        "runny nose"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9988974332809448,
+      "emotion": "fear",
+      "emotion_score": 0.5024908781051636
+    },
+    {
+      "id": 7,
+      "start": 264.52,
+      "end": 296.25,
+      "text": "Any headache, nausea, or vomiting? Um, no. Any fevers or chills or night sweats? No. Do you feel increasingly fatigue throughout the day? Uh, no, ah, yes, I'd say so, yeah. And any changes in your bowel movement at all? No.",
+      "segments": [
+        {
+          "start": 264.52,
+          "end": 267.52,
+          "text": "Any headache, nausea, or vomiting?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.48234957456588745
+        },
+        {
+          "start": 267.52,
+          "end": 269.0,
+          "text": "Um, no.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6095588803291321
+        },
+        {
+          "start": 269.0,
+          "end": 274.16,
+          "text": "Any fevers or chills or night sweats?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8862688541412354
+        },
+        {
+          "start": 274.16,
+          "end": 275.16,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 275.16,
+          "end": 281.48,
+          "text": "Do you feel increasingly fatigue throughout the day?",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.6240056753158569
+        },
+        {
+          "start": 281.48,
+          "end": 290.93,
+          "text": "Uh, no, ah, yes, I'd say so, yeah.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5616483092308044
+        },
+        {
+          "start": 290.93,
+          "end": 293.49,
+          "text": "And any changes in your bowel movement at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4760228395462036
+        },
+        {
+          "start": 293.49,
+          "end": 296.25,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        }
+      ],
+      "summary": " Any headache, nausea, or vomiting? Um, no. Any fevers or chills or night sweats? No. Do you feel increasingly fatigue throughout the day? Uh, no, ah, yes, I'd say so, yeah . And any changes in your bowel movement? No .",
+      "tldr": " Any headache, nausea, or vomiting? Um, no . Any fevers or ch",
+      "title": " Any headache, nausea, or vomiting? Um, no .",
+      "bullets": [
+        "Any headache, nausea, or vomiting? Um, no",
+        "Any fevers or chills or night sweats? No",
+        "Do you feel increasingly fatigue throughout the day? Uh, no, ah, yes, I'd say so, yeah",
+        "And any changes in your bowel movement? No ."
+      ],
+      "keywords": [
+        "feel increasingly fatigue",
+        "nausea",
+        "fevers or chills",
+        "increasingly fatigue",
+        "vomiting"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9989089965820312,
+      "emotion": "disgust",
+      "emotion_score": 0.35013121366500854
+    },
+    {
+      "id": 8,
+      "start": 296.25,
+      "end": 333.91,
+      "text": "Um, any chest pain at all within the last two months? Uh, no, no chest pain. Any swelling in your, um, in your legs, ankles, or in your hands and arms? Um, there is some swelling. Okay. And, uh, where do you, where are you getting the swelling? Uh, around my legs. Okay. And how, uh, when did you first notice this? Around the same time, actually, two months ago. Okay.",
+      "segments": [
+        {
+          "start": 296.25,
+          "end": 301.01,
+          "text": "Um, any chest pain at all within the last two months?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3780735731124878
+        },
+        {
+          "start": 301.01,
+          "end": 306.43,
+          "text": "Uh, no, no chest pain.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.40417397022247314
+        },
+        {
+          "start": 306.43,
+          "end": 313.43,
+          "text": "Any swelling in your, um, in your legs, ankles, or in your hands and arms?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.40175312757492065
+        },
+        {
+          "start": 313.43,
+          "end": 317.11,
+          "text": "Um, there is some swelling.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.42084968090057373
+        },
+        {
+          "start": 317.11,
+          "end": 318.11,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 318.11,
+          "end": 321.71,
+          "text": "And, uh, where do you, where are you getting the swelling?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5222728848457336
+        },
+        {
+          "start": 321.71,
+          "end": 324.07,
+          "text": "Uh, around my legs.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.3783033490180969
+        },
+        {
+          "start": 324.79,
+          "end": 325.79,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 325.79,
+          "end": 328.19,
+          "text": "And how, uh, when did you first notice this?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.8318548202514648
+        },
+        {
+          "start": 328.19,
+          "end": 331.91,
+          "text": "Around the same time, actually, two months ago.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6377863883972168
+        },
+        {
+          "start": 331.91,
+          "end": 333.91,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        }
+      ],
+      "summary": " Any swelling in your, um, in your legs, ankles, or in your hands and arms? Um, there is some swelling . And, uh, where do you, where are you getting the swelling? Uh, around my legs .",
+      "tldr": " Any swelling in your, um, in your legs, ankles, or in your hands and arms? Um, there is some swelling . And, uh, where do you, where are you getting the swelling? Uh, around my legs .",
+      "title": " Any swelling in your, um, in your legs, ankles, or in your hands and arms? Um, there is some swelling . And, uh, where do you, where are you getting the swelling? Uh, around my legs .",
+      "bullets": [
+        "Any swelling in your, um, in your legs, ankles, or in your hands and arms? Um, there is some swelling",
+        "And, uh, where do you, where are you getting the swelling? Uh, around my legs ."
+      ],
+      "keywords": [
+        "chest pain",
+        "swelling",
+        "chest",
+        "ankles",
+        "pain"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9939786195755005,
+      "emotion": "neutral",
+      "emotion_score": 0.3411443829536438
+    },
+    {
+      "id": 9,
+      "start": 333.91,
+      "end": 384.68,
+      "text": "Have you noticed any kind of fevers at all? Um, no. Have you been in contact with anyone that has been ill recently? No. No. And have you been coughing up any blood at all? No. Okay. Any weight loss? No. Any night sweats or, um, chills? No. Any, uh, apart from the breathlessness and laying down any other issues with your sleep? Uh, no. Any changes in your appetite? No. Have you had any recent infections like a cold at all? No.",
+      "segments": [
+        {
+          "start": 333.91,
+          "end": 337.59,
+          "text": "Have you noticed any kind of fevers at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7927883267402649
+        },
+        {
+          "start": 337.59,
+          "end": 341.15,
+          "text": "Um, no.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6095588803291321
+        },
+        {
+          "start": 341.15,
+          "end": 345.87,
+          "text": "Have you been in contact with anyone that has been ill recently?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4644932746887207
+        },
+        {
+          "start": 345.87,
+          "end": 346.87,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 346.87,
+          "end": 349.12,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 349.12,
+          "end": 352.72,
+          "text": "And have you been coughing up any blood at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5616623759269714
+        },
+        {
+          "start": 352.72,
+          "end": 354.24,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 354.24,
+          "end": 355.24,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 355.24,
+          "end": 357.24,
+          "text": "Any weight loss?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6456019878387451
+        },
+        {
+          "start": 357.24,
+          "end": 359.24,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 359.24,
+          "end": 363.24,
+          "text": "Any night sweats or, um, chills?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7337778806686401
+        },
+        {
+          "start": 363.24,
+          "end": 365.58,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 365.58,
+          "end": 371.58,
+          "text": "Any, uh, apart from the breathlessness and laying down any other issues with your sleep?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.41943806409835815
+        },
+        {
+          "start": 371.58,
+          "end": 374.34,
+          "text": "Uh, no.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5177858471870422
+        },
+        {
+          "start": 374.34,
+          "end": 376.34,
+          "text": "Any changes in your appetite?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8724415302276611
+        },
+        {
+          "start": 376.34,
+          "end": 377.34,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 377.34,
+          "end": 383.68,
+          "text": "Have you had any recent infections like a cold at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8550264239311218
+        },
+        {
+          "start": 383.68,
+          "end": 384.68,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        }
+      ],
+      "summary": " Have you noticed any kind of fevers at all? Um, no . Have you been in contact with anyone that has been ill recently? No. Have you had any recent infections like a cold? No .",
+      "tldr": " Have you noticed any kind of fevers at all? Um, no . Have you been in contact with anyone that has been ill recently? No. Have you had any recent infections like a cold? No .",
+      "title": " Have you noticed any kind of fevers at all? Um, no . Have you been in contact with anyone that has been ill recently? No. Have you had any recent infections like a cold? No .",
+      "bullets": [
+        "Have you noticed any kind of fevers at all? Um, no",
+        "Have you been in contact with anyone that has been ill recently? No",
+        "Have you had any recent infections like a cold? No ."
+      ],
+      "keywords": [
+        "kind of fevers",
+        "fevers",
+        "breathlessness and laying",
+        "night sweats",
+        "coughing"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9985717535018921,
+      "emotion": "neutral",
+      "emotion_score": 0.5963402390480042
+    },
+    {
+      "id": 10,
+      "start": 387.32,
+      "end": 432.86,
+      "text": "Any exposure to tuberculosis in the past? Not that I know of. Any exposure to fumes or dust within, uh, your whole more work environment? No. Any, uh, animals or pets in the house? No. No. No. And in terms of your past medical history, uh, has anyone told you that you have anything like COPD or any cardiovascular issues, uh, like high blood pressure, cholesterol? Um, so, um, yeah, so I have high blood pressure, diabetes, and high cholesterol.",
+      "segments": [
+        {
+          "start": 387.32,
+          "end": 391.32,
+          "text": "Any exposure to tuberculosis in the past?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5240052938461304
+        },
+        {
+          "start": 391.32,
+          "end": 394.63,
+          "text": "Not that I know of.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7685474157333374
+        },
+        {
+          "start": 394.63,
+          "end": 400.67,
+          "text": "Any exposure to fumes or dust within, uh, your whole more work environment?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.8123612999916077
+        },
+        {
+          "start": 400.67,
+          "end": 401.67,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 401.67,
+          "end": 406.87,
+          "text": "Any, uh, animals or pets in the house?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.5623272061347961
+        },
+        {
+          "start": 406.87,
+          "end": 407.87,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 407.87,
+          "end": 408.87,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 408.87,
+          "end": 411.18,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 411.18,
+          "end": 415.86,
+          "text": "And in terms of your past medical history, uh, has anyone told you that you have anything",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9061022996902466
+        },
+        {
+          "start": 415.86,
+          "end": 422.86,
+          "text": "like COPD or any cardiovascular issues, uh, like high blood pressure, cholesterol?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4553334414958954
+        },
+        {
+          "start": 422.86,
+          "end": 432.86,
+          "text": "Um, so, um, yeah, so I have high blood pressure, diabetes, and high cholesterol.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6302655339241028
+        }
+      ],
+      "summary": " Any exposure to tuberculosis in the past? Not that I know of . No exposure to fumes or dust within, uh, your whole more work environment? No. No. Exposure to animals or pets in the house? No . No. And in terms of your past medical history, has anyone told you that you have anything like COPD?",
+      "tldr": " Any exposure to tuberculosis in the past? Not that I know of . No exposure to fumes or dust within, uh, your",
+      "title": " Any exposure to tuberculosis in the past? Not that I know",
+      "bullets": [
+        "Any exposure to tuberculosis in the past? Not that I know of",
+        "No exposure to fumes or dust within, uh, your whole more work environment? No",
+        "No",
+        "Exposure to animals or pets in the house? No",
+        "No",
+        "And in terms of your past medical history, has anyone told you that you have anything like COPD?"
+      ],
+      "keywords": [
+        "exposure to tuberculosis",
+        "tuberculosis",
+        "exposure to fumes",
+        "high blood pressure",
+        "cholesterol"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9984185695648193,
+      "emotion": "disgust",
+      "emotion_score": 0.5367003679275513
+    },
+    {
+      "id": 11,
+      "start": 432.86,
+      "end": 483.99,
+      "text": "Okay. And, um, do you take any medications for this? Yep. So I take aspirin, ramiprol, and cymbastatin. And have you ever had any chest pain or heart attack in the past? Yeah, actually, I had a heart attack four years ago. Okay. And, uh, do you remember what they did for your heart attack? Um, something like a stent or something. Okay. And since then, you have been on these medications? Yes. Okay. And after, um, they managed your heart attack, have you ever had similar symptoms, uh, when you had your heart attack? Uh, no, no.",
+      "segments": [
+        {
+          "start": 432.86,
+          "end": 433.86,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 433.86,
+          "end": 438.86,
+          "text": "And, um, do you take any medications for this?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7439293265342712
+        },
+        {
+          "start": 438.86,
+          "end": 439.86,
+          "text": "Yep.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9281015992164612
+        },
+        {
+          "start": 439.86,
+          "end": 445.71,
+          "text": "So I take aspirin, ramiprol, and cymbastatin.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6536293029785156
+        },
+        {
+          "start": 445.71,
+          "end": 450.71,
+          "text": "And have you ever had any chest pain or heart attack in the past?",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.4081801772117615
+        },
+        {
+          "start": 450.71,
+          "end": 454.71,
+          "text": "Yeah, actually, I had a heart attack four years ago.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.5277954936027527
+        },
+        {
+          "start": 454.71,
+          "end": 455.71,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 455.71,
+          "end": 461.71,
+          "text": "And, uh, do you remember what they did for your heart attack?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3096774220466614
+        },
+        {
+          "start": 461.71,
+          "end": 465.71,
+          "text": "Um, something like a stent or something.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.8725641965866089
+        },
+        {
+          "start": 465.71,
+          "end": 466.71,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 466.71,
+          "end": 469.71,
+          "text": "And since then, you have been on these medications?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7866730093955994
+        },
+        {
+          "start": 469.71,
+          "end": 470.71,
+          "text": "Yes.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8983094692230225
+        },
+        {
+          "start": 470.71,
+          "end": 472.71,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 472.71,
+          "end": 479.31,
+          "text": "And after, um, they managed your heart attack, have you ever had similar symptoms, uh, when",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5690543055534363
+        },
+        {
+          "start": 479.31,
+          "end": 481.99,
+          "text": "you had your heart attack?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6406368613243103
+        },
+        {
+          "start": 481.99,
+          "end": 483.99,
+          "text": "Uh, no, no.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3538902699947357
+        }
+      ],
+      "summary": " I take aspirin, ramiprol, and cymbastatin . Have you ever had any chest pain or heart attack in the past? Yeah, actually, I had a heart attack four years ago . And, uh, do you remember what they did for your heart attack?",
+      "tldr": " I take aspirin, ramiprol, and cymbastatin . Have you ever had",
+      "title": " I take aspirin, ramiprol, and cymbast",
+      "bullets": [
+        "I take aspirin, ramiprol, and cymbastatin",
+        "Have you ever had any chest pain or heart attack in the past? Yeah, actually, I had a heart attack four years ago",
+        "And, uh, do you remember what they did for your heart attack?"
+      ],
+      "keywords": [
+        "heart attack",
+        "aspirin",
+        "medications",
+        "ramiprol",
+        "heart"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9930712580680847,
+      "emotion": "sadness",
+      "emotion_score": 0.36739763617515564
+    },
+    {
+      "id": 12,
+      "start": 483.99,
+      "end": 531.24,
+      "text": "Nothing like that. Okay. Uh, do you have any allergies, training medications? No. Any environmental allergies? No. Okay. And have you previously had any surgeries in the past? Um, I guess the stenting. The stenting? And, apart from that, have you had any other previous hospitalizations? No. Um, any family history of, uh, any cancers or heart attacks? Um, my father died of a heart attack when he was 60.",
+      "segments": [
+        {
+          "start": 483.99,
+          "end": 484.99,
+          "text": "Nothing like that.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6227902770042419
+        },
+        {
+          "start": 484.99,
+          "end": 485.99,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 485.99,
+          "end": 489.99,
+          "text": "Uh, do you have any allergies, training medications?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7464343905448914
+        },
+        {
+          "start": 489.99,
+          "end": 490.99,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 490.99,
+          "end": 493.99,
+          "text": "Any environmental allergies?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7242048978805542
+        },
+        {
+          "start": 493.99,
+          "end": 494.99,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 494.99,
+          "end": 496.99,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 496.99,
+          "end": 505.27,
+          "text": "And have you previously had any surgeries in the past?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8679986596107483
+        },
+        {
+          "start": 505.27,
+          "end": 508.27,
+          "text": "Um, I guess the stenting.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.7145814299583435
+        },
+        {
+          "start": 508.27,
+          "end": 510.27,
+          "text": "The stenting?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4014846086502075
+        },
+        {
+          "start": 510.27,
+          "end": 515.27,
+          "text": "And, apart from that, have you had any other previous hospitalizations?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8553647398948669
+        },
+        {
+          "start": 515.27,
+          "end": 516.27,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 516.27,
+          "end": 524.74,
+          "text": "Um, any family history of, uh, any cancers or heart attacks?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4499985873699188
+        },
+        {
+          "start": 524.74,
+          "end": 531.24,
+          "text": "Um, my father died of a heart attack when he was 60.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.9598186016082764
+        }
+      ],
+      "summary": " Do you have any allergies, training medications? No. No. Any environmental allergies? No . And have you previously had any surgeries in the past? Um, I guess the stenting? And, apart from that, have you had any other previous hospitalizations?",
+      "tldr": " Do you have any allergies, training medications? No. Any environmental allergies? No .",
+      "title": " Do you have any allergies, training medications? No. No",
+      "bullets": [
+        "Do you have any allergies, training medications? No",
+        "No",
+        "Any environmental allergies? No",
+        "And have you previously had any surgeries in the past? Um, I guess the stenting? And, apart from that, have you had any other previous hospitalizations?"
+      ],
+      "keywords": [
+        "stenting",
+        "guess the stenting",
+        "heart attacks",
+        "hospitalizations",
+        "allergies"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9981704950332642,
+      "emotion": "neutral",
+      "emotion_score": 0.7367962002754211
+    },
+    {
+      "id": 13,
+      "start": 531.24,
+      "end": 562.24,
+      "text": "And currently, um, do you work at all? I do. Um, I work as a cashier. Okay. And has the shortness of breath been affecting your daily routine at home or at work at all? Yeah, I would say so. It's been hard to make it to work. And then standing around all day, or if I have to go help out with something and exert",
+      "segments": [
+        {
+          "start": 531.24,
+          "end": 536.24,
+          "text": "And currently, um, do you work at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6590369343757629
+        },
+        {
+          "start": 536.24,
+          "end": 537.24,
+          "text": "I do.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8885509967803955
+        },
+        {
+          "start": 537.24,
+          "end": 542.24,
+          "text": "Um, I work as a cashier.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6697627902030945
+        },
+        {
+          "start": 542.24,
+          "end": 544.24,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 544.24,
+          "end": 551.24,
+          "text": "And has the shortness of breath been affecting your daily routine at home or at work at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7874937057495117
+        },
+        {
+          "start": 551.24,
+          "end": 553.24,
+          "text": "Yeah, I would say so.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8639077544212341
+        },
+        {
+          "start": 553.24,
+          "end": 557.24,
+          "text": "It's been hard to make it to work.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.8160118460655212
+        },
+        {
+          "start": 557.24,
+          "end": 562.24,
+          "text": "And then standing around all day, or if I have to go help out with something and exert",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5603629946708679
+        }
+      ],
+      "summary": " Shortness of breath has been affecting your daily routine at home or at work at all . It's been hard to make it to work. And then standing around all day, or if I have to go help out with something and exert .",
+      "tldr": " Shortness of breath has been affecting your daily routine at home or at work at all . It",
+      "title": " Shortness of breath has been affecting your daily routine at home",
+      "bullets": [
+        "Shortness of breath has been affecting your daily routine at home or at work at all",
+        "It's been hard to make it to work",
+        "And then standing around all day, or if I have to go help out with something and exert ."
+      ],
+      "keywords": [
+        "shortness of breath",
+        "breath",
+        "routine",
+        "work",
+        "daily"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9991440773010254,
+      "emotion": "neutral",
+      "emotion_score": 0.37401071190834045
+    },
+    {
+      "id": 14,
+      "start": 562.24,
+      "end": 618.63,
+      "text": "myself too much, I guess, or a breath. Okay. And at, uh, at home, do you currently live with anyone or do you live by yourself? Uh, I live by myself. Okay. And do you live in an apartment or a house? I live in an apartment. Okay. And are there any exposures like dust or mold or asbestos in your, uh, in your home environment? No. And currently, do you smoke? Uh, not right now. I used to smoke for, I used to smoke 10 a day for like 40 years. Okay. And do you, do you use any recreational drugs like marijuana? No. Uh, any alcohol? No.",
+      "segments": [
+        {
+          "start": 562.24,
+          "end": 566.24,
+          "text": "myself too much, I guess, or a breath.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.38167908787727356
+        },
+        {
+          "start": 566.24,
+          "end": 567.24,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 567.24,
+          "end": 572.24,
+          "text": "And at, uh, at home, do you currently live with anyone or do you live by yourself?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9163583517074585
+        },
+        {
+          "start": 572.24,
+          "end": 575.24,
+          "text": "Uh, I live by myself.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6437633633613586
+        },
+        {
+          "start": 575.24,
+          "end": 576.24,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 576.24,
+          "end": 579.24,
+          "text": "And do you live in an apartment or a house?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8029857277870178
+        },
+        {
+          "start": 579.24,
+          "end": 581.24,
+          "text": "I live in an apartment.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.38784170150756836
+        },
+        {
+          "start": 581.24,
+          "end": 582.24,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 582.24,
+          "end": 589.24,
+          "text": "And are there any exposures like dust or mold or asbestos in your, uh, in your home environment?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.605657160282135
+        },
+        {
+          "start": 589.24,
+          "end": 590.24,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 590.24,
+          "end": 595.12,
+          "text": "And currently, do you smoke?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3756495714187622
+        },
+        {
+          "start": 595.12,
+          "end": 597.12,
+          "text": "Uh, not right now.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.762780487537384
+        },
+        {
+          "start": 597.12,
+          "end": 603.79,
+          "text": "I used to smoke for, I used to smoke 10 a day for like 40 years.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6516625881195068
+        },
+        {
+          "start": 603.79,
+          "end": 604.79,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 604.79,
+          "end": 609.79,
+          "text": "And do you, do you use any recreational drugs like marijuana?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6565706133842468
+        },
+        {
+          "start": 609.79,
+          "end": 612.39,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 612.39,
+          "end": 615.39,
+          "text": "Uh, any alcohol?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6256582140922546
+        },
+        {
+          "start": 615.39,
+          "end": 618.63,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        }
+      ],
+      "summary": " Are there any exposures like dust or mold or asbestos in your, uh, in your home environment? No. And currently, do you smoke? Uh, not right now. I used to smoke for, I used, to smoke 10 a day for like 40 years . And do you use any recreational drugs like marijuana? No .",
+      "tldr": " Are there any exposures like dust or mold or asbestos in your, uh, in your home environment? No . Do you",
+      "title": " Are there any exposures like dust or mold or asbestos in your",
+      "bullets": [
+        "Are there any exposures like dust or mold or asbestos in your, uh, in your home environment? No",
+        "And currently, do you smoke? Uh, not right now",
+        "I used to smoke for, I used, to smoke 10 a day for like 40 years",
+        "And do you use any recreational drugs like marijuana? No ."
+      ],
+      "keywords": [
+        "smoke",
+        "marijuana",
+        "asbestos",
+        "breath",
+        "apartment"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9983855485916138,
+      "emotion": "disgust",
+      "emotion_score": 0.5298715233802795
+    },
+    {
+      "id": 15,
+      "start": 618.63,
+      "end": 662.36,
+      "text": "And in terms of, uh, your daily routine, do you feel that you get three meals a day while balance diet? I would say well balanced. I'm trying to eat healthier, but it doesn't always happen. Okay. And how about exercise? Do you find that your exercise levels or activity levels have gone down in the last two months? Yes. Great. Is there any other questions or concerns that you have or something I may have missed to ask you today? Um, no, I don't think so. Okay.",
+      "segments": [
+        {
+          "start": 618.63,
+          "end": 631.26,
+          "text": "And in terms of, uh, your daily routine, do you feel that you get three meals a day while balance diet?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.903919517993927
+        },
+        {
+          "start": 631.26,
+          "end": 634.26,
+          "text": "I would say well balanced.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6697582602500916
+        },
+        {
+          "start": 634.26,
+          "end": 639.26,
+          "text": "I'm trying to eat healthier, but it doesn't always happen.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.843609631061554
+        },
+        {
+          "start": 639.26,
+          "end": 640.26,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 640.26,
+          "end": 641.26,
+          "text": "And how about exercise?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9524661898612976
+        },
+        {
+          "start": 641.26,
+          "end": 646.26,
+          "text": "Do you find that your exercise levels or activity levels have gone down in the last two months?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8255544900894165
+        },
+        {
+          "start": 646.26,
+          "end": 647.26,
+          "text": "Yes.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8983094692230225
+        },
+        {
+          "start": 647.26,
+          "end": 651.36,
+          "text": "Great.",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.8773902654647827
+        },
+        {
+          "start": 651.36,
+          "end": 658.36,
+          "text": "Is there any other questions or concerns that you have or something I may have missed to ask you today?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8290345668792725
+        },
+        {
+          "start": 658.36,
+          "end": 661.36,
+          "text": "Um, no, I don't think so.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5643728971481323
+        },
+        {
+          "start": 661.36,
+          "end": 662.36,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        }
+      ],
+      "summary": " Do you feel that you get three meals a day while balance diet? I would say well balanced. I'm trying to eat healthier, but it doesn't always happen. And how about exercise? Do you find that your exercise levels or activity levels have gone down in the last two months?",
+      "tldr": " Do you feel that you get three meals a day while balance diet? I would say well balanced. I'm",
+      "title": " I'm trying to eat healthier, but it doesn't always",
+      "bullets": [
+        "Do you feel that you get three meals a day while balance diet? I would say well balanced",
+        "I'm trying to eat healthier, but it doesn't always happen",
+        "And how about exercise? Do you find that your exercise levels or activity levels have gone down in the last two months?"
+      ],
+      "keywords": [
+        "balance diet",
+        "meals a day",
+        "day while balance",
+        "daily routine",
+        "diet"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9943487048149109,
+      "emotion": "neutral",
+      "emotion_score": 0.9065794944763184
+    },
+    {
+      "id": 16,
+      "start": 662.36,
+      "end": 714.51,
+      "text": "So, based on what we talked about, uh, from your swelling, as well as, uh, breathlessness, uh, while laying down in your past history, uh, of a heart attack and, uh, high cholesterol, it may be likely with the medications you're on, uh, as well as your history that you might be having. What's called a congestive heart failure? So, uh, we will need to do further investigations, um, to determine if this, that is what it isn't. And if we need to get you on something like, um, like the basics or a diuretic to get rid of some of the fluid, um, that's filling up in your body, which may be lost by heart failure. So, we'll do some investigations and then, uh, go from there.",
+      "segments": [
+        {
+          "start": 662.36,
+          "end": 670.36,
+          "text": "So, based on what we talked about, uh, from your swelling, as well as, uh, breathlessness, uh,",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.6815096735954285
+        },
+        {
+          "start": 670.36,
+          "end": 676.36,
+          "text": "while laying down in your past history, uh, of a heart attack and, uh, high cholesterol,",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.3092716634273529
+        },
+        {
+          "start": 676.36,
+          "end": 683.36,
+          "text": "it may be likely with the medications you're on, uh, as well as your history that you might be having.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9353607296943665
+        },
+        {
+          "start": 683.36,
+          "end": 686.36,
+          "text": "What's called a congestive heart failure?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.43286386132240295
+        },
+        {
+          "start": 686.36,
+          "end": 695.36,
+          "text": "So, uh, we will need to do further investigations, um, to determine if this, that is what it isn't.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8799419403076172
+        },
+        {
+          "start": 695.36,
+          "end": 706.51,
+          "text": "And if we need to get you on something like, um, like the basics or a diuretic to get rid of some of the fluid, um,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7552782297134399
+        },
+        {
+          "start": 706.51,
+          "end": 710.51,
+          "text": "that's filling up in your body, which may be lost by heart failure.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.5920088291168213
+        },
+        {
+          "start": 710.51,
+          "end": 714.51,
+          "text": "So, we'll do some investigations and then, uh, go from there.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8957824110984802
+        }
+      ],
+      "summary": " Your swelling, as well as breathlessness, uh, while laying down in your past history of a heart attack and high cholesterol, it may be likely with medications you're on . So, we will need to do further investigations, um, to determine if this, that is what it isn't, and if we need to get you on something like a diuretic to get rid of some of the fluid filling up in your body, which may be lost .",
+      "tldr": " Your swelling, as well as breathlessness, uh, while laying down in your past history of a heart attack and high cholesterol, it may be likely with medications you're on .",
+      "title": " Your swelling, as well as breathlessness, uh, while",
+      "bullets": [
+        "Your swelling, as well as breathlessness, uh, while laying down in your past history of a heart attack and high cholesterol, it may be likely with medications you're on",
+        "So, we will need to do further investigations, um, to determine if this, that is what it isn't, and if we need to get you on something like a diuretic to get rid of some of the fluid filling up in your body, which may be lost ."
+      ],
+      "keywords": [
+        "heart failure",
+        "congestive heart failure",
+        "heart attack",
+        "breathlessness",
+        "swelling"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9996246099472046,
+      "emotion": "fear",
+      "emotion_score": 0.42721128463745117
+    }
+  ]
+}

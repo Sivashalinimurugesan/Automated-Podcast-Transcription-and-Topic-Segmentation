@@ -1,0 +1,38 @@
+2026-01-03 18:55:18 - root - INFO - New Session Started: 20260103_185518_f0840636
+2026-01-03 18:55:18 - __main__ - INFO - UI Triggered Processing for CAR0002.mp3
+2026-01-03 18:55:18 - preprocessing - INFO - Processing CAR0002.mp3...
+2026-01-03 18:55:18 - preprocessing - INFO - Applying noise reduction...
+2026-01-03 18:55:28 - preprocessing - INFO - Normalizing audio...
+2026-01-03 18:55:28 - preprocessing - INFO - Saved processed audio to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\CAR0002_processed.wav
+2026-01-03 18:55:28 - transcription - INFO - Transcribing F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\CAR0002_processed.wav...
+2026-01-03 18:55:29 - faster_whisper - INFO - Processing audio with duration 08:50.351
+2026-01-03 18:55:33 - faster_whisper - INFO - VAD filter removed 00:07.168 of audio
+2026-01-03 18:55:37 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2026-01-03 18:56:53 - transcription - INFO - Transcription complete. Detected language: en (probability: 1.00)
+2026-01-03 18:56:53 - transcription - INFO - Saved transcript to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\transcripts\CAR0002_processed.txt
+2026-01-03 18:56:53 - transcription - INFO - Saved segments to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\segments\CAR0002_processed.json
+2026-01-03 18:56:53 - segmentation - INFO - Segmenting 124 segments...
+2026-01-03 18:56:54 - segmentation - INFO - Similarity stats: Mean=0.484, Std=0.142, Threshold=0.413
+2026-01-03 18:56:54 - segmentation - INFO - Found 14 topics.
+2026-01-03 18:56:54 - summarization - INFO - Summarizing 14 topics...
+2026-01-03 18:56:57 - summarization - INFO - Summarized Topic 0
+2026-01-03 18:57:06 - summarization - INFO - Summarized Topic 1
+2026-01-03 18:57:20 - summarization - INFO - Summarized Topic 2
+2026-01-03 18:57:27 - summarization - INFO - Summarized Topic 3
+2026-01-03 18:57:34 - summarization - INFO - Summarized Topic 4
+2026-01-03 18:57:48 - summarization - INFO - Summarized Topic 5
+2026-01-03 18:58:07 - summarization - INFO - Summarized Topic 6
+2026-01-03 18:58:24 - summarization - INFO - Summarized Topic 7
+2026-01-03 18:58:39 - summarization - INFO - Summarized Topic 8
+2026-01-03 18:58:46 - summarization - INFO - Summarized Topic 9
+2026-01-03 18:58:59 - summarization - INFO - Summarized Topic 10
+2026-01-03 18:59:07 - summarization - INFO - Summarized Topic 11
+2026-01-03 18:59:14 - summarization - INFO - Summarized Topic 12
+2026-01-03 18:59:14 - summarization - INFO - Summarized Topic 13
+2026-01-03 18:59:14 - keyword_extraction - INFO - Extracting keywords for 14 topics...
+2026-01-03 18:59:18 - sentiment_analysis - INFO - Starting analysis on 14 topics...
+2026-01-03 18:59:30 - sentiment_analysis - INFO - Topic analysis completed.
+2026-01-03 18:59:30 - indexing - INFO - Indexing 14 topics...
+2026-01-03 18:59:31 - indexing - INFO - Topic indexing complete.
+2026-01-03 18:59:34 - indexing - INFO - Indexing 14 topics...
+2026-01-03 18:59:35 - indexing - INFO - Topic indexing complete.

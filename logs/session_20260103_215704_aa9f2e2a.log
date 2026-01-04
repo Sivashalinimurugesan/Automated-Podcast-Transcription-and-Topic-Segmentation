@@ -1,0 +1,45 @@
+2026-01-03 21:57:04 - root - INFO - New Session Started: 20260103_215704_aa9f2e2a
+2026-01-03 21:57:04 - __main__ - INFO - UI Triggered Processing for GAS0005.mp3
+2026-01-03 21:57:04 - preprocessing - INFO - Processing GAS0005.mp3...
+2026-01-03 21:57:05 - preprocessing - INFO - Applying noise reduction...
+2026-01-03 21:57:22 - preprocessing - INFO - Normalizing audio...
+2026-01-03 21:57:22 - preprocessing - INFO - Saved processed audio to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\GAS0005_processed.wav
+2026-01-03 21:57:22 - transcription - INFO - Transcribing F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\GAS0005_processed.wav...
+2026-01-03 21:57:23 - faster_whisper - INFO - Processing audio with duration 13:48.846
+2026-01-03 21:57:30 - faster_whisper - INFO - VAD filter removed 00:09.358 of audio
+2026-01-03 21:57:34 - faster_whisper - INFO - Detected language 'en' with probability 0.98
+2026-01-03 22:04:22 - transcription - INFO - Transcription complete. Detected language: en (probability: 0.98)
+2026-01-03 22:04:22 - transcription - INFO - Initializing Diarization Pipeline (pyannote.audio)...
+2026-01-03 22:04:22 - transcription - ERROR - pyannote.audio not installed. Cannot perform diarization.
+2026-01-03 22:04:22 - transcription - INFO - Saved transcript to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\transcripts\GAS0005_processed.txt
+2026-01-03 22:04:22 - transcription - INFO - Saved segments to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\segments\GAS0005_processed.json
+2026-01-03 22:04:22 - segmentation - INFO - Segmenting 226 segments...
+2026-01-03 22:04:25 - segmentation - INFO - Similarity stats: Mean=0.468, Std=0.149, Threshold=0.393
+2026-01-03 22:04:25 - segmentation - INFO - Found 19 topics.
+2026-01-03 22:04:25 - summarization - INFO - Summarizing 19 topics...
+2026-01-03 22:04:33 - summarization - INFO - Summarized Topic 0
+2026-01-03 22:04:41 - summarization - INFO - Summarized Topic 1
+2026-01-03 22:04:49 - summarization - INFO - Summarized Topic 2
+2026-01-03 22:05:11 - summarization - INFO - Summarized Topic 3
+2026-01-03 22:05:31 - summarization - INFO - Summarized Topic 4
+2026-01-03 22:05:58 - summarization - INFO - Summarized Topic 5
+2026-01-03 22:06:09 - summarization - INFO - Summarized Topic 6
+2026-01-03 22:06:32 - summarization - INFO - Summarized Topic 7
+2026-01-03 22:06:41 - summarization - INFO - Summarized Topic 8
+2026-01-03 22:06:49 - summarization - INFO - Summarized Topic 9
+2026-01-03 22:06:58 - summarization - INFO - Summarized Topic 10
+2026-01-03 22:07:19 - summarization - INFO - Summarized Topic 11
+2026-01-03 22:07:27 - summarization - INFO - Summarized Topic 12
+2026-01-03 22:07:37 - summarization - INFO - Summarized Topic 13
+2026-01-03 22:07:49 - summarization - INFO - Summarized Topic 14
+2026-01-03 22:08:01 - summarization - INFO - Summarized Topic 15
+2026-01-03 22:08:12 - summarization - INFO - Summarized Topic 16
+2026-01-03 22:08:36 - summarization - INFO - Summarized Topic 17
+2026-01-03 22:08:36 - summarization - INFO - Summarized Topic 18
+2026-01-03 22:08:36 - keyword_extraction - INFO - Extracting keywords for 19 topics...
+2026-01-03 22:08:44 - sentiment_analysis - INFO - Starting analysis on 19 topics...
+2026-01-03 22:09:18 - sentiment_analysis - INFO - Topic analysis completed.
+2026-01-03 22:09:18 - indexing - INFO - Indexing 19 topics...
+2026-01-03 22:09:19 - indexing - INFO - Topic indexing complete.
+2026-01-03 22:09:21 - indexing - INFO - Indexing 19 topics...
+2026-01-03 22:09:23 - indexing - INFO - Topic indexing complete.

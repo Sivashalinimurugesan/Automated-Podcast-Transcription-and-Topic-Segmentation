@@ -1,0 +1,1574 @@
+{
+  "language": "en",
+  "topics": [
+    {
+      "id": 0,
+      "start": 0.18,
+      "end": 46.8,
+      "text": "Hey, Doc, I'm a 45-year-old man coming in. I'm worried. There's a little rash on my leg. I'm getting nervous about. Hi So you I understand you have a rash on your leg. I Don't really know what I would call it. That's what I told the nurse when I came in, but it's more hurts than anything Okay, how long have you been going on for? It's been it's been looking weird for about a week, but only yes It started hurting yesterday. It's sort of looking strange. I just wanted to come in to get it checked out Okay When you say it's looking strange",
+      "segments": [
+        {
+          "start": 0.18,
+          "end": 2.18,
+          "text": "Hey, Doc, I'm a",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4632890522480011
+        },
+        {
+          "start": 2.7,
+          "end": 8.84,
+          "text": "45-year-old man coming in. I'm worried. There's a little rash on my leg. I'm getting nervous about.",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.9720101356506348
+        },
+        {
+          "start": 9.14,
+          "end": 13.18,
+          "text": "Hi",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9316705465316772
+        },
+        {
+          "start": 13.94,
+          "end": 17.98,
+          "text": "So you I understand you have a rash on your leg. I",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5335840582847595
+        },
+        {
+          "start": 18.7,
+          "end": 24.62,
+          "text": "Don't really know what I would call it. That's what I told the nurse when I came in, but it's more hurts than anything",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.34095171093940735
+        },
+        {
+          "start": 25.86,
+          "end": 29.22,
+          "text": "Okay, how long have you been going on for?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7641621232032776
+        },
+        {
+          "start": 30.22,
+          "end": 36.2,
+          "text": "It's been it's been looking weird for about a week, but only yes",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.7903617024421692
+        },
+        {
+          "start": 36.2,
+          "end": 41.72,
+          "text": "It started hurting yesterday. It's sort of looking strange. I just wanted to come in to get it checked out",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.5109314918518066
+        },
+        {
+          "start": 42.8,
+          "end": 44.8,
+          "text": "Okay",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6484044194221497
+        },
+        {
+          "start": 44.8,
+          "end": 46.8,
+          "text": "When you say it's looking strange",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.42286917567253113
+        }
+      ],
+      "summary": " A 45-year-old man is worried about a rash on his leg . It started hurting yesterday . It's sort of looking strange. I just wanted to come in to get it checked out .",
+      "tldr": " A 45-year-old man is worried about a rash on his leg . It started hurting yesterday . It's sort of looking strange. I just wanted to come in to get it checked out .",
+      "title": " A 45-year-old man is worried about a rash on his leg . It started hurting yesterday . It's sort of looking strange. I just wanted to come in to get it checked out .",
+      "bullets": [
+        "A 45-year-old man is worried about a rash on his leg",
+        "It started hurting yesterday",
+        "It's sort of looking strange",
+        "I just wanted to come in to get it checked out ."
+      ],
+      "keywords": [
+        "rash",
+        "told the nurse",
+        "hurting yesterday",
+        "worried",
+        "leg"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9970794916152954,
+      "emotion": "fear",
+      "emotion_score": 0.7413266897201538
+    },
+    {
+      "id": 1,
+      "start": 47.28,
+      "end": 76.98,
+      "text": "What do you mean by that? Slow one. It looks bigger than it did before Meanor if that makes sense Well, and okay, is it red? Yeah, it's red. It's turning more red kind of in the area around it I've got these I got these scabs. I've got diabetes and dogs actually the best with it I'm in scratch and at it and normally it's not that bad, but this is just Strange looking. There's no other word for it",
+      "segments": [
+        {
+          "start": 47.28,
+          "end": 49.28,
+          "text": "What do you mean by that?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.8655868172645569
+        },
+        {
+          "start": 49.28,
+          "end": 52.0,
+          "text": "Slow one. It looks bigger than it did before",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4936662018299103
+        },
+        {
+          "start": 53.02,
+          "end": 55.02,
+          "text": "Meanor if that makes sense",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9263951182365417
+        },
+        {
+          "start": 56.02,
+          "end": 63.42,
+          "text": "Well, and okay, is it red? Yeah, it's red. It's turning more red kind of in the area around it",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.4089807868003845
+        },
+        {
+          "start": 64.14,
+          "end": 69.38,
+          "text": "I've got these I got these scabs. I've got diabetes and dogs actually the best with it",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9071043729782104
+        },
+        {
+          "start": 69.98,
+          "end": 74.1,
+          "text": "I'm in scratch and at it and normally it's not that bad, but this is just",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.47910717129707336
+        },
+        {
+          "start": 74.82,
+          "end": 76.98,
+          "text": "Strange looking. There's no other word for it",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.7422345280647278
+        }
+      ],
+      "summary": " It looks bigger than it did before Meanor if that makes sense . It's turning more red kind of in the area around it . I've got diabetes and dogs actually the best with it I'm in scratch and at it and normally it's not that bad .",
+      "tldr": " It looks bigger than it did before Meanor if that makes sense . It's turning more red kind of",
+      "title": " It looks bigger than it did before Meanor if that makes",
+      "bullets": [
+        "It looks bigger than it did before Meanor if that makes sense",
+        "It's turning more red kind of in the area around it",
+        "I've got diabetes and dogs actually the best with it I'm in scratch and at it and normally it's not that bad ."
+      ],
+      "keywords": [
+        "scabs",
+        "red kind",
+        "red",
+        "turning more red",
+        "Meanor"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9972067475318909,
+      "emotion": "neutral",
+      "emotion_score": 0.4645357131958008
+    },
+    {
+      "id": 2,
+      "start": 77.7,
+      "end": 121.66,
+      "text": "Okay Have you ever had anything like this before? I guess you've kind of just said that you didn't but it was double check No, no Well, I've had I have occasional ulcers and sometimes I've banged my toe Not exactly the best taking care of my feet, but this is the first time I've gone something that I don't I've just never seen it before Okay Do you have any ulcers right now on your feet? I think so When I last time I saw the family dog I think I've got an ulcer on my like left heel, but I think it's doing all right Okay, and what legs are you having this problem with right now? So am I right? So my ankle?",
+      "segments": [
+        {
+          "start": 77.7,
+          "end": 79.7,
+          "text": "Okay",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6484044194221497
+        },
+        {
+          "start": 79.7,
+          "end": 85.02,
+          "text": "Have you ever had anything like this before? I guess you've kind of just said that you didn't but it was double check",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8261654376983643
+        },
+        {
+          "start": 85.62,
+          "end": 87.62,
+          "text": "No, no",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4017680287361145
+        },
+        {
+          "start": 87.62,
+          "end": 92.16,
+          "text": "Well, I've had I have occasional ulcers and sometimes I've banged my toe",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3795856833457947
+        },
+        {
+          "start": 92.82,
+          "end": 101.14,
+          "text": "Not exactly the best taking care of my feet, but this is the first time I've gone something that I don't I've just never seen it before",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6746677160263062
+        },
+        {
+          "start": 101.98,
+          "end": 103.98,
+          "text": "Okay",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6484044194221497
+        },
+        {
+          "start": 103.98,
+          "end": 108.02,
+          "text": "Do you have any ulcers right now on your feet? I think so",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.763312816619873
+        },
+        {
+          "start": 108.34,
+          "end": 114.94,
+          "text": "When I last time I saw the family dog I think I've got an ulcer on my like left heel, but I think it's doing all right",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8133211135864258
+        },
+        {
+          "start": 115.9,
+          "end": 121.66,
+          "text": "Okay, and what legs are you having this problem with right now? So am I right? So my ankle?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4935694634914398
+        }
+      ],
+      "summary": " Have you ever had anything like this before? I guess you've kind of just said that you didn't but it was double check No, no Well, I've had I have occasional ulcers and sometimes I've banged my toe Not exactly the best taking care of my feet, but this is the first time I've gone something that I don't I've just never seen it before Okay Do you have any ulcers right now on your feet? I think so When I last time I saw the family dog I think I've got an ulcer on my like left heel, but I think it's doing all right",
+      "tldr": " Have you ever had anything like this before? I guess you've kind of just said that you didn't but it was double check No, no Well, I've had I have occasional ulcers and sometimes I've banged my toe",
+      "title": " Have you ever had anything like this before? I guess you",
+      "bullets": [
+        "Have you ever had anything like this before? I guess you've kind of just said that you didn't but it was double check No, no Well, I've had I have occasional ulcers and sometimes I've banged my toe Not exactly the best taking care of my feet, but this is the first time I've gone something that I don't I've just never seen it before Okay Do you have any ulcers right now on your feet? I think so When I last time I saw the family dog I think I've got an ulcer on my like left heel, but I think it's doing all right"
+      ],
+      "keywords": [
+        "occasional ulcers",
+        "ulcer",
+        "ulcers",
+        "left heel",
+        "banged my toe"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.8327654004096985,
+      "emotion": "neutral",
+      "emotion_score": 0.6069726347923279
+    },
+    {
+      "id": 3,
+      "start": 122.14,
+      "end": 163.59,
+      "text": "Okay, how have your sugar been controlled briefly? I stopped measuring them Yeah, last time I measured it was pretty bad I think my A1C last time was like nine nine something I'm trying to try and better to be with it. It's just hard with work, you know For sure, I can imagine so in general even if you don't know your number for your sugars, have you felt Worse than usual lately. Have you felt run down at all? Yeah, I actually have Being more Feel hungry sometimes it's tired, but",
+      "segments": [
+        {
+          "start": 122.14,
+          "end": 127.51,
+          "text": "Okay, how have your sugar been controlled briefly?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8140799403190613
+        },
+        {
+          "start": 128.67,
+          "end": 130.67,
+          "text": "I stopped measuring them",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.2875845432281494
+        },
+        {
+          "start": 131.47,
+          "end": 133.63,
+          "text": "Yeah, last time I measured it was pretty bad",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.8766683340072632
+        },
+        {
+          "start": 134.39,
+          "end": 137.83,
+          "text": "I think my A1C last time was like nine",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5504986047744751
+        },
+        {
+          "start": 138.35,
+          "end": 140.35,
+          "text": "nine something",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.48827457427978516
+        },
+        {
+          "start": 140.35,
+          "end": 144.11,
+          "text": "I'm trying to try and better to be with it. It's just hard with work, you know",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.48997917771339417
+        },
+        {
+          "start": 144.99,
+          "end": 152.39,
+          "text": "For sure, I can imagine so in general even if you don't know your number for your sugars, have you felt",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9377653002738953
+        },
+        {
+          "start": 153.51,
+          "end": 158.67,
+          "text": "Worse than usual lately. Have you felt run down at all? Yeah, I actually have",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.44753438234329224
+        },
+        {
+          "start": 159.27,
+          "end": 160.67,
+          "text": "Being more",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8923238515853882
+        },
+        {
+          "start": 160.67,
+          "end": 163.59,
+          "text": "Feel hungry sometimes it's tired, but",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.8829704523086548
+        }
+      ],
+      "summary": " Last time I measured it was pretty bad I think my A1C last time was like nine nine something I'm trying to try and better to be with it. It's just hard with work, you know . Have you felt run down lately? Yeah, I actually have Being more .",
+      "tldr": " I think my A1C last time was like nine nine something I'm trying to try and better to be",
+      "title": " I think my A1C last time was like nine nine",
+      "bullets": [
+        "Last time I measured it was pretty bad I think my A1C last time was like nine nine something I'm trying to try and better to be with it",
+        "It's just hard with work, you know",
+        "Have you felt run down lately? Yeah, I actually have Being more ."
+      ],
+      "keywords": [
+        "sugar been controlled",
+        "Feel hungry",
+        "stopped measuring",
+        "measuring them Yeah",
+        "felt Worse"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9990102052688599,
+      "emotion": "sadness",
+      "emotion_score": 0.6006415486335754
+    },
+    {
+      "id": 4,
+      "start": 164.43,
+      "end": 198.27,
+      "text": "I don't know it's hard to tell there's an off-lock going on in my life right now the kids, but It's hard to tell I think yeah, I need to see my family dog Definitely, you know a good a good idea moving forward just to make sure you get on top of these things But I'm glad you came in today so we can you know have a better look at you and make sure that there's nothing else super concerning going on So in addition to this, have you had any other new symptoms? Symptoms",
+      "segments": [
+        {
+          "start": 164.43,
+          "end": 168.91,
+          "text": "I don't know it's hard to tell there's an off-lock going on in my life right now the kids, but",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.712022066116333
+        },
+        {
+          "start": 170.11,
+          "end": 174.11,
+          "text": "It's hard to tell I think yeah, I need to see my family dog",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.48694875836372375
+        },
+        {
+          "start": 176.31,
+          "end": 182.83,
+          "text": "Definitely, you know a good a good idea moving forward just to make sure you get on top of these things",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9566609859466553
+        },
+        {
+          "start": 182.83,
+          "end": 188.55,
+          "text": "But I'm glad you came in today so we can you know have a better look at you and make sure that there's nothing else",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.9397258758544922
+        },
+        {
+          "start": 188.67,
+          "end": 190.67,
+          "text": "super concerning going on",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3221731185913086
+        },
+        {
+          "start": 192.11,
+          "end": 195.39,
+          "text": "So in addition to this, have you had any other new symptoms?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8297618627548218
+        },
+        {
+          "start": 196.75,
+          "end": 198.27,
+          "text": "Symptoms",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.5055626034736633
+        }
+      ],
+      "summary": " I don't know it's hard to tell there's an off-lock going on in my life right now the kids, but It's hard . I think yeah, I need to see my family dog Definitely, you know a good a good idea moving forward just to make sure you get on top of these things .",
+      "tldr": " I don't know it's hard to tell there's an off-lock going on in my life right now the kids",
+      "title": " \"It's hard to tell there's an off-lock",
+      "bullets": [
+        "I don't know it's hard to tell there's an off-lock going on in my life right now the kids, but It's hard",
+        "I think yeah, I need to see my family dog Definitely, you know a good a good idea moving forward just to make sure you get on top of these things ."
+      ],
+      "keywords": [
+        "family dog",
+        "symptoms",
+        "life",
+        "off-lock",
+        "good idea moving"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9988407492637634,
+      "emotion": "neutral",
+      "emotion_score": 0.7355033159255981
+    },
+    {
+      "id": 5,
+      "start": 198.27,
+      "end": 229.14,
+      "text": "I feel a little hot actually When the swelling started it's it also started leaking this like white stuff from one of the One of what used to be a scab so now like kind of open room now Okay, so when did you start feeling hot? Honestly last 12 hours You take your temperature at all. No, I don't have a thermometer at home. Have you had any difficulty breathing?",
+      "segments": [
+        {
+          "start": 198.27,
+          "end": 200.27,
+          "text": "I feel a little hot actually",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.39688682556152344
+        },
+        {
+          "start": 200.51,
+          "end": 206.03,
+          "text": "When the swelling started it's it also started leaking this like white stuff from one of the",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5237908959388733
+        },
+        {
+          "start": 206.99,
+          "end": 211.15,
+          "text": "One of what used to be a scab so now like kind of open room now",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7262498736381531
+        },
+        {
+          "start": 213.95,
+          "end": 216.19,
+          "text": "Okay, so when did you start feeling hot?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.44692322611808777
+        },
+        {
+          "start": 217.15,
+          "end": 219.15,
+          "text": "Honestly last 12 hours",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7702372670173645
+        },
+        {
+          "start": 220.75,
+          "end": 229.14,
+          "text": "You take your temperature at all. No, I don't have a thermometer at home. Have you had any difficulty breathing?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8346596360206604
+        }
+      ],
+      "summary": " I feel a little hot actually when the swelling started it's it also started leaking this like white stuff from one of the One of what used to be a scab so now like kind of open room now .",
+      "tldr": " One of what used to be a scab so now like kind of open room now",
+      "title": " \"I feel a little hot actually when the swelling started it",
+      "bullets": [
+        "I feel a little hot actually when the swelling started it's it also started leaking this like white stuff from one of the One of what used to be a scab so now like kind of open room now ."
+      ],
+      "keywords": [
+        "feeling hot",
+        "start feeling hot",
+        "swelling started",
+        "swelling",
+        "started leaking"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9985151886940002,
+      "emotion": "disgust",
+      "emotion_score": 0.29443779587745667
+    },
+    {
+      "id": 6,
+      "start": 230.26,
+      "end": 267.46,
+      "text": "No And you chest pain No, have you noticed that you're Less sorry, you're right leg feels any hotter than the left Yeah, yeah does actually changing socks the other day Yeah, hey, have you like have you felt ill recently? Have you been sick at all? Aside from just feeling a little crummy last couple weeks. No, don't really less energy today, but",
+      "segments": [
+        {
+          "start": 230.26,
+          "end": 232.26,
+          "text": "No",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7383177876472473
+        },
+        {
+          "start": 232.26,
+          "end": 234.26,
+          "text": "And you chest pain",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.6245254874229431
+        },
+        {
+          "start": 234.38,
+          "end": 239.4,
+          "text": "No, have you noticed that you're",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6516143083572388
+        },
+        {
+          "start": 240.2,
+          "end": 244.24,
+          "text": "Less sorry, you're right leg feels any hotter than the left",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.46864140033721924
+        },
+        {
+          "start": 244.84,
+          "end": 248.48,
+          "text": "Yeah, yeah does actually changing socks the other day",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7697394490242004
+        },
+        {
+          "start": 249.44,
+          "end": 258.9,
+          "text": "Yeah, hey, have you like have you felt ill recently? Have you been sick at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.2598671317100525
+        },
+        {
+          "start": 261.7,
+          "end": 267.46,
+          "text": "Aside from just feeling a little crummy last couple weeks. No, don't really less energy today, but",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.8602673411369324
+        }
+      ],
+      "summary": " Less sorry, you're right leg feels any hotter than the left . No, don't really less energy today, but just less energy . No And you chest pain No, have you noticed that you're chest pain?",
+      "tldr": " Less sorry, you're right leg feels any hotter than the left . No, don't really less energy today, but just less energy . No And you chest pain No, have you noticed that you're chest pain?",
+      "title": " Less sorry, you're right leg feels any hotter than the left . No, don't really less energy today, but just less energy . No And you chest pain No, have you noticed that you're chest pain?",
+      "bullets": [
+        "Less sorry, you're right leg feels any hotter than the left",
+        "No, don't really less energy today, but just less energy",
+        "No And you chest pain No, have you noticed that you're chest pain?"
+      ],
+      "keywords": [
+        "felt ill recently",
+        "leg feels",
+        "feels any hotter",
+        "changing socks",
+        "felt ill"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9833242893218994,
+      "emotion": "anger",
+      "emotion_score": 0.6918908357620239
+    },
+    {
+      "id": 7,
+      "start": 268.42,
+      "end": 332.82,
+      "text": "I was up last night thinking about this. Yeah, wanted to come in and talk Yeah, I'm you did the right thing. I'm glad that you're in today um Is the pain on your leg worse when you catch it? Yeah, maybe not so much when I touch it when I walk with it and I start flexing it. It doesn't like that Just resting it right now. It feels fine It's okay Okay, well, I'm going to if I think of any more questions specifically about your leg. I will go back to it But I'm going to move on and ask you two questions about your overall health Um, you've already shared with me that you you are diabetic. I do have any other chronic conditions that you live with On a condition. I see the family talk about cholesterol. I want to pill for that Um, uh, had asthma as a kid off too much of an issue now",
+      "segments": [
+        {
+          "start": 268.42,
+          "end": 273.14,
+          "text": "I was up last night thinking about this. Yeah, wanted to come in and talk",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5583614110946655
+        },
+        {
+          "start": 274.66,
+          "end": 278.26,
+          "text": "Yeah, I'm you did the right thing. I'm glad that you're in today",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.9690957069396973
+        },
+        {
+          "start": 278.98,
+          "end": 280.5,
+          "text": "um",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6255722045898438
+        },
+        {
+          "start": 280.5,
+          "end": 282.74,
+          "text": "Is the pain on your leg worse when you catch it?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.8301390409469604
+        },
+        {
+          "start": 283.22,
+          "end": 290.42,
+          "text": "Yeah, maybe not so much when I touch it when I walk with it and I start flexing it. It doesn't like that",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.8106494545936584
+        },
+        {
+          "start": 296.13,
+          "end": 298.13,
+          "text": "Just resting it right now. It feels fine",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6476319432258606
+        },
+        {
+          "start": 299.41,
+          "end": 303.14,
+          "text": "It's okay",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7471435070037842
+        },
+        {
+          "start": 303.14,
+          "end": 309.22,
+          "text": "Okay, well, I'm going to if I think of any more questions specifically about your leg. I will go back to it",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9432898759841919
+        },
+        {
+          "start": 309.3,
+          "end": 313.38,
+          "text": "But I'm going to move on and ask you two questions about your overall health",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8996257781982422
+        },
+        {
+          "start": 314.26,
+          "end": 320.9,
+          "text": "Um, you've already shared with me that you you are diabetic. I do have any other chronic conditions that you live with",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9439112544059753
+        },
+        {
+          "start": 321.86,
+          "end": 327.46,
+          "text": "On a condition. I see the family talk about cholesterol. I want to pill for that",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.841974139213562
+        },
+        {
+          "start": 329.46,
+          "end": 332.82,
+          "text": "Um, uh, had asthma as a kid off too much of an issue now",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5174551606178284
+        }
+      ],
+      "summary": " Is the pain on your leg worse when you catch it? Yeah, maybe not so much when I touch it when I walk with it and I start flexing it. It doesn't like that Just resting it right now. It feels fine It's okay Okay, well, I'm going to move on and ask you two questions .",
+      "tldr": " Is the pain on your leg worse when you catch it? Yeah, maybe not so much when I touch it when I walk",
+      "title": " Is the pain on your leg worse when you catch it?",
+      "bullets": [
+        "Is the pain on your leg worse when you catch it? Yeah, maybe not so much when I touch it when I walk with it and I start flexing it",
+        "It doesn't like that Just resting it right now",
+        "It feels fine It's okay Okay, well, I'm going to move on and ask you two questions ."
+      ],
+      "keywords": [
+        "leg worse",
+        "chronic conditions",
+        "leg",
+        "start flexing",
+        "talk Yeah"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9986428618431091,
+      "emotion": "disgust",
+      "emotion_score": 0.4865108132362366
+    },
+    {
+      "id": 8,
+      "start": 333.78,
+      "end": 364.82,
+      "text": "And uh my back I've had back pain for last ten years, but I don't know what it really take for his tile and all that bill for that crime Oh, my other question about your leg was uh Did you lost any feeling in it? No, it kind of like a doll ache sometimes when I touch it, but No, I like in the area the ankle no, but definitely on my feet like over the years",
+      "segments": [
+        {
+          "start": 333.78,
+          "end": 338.82,
+          "text": "And uh my back I've had back pain for last ten years, but",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.4511494040489197
+        },
+        {
+          "start": 339.78,
+          "end": 342.74,
+          "text": "I don't know what it really take for his tile and all that bill for that",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5794909596443176
+        },
+        {
+          "start": 344.02,
+          "end": 345.38,
+          "text": "crime",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.45790615677833557
+        },
+        {
+          "start": 345.38,
+          "end": 348.1,
+          "text": "Oh, my other question about your leg was uh",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7557169198989868
+        },
+        {
+          "start": 349.38,
+          "end": 351.38,
+          "text": "Did you lost any feeling in it?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3236180245876312
+        },
+        {
+          "start": 353.14,
+          "end": 357.38,
+          "text": "No, it kind of like a doll ache sometimes when I touch it, but",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.4006292223930359
+        },
+        {
+          "start": 358.18,
+          "end": 364.82,
+          "text": "No, I like in the area the ankle no, but definitely on my feet like over the years",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6970965266227722
+        }
+      ],
+      "summary": " \"I've had back pain for last ten years, but I don't know what it really take for his tile and all that bill for that crime\"",
+      "tldr": " \"I've had back pain for last ten years, but I don't know what it really take for his tile and all that bill for that crime\"",
+      "title": " \"I've had back pain for last ten years, but I don't know what it really take for his tile and all that bill for that crime\"",
+      "bullets": [
+        "\"I've had back pain for last ten years, but I don't know what it really take for his tile and all that bill for that crime\""
+      ],
+      "keywords": [
+        "back pain",
+        "pain",
+        "leg",
+        "tile",
+        "doll ache"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9993182420730591,
+      "emotion": "neutral",
+      "emotion_score": 0.6315541863441467
+    },
+    {
+      "id": 9,
+      "start": 364.82,
+      "end": 407.38,
+      "text": "I've noticed I feel less on it compared to what I did previously. Yeah Okay, so uh, sorry, I kind of side talked to there. So we talked about Three diabetes you said you have high cholesterol Um, so what medications are you currently taking? I'm taking four pills right now um, okay One of them is for the cholesterol. I think it's called Resuvistatin Um, the other three they're all diabetes medications, but I don't remember. Metform is one of them",
+      "segments": [
+        {
+          "start": 364.82,
+          "end": 368.9,
+          "text": "I've noticed I feel less on it compared to what I did previously. Yeah",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6245041489601135
+        },
+        {
+          "start": 369.86,
+          "end": 378.02,
+          "text": "Okay, so uh, sorry, I kind of side talked to there. So we talked about",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.46442705392837524
+        },
+        {
+          "start": 378.82,
+          "end": 381.3,
+          "text": "Three diabetes you said you have high cholesterol",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7993112802505493
+        },
+        {
+          "start": 382.18,
+          "end": 385.06,
+          "text": "Um, so what medications are you currently taking?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8778597116470337
+        },
+        {
+          "start": 386.58,
+          "end": 390.1,
+          "text": "I'm taking four pills right now um, okay",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.430086612701416
+        },
+        {
+          "start": 390.98,
+          "end": 396.1,
+          "text": "One of them is for the cholesterol. I think it's called",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9216552972793579
+        },
+        {
+          "start": 396.5,
+          "end": 399.3,
+          "text": "Resuvistatin",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8635939359664917
+        },
+        {
+          "start": 400.26,
+          "end": 407.38,
+          "text": "Um, the other three they're all diabetes medications, but I don't remember. Metform is one of them",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9137680530548096
+        }
+      ],
+      "summary": " I've noticed I feel less on it compared to what I did previously . I'm taking four pills right now um, okay One of them is for the cholesterol . The other three are all diabetes medications .",
+      "tldr": " I've noticed I feel less on it compared to what I did previously . I'm taking four pills right now um, okay One of them is for the cholesterol . The other three are all diabetes medications .",
+      "title": " I've noticed I feel less on it compared to what I did previously . I'm taking four pills right now um, okay One of them is for the cholesterol . The other three are all diabetes medications .",
+      "bullets": [
+        "I've noticed I feel less on it compared to what I did previously",
+        "I'm taking four pills right now um, okay One of them is for the cholesterol",
+        "The other three are all diabetes medications ."
+      ],
+      "keywords": [
+        "diabetes medications",
+        "high cholesterol",
+        "cholesterol",
+        "diabetes",
+        "medications"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9961708188056946,
+      "emotion": "neutral",
+      "emotion_score": 0.808844268321991
+    },
+    {
+      "id": 10,
+      "start": 408.9,
+      "end": 446.5,
+      "text": "Sit a sit a slubbed. I have a list somewhere. I'll give it to you later Okay, are you on insulin right now? No Um, are you on any or any medication new to your reasons? No, no, but I've had them for about a year now Okay Uh, do you have any allergies? Um, yeah, I do actually kind of selling can't take that And what happens when you take ton of sillin? It's been a while as a kid um, apparently like face got bloated was Just have a hard time breathing. So",
+      "segments": [
+        {
+          "start": 408.9,
+          "end": 412.26,
+          "text": "Sit a sit a slubbed. I have a list somewhere. I'll give it to you later",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6120942234992981
+        },
+        {
+          "start": 413.46,
+          "end": 415.46,
+          "text": "Okay, are you on insulin right now?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6365430355072021
+        },
+        {
+          "start": 416.26,
+          "end": 419.06,
+          "text": "No",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7383177876472473
+        },
+        {
+          "start": 419.06,
+          "end": 423.86,
+          "text": "Um, are you on any or any medication new to your reasons?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8697289824485779
+        },
+        {
+          "start": 424.5,
+          "end": 426.66,
+          "text": "No, no, but I've had them for about a year now",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8830119967460632
+        },
+        {
+          "start": 426.9,
+          "end": 428.9,
+          "text": "Okay",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6484044194221497
+        },
+        {
+          "start": 428.9,
+          "end": 430.58,
+          "text": "Uh, do you have any allergies?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6851729154586792
+        },
+        {
+          "start": 431.86,
+          "end": 436.02,
+          "text": "Um, yeah, I do actually kind of selling can't take that",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8458201289176941
+        },
+        {
+          "start": 436.9,
+          "end": 438.74,
+          "text": "And what happens when you take ton of sillin?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6961598992347717
+        },
+        {
+          "start": 439.3,
+          "end": 444.02,
+          "text": "It's been a while as a kid um, apparently like face got bloated was",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6239963173866272
+        },
+        {
+          "start": 444.98,
+          "end": 446.5,
+          "text": "Just have a hard time breathing. So",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7730177640914917
+        }
+      ],
+      "summary": " Are you on insulin right now? No Um, are you on any or any medication new to your reasons? No, no, but I've had them for about a year now Okay Uh, do you have any allergies? Um, yeah, I do actually kind of sell can't take that .",
+      "tldr": " Are you on insulin right now? No Um, no, but I've had them for about a year",
+      "title": " Are you on insulin right now? No Um, no,",
+      "bullets": [
+        "Are you on insulin right now? No Um, are you on any or any medication new to your reasons? No, no, but I've had them for about a year now Okay Uh, do you have any allergies? Um, yeah, I do actually kind of sell can't take that ."
+      ],
+      "keywords": [
+        "allergies",
+        "insulin",
+        "ton of sillin",
+        "sit a slubbed",
+        "hard time breathing"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9928586483001709,
+      "emotion": "neutral",
+      "emotion_score": 0.6895372867584229
+    },
+    {
+      "id": 11,
+      "start": 447.46,
+      "end": 481.15,
+      "text": "Okay, well, we'll make sure that we don't give you that um Can you tell me if you've had any previous surgery? Uh, yeah, uh, what was it? Um, I had uh, my sinuses had some pretty bad sinusitis when I was in my teens and uh, they went in kind of carved a little bit of space out Okay Um, is that the only surgery that you've had? Yeah",
+      "segments": [
+        {
+          "start": 447.46,
+          "end": 450.42,
+          "text": "Okay, well, we'll make sure that we don't give you that um",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9202941060066223
+        },
+        {
+          "start": 451.7,
+          "end": 455.14,
+          "text": "Can you tell me if you've had any previous surgery?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8340428471565247
+        },
+        {
+          "start": 456.02,
+          "end": 458.74,
+          "text": "Uh, yeah, uh, what was it?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5489522218704224
+        },
+        {
+          "start": 459.94,
+          "end": 467.14,
+          "text": "Um, I had uh, my sinuses had some pretty bad sinusitis when I was in my teens and uh,",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.47293782234191895
+        },
+        {
+          "start": 467.14,
+          "end": 469.46,
+          "text": "they went in kind of carved a little bit of space out",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9088399410247803
+        },
+        {
+          "start": 470.98,
+          "end": 472.98,
+          "text": "Okay",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6484044194221497
+        },
+        {
+          "start": 473.46,
+          "end": 475.62,
+          "text": "Um, is that the only surgery that you've had?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.678022027015686
+        },
+        {
+          "start": 476.34,
+          "end": 481.15,
+          "text": "Yeah",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8850679993629456
+        }
+      ],
+      "summary": " Can you tell me if you've had any previous surgery? Uh, yeah, uh, what was it? \"I had some pretty bad sinusitis when I was in my teens and uh, they went in kind of carved a little bit of space out\"",
+      "tldr": " \"I had some pretty bad sinusitis when I was in my teens and uh,",
+      "title": " \"I had some pretty bad sinusitis when I was",
+      "bullets": [
+        "Can you tell me if you've had any previous surgery? Uh, yeah, uh, what was it? \"I had some pretty bad sinusitis when I was in my teens and uh, they went in kind of carved a little bit of space out\""
+      ],
+      "keywords": [
+        "previous surgery",
+        "sinuses",
+        "sinusitis",
+        "pretty bad sinusitis",
+        "bad sinusitis"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9991745352745056,
+      "emotion": "neutral",
+      "emotion_score": 0.5939363837242126
+    },
+    {
+      "id": 12,
+      "start": 481.55,
+      "end": 514.1,
+      "text": "Can you uh, tell me do you have any um, family history of diabetes, in problem, anything else uh, stand out to you? Yep, I'm side of the family Very much everyone has diabetes, high blood pressure, cholesterol That side of the family is pretty healthy Um, I think maybe one of my aunts had lung cancer But she's a pretty big smoker too",
+      "segments": [
+        {
+          "start": 481.55,
+          "end": 489.94,
+          "text": "Can you uh, tell me do you have any um, family history of diabetes,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.824319064617157
+        },
+        {
+          "start": 490.74,
+          "end": 494.9,
+          "text": "in problem, anything else uh, stand out to you?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.706382155418396
+        },
+        {
+          "start": 495.78,
+          "end": 497.78,
+          "text": "Yep, I'm side of the family",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7412691116333008
+        },
+        {
+          "start": 497.78,
+          "end": 501.78,
+          "text": "Very much everyone has diabetes, high blood pressure, cholesterol",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8243481516838074
+        },
+        {
+          "start": 502.82,
+          "end": 504.82,
+          "text": "That side of the family is pretty healthy",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8075194954872131
+        },
+        {
+          "start": 505.14,
+          "end": 512.02,
+          "text": "Um, I think maybe one of my aunts had lung cancer",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5130957365036011
+        },
+        {
+          "start": 512.1,
+          "end": 514.1,
+          "text": "But she's a pretty big smoker too",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7129554152488708
+        }
+      ],
+      "summary": " Everyone in the family has diabetes, high blood pressure, cholesterol . That side of the family is pretty healthy . I think maybe one of my aunts had lung cancer . But she's a pretty big smoker too .",
+      "tldr": " Everyone in the family has diabetes, high blood pressure, cholesterol . That side of the family is pretty healthy . I think maybe one of my aunts had lung cancer . But she's a pretty big smoker too .",
+      "title": " Everyone in the family has diabetes, high blood pressure, cholesterol . That side of the family is pretty healthy . I think maybe one of my aunts had lung cancer . But she's a pretty big smoker too .",
+      "bullets": [
+        "Everyone in the family has diabetes, high blood pressure, cholesterol",
+        "That side of the family is pretty healthy",
+        "I think maybe one of my aunts had lung cancer",
+        "But she's a pretty big smoker too ."
+      ],
+      "keywords": [
+        "history of diabetes",
+        "diabetes",
+        "aunts had lung",
+        "family history",
+        "family"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9987694621086121,
+      "emotion": "neutral",
+      "emotion_score": 0.7100817561149597
+    },
+    {
+      "id": 13,
+      "start": 517.22,
+      "end": 557.92,
+      "text": "Uh, and I'm hoping I'll do a few questions about your lifestyle Uh, so you said that you have sillin? Yeah, I do Do you live uh, in town? Do you live with your kids? Uh, I live in town. I see my kids other two weeks and uh What do you do for work? Did I already ask you this? Uh, no, I'm currently unemployed, I'm looking for work partially employed I suppose you should say I look for my own business I see and what do you uh, what do you do when uh, when you are working ideally? Uh, I don't know, and I'm working I'm an accountant",
+      "segments": [
+        {
+          "start": 517.22,
+          "end": 521.54,
+          "text": "Uh, and I'm hoping I'll do a few questions about your lifestyle",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9089353680610657
+        },
+        {
+          "start": 522.18,
+          "end": 524.1,
+          "text": "Uh, so you said that you have sillin?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6780449151992798
+        },
+        {
+          "start": 525.14,
+          "end": 527.94,
+          "text": "Yeah, I do",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8735926747322083
+        },
+        {
+          "start": 527.94,
+          "end": 530.34,
+          "text": "Do you live uh, in town? Do you live with your kids?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7428193092346191
+        },
+        {
+          "start": 531.3,
+          "end": 534.42,
+          "text": "Uh, I live in town. I see my kids other two weeks",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.4772578179836273
+        },
+        {
+          "start": 536.8,
+          "end": 538.8,
+          "text": "and uh",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8844015598297119
+        },
+        {
+          "start": 538.8,
+          "end": 541.36,
+          "text": "What do you do for work? Did I already ask you this?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.7843077182769775
+        },
+        {
+          "start": 542.24,
+          "end": 545.68,
+          "text": "Uh, no, I'm currently unemployed, I'm looking for work",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.8331332802772522
+        },
+        {
+          "start": 546.24,
+          "end": 549.12,
+          "text": "partially employed I suppose you should say I look for my own business",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7514606714248657
+        },
+        {
+          "start": 550.16,
+          "end": 555.44,
+          "text": "I see and what do you uh, what do you do when uh, when you are working ideally?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6555075645446777
+        },
+        {
+          "start": 556.16,
+          "end": 557.92,
+          "text": "Uh, I don't know, and I'm working I'm an accountant",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5462217926979065
+        }
+      ],
+      "summary": " I'm currently unemployed, I'm looking for work partially employed, I suppose you should say I look for my own business I see and what do you do when uh, when you are working ideally? Uh, I don't know, and I'm working I'm an accountant .",
+      "tldr": " I'm currently unemployed, I'm looking for work partially employed, I suppose you should say I",
+      "title": " I'm currently unemployed, I'm looking for work partially employed",
+      "bullets": [
+        "I'm currently unemployed, I'm looking for work partially employed, I suppose you should say I look for my own business I see and what do you do when uh, when you are working ideally? Uh, I don't know, and I'm working I'm an accountant ."
+      ],
+      "keywords": [
+        "lifestyle",
+        "work partially employed",
+        "working ideally",
+        "sillin",
+        "working"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9988036155700684,
+      "emotion": "neutral",
+      "emotion_score": 0.6492990255355835
+    },
+    {
+      "id": 14,
+      "start": 559.28,
+      "end": 606.77,
+      "text": "Well, okay, cool Um, and uh, do you smoke? Um, yeah, once in a while, yeah I'm stressed, though Last couple of weeks I've been smoking more maybe like two packs a week Okay Do you drink alcohol? Yeah, yeah How much do you typically drink? Um, average week maybe a two four So maybe like three for a day or something like that if you were to average it out Yeah, if you average it out, I mainly go through the two four a weekend to be honest Oh, I see, okay More so on the weekend so maybe a little bit more than three for day back in on those days",
+      "segments": [
+        {
+          "start": 559.28,
+          "end": 561.28,
+          "text": "Well, okay, cool",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5488935708999634
+        },
+        {
+          "start": 561.6,
+          "end": 564.16,
+          "text": "Um, and uh, do you smoke?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.5207442045211792
+        },
+        {
+          "start": 565.68,
+          "end": 568.16,
+          "text": "Um, yeah, once in a while, yeah",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7926612496376038
+        },
+        {
+          "start": 569.12,
+          "end": 570.32,
+          "text": "I'm stressed, though",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.7302332520484924
+        },
+        {
+          "start": 573.28,
+          "end": 576.4,
+          "text": "Last couple of weeks I've been smoking more maybe like two packs a week",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8986726999282837
+        },
+        {
+          "start": 577.76,
+          "end": 579.12,
+          "text": "Okay",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6484044194221497
+        },
+        {
+          "start": 579.12,
+          "end": 580.16,
+          "text": "Do you drink alcohol?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4925113618373871
+        },
+        {
+          "start": 581.04,
+          "end": 583.04,
+          "text": "Yeah, yeah",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7178063988685608
+        },
+        {
+          "start": 583.04,
+          "end": 584.4,
+          "text": "How much do you typically drink?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8954386711120605
+        },
+        {
+          "start": 585.28,
+          "end": 587.6,
+          "text": "Um, average week maybe a two four",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9397552609443665
+        },
+        {
+          "start": 590.13,
+          "end": 593.89,
+          "text": "So maybe like three for a day or something like that if you were to average it out",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9631087779998779
+        },
+        {
+          "start": 594.93,
+          "end": 598.69,
+          "text": "Yeah, if you average it out, I mainly go through the two four a weekend to be honest",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9546838998794556
+        },
+        {
+          "start": 599.97,
+          "end": 601.49,
+          "text": "Oh, I see, okay",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.433981716632843
+        },
+        {
+          "start": 601.49,
+          "end": 606.77,
+          "text": "More so on the weekend so maybe a little bit more than three for day back in on those days",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9462988376617432
+        }
+      ],
+      "summary": " Do you smoke? Um, yeah, once in a while, yeah I'm stressed, though Last couple of weeks I've been smoking more maybe like two packs a week Okay Do you drink alcohol? Yeah, yeah How much do you typically drink? Average week maybe a two four .",
+      "tldr": " Do you smoke? Um, yeah, once in a while, yeah I'm stressed, though Last",
+      "title": " Do you smoke? Um, yeah, once in a while",
+      "bullets": [
+        "Do you smoke? Um, yeah, once in a while, yeah I'm stressed, though Last couple of weeks I've been smoking more maybe like two packs a week Okay Do you drink alcohol? Yeah, yeah How much do you typically drink? Average week maybe a two four ."
+      ],
+      "keywords": [
+        "stressed",
+        "smoking",
+        "smoke",
+        "weekend",
+        "typically drink"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9935546517372131,
+      "emotion": "neutral",
+      "emotion_score": 0.2969669699668884
+    },
+    {
+      "id": 15,
+      "start": 607.41,
+      "end": 643.81,
+      "text": "Okay Oh, I see this that that's everything that uh, I need to ask you for now I'd like to get a closer look at this leg Um, did you have any other questions or concerns before we move forward to physical extent? No, I just want to get this figured out Okay, yeah, we'll definitely do that for you, uh, so Yeah, I'm gonna have a look at it and then I'll show that I will I'll go talk to the doctor that I'm working with and uh, see what we can do for you. Does that sound good? Thank you, doc. Yeah, sounds great Awesome. Okay, thanks",
+      "segments": [
+        {
+          "start": 607.41,
+          "end": 609.41,
+          "text": "Okay",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6484044194221497
+        },
+        {
+          "start": 609.41,
+          "end": 614.69,
+          "text": "Oh, I see this that that's everything that uh, I need to ask you for now",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7948713302612305
+        },
+        {
+          "start": 614.69,
+          "end": 617.17,
+          "text": "I'd like to get a closer look at this leg",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5250325202941895
+        },
+        {
+          "start": 617.89,
+          "end": 622.93,
+          "text": "Um, did you have any other questions or concerns before we move forward to physical extent?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8358663320541382
+        },
+        {
+          "start": 624.21,
+          "end": 626.21,
+          "text": "No, I just want to get this figured out",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9151192307472229
+        },
+        {
+          "start": 627.17,
+          "end": 630.05,
+          "text": "Okay, yeah, we'll definitely do that for you, uh, so",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9072218537330627
+        },
+        {
+          "start": 630.61,
+          "end": 633.17,
+          "text": "Yeah, I'm gonna have a look at it and then I'll show that I will",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9207298159599304
+        },
+        {
+          "start": 633.41,
+          "end": 638.61,
+          "text": "I'll go talk to the doctor that I'm working with and uh, see what we can do for you. Does that sound good?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8061087727546692
+        },
+        {
+          "start": 639.25,
+          "end": 641.25,
+          "text": "Thank you, doc. Yeah, sounds great",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.8524938821792603
+        },
+        {
+          "start": 641.81,
+          "end": 643.81,
+          "text": "Awesome. Okay, thanks",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.7956430315971375
+        }
+      ],
+      "summary": " Okay, I see this that that's everything that uh, I need to ask you for now I'd like to get a closer look at this leg Um, did you have any other questions or concerns before we move forward to physical extent? No, I just want to get this figured out Okay, yeah, we'll definitely do that for you .",
+      "tldr": " I just want to get this figured out Okay, yeah, we'll definitely do that for you .  Okay, I see this that",
+      "title": " I'd like to get a closer look at this leg,",
+      "bullets": [
+        "Okay, I see this that that's everything that uh, I need to ask you for now I'd like to get a closer look at this leg Um, did you have any other questions or concerns before we move forward to physical extent? No, I just want to get this figured out Okay, yeah, we'll definitely do that for you ."
+      ],
+      "keywords": [
+        "leg",
+        "sounds great Awesome",
+        "questions or concerns",
+        "forward to physical",
+        "great Awesome"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9988598823547363,
+      "emotion": "neutral",
+      "emotion_score": 0.9176436066627502
+    }
+  ]
+}

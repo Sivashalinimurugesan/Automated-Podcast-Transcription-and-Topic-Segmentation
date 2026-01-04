@@ -1,0 +1,617 @@
+{
+  "language": "en",
+  "topics": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 147.47,
+      "text": "We'll proceed in today. I've just been feeling like very nauseous. It feels like all the time right now. When did the start? Over a week. Maybe not quite too weak, but like around some. Yeah. Maybe like nine days. And do you always have the sensation of nausea or is it related? Or does it come and go? I think it's like worse just and smelling something really bad and it's worse in the morning. But I feel like it's always kind of there. I see. Okay. Have you had any vomiting? Yeah. Yeah. Like a lot of days. I'll throw off like one such bite. And this is all been over the past week, week, two weeks or so? Yeah. Okay. Any other symptoms that you have? No. I feel like I've had to pee a lot more. I don't think that's like related. I think maybe I've just been drinking a lot of water. Yeah. How often do you have to pee? I feel like every couple hours right now. Okay. So we'll save every two hours, every hour, every five hours. Yeah, like probably every, probably every like two, maybe maybe every hour. I get certain times of the day. Do you wake up at night? Did you pee? Like it doesn't wake me up, but it's like I wake up because I hear something",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 12.21,
+          "text": "We'll proceed in today. I've just been feeling like very nauseous. It feels like all the time right now.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.472037136554718
+        },
+        {
+          "start": 16.5,
+          "end": 30.32,
+          "text": "When did the start? Over a week. Maybe not quite too weak, but like around some. Yeah. Maybe like nine days.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8361051678657532
+        },
+        {
+          "start": 30.32,
+          "end": 41.2,
+          "text": "And do you always have the sensation of nausea or is it related? Or does it come and go?",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.40681999921798706
+        },
+        {
+          "start": 41.2,
+          "end": 52.38,
+          "text": "I think it's like worse just and smelling something really bad and it's worse in the morning.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.9721197485923767
+        },
+        {
+          "start": 52.38,
+          "end": 63.42,
+          "text": "But I feel like it's always kind of there. I see. Okay. Have you had any vomiting?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.7196903824806213
+        },
+        {
+          "start": 65.66,
+          "end": 72.77,
+          "text": "Yeah. Yeah. Like a lot of days. I'll throw off like one such bite.",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.5979052186012268
+        },
+        {
+          "start": 74.45,
+          "end": 85.41,
+          "text": "And this is all been over the past week, week, two weeks or so? Yeah. Okay. Any other symptoms that you",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8909465074539185
+        },
+        {
+          "start": 85.41,
+          "end": 102.75,
+          "text": "have? No. I feel like I've had to pee a lot more. I don't think that's like related. I think maybe I've",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3295975923538208
+        },
+        {
+          "start": 103.79,
+          "end": 120.51,
+          "text": "just been drinking a lot of water. Yeah. How often do you have to pee? I feel like every couple",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6666796207427979
+        },
+        {
+          "start": 120.51,
+          "end": 130.59,
+          "text": "hours right now. Okay. So we'll save every two hours, every hour, every five hours. Yeah, like probably",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9458011984825134
+        },
+        {
+          "start": 130.59,
+          "end": 138.75,
+          "text": "every, probably every like two, maybe maybe every hour. I get certain times of the day. Do you wake up at night?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8643979430198669
+        },
+        {
+          "start": 139.55,
+          "end": 147.47,
+          "text": "Did you pee? Like it doesn't wake me up, but it's like I wake up because I hear something",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.36056065559387207
+        }
+      ],
+      "summary": " I've just been feeling like very nauseous. It feels like all the time right now. I think it's like worse just and smelling something really bad and it's worse in the morning. Do you have any other symptoms that you have? No. I feel like I've had to pee a lot more. I don't think that's like related .",
+      "tldr": " I've just been feeling like very nauseous. It feels like all the time right now. I think it's like worse just",
+      "title": " I've just been feeling like very nauseous all the time",
+      "bullets": [
+        "I've just been feeling like very nauseous",
+        "It feels like all the time right now",
+        "I think it's like worse just and smelling something really bad and it's worse in the morning",
+        "Do you have any other symptoms that you have? No",
+        "I feel like I've had to pee a lot more",
+        "I don't think that's like related ."
+      ],
+      "keywords": [
+        "nauseous",
+        "pee",
+        "feel",
+        "hours",
+        "week"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.999663233757019,
+      "emotion": "disgust",
+      "emotion_score": 0.6592763662338257
+    },
+    {
+      "id": 1,
+      "start": 147.47,
+      "end": 400.42,
+      "text": "and I'll be like, oh, I think I should probably go to the bathroom. Yeah. Do you feel like you have control over when you are going to bachelor? Is it difficult for you to hold it in? Oh, I I can control it. It's just like uncomfortable, right? I see. I see. So you have your nervous frequency, but do you do you feel like so you said that you can control it? You don't you don't feel like you need to run to the bathroom or you'll be in your dance? No, I don't feel like that. Okay. Do you have any fame in your peeing? No. No. Okay. All right. Do you feel like you've been more thirsty recently? Why do you feel you've been drinking more? More water. I think I think just because like I was getting I was like sure enough, I feel like I was the hydrated one. Wow. I see. Okay. Have you other than the nausea and the vomiting? Have you had any other sort of stomach related issues? Any belly pain or changes in your bowel movement? No. I don't think so. It feels like a little crampy. I thought it maybe could be my period, but like not on my period. When did you last have your periods? Let me think. Like six weeks ago? I guess that would be. I don't know. I don't really like keep track. Okay. Do you know if you get your periods regularly or are your periods irregular? I think I think they're usually pretty regular, but I don't I don't like I don't calculate it to the day. It's true. Yeah. Is it is it normal for you to go with six weeks without a period? I don't think so. All right. Okay. I'll just ask you a couple more questions about your symptoms. So I know that you've been nauseous and have wanted a couple of times with past two weeks. And you have had some cramps in your belly. Have you had any flu-like symptoms? No. Nothing like that. I didn't think so. Any headaches? Any fevers? No. Muscle aches? No. Okay. Have you had a cough at all? Oh, no. Okay. And have you noticed any blood in your stools? No. No. Okay. Have you you haven't had the palpitations or chest pain or anything of that sort? No. All right. Can you tell me about your fast medical history? Any medical issues, medical conditions that you have? Nothing really. Okay. Have you been digging any medications? No. I mean, I've been taking like like I've",
+      "segments": [
+        {
+          "start": 147.47,
+          "end": 152.91,
+          "text": "and I'll be like, oh, I think I should probably go to the bathroom. Yeah. Do you feel like you have",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4889989197254181
+        },
+        {
+          "start": 152.91,
+          "end": 160.69,
+          "text": "control over when you are going to bachelor? Is it difficult for you to hold it in? Oh, I",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4929972290992737
+        },
+        {
+          "start": 160.69,
+          "end": 168.53,
+          "text": "I can control it. It's just like uncomfortable, right? I see. I see. So you have your",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.49983155727386475
+        },
+        {
+          "start": 168.53,
+          "end": 176.29,
+          "text": "nervous frequency, but do you do you feel like so you said that you can control it? You don't",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.9882751703262329
+        },
+        {
+          "start": 176.37,
+          "end": 183.42,
+          "text": "you don't feel like you need to run to the bathroom or you'll be in your dance? No, I don't feel",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.33310234546661377
+        },
+        {
+          "start": 183.42,
+          "end": 193.02,
+          "text": "like that. Okay. Do you have any fame in your peeing? No. No. Okay. All right. Do you feel like",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.5754002332687378
+        },
+        {
+          "start": 193.02,
+          "end": 198.62,
+          "text": "you've been more thirsty recently? Why do you feel you've been drinking more? More water. I think",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.46750715374946594
+        },
+        {
+          "start": 199.5,
+          "end": 206.86,
+          "text": "I think just because like I was getting I was like sure enough, I feel like I was the hydrated one.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6759192943572998
+        },
+        {
+          "start": 207.58,
+          "end": 223.12,
+          "text": "Wow. I see. Okay. Have you other than the nausea and the vomiting? Have you",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.908196210861206
+        },
+        {
+          "start": 223.12,
+          "end": 232.56,
+          "text": "had any other sort of stomach related issues? Any belly pain or changes in your bowel movement?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.33647269010543823
+        },
+        {
+          "start": 235.36,
+          "end": 243.92,
+          "text": "No. I don't think so. It feels like a little crampy. I thought it maybe could be my period,",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.482693076133728
+        },
+        {
+          "start": 243.92,
+          "end": 257.87,
+          "text": "but like not on my period. When did you last have your periods? Let me think.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8752440810203552
+        },
+        {
+          "start": 259.23,
+          "end": 267.71,
+          "text": "Like six weeks ago? I guess that would be. I don't know. I don't really like keep track.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7958423495292664
+        },
+        {
+          "start": 268.59,
+          "end": 274.11,
+          "text": "Okay. Do you know if you get your periods regularly or are your periods irregular?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8404925465583801
+        },
+        {
+          "start": 275.87,
+          "end": 282.43,
+          "text": "I think I think they're usually pretty regular, but I don't I don't like I don't calculate it",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.782355785369873
+        },
+        {
+          "start": 282.59,
+          "end": 291.31,
+          "text": "to the day. It's true. Yeah. Is it is it normal for you to go with six weeks without a period?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7837868928909302
+        },
+        {
+          "start": 296.61,
+          "end": 310.06,
+          "text": "I don't think so. All right. Okay. I'll just ask you a couple more questions about your symptoms.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8712401986122131
+        },
+        {
+          "start": 310.94,
+          "end": 315.74,
+          "text": "So I know that you've been nauseous and have wanted a couple of times with past two weeks.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4826112687587738
+        },
+        {
+          "start": 316.22,
+          "end": 324.54,
+          "text": "And you have had some cramps in your belly. Have you had any flu-like symptoms?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.34619277715682983
+        },
+        {
+          "start": 328.32,
+          "end": 338.32,
+          "text": "No. Nothing like that. I didn't think so. Any headaches? Any fevers?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4319770336151123
+        },
+        {
+          "start": 341.25,
+          "end": 350.5,
+          "text": "No. Muscle aches? No. Okay. Have you had a cough at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.2770017981529236
+        },
+        {
+          "start": 353.47,
+          "end": 359.39,
+          "text": "Oh, no. Okay. And have you noticed any blood in your stools?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.7678331136703491
+        },
+        {
+          "start": 361.97,
+          "end": 366.69,
+          "text": "No. No. Okay. Have you you haven't had the",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3341638743877411
+        },
+        {
+          "start": 368.29,
+          "end": 377.57,
+          "text": "palpitations or chest pain or anything of that sort? No. All right. Can you tell me about your",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.36452749371528625
+        },
+        {
+          "start": 377.57,
+          "end": 386.4,
+          "text": "fast medical history? Any medical issues, medical conditions that you have? Nothing really.",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.625679075717926
+        },
+        {
+          "start": 387.44,
+          "end": 400.42,
+          "text": "Okay. Have you been digging any medications? No. I mean, I've been taking like like I've",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7673887610435486
+        }
+      ],
+      "summary": " Do you feel like you have control over when you are going to bachelor? Is it difficult for you to hold it in? Oh, I I can control it. It's just like uncomfortable, right? I see. It feels like a little crampy. I thought it maybe could be my period, but like not on my period . Do you know if you get your periods regularly or are your periods irregular? I think I think they're usually pretty regular, but I don't calculate it to the day .",
+      "tldr": " Do you feel like you have control over when you are going to bachelor? Is it difficult for you to hold it in? Oh, I I can control it. It's just like uncomfortable, right?",
+      "title": " Is it difficult for you to hold it in? Oh,",
+      "bullets": [
+        "Do you feel like you have control over when you are going to bachelor? Is it difficult for you to hold it in? Oh, I I can control it",
+        "It's just like uncomfortable, right? I see",
+        "It feels like a little crampy",
+        "I thought it maybe could be my period, but like not on my period",
+        "Do you know if you get your periods regularly or are your periods irregular? I think I think they're usually pretty regular, but I don't calculate it to the day ."
+      ],
+      "keywords": [
+        "symptoms",
+        "bathroom",
+        "feel",
+        "periods",
+        "feels"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9981682300567627,
+      "emotion": "disgust",
+      "emotion_score": 0.3818722367286682
+    },
+    {
+      "id": 2,
+      "start": 400.42,
+      "end": 432.03,
+      "text": "been chewing like those ginger things that are supposed to help with nausea, but they weren't really helpful. I see. Any allergies? Just like nickel, like in jewellery, if I were, it's not real jewellery. It won't get me a rash, but it's not food. It's like a medication that doesn't have anything. And a couple of questions about your social history.",
+      "segments": [
+        {
+          "start": 400.42,
+          "end": 404.42,
+          "text": "been chewing like those ginger things that are supposed to help with nausea, but they weren't",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.7852232456207275
+        },
+        {
+          "start": 404.42,
+          "end": 415.63,
+          "text": "really helpful. I see. Any allergies? Just like nickel, like in jewellery, if I were,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6913210153579712
+        },
+        {
+          "start": 415.63,
+          "end": 421.47,
+          "text": "it's not real jewellery. It won't get me a rash, but it's not food. It's like a medication",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6218918561935425
+        },
+        {
+          "start": 421.47,
+          "end": 432.03,
+          "text": "that doesn't have anything. And a couple of questions about your social history.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9078167676925659
+        }
+      ],
+      "summary": " It won't get me a rash, but it's not food, it's like a medication that doesn't have anything . I see any allergies? Just like nickel, like in jewellery, if I were, not real jewellery .",
+      "tldr": " It won't get me a rash, but it's not food, it's like a medication that doesn't have anything . I see any allergies? Just like nickel, like in jewellery, if I were, not real jewellery .",
+      "title": " It won't get me a rash, but it's not food, it's like a medication that doesn't have anything . I see any allergies? Just like nickel, like in jewellery, if I were, not real jewellery .",
+      "bullets": [
+        "It won't get me a rash, but it's not food, it's like a medication that doesn't have anything",
+        "I see any allergies? Just like nickel, like in jewellery, if I were, not real jewellery ."
+      ],
+      "keywords": [
+        "ginger things",
+        "nausea",
+        "allergies",
+        "rash",
+        "ginger"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9985471367835999,
+      "emotion": "neutral",
+      "emotion_score": 0.6556586027145386
+    },
+    {
+      "id": 3,
+      "start": 432.03,
+      "end": 507.47,
+      "text": "Who do you currently live with? Like I just, I live with one real mate. And do you currently smoke? No. All right. Do you, you don't smoke? Okay. Have you, do you, can do alcohol? No, I'm very rarely, because I always get a headache. Okay. When was the last one that you had? Oh, gosh. Like like a month ago probably. Okay. And you can do many illicit drugs? No. No. All right. Are you currently sexually active? Oh, yeah. This is my boyfriend. And do you use protection while having sex? Oh, yeah. We, we just use condoms. Like I used to be on birth control, but it always made me feel",
+      "segments": [
+        {
+          "start": 432.03,
+          "end": 447.07,
+          "text": "Who do you currently live with? Like I just, I live with one real mate.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9416757822036743
+        },
+        {
+          "start": 450.83,
+          "end": 462.11,
+          "text": "And do you currently smoke? No. All right. Do you, you don't smoke? Okay. Have you,",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.4099847674369812
+        },
+        {
+          "start": 462.11,
+          "end": 468.75,
+          "text": "do you, can do alcohol? No, I'm very rarely, because I always get a headache.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5535721182823181
+        },
+        {
+          "start": 469.47,
+          "end": 477.71,
+          "text": "Okay. When was the last one that you had? Oh, gosh. Like like a month ago probably.",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.8615725636482239
+        },
+        {
+          "start": 477.71,
+          "end": 487.95,
+          "text": "Okay. And you can do many illicit drugs? No. No. All right. Are you currently sexually active?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4550354778766632
+        },
+        {
+          "start": 487.95,
+          "end": 498.67,
+          "text": "Oh, yeah. This is my boyfriend. And do you use protection while having sex?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.45026707649230957
+        },
+        {
+          "start": 500.35,
+          "end": 507.47,
+          "text": "Oh, yeah. We, we just use condoms. Like I used to be on birth control, but it always made me feel",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.4354889690876007
+        }
+      ],
+      "summary": " Have you, do you, can do alcohol? No, I'm very rarely, because I always get a headache . When was the last one that you had? Oh, gosh. Like like a month ago probably . Do you currently smoke? No. And do you use protection while having sex?",
+      "tldr": " Have you, do you, can do alcohol? No, I'm very rarely, because I always get",
+      "title": " Have you, do you, can do alcohol? No,",
+      "bullets": [
+        "Have you, do you, can do alcohol? No, I'm very rarely, because I always get a headache",
+        "When was the last one that you had? Oh, gosh",
+        "Like like a month ago probably",
+        "Do you currently smoke? No",
+        "And do you use protection while having sex?"
+      ],
+      "keywords": [
+        "condoms",
+        "headache",
+        "sex",
+        "boyfriend",
+        "drugs"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9963300824165344,
+      "emotion": "surprise",
+      "emotion_score": 0.5353807806968689
+    },
+    {
+      "id": 4,
+      "start": 507.47,
+      "end": 544.42,
+      "text": "like kind of sick. So I don't do that anymore. See? Okay. And let's see. Family history, do you, do you have any medical conditions that run in your family? Like I don't, I don't think so. I guess my dad, my dad has like high blood pressure. Yeah. Yeah. I don't think there's anything",
+      "segments": [
+        {
+          "start": 507.47,
+          "end": 524.96,
+          "text": "like kind of sick. So I don't do that anymore. See? Okay. And let's see. Family history, do you,",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6424157023429871
+        },
+        {
+          "start": 524.96,
+          "end": 536.18,
+          "text": "do you have any medical conditions that run in your family? Like I don't, I don't think so.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7968025207519531
+        },
+        {
+          "start": 536.74,
+          "end": 544.42,
+          "text": "I guess my dad, my dad has like high blood pressure. Yeah. Yeah. I don't think there's anything",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6045939326286316
+        }
+      ],
+      "summary": " Do you have any medical conditions that run in your family? \"I don't think so. I guess my dad, my dad has like high blood pressure. like kind of sick. So I don't do that anymore.\"",
+      "tldr": " Do you have any medical conditions that run in your family? \"I don't think so. I guess my dad, my dad has like high blood pressure. like kind of sick. So I don't do that anymore.\"",
+      "title": " Do you have any medical conditions that run in your family? \"I don't think so. I guess my dad, my dad has like high blood pressure. like kind of sick. So I don't do that anymore.\"",
+      "bullets": [
+        "Do you have any medical conditions that run in your family? \"I don't think so",
+        "I guess my dad, my dad has like high blood pressure",
+        "like kind of sick",
+        "So I don't do that anymore.\""
+      ],
+      "keywords": [
+        "Family",
+        "medical",
+        "pressure",
+        "dad",
+        "Family history"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.999409556388855,
+      "emotion": "neutral",
+      "emotion_score": 0.521041989326477
+    },
+    {
+      "id": 5,
+      "start": 545.38,
+      "end": 565.62,
+      "text": "all right. All right. Well, thank you so much for spending time with me today. I think of gathered all the information that I would have liked. I will go talk to my attending. Welcome back. Maybe ask a couple more questions and then share the plan with you. Okay. Thank you. Welcome.",
+      "segments": [
+        {
+          "start": 545.38,
+          "end": 551.22,
+          "text": "all right. All right. Well, thank you so much for spending time with me today. I think of",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.8814296126365662
+        },
+        {
+          "start": 552.58,
+          "end": 557.22,
+          "text": "gathered all the information that I would have liked. I will go talk to my attending. Welcome back.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7305191159248352
+        },
+        {
+          "start": 557.22,
+          "end": 565.62,
+          "text": "Maybe ask a couple more questions and then share the plan with you. Okay. Thank you. Welcome.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.726272702217102
+        }
+      ],
+      "summary": " All right. Well, thank you so much for spending time with me today. I think of gathered all the information that I would have liked. I will go talk to my attending. Maybe ask a couple more questions and then share the plan with you. Welcome back.",
+      "tldr": " I think of gathered all the information that I would have liked. I will go talk to my attending",
+      "title": " I think of gathered all the information that I would have liked",
+      "bullets": [
+        "All right",
+        "Well, thank you so much for spending time with me today",
+        "I think of gathered all the information that I would have liked",
+        "I will go talk to my attending",
+        "Maybe ask a couple more questions and then share the plan with you",
+        "Welcome back."
+      ],
+      "keywords": [
+        "attending",
+        "share the plan",
+        "plan",
+        "couple more questions",
+        "gathered"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9997889399528503,
+      "emotion": "joy",
+      "emotion_score": 0.5989097952842712
+    }
+  ]
+}

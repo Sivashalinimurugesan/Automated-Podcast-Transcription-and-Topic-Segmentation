@@ -1,0 +1,1480 @@
+{
+  "language": "en",
+  "topics": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 32.13,
+      "text": "What brings you here today? I'm just having this really sharp bean in my chest and I'm scared. I think I'm having a heart attack. Oh wow, I'm, you know, that must be really scary. Yeah. When did this, when did this pain start? Sort of about three days ago. Three days ago, okay. And where exactly in your chest do you feel it?",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.9,
+          "text": "What brings you here today?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.49904677271842957
+        },
+        {
+          "start": 2.9,
+          "end": 6.86,
+          "text": "I'm just having this really sharp bean in my chest",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.41155219078063965
+        },
+        {
+          "start": 6.86,
+          "end": 8.02,
+          "text": "and I'm scared.",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.9929527640342712
+        },
+        {
+          "start": 8.02,
+          "end": 11.58,
+          "text": "I think I'm having a heart attack.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.6225446462631226
+        },
+        {
+          "start": 11.58,
+          "end": 15.3,
+          "text": "Oh wow, I'm, you know, that must be really scary.",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.48910096287727356
+        },
+        {
+          "start": 15.3,
+          "end": 15.94,
+          "text": "Yeah.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8143122792243958
+        },
+        {
+          "start": 15.94,
+          "end": 19.78,
+          "text": "When did this, when did this pain start?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.41965457797050476
+        },
+        {
+          "start": 19.78,
+          "end": 22.38,
+          "text": "Sort of about three days ago.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8502907752990723
+        },
+        {
+          "start": 22.38,
+          "end": 25.38,
+          "text": "Three days ago, okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7220373153686523
+        },
+        {
+          "start": 25.38,
+          "end": 32.13,
+          "text": "And where exactly in your chest do you feel it?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6797999143600464
+        }
+      ],
+      "summary": " What brings you here today? I'm just having this really sharp bean in my chest and I'm scared. I think I'm having a heart attack. Oh wow, I'm, you know, that must be really scary. When did this, when did this pain start? Sort of about three days ago. Three days ago, okay, okay .",
+      "tldr": " I'm just having this really sharp bean in my chest and I'm scared. I think I'm having a heart attack",
+      "title": " I'm just having this really sharp bean in my chest and",
+      "bullets": [
+        "What brings you here today? I'm just having this really sharp bean in my chest and I'm scared",
+        "I think I'm having a heart attack",
+        "Oh wow, I'm, you know, that must be really scary",
+        "When did this, when did this pain start? Sort of about three days ago",
+        "Three days ago, okay, okay ."
+      ],
+      "keywords": [
+        "heart attack",
+        "chest",
+        "sharp bean",
+        "bean",
+        "days ago"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.5688139796257019,
+      "emotion": "fear",
+      "emotion_score": 0.9572004675865173
+    },
+    {
+      "id": 1,
+      "start": 32.13,
+      "end": 68.85,
+      "text": "Kind of right here, right over my heart, I think. That's where it's the worst. Okay, and is it, what kind of pain is it? Is it more like a dull pressure pain, or is it a sharp pain? How would you describe it? I'd say it's a sharp pain. A sharp pain, okay. And so it started three days ago. Has it been coming and going, or has it been constant? It just lasts for a few seconds. And then it goes away. Okay.",
+      "segments": [
+        {
+          "start": 32.13,
+          "end": 35.33,
+          "text": "Kind of right here, right over my heart, I think.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7856420278549194
+        },
+        {
+          "start": 35.33,
+          "end": 38.41,
+          "text": "That's where it's the worst.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.9852197170257568
+        },
+        {
+          "start": 38.41,
+          "end": 41.25,
+          "text": "Okay, and is it, what kind of pain is it?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.42942675948143005
+        },
+        {
+          "start": 41.25,
+          "end": 44.01,
+          "text": "Is it more like a dull pressure pain,",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.9407275915145874
+        },
+        {
+          "start": 44.01,
+          "end": 46.25,
+          "text": "or is it a sharp pain?",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.34012311697006226
+        },
+        {
+          "start": 46.25,
+          "end": 48.25,
+          "text": "How would you describe it?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5969880819320679
+        },
+        {
+          "start": 48.25,
+          "end": 51.69,
+          "text": "I'd say it's a sharp pain.",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.25889116525650024
+        },
+        {
+          "start": 51.69,
+          "end": 54.77,
+          "text": "A sharp pain, okay.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.323172926902771
+        },
+        {
+          "start": 54.77,
+          "end": 58.41,
+          "text": "And so it started three days ago.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9309440851211548
+        },
+        {
+          "start": 58.41,
+          "end": 62.69,
+          "text": "Has it been coming and going, or has it been constant?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8644605875015259
+        },
+        {
+          "start": 62.69,
+          "end": 65.17,
+          "text": "It just lasts for a few seconds.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9478740096092224
+        },
+        {
+          "start": 65.17,
+          "end": 67.85,
+          "text": "And then it goes away.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8622651100158691
+        },
+        {
+          "start": 67.85,
+          "end": 68.85,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        }
+      ],
+      "summary": " It just lasts for a few seconds. And then it goes away. Kind of right here, right over my heart, I think. That's where it's the worst. I'd say it's a sharp pain .",
+      "tldr": " It just lasts for a few seconds. And then it goes away. Kind of right here, right over my heart, I think. That's where it's the worst. I'd say it's a sharp pain .",
+      "title": " It just lasts for a few seconds. And then it goes away. Kind of right here, right over my heart, I think. That's where it's the worst. I'd say it's a sharp pain .",
+      "bullets": [
+        "It just lasts for a few seconds",
+        "And then it goes away",
+        "Kind of right here, right over my heart, I think",
+        "That's where it's the worst",
+        "I'd say it's a sharp pain ."
+      ],
+      "keywords": [
+        "dull pressure pain",
+        "pressure pain",
+        "sharp pain",
+        "kind of pain",
+        "pain"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9961466789245605,
+      "emotion": "disgust",
+      "emotion_score": 0.9369527101516724
+    },
+    {
+      "id": 2,
+      "start": 68.85,
+      "end": 101.41,
+      "text": "And does the pain come on when you're doing any activities or when does the pain usually come on? It's usually worse when I'm coughing or I'm lying down. Yeah. And does it improve with any positional changes at all or anything that you do that does it help? When I lean forward, it actually does get better. I think about it, yeah.",
+      "segments": [
+        {
+          "start": 68.85,
+          "end": 73.01,
+          "text": "And does the pain come on when you're doing any activities",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.4257618188858032
+        },
+        {
+          "start": 73.01,
+          "end": 77.65,
+          "text": "or when does the pain usually come on?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.32266753911972046
+        },
+        {
+          "start": 77.65,
+          "end": 82.09,
+          "text": "It's usually worse when I'm coughing or I'm lying down.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.8282411098480225
+        },
+        {
+          "start": 82.09,
+          "end": 86.05,
+          "text": "Yeah.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8143122792243958
+        },
+        {
+          "start": 86.05,
+          "end": 91.53,
+          "text": "And does it improve with any positional changes at all",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8766615986824036
+        },
+        {
+          "start": 91.53,
+          "end": 94.53,
+          "text": "or anything that you do that does it help?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7558737993240356
+        },
+        {
+          "start": 94.53,
+          "end": 98.61,
+          "text": "When I lean forward, it actually does get better.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7197629809379578
+        },
+        {
+          "start": 98.61,
+          "end": 101.41,
+          "text": "I think about it, yeah.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7041075825691223
+        }
+      ],
+      "summary": " Does the pain come on when you're doing any activities or when does the pain usually come on? It's usually worse when I'm coughing or I'm lying down . And does it improve with any positional changes at all or anything that you do that does it help? When I lean forward, it actually does get better .",
+      "tldr": " The pain comes on when you're doing any activities or when does the pain usually come on? It's usually worse when I'm",
+      "title": " It's usually worse when I'm coughing or I'm lying",
+      "bullets": [
+        "Does the pain come on when you're doing any activities or when does the pain usually come on? It's usually worse when I'm coughing or I'm lying down",
+        "And does it improve with any positional changes at all or anything that you do that does it help? When I lean forward, it actually does get better ."
+      ],
+      "keywords": [
+        "coughing",
+        "pain",
+        "positional",
+        "lean forward",
+        "improve"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.6298328638076782,
+      "emotion": "disgust",
+      "emotion_score": 0.8100061416625977
+    },
+    {
+      "id": 3,
+      "start": 101.41,
+      "end": 153.82,
+      "text": "Okay. And has this ever happened to you before? No, no it hasn't. Okay. And on a scale of one to ten, one being at least one of pain you felt and ten being the worst, how much would you rate it? I'd be a six out of ten. Okay. And does the pain move anywhere on your chest, or does it stay in the same spot? Yeah, I think it kind of goes to my neck. And do you have any other symptoms like that? Do you have any shortness of breath, the dizziness, anything like that? No, I don't. Any, okay. Any, any palpitations? Nope. Okay. And I don't know that.",
+      "segments": [
+        {
+          "start": 101.41,
+          "end": 103.21,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 103.21,
+          "end": 107.68,
+          "text": "And has this ever happened to you before?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5107346773147583
+        },
+        {
+          "start": 107.68,
+          "end": 111.28,
+          "text": "No, no it hasn't.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6935228109359741
+        },
+        {
+          "start": 111.28,
+          "end": 112.28,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 112.28,
+          "end": 115.52,
+          "text": "And on a scale of one to ten, one being at least one",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9612130522727966
+        },
+        {
+          "start": 115.52,
+          "end": 118.2,
+          "text": "of pain you felt and ten being the worst,",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.8725398182868958
+        },
+        {
+          "start": 118.2,
+          "end": 120.2,
+          "text": "how much would you rate it?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7415333986282349
+        },
+        {
+          "start": 120.2,
+          "end": 123.24,
+          "text": "I'd be a six out of ten.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8568915128707886
+        },
+        {
+          "start": 123.24,
+          "end": 124.24,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 124.24,
+          "end": 128.72,
+          "text": "And does the pain move anywhere on your chest,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.43912193179130554
+        },
+        {
+          "start": 128.72,
+          "end": 131.08,
+          "text": "or does it stay in the same spot?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7930527925491333
+        },
+        {
+          "start": 131.08,
+          "end": 136.45,
+          "text": "Yeah, I think it kind of goes to my neck.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.40983277559280396
+        },
+        {
+          "start": 136.45,
+          "end": 138.13,
+          "text": "And do you have any other symptoms like that?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8349206447601318
+        },
+        {
+          "start": 138.13,
+          "end": 139.97,
+          "text": "Do you have any shortness of breath,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6557750701904297
+        },
+        {
+          "start": 139.97,
+          "end": 142.41,
+          "text": "the dizziness, anything like that?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.8008456826210022
+        },
+        {
+          "start": 142.41,
+          "end": 144.17,
+          "text": "No, I don't.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5140902996063232
+        },
+        {
+          "start": 144.17,
+          "end": 145.93,
+          "text": "Any, okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.36785489320755005
+        },
+        {
+          "start": 145.93,
+          "end": 148.13,
+          "text": "Any, any palpitations?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5442950129508972
+        },
+        {
+          "start": 148.13,
+          "end": 149.73,
+          "text": "Nope.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6307369470596313
+        },
+        {
+          "start": 149.73,
+          "end": 152.38,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 152.38,
+          "end": 153.82,
+          "text": "And I don't know that.",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.823340892791748
+        }
+      ],
+      "summary": " On a scale of one to ten, one being at least one of pain you felt and ten being the worst, how much would you rate it? I'd be a six out of ten. And does the pain move anywhere on your chest, or does it stay in the same spot? Yeah, I think it kind of goes to my neck. Okay. And has this ever happened to you before? No it hasn't. And I don't know that.",
+      "tldr": " On a scale of one to ten, one being at least one of pain you felt and ten being the worst, how much would you rate it? I'd be a six out",
+      "title": " On a scale of one to ten, one being at least",
+      "bullets": [
+        "On a scale of one to ten, one being at least one of pain you felt and ten being the worst, how much would you rate it? I'd be a six out of ten",
+        "And does the pain move anywhere on your chest, or does it stay in the same spot? Yeah, I think it kind of goes to my neck",
+        "Okay",
+        "And has this ever happened to you before? No it hasn't",
+        "And I don't know that."
+      ],
+      "keywords": [
+        "palpitations",
+        "dizziness",
+        "pain",
+        "neck",
+        "chest"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.989018440246582,
+      "emotion": "disgust",
+      "emotion_score": 0.8899639248847961
+    },
+    {
+      "id": 4,
+      "start": 153.82,
+      "end": 186.5,
+      "text": "Have you been having any other symptoms at all besides the pain? No, no, nothing else. I hope that just have these short episodes of being at last a couple of seconds. Okay. Have you tried like any medications that have helped the pain? Yeah, I took some, I took some Tylenol, and that did help. Okay. It took it once yesterday. Right. Any recent injuries to the area,",
+      "segments": [
+        {
+          "start": 153.82,
+          "end": 156.14,
+          "text": "Have you been having any other symptoms at all",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7888973951339722
+        },
+        {
+          "start": 156.14,
+          "end": 157.14,
+          "text": "besides the pain?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.491583913564682
+        },
+        {
+          "start": 158.38,
+          "end": 159.7,
+          "text": "No, no, nothing else.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3304590880870819
+        },
+        {
+          "start": 159.7,
+          "end": 162.7,
+          "text": "I hope that just have these short episodes",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9649532437324524
+        },
+        {
+          "start": 162.7,
+          "end": 165.7,
+          "text": "of being at last a couple of seconds.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7461001873016357
+        },
+        {
+          "start": 165.7,
+          "end": 167.7,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 167.7,
+          "end": 172.02,
+          "text": "Have you tried like any medications that have helped the pain?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8456303477287292
+        },
+        {
+          "start": 172.02,
+          "end": 178.38,
+          "text": "Yeah, I took some, I took some Tylenol, and that did help.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7490392327308655
+        },
+        {
+          "start": 178.38,
+          "end": 179.38,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 179.38,
+          "end": 181.5,
+          "text": "It took it once yesterday.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8628276586532593
+        },
+        {
+          "start": 181.5,
+          "end": 182.98,
+          "text": "Right.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8274135589599609
+        },
+        {
+          "start": 182.98,
+          "end": 186.5,
+          "text": "Any recent injuries to the area,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4990996718406677
+        }
+      ],
+      "summary": " Have you been having any other symptoms at all besides the pain? No, no, nothing else. Have you tried like any medications that have helped? Yeah, I took some Tylenol, and that did help. It took it once yesterday .",
+      "tldr": " Have you been having any other symptoms besides the pain? No, no, nothing else",
+      "title": " Have you been having any other symptoms besides the pain? No",
+      "bullets": [
+        "Have you been having any other symptoms at all besides the pain? No, no, nothing else",
+        "Have you tried like any medications that have helped? Yeah, I took some Tylenol, and that did help",
+        "It took it once yesterday ."
+      ],
+      "keywords": [
+        "pain",
+        "helped the pain",
+        "symptoms",
+        "Tylenol",
+        "area"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9825950860977173,
+      "emotion": "neutral",
+      "emotion_score": 0.7937126159667969
+    },
+    {
+      "id": 5,
+      "start": 186.5,
+      "end": 252.14,
+      "text": "like do you have any falls or anything like that? No, no, I haven't. Any headaches, some nausea, vomiting, fevers or chills? Any of those symptoms? Nope. Any cough, runny nose, any viral symptoms? No, well, not right now, but I did have a flu last week. I had a fever, had a runny nose. I did have a bit of a cough, and I was feeling super tired. But not anymore, I'm okay now. Okay. And have you at all had any dizziness or have you fainted at all? No. Okay. Have you been noticing any kind of weakness or numbness? Nope. Nope. Okay.",
+      "segments": [
+        {
+          "start": 186.5,
+          "end": 191.06,
+          "text": "like do you have any falls or anything like that?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7679336667060852
+        },
+        {
+          "start": 191.06,
+          "end": 194.82,
+          "text": "No, no, I haven't.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5368157625198364
+        },
+        {
+          "start": 194.82,
+          "end": 197.26,
+          "text": "Any headaches, some nausea, vomiting,",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.5236629247665405
+        },
+        {
+          "start": 197.26,
+          "end": 198.46,
+          "text": "fevers or chills?",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.6542527079582214
+        },
+        {
+          "start": 198.46,
+          "end": 200.9,
+          "text": "Any of those symptoms?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.706659734249115
+        },
+        {
+          "start": 200.9,
+          "end": 203.78,
+          "text": "Nope.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6307369470596313
+        },
+        {
+          "start": 203.78,
+          "end": 209.18,
+          "text": "Any cough, runny nose, any viral symptoms?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5285021066665649
+        },
+        {
+          "start": 209.18,
+          "end": 218.58,
+          "text": "No, well, not right now, but I did have a flu last week.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5701505541801453
+        },
+        {
+          "start": 218.58,
+          "end": 223.38,
+          "text": "I had a fever, had a runny nose.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.6255459785461426
+        },
+        {
+          "start": 223.38,
+          "end": 227.62,
+          "text": "I did have a bit of a cough, and I was feeling super tired.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.48477861285209656
+        },
+        {
+          "start": 227.62,
+          "end": 230.74,
+          "text": "But not anymore, I'm okay now.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6402961611747742
+        },
+        {
+          "start": 230.74,
+          "end": 232.22,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 232.22,
+          "end": 236.02,
+          "text": "And have you at all had any dizziness",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.600705623626709
+        },
+        {
+          "start": 236.02,
+          "end": 237.9,
+          "text": "or have you fainted at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3687976896762848
+        },
+        {
+          "start": 237.9,
+          "end": 239.42,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 239.42,
+          "end": 241.3,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 241.3,
+          "end": 247.34,
+          "text": "Have you been noticing any kind of weakness or numbness?",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.4918311536312103
+        },
+        {
+          "start": 247.34,
+          "end": 248.94,
+          "text": "Nope.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6307369470596313
+        },
+        {
+          "start": 248.94,
+          "end": 249.98,
+          "text": "Nope.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6307369470596313
+        },
+        {
+          "start": 249.98,
+          "end": 252.14,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        }
+      ],
+      "summary": " Have you at all had any dizziness or have you fainted at all? No. No. Have you been noticing any kind of weakness or numbness? Nope. No, well, not right now, but I did have a flu last week . I had a fever, had a runny nose, and I was feeling super tired, but not anymore, I'm okay now .",
+      "tldr": " Have you at all had any dizziness or have you fainted at all? No. Have you been noticing any kind of weakness or",
+      "title": " Have you at all had any dizziness or have you f",
+      "bullets": [
+        "Have you at all had any dizziness or have you fainted at all? No",
+        "No",
+        "Have you been noticing any kind of weakness or numbness? Nope",
+        "No, well, not right now, but I did have a flu last week",
+        "I had a fever, had a runny nose, and I was feeling super tired, but not anymore, I'm okay now ."
+      ],
+      "keywords": [
+        "symptoms",
+        "viral symptoms",
+        "fever",
+        "fevers",
+        "nausea"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9700772166252136,
+      "emotion": "fear",
+      "emotion_score": 0.33507880568504333
+    },
+    {
+      "id": 6,
+      "start": 252.14,
+      "end": 323.12,
+      "text": "In terms of your post medical history, do you have any medical conditions like diabetes, high blood pressure, any other diagnoses? No, I'm a pretty healthy 25 year old. Okay. And do you take any medications? I sometimes take Tylenol. Okay. And any allergies at all? Nope. Okay. And any previous surgeries? No, no, no surgeries. Do you have any family history of any heart conditions or any cancers or anything like that? Yeah. My father, he had a heart attack two weeks ago, and he passed away. And I'm worried I can have a heart attack too. It was just two weeks ago? Yeah. I'm so sorry to hear that. And it must be really difficult time for you right now. Mm-hmm.",
+      "segments": [
+        {
+          "start": 252.14,
+          "end": 254.46,
+          "text": "In terms of your post medical history,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7977168560028076
+        },
+        {
+          "start": 254.46,
+          "end": 257.5,
+          "text": "do you have any medical conditions like diabetes,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6027352809906006
+        },
+        {
+          "start": 257.5,
+          "end": 261.22,
+          "text": "high blood pressure, any other diagnoses?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5476555824279785
+        },
+        {
+          "start": 261.22,
+          "end": 265.3,
+          "text": "No, I'm a pretty healthy 25 year old.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5964288115501404
+        },
+        {
+          "start": 265.3,
+          "end": 267.26,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 267.26,
+          "end": 269.34,
+          "text": "And do you take any medications?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7527322769165039
+        },
+        {
+          "start": 269.34,
+          "end": 272.65,
+          "text": "I sometimes take Tylenol.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7803521156311035
+        },
+        {
+          "start": 272.65,
+          "end": 273.41,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 273.41,
+          "end": 276.33,
+          "text": "And any allergies at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.734702467918396
+        },
+        {
+          "start": 276.33,
+          "end": 278.49,
+          "text": "Nope.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6307369470596313
+        },
+        {
+          "start": 278.49,
+          "end": 282.09,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 282.09,
+          "end": 287.29,
+          "text": "And any previous surgeries?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8228042125701904
+        },
+        {
+          "start": 287.33,
+          "end": 290.25,
+          "text": "No, no, no surgeries.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.482433944940567
+        },
+        {
+          "start": 290.25,
+          "end": 293.33,
+          "text": "Do you have any family history of any heart conditions",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.911027193069458
+        },
+        {
+          "start": 293.33,
+          "end": 296.69,
+          "text": "or any cancers or anything like that?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6751619577407837
+        },
+        {
+          "start": 296.69,
+          "end": 297.77,
+          "text": "Yeah.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8143122792243958
+        },
+        {
+          "start": 297.77,
+          "end": 302.53,
+          "text": "My father, he had a heart attack two weeks ago,",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.9197138547897339
+        },
+        {
+          "start": 302.53,
+          "end": 305.45,
+          "text": "and he passed away.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.968788743019104
+        },
+        {
+          "start": 305.45,
+          "end": 310.41,
+          "text": "And I'm worried I can have a heart attack too.",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.8004634976387024
+        },
+        {
+          "start": 310.41,
+          "end": 312.17,
+          "text": "It was just two weeks ago?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5872821807861328
+        },
+        {
+          "start": 312.17,
+          "end": 314.65,
+          "text": "Yeah.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8143122792243958
+        },
+        {
+          "start": 314.65,
+          "end": 318.4,
+          "text": "I'm so sorry to hear that.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.967304527759552
+        },
+        {
+          "start": 318.4,
+          "end": 321.12,
+          "text": "And it must be really difficult time for you right now.",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.37836596369743347
+        },
+        {
+          "start": 321.12,
+          "end": 323.12,
+          "text": "Mm-hmm.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.585440993309021
+        }
+      ],
+      "summary": " In terms of your post medical history, do you have any medical conditions like diabetes, high blood pressure, any other diagnoses? No, I'm a pretty healthy 25 year old. No, no, no surgeries . Do you take any medications? I sometimes take Tylenol. And any allergies at all? Nope. And no surgeries. No surgeries.",
+      "tldr": " In terms of your post medical history, do you have any medical conditions like diabetes, high blood pressure, any other diagnoses",
+      "title": " In terms of your post medical history, do you have any",
+      "bullets": [
+        "In terms of your post medical history, do you have any medical conditions like diabetes, high blood pressure, any other diagnoses? No, I'm a pretty healthy 25 year old",
+        "No, no, no surgeries",
+        "Do you take any medications? I sometimes take Tylenol",
+        "And any allergies at all? Nope",
+        "And no surgeries",
+        "No surgeries."
+      ],
+      "keywords": [
+        "high blood pressure",
+        "medical conditions",
+        "blood pressure",
+        "post medical history",
+        "heart"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9291146397590637,
+      "emotion": "neutral",
+      "emotion_score": 0.811540424823761
+    },
+    {
+      "id": 7,
+      "start": 323.12,
+      "end": 368.08,
+      "text": "Okay, so you're worried you might be having a heart attack as well? Yeah. Okay, so we can definitely do some tests and see what's going on. I just have a few more questions, and then I'll just get to some of the management and what we'll be doing for you in the future. So currently right now, do you work at all? No, I'm a student. I, well, at the part-time job, I do work as a postman. Okay, and where are you a student? What do you do? I'm studying engineering at Western. All right.",
+      "segments": [
+        {
+          "start": 323.12,
+          "end": 326.88,
+          "text": "Okay, so you're worried you might be having a heart attack as well?",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.731356143951416
+        },
+        {
+          "start": 326.88,
+          "end": 328.48,
+          "text": "Yeah.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8143122792243958
+        },
+        {
+          "start": 328.48,
+          "end": 336.48,
+          "text": "Okay, so we can definitely do some tests and see what's going on.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9242874979972839
+        },
+        {
+          "start": 336.48,
+          "end": 337.96,
+          "text": "I just have a few more questions,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9633492231369019
+        },
+        {
+          "start": 337.96,
+          "end": 341.44,
+          "text": "and then I'll just get to some of the management",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9578663110733032
+        },
+        {
+          "start": 341.44,
+          "end": 344.76,
+          "text": "and what we'll be doing for you in the future.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.94929438829422
+        },
+        {
+          "start": 344.76,
+          "end": 350.24,
+          "text": "So currently right now, do you work at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7299858331680298
+        },
+        {
+          "start": 350.24,
+          "end": 352.2,
+          "text": "No, I'm a student.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.4042837917804718
+        },
+        {
+          "start": 352.2,
+          "end": 358.0,
+          "text": "I, well, at the part-time job, I do work as a postman.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.596136212348938
+        },
+        {
+          "start": 358.0,
+          "end": 360.8,
+          "text": "Okay, and where are you a student?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5938802361488342
+        },
+        {
+          "start": 360.8,
+          "end": 362.68,
+          "text": "What do you do?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.4262223243713379
+        },
+        {
+          "start": 362.68,
+          "end": 366.96,
+          "text": "I'm studying engineering at Western.",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.4006245732307434
+        },
+        {
+          "start": 366.96,
+          "end": 368.08,
+          "text": "All right.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6785573363304138
+        }
+      ],
+      "summary": " I just have a few more questions, and then I'll just get to some of the management and what we'll be doing for you in the future . So currently right now, do you work at all? No, I'm a student. No, at the part-time job, I do work as a postman .",
+      "tldr": " Currently, do you work at all? No, I'm a student. No, at the part-time job",
+      "title": " At the part-time job, he works as a post",
+      "bullets": [
+        "I just have a few more questions, and then I'll just get to some of the management and what we'll be doing for you in the future",
+        "So currently right now, do you work at all? No, I'm a student",
+        "No, at the part-time job, I do work as a postman ."
+      ],
+      "keywords": [
+        "heart attack",
+        "worried",
+        "engineering at Western",
+        "work",
+        "heart"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9878668785095215,
+      "emotion": "neutral",
+      "emotion_score": 0.9259026646614075
+    },
+    {
+      "id": 8,
+      "start": 368.08,
+      "end": 406.68,
+      "text": "And currently, where do you live? Do you live in student housing, apartment, or home? I live in my parents. Well, my mom now in a house. And do you drink at all alcohol? I drink occasionally. Maybe one or two drinks on the weekends. Okay. And any recreational drug use like marijuana or cocaine? No. And do you smoke? No.",
+      "segments": [
+        {
+          "start": 368.08,
+          "end": 370.36,
+          "text": "And currently, where do you live?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8393127918243408
+        },
+        {
+          "start": 370.36,
+          "end": 374.16,
+          "text": "Do you live in student housing, apartment, or home?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.915206789970398
+        },
+        {
+          "start": 374.36,
+          "end": 375.64,
+          "text": "I live in my parents.",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.30345162749290466
+        },
+        {
+          "start": 375.64,
+          "end": 383.9,
+          "text": "Well, my mom now in a house.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.5535797476768494
+        },
+        {
+          "start": 383.9,
+          "end": 387.82,
+          "text": "And do you drink at all alcohol?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5280827283859253
+        },
+        {
+          "start": 387.82,
+          "end": 389.1,
+          "text": "I drink occasionally.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5218969583511353
+        },
+        {
+          "start": 389.1,
+          "end": 393.1,
+          "text": "Maybe one or two drinks on the weekends.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9547911882400513
+        },
+        {
+          "start": 393.1,
+          "end": 393.94,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 393.94,
+          "end": 398.26,
+          "text": "And any recreational drug use like marijuana or cocaine?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7167347073554993
+        },
+        {
+          "start": 398.26,
+          "end": 400.58,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 400.58,
+          "end": 401.9,
+          "text": "And do you smoke?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.33352646231651306
+        },
+        {
+          "start": 401.9,
+          "end": 406.68,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        }
+      ],
+      "summary": " Do you drink at all alcohol? I drink occasionally. Maybe one or two drinks on the weekends . And do you smoke? No. And any recreational drug use like marijuana or cocaine? No . Do you live in student housing, apartment or home?",
+      "tldr": " Do you drink at all alcohol? I drink occasionally. Maybe one or two drinks on the",
+      "title": " Do you drink at all alcohol? I drink occasionally. Maybe",
+      "bullets": [
+        "Do you drink at all alcohol? I drink occasionally",
+        "Maybe one or two drinks on the weekends",
+        "And do you smoke? No",
+        "And any recreational drug use like marijuana or cocaine? No",
+        "Do you live in student housing, apartment or home?"
+      ],
+      "keywords": [
+        "live in student",
+        "weekends",
+        "student housing",
+        "drink",
+        "occasionally"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9953820109367371,
+      "emotion": "neutral",
+      "emotion_score": 0.62972491979599
+    },
+    {
+      "id": 9,
+      "start": 406.68,
+      "end": 439.08,
+      "text": "All right, so those are all the questions we had for you today. And it must be really difficult and scary for you right now, but we'll make sure to get to the bottom of this and see what's going on. So what we can do is get you an ECG to see how your heart is functioning, and then see getting new blood work if we need it for the future. But yeah, right now, I would say try not to worry too much about it right now.",
+      "segments": [
+        {
+          "start": 406.68,
+          "end": 409.56,
+          "text": "All right, so those are all the questions we had for you today.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9447012543678284
+        },
+        {
+          "start": 409.56,
+          "end": 415.08,
+          "text": "And it must be really difficult and scary for you right now,",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.9876688122749329
+        },
+        {
+          "start": 415.08,
+          "end": 417.6,
+          "text": "but we'll make sure to get to the bottom of this",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9691062569618225
+        },
+        {
+          "start": 417.6,
+          "end": 419.32,
+          "text": "and see what's going on.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7259469032287598
+        },
+        {
+          "start": 419.32,
+          "end": 423.6,
+          "text": "So what we can do is get you an ECG",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9502663016319275
+        },
+        {
+          "start": 423.6,
+          "end": 426.32,
+          "text": "to see how your heart is functioning,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.453430712223053
+        },
+        {
+          "start": 426.32,
+          "end": 431.64,
+          "text": "and then see getting new blood work",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6188387274742126
+        },
+        {
+          "start": 431.64,
+          "end": 433.72,
+          "text": "if we need it for the future.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9112013578414917
+        },
+        {
+          "start": 433.72,
+          "end": 438.24,
+          "text": "But yeah, right now, I would say try not to worry too much",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.6204041242599487
+        },
+        {
+          "start": 438.24,
+          "end": 439.08,
+          "text": "about it right now.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.902571976184845
+        }
+      ],
+      "summary": " We'll make sure to get to the bottom of this and see what's going on . What we can do is get an ECG to see how your heart is functioning, and then see getting new blood work if we need it for the future .",
+      "tldr": " We'll make sure to get to the bottom of this and see what's going on . What we",
+      "title": " We'll make sure to get to the bottom of this and",
+      "bullets": [
+        "We'll make sure to get to the bottom of this and see what's going on",
+        "What we can do is get an ECG to see how your heart is functioning, and then see getting new blood work if we need it for the future ."
+      ],
+      "keywords": [
+        "heart is functioning",
+        "ECG",
+        "heart",
+        "blood work",
+        "blood"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.7687093019485474,
+      "emotion": "neutral",
+      "emotion_score": 0.8802055716514587
+    },
+    {
+      "id": 10,
+      "start": 439.08,
+      "end": 448.32,
+      "text": "And see what some of those tests come back. Thank you. So yeah, you're welcome.",
+      "segments": [
+        {
+          "start": 439.08,
+          "end": 444.88,
+          "text": "And see what some of those tests come back.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9446066617965698
+        },
+        {
+          "start": 444.88,
+          "end": 446.4,
+          "text": "Thank you.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6663594245910645
+        },
+        {
+          "start": 446.4,
+          "end": 448.32,
+          "text": "So yeah, you're welcome.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7183119654655457
+        }
+      ],
+      "summary": "And see what some of those tests come back. Thank you. So yeah, you're welcome.",
+      "tldr": "And see what some of those tests come back. Thank you. So yeah, you're welcome.",
+      "title": "And see what some of those tests come back. Thank you. So yeah, you're welcome.",
+      "bullets": [
+        "And see what some of those tests come back",
+        "Thank you",
+        "So yeah, you're welcome."
+      ],
+      "keywords": [
+        "tests come back",
+        "tests",
+        "back",
+        "yeah"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9998501539230347,
+      "emotion": "neutral",
+      "emotion_score": 0.6877294778823853
+    }
+  ]
+}

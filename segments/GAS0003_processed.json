@@ -1,0 +1,953 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "what brings you in here today?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 2.0,
+      "end": 7.0,
+      "text": "Yeah, hi, I'm, I have a baby in my belly.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 7.0,
+      "end": 12.0,
+      "text": "It started a couple of hours ago.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 12.0,
+      "end": 16.0,
+      "text": "Okay, and where exactly in your belly do you have this pain?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 16.0,
+      "end": 20.0,
+      "text": "It's mostly up here on the right side.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 20.0,
+      "end": 22.0,
+      "text": "On the right side?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 22.0,
+      "end": 23.0,
+      "text": "Yeah.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 23.0,
+      "end": 26.0,
+      "text": "And can you describe what kind of pain is it?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 26.0,
+      "end": 30.0,
+      "text": "Is it like a dollopene, a sharp pain, an aching pain?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 30.0,
+      "end": 37.82,
+      "text": "Oh, I guess it's an aching pain, I'd say.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 37.82,
+      "end": 45.82,
+      "text": "It kind of just, it would initially just come and go but now it's just staying.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 45.82,
+      "end": 48.82,
+      "text": "It's not going away.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 48.82,
+      "end": 51.82,
+      "text": "Okay, and so it's in the right area.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 51.82,
+      "end": 57.82,
+      "text": "And does it travel anywhere else where besides it all from the right side?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 57.82,
+      "end": 58.82,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 58.82,
+      "end": 69.44,
+      "text": "And on a scale of 1 to 10, 1 being the least amount of pain you're felt in your life and 10 being the worst.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 69.44,
+      "end": 72.44,
+      "text": "How much would you rate it right now?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 72.44,
+      "end": 75.44,
+      "text": "It's about an aching, maybe.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 75.44,
+      "end": 77.44,
+      "text": "An aching, okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 77.44,
+      "end": 80.44,
+      "text": "And so just to clarify, when did it start?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 80.44,
+      "end": 83.44,
+      "text": "Sort of about eight hours ago.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 83.44,
+      "end": 85.44,
+      "text": "Eight hours ago.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 85.44,
+      "end": 86.44,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 86.44,
+      "end": 88.44,
+      "text": "And were you doing anything before?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 88.44,
+      "end": 92.44,
+      "text": "Like did you have a meal or how were you asleep and it woke you up?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 92.44,
+      "end": 95.44,
+      "text": "What was going on before you had the pain?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 95.44,
+      "end": 98.44,
+      "text": "I was just about to go to sleep.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 98.44,
+      "end": 102.44,
+      "text": "I wasn't doing anything particular at the time.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 102.44,
+      "end": 104.44,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 104.44,
+      "end": 108.44,
+      "text": "And has it been getting worse since it first started?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 108.44,
+      "end": 110.44,
+      "text": "Oh yeah, definitely.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 110.44,
+      "end": 117.44,
+      "text": "It would come and go, but now for the past, I'd say, five to six hours.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 117.44,
+      "end": 120.44,
+      "text": "It's been constant.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 120.44,
+      "end": 124.23,
+      "text": "It's just there all the time.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 124.23,
+      "end": 129.23,
+      "text": "And have you had any similar pain like this in the past?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 129.23,
+      "end": 132.23,
+      "text": "Yeah.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 132.23,
+      "end": 140.23,
+      "text": "I have the same pain that sort of comes and goes after I eat.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 140.23,
+      "end": 146.23,
+      "text": "Usually after I've had something like something fatty, something from outdoors,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 146.23,
+      "end": 149.23,
+      "text": "maybe like a burger or fries or something.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 149.23,
+      "end": 155.23,
+      "text": "I initially thought it was indigestion, but I don't know what's going on now.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 155.23,
+      "end": 156.23,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 156.23,
+      "end": 159.23,
+      "text": "And does anything make it better or worse?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 159.23,
+      "end": 161.23,
+      "text": "Anything that you've tried?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 161.23,
+      "end": 166.23,
+      "text": "Well, I guess eating sometimes makes it worse.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 166.23,
+      "end": 170.23,
+      "text": "But I don't think there's anything that's making it better.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 170.23,
+      "end": 171.23,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 171.23,
+      "end": 175.23,
+      "text": "Have you tried any meditation at all?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 175.23,
+      "end": 179.23,
+      "text": "I tried Tylenol, but that didn't do anything.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 179.23,
+      "end": 180.23,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 180.23,
+      "end": 186.23,
+      "text": "And besides the pain that you're having, do you have any nausea and vomiting?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 186.23,
+      "end": 194.23,
+      "text": "I am a little nauseous, but no, I haven't, I haven't vomiting yet, no.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 194.23,
+      "end": 195.23,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 195.23,
+      "end": 198.23,
+      "text": "And have you been having any fevers?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 198.23,
+      "end": 200.23,
+      "text": "I don't think so.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 200.23,
+      "end": 202.23,
+      "text": "I haven't checked.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 202.23,
+      "end": 204.23,
+      "text": "But I don't feel feverish.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 204.23,
+      "end": 206.23,
+      "text": "Any sweats or like chills?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 206.23,
+      "end": 207.23,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 207.23,
+      "end": 209.23,
+      "text": "I don't think so.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 209.23,
+      "end": 210.23,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 210.23,
+      "end": 213.23,
+      "text": "Any changes in your bowel movements like constipation diarrhea?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 213.23,
+      "end": 214.23,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 214.23,
+      "end": 219.79,
+      "text": "Have you traveled anywhere recently?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 219.79,
+      "end": 221.79,
+      "text": "No, I haven't.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 221.79,
+      "end": 226.26,
+      "text": "Have you been feeling at all very tired?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 226.26,
+      "end": 230.26,
+      "text": "Not your usual self fatigue?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 230.26,
+      "end": 235.26,
+      "text": "Well, the pain is making it difficult for me to do things.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 235.26,
+      "end": 242.06,
+      "text": "But I guess I'm not a little bit deep, baby.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 242.06,
+      "end": 247.06,
+      "text": "Have you been having any changes in your urinary patterns?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 247.06,
+      "end": 248.06,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 248.06,
+      "end": 249.06,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 249.06,
+      "end": 252.06,
+      "text": "Any changes in your skin and your rashes?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 252.06,
+      "end": 254.06,
+      "text": "Any yellowing in your skin?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 254.06,
+      "end": 256.06,
+      "text": "Nothing that I've noticed.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 256.06,
+      "end": 257.06,
+      "text": "No, I don't think so.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 257.06,
+      "end": 260.91,
+      "text": "Any changes in your urine color?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 260.91,
+      "end": 262.91,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 262.91,
+      "end": 267.35,
+      "text": "Have you noticed blood in your stool at all?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 267.35,
+      "end": 269.35,
+      "text": "I have not.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 269.35,
+      "end": 273.14,
+      "text": "And how about your appetite?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 273.14,
+      "end": 275.14,
+      "text": "Has this changed at all?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 275.14,
+      "end": 280.14,
+      "text": "Well, I guess because this pain happens, usually happens after I eat,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 280.14,
+      "end": 283.14,
+      "text": "I think I've been eating less than usual.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 283.14,
+      "end": 287.14,
+      "text": "Because I don't want to, you know, I don't like the pain.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 287.14,
+      "end": 291.49,
+      "text": "Any significant weight loss recently?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 292.49,
+      "end": 294.49,
+      "text": "I don't think so.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 294.49,
+      "end": 299.86,
+      "text": "Any recent infections recently at all?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 299.86,
+      "end": 301.86,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 301.86,
+      "end": 308.86,
+      "text": "And otherwise are you, do you have any other medical conditions like diabetes,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 308.86,
+      "end": 310.86,
+      "text": "high blood pressure or anything else?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 310.86,
+      "end": 316.86,
+      "text": "I do have diabetes, but that's about it, I think.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 316.86,
+      "end": 320.86,
+      "text": "And do you take anything for your diabetes?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 321.86,
+      "end": 323.86,
+      "text": "I take my form.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 323.86,
+      "end": 324.86,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 324.86,
+      "end": 327.86,
+      "text": "Do you take any other medications at all?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 327.86,
+      "end": 329.86,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 329.86,
+      "end": 330.86,
+      "text": "No, I don't.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 330.86,
+      "end": 331.86,
+      "text": "Sorry.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 331.86,
+      "end": 332.86,
+      "text": "No, no, no.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 332.86,
+      "end": 335.86,
+      "text": "Do you have any allergies to any medications?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 335.86,
+      "end": 336.86,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 336.86,
+      "end": 337.86,
+      "text": "Any environmental allergies?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 337.86,
+      "end": 339.86,
+      "text": "No, no, I don't.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 339.86,
+      "end": 340.86,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 340.86,
+      "end": 343.86,
+      "text": "Have you been hospitalized in the past?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 343.86,
+      "end": 345.86,
+      "text": "No, no, haven't ever.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 345.86,
+      "end": 347.86,
+      "text": "I've been very, I've been healthy.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 347.86,
+      "end": 349.86,
+      "text": "No hospitalizations.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 349.86,
+      "end": 352.86,
+      "text": "Any past surgeries?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 352.86,
+      "end": 356.86,
+      "text": "I got my vicinity removed when I was a teenager.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 356.86,
+      "end": 357.86,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 357.86,
+      "end": 362.86,
+      "text": "Have you been in contact with anyone who has been ill recently?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 362.86,
+      "end": 369.68,
+      "text": "No, I don't think so.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 369.68,
+      "end": 373.68,
+      "text": "And in terms of your family history,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 373.68,
+      "end": 380.68,
+      "text": "has anyone had any cancers or any IVD,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 380.68,
+      "end": 383.68,
+      "text": "like Crohn's disease or ulcerative colitis?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 383.68,
+      "end": 388.63,
+      "text": "No, not that I know of.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 388.63,
+      "end": 391.63,
+      "text": "Anything that runs in the family at all?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 391.63,
+      "end": 397.63,
+      "text": "My dad had a heart attack when he was in his 60s.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 397.63,
+      "end": 401.04,
+      "text": "But that's it.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 401.04,
+      "end": 406.04,
+      "text": "And currently right now, do you work?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 406.04,
+      "end": 411.04,
+      "text": "No, I'm lead off because of COVID.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 411.04,
+      "end": 413.04,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 413.04,
+      "end": 417.04,
+      "text": "And currently, what is your home situation like?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 417.04,
+      "end": 419.04,
+      "text": "What do you mean?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 419.04,
+      "end": 421.04,
+      "text": "So do you live in an apartment, a house,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 421.04,
+      "end": 424.04,
+      "text": "and do you live with anyone?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 424.04,
+      "end": 426.04,
+      "text": "I live in an apartment.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 426.04,
+      "end": 430.38,
+      "text": "I live alone.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 430.38,
+      "end": 431.38,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 431.38,
+      "end": 434.38,
+      "text": "And in terms of your daily routine,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 434.38,
+      "end": 438.38,
+      "text": "you feel that you get enough exercise,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 438.38,
+      "end": 442.38,
+      "text": "the walks and runs and you can write that.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 442.38,
+      "end": 446.38,
+      "text": "I usually go out for a run,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 446.38,
+      "end": 449.38,
+      "text": "especially when it's a little bit warmer,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 449.38,
+      "end": 452.38,
+      "text": "which it now is.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 452.38,
+      "end": 455.38,
+      "text": "And do you drink alcohol?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 455.38,
+      "end": 458.38,
+      "text": "Sometimes.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 458.38,
+      "end": 461.38,
+      "text": "How much would you say you drink in an average week?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 461.38,
+      "end": 466.38,
+      "text": "I wanted to drink a day.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 466.38,
+      "end": 469.38,
+      "text": "And what do you usually drink?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 469.38,
+      "end": 472.38,
+      "text": "I'll just drink a glass of wine at night.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 472.38,
+      "end": 475.38,
+      "text": "It just helps me relax.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 475.38,
+      "end": 476.38,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 476.38,
+      "end": 478.38,
+      "text": "And do you smoke cigarettes?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 478.38,
+      "end": 481.38,
+      "text": "I don't know.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 481.38,
+      "end": 485.38,
+      "text": "And do you use any recreational drugs like marijuana?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 485.38,
+      "end": 489.4,
+      "text": "No, I don't.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 489.4,
+      "end": 492.4,
+      "text": "All right, so that's all the questions I have.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 492.4,
+      "end": 495.4,
+      "text": "And just to clarify,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 495.4,
+      "end": 498.4,
+      "text": "is your pain come and go or is it constant?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 498.4,
+      "end": 503.4,
+      "text": "Yeah, so initially it would come and go.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 503.4,
+      "end": 506.4,
+      "text": "But now, so for the first two hours,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 506.4,
+      "end": 508.4,
+      "text": "it would come and go.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 508.4,
+      "end": 511.4,
+      "text": "And when I would have the pain when I was eating,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 511.4,
+      "end": 514.4,
+      "text": "it would come and go.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 514.4,
+      "end": 516.4,
+      "text": "But over the past six hours,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 516.4,
+      "end": 520.13,
+      "text": "it's just been constant.",
+      "speaker": "Speaker 1"
+    }
+  ]
+}

@@ -1,0 +1,1361 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.18,
+      "end": 4.18,
+      "text": "Would you mind by starting with what brought you in today?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 4.18,
+      "end": 7.18,
+      "text": "Yeah, so I'm just coming in with my son.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 7.18,
+      "end": 12.18,
+      "text": "He's six years old and yeah, just over the last few days,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 12.18,
+      "end": 19.18,
+      "text": "he's not been himself and he's been having this stomach ache,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 19.18,
+      "end": 24.18,
+      "text": "which started around like, I would say three days ago.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 24.18,
+      "end": 29.18,
+      "text": "And then he's also having a vomiting for the last two days.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 29.18,
+      "end": 34.18,
+      "text": "He's vomited in total six times over the last two days.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 34.18,
+      "end": 38.18,
+      "text": "And then yesterday he also developed a fever as well.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 38.18,
+      "end": 47.18,
+      "text": "And I managed to measure it and it was 38.3 degrees Celsius.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 47.18,
+      "end": 49.18,
+      "text": "Okay, I see.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 49.18,
+      "end": 53.18,
+      "text": "So just so that I'm understanding the timeline.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 53.18,
+      "end": 58.18,
+      "text": "So he started to have abdominal pain about three days ago.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 58.18,
+      "end": 64.18,
+      "text": "And started with having vomiting and diarrhea two days ago.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 64.18,
+      "end": 69.18,
+      "text": "And you checked his temperatures at a fever as of yesterday.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 69.18,
+      "end": 70.18,
+      "text": "Yeah.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 70.18,
+      "end": 71.18,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 71.18,
+      "end": 76.18,
+      "text": "And was there anything that,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 76.18,
+      "end": 81.18,
+      "text": "that he ate that was different over over the last few days?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 81.18,
+      "end": 85.18,
+      "text": "You've been strictly home food during like the pandemic,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 85.18,
+      "end": 88.18,
+      "text": "like no real changes.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 88.18,
+      "end": 89.18,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 89.18,
+      "end": 99.18,
+      "text": "And what has kind of behavior been like over these last couple of days?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 99.18,
+      "end": 101.18,
+      "text": "Yeah, so at first with the stomach pain,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 101.18,
+      "end": 104.18,
+      "text": "he was a bit just irritable and just not himself.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 104.18,
+      "end": 107.18,
+      "text": "But especially yesterday with the fever,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 107.18,
+      "end": 114.18,
+      "text": "it's been very quiet and just kind of sleeping pretty much the whole day.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 114.18,
+      "end": 115.18,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 115.18,
+      "end": 116.18,
+      "text": "I see.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 116.18,
+      "end": 123.18,
+      "text": "And could you describe the vomit?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 123.18,
+      "end": 125.18,
+      "text": "Yes, a vomit.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 125.18,
+      "end": 128.18,
+      "text": "Like it started two days ago.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 128.18,
+      "end": 134.18,
+      "text": "The first day it was just like he puked up the things that he had eaten.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 134.18,
+      "end": 141.42,
+      "text": "But yesterday it was it was mainly just like just yellowish material.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 141.42,
+      "end": 145.42,
+      "text": "I couldn't really tell if it was food or not.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 145.42,
+      "end": 146.42,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 146.42,
+      "end": 152.42,
+      "text": "Have you noticed any bile or blood in the vomit?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 152.42,
+      "end": 155.42,
+      "text": "No, I didn't notice any blood.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 155.42,
+      "end": 158.42,
+      "text": "And I didn't notice any green material.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 158.42,
+      "end": 164.42,
+      "text": "It was mainly just like normal vomit like yellowish color.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 164.42,
+      "end": 165.42,
+      "text": "I see.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 165.42,
+      "end": 171.42,
+      "text": "And as though it was the vomiting triggered by anything that you're aware of,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 171.42,
+      "end": 176.42,
+      "text": "like eating or drinking.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 176.42,
+      "end": 179.42,
+      "text": "Yeah, two days ago it was after, after 1, 21st,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 179.42,
+      "end": 184.42,
+      "text": "but after that it's just been kind of random.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 184.42,
+      "end": 185.42,
+      "text": "I see.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 185.42,
+      "end": 186.42,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 186.42,
+      "end": 193.42,
+      "text": "And in regards to his diarrhea,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 193.42,
+      "end": 199.42,
+      "text": "has there been any any blood or any color changes?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 199.42,
+      "end": 202.42,
+      "text": "No, I didn't notice any blood at all.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 202.42,
+      "end": 205.42,
+      "text": "It's definitely just very watery.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 205.42,
+      "end": 210.42,
+      "text": "And he's had to go probably even just in the last day,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 210.42,
+      "end": 215.42,
+      "text": "probably around like six or seven times.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 215.42,
+      "end": 216.42,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 216.42,
+      "end": 221.42,
+      "text": "And he's vomited how many times?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 221.42,
+      "end": 226.42,
+      "text": "So in total, I can count six times.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 226.42,
+      "end": 227.42,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 227.42,
+      "end": 235.42,
+      "text": "And has he been complaining of any headaches at all?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 235.42,
+      "end": 238.42,
+      "text": "No, not that I know.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 238.42,
+      "end": 239.42,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 239.42,
+      "end": 243.42,
+      "text": "And how about any ear pain or eye pain?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 243.42,
+      "end": 245.42,
+      "text": "No, not that he's mentioned to me.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 245.42,
+      "end": 246.42,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 246.42,
+      "end": 248.42,
+      "text": "Any eye redness?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 248.42,
+      "end": 249.42,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 249.42,
+      "end": 250.42,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 250.42,
+      "end": 253.42,
+      "text": "And has he had a runny nose?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 253.42,
+      "end": 255.42,
+      "text": "No, not really.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 255.42,
+      "end": 256.42,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 256.42,
+      "end": 261.42,
+      "text": "And has he had a sore throat or any pain with swallowing?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 261.42,
+      "end": 262.42,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 262.42,
+      "end": 263.42,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 263.42,
+      "end": 271.86,
+      "text": "Has he had any loss of taste or loss of smell?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 271.86,
+      "end": 274.86,
+      "text": "No, not that he's mentioned to me though.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 274.86,
+      "end": 275.86,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 275.86,
+      "end": 279.24,
+      "text": "And has he had a cough?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 279.24,
+      "end": 282.24,
+      "text": "No, not really.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 282.24,
+      "end": 283.24,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 283.24,
+      "end": 287.24,
+      "text": "And how about any shortness of breath or weezing?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 287.24,
+      "end": 288.24,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 288.24,
+      "end": 289.24,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 289.24,
+      "end": 293.24,
+      "text": "And has he had any pain anywhere?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 293.24,
+      "end": 297.24,
+      "text": "Any chest pain?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 297.24,
+      "end": 299.24,
+      "text": "He did point to his stomach.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 299.24,
+      "end": 302.24,
+      "text": "It seems like he was having with all the vomiting.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 302.24,
+      "end": 306.24,
+      "text": "Like he was having some stomach pain as well.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 306.24,
+      "end": 307.24,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 307.24,
+      "end": 312.24,
+      "text": "Is there any specific location that that he's feeling the pain?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 312.24,
+      "end": 315.97,
+      "text": "Well, it's hard to say.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 315.97,
+      "end": 317.97,
+      "text": "He was just pointing at the center of his belly.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 317.97,
+      "end": 322.97,
+      "text": "Like, I don't know if it's like I tried pressing on it and feeling pain then.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 322.97,
+      "end": 327.97,
+      "text": "But I think it's just kind of all over this stomach.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 327.97,
+      "end": 328.97,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 328.97,
+      "end": 332.97,
+      "text": "And as he had any urinary problems like painful,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 332.97,
+      "end": 336.97,
+      "text": "voiding or being more often.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 336.97,
+      "end": 338.97,
+      "text": "No, me.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 338.97,
+      "end": 340.97,
+      "text": "That's been.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 340.97,
+      "end": 341.97,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 341.97,
+      "end": 346.97,
+      "text": "Have you noticed any rashes or skin changes?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 346.97,
+      "end": 350.97,
+      "text": "No, not really.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 350.97,
+      "end": 351.97,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 351.97,
+      "end": 357.97,
+      "text": "And has he had any muscle aches or joint pains that he's mentioned?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 357.97,
+      "end": 364.41,
+      "text": "No, he hasn't mentioned anything like that.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 364.41,
+      "end": 365.41,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 365.41,
+      "end": 369.41,
+      "text": "And he's had a fever as he had chills.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 369.41,
+      "end": 370.41,
+      "text": "Yeah.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 370.41,
+      "end": 374.41,
+      "text": "So that's what I prompted me to take his temperature.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 374.41,
+      "end": 379.41,
+      "text": "Yesterday, the afternoon, like we had to wrap him up.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 379.41,
+      "end": 382.41,
+      "text": "Like more than two blankets and he was still feeling cold.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 382.41,
+      "end": 385.41,
+      "text": "So yeah, definitely he was having chills.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 385.41,
+      "end": 387.41,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 387.41,
+      "end": 390.41,
+      "text": "And.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 390.41,
+      "end": 397.41,
+      "text": "And have there been any concerns with his growth and other weight or height?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 397.41,
+      "end": 401.41,
+      "text": "He's been playing along with charts pretty well.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 401.41,
+      "end": 404.41,
+      "text": "No concerns during his growth.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 404.41,
+      "end": 407.41,
+      "text": "Otherwise, he's a very healthy child.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 407.41,
+      "end": 408.41,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 408.41,
+      "end": 412.41,
+      "text": "So no medical diagnoses previously.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 412.41,
+      "end": 414.41,
+      "text": "No, nothing like that.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 414.41,
+      "end": 415.41,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 415.41,
+      "end": 420.41,
+      "text": "And is he meeting all developmental milestones?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 420.41,
+      "end": 421.41,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 421.41,
+      "end": 425.41,
+      "text": "A gross border, fine motor.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 425.41,
+      "end": 428.41,
+      "text": "I'm doing well at school.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 428.41,
+      "end": 429.41,
+      "text": "Yeah.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 429.41,
+      "end": 433.41,
+      "text": "I didn't have any issues with walking, running.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 433.41,
+      "end": 436.41,
+      "text": "It's pretty social with all his peers.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 436.41,
+      "end": 438.41,
+      "text": "He's doing well at school.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 438.41,
+      "end": 440.41,
+      "text": "No complaints.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 440.41,
+      "end": 441.41,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 441.41,
+      "end": 442.41,
+      "text": "Excellent.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 442.41,
+      "end": 447.41,
+      "text": "And to know medical conditions.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 447.41,
+      "end": 453.41,
+      "text": "But has there been any reasons for being in the hospital before?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 453.41,
+      "end": 455.41,
+      "text": "No, not at all.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 455.41,
+      "end": 461.41,
+      "text": "Yeah, we haven't really gone to the doctor with them after like all those vaccinations I get to do.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 461.41,
+      "end": 463.41,
+      "text": "So it's been good.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 463.41,
+      "end": 464.41,
+      "text": "Okay, great.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 464.41,
+      "end": 467.41,
+      "text": "So immunizations are up to date.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 467.41,
+      "end": 469.41,
+      "text": "Yeah, immunizations all up to date.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 469.41,
+      "end": 470.41,
+      "text": "Excellent.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 470.41,
+      "end": 472.41,
+      "text": "And does he have any allergies?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 472.41,
+      "end": 478.41,
+      "text": "No, not anything that we know of yet.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 478.41,
+      "end": 479.41,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 479.41,
+      "end": 484.41,
+      "text": "And just wanted to ask about his birth history.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 484.41,
+      "end": 487.41,
+      "text": "Were there any complications throughout pregnancy?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 487.41,
+      "end": 491.41,
+      "text": "Either mom being safe or having any.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 491.41,
+      "end": 494.41,
+      "text": "Any issues herself?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 494.41,
+      "end": 500.41,
+      "text": "No, so it was a normal vaginal delivery.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 500.41,
+      "end": 502.41,
+      "text": "No issues.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 502.41,
+      "end": 506.41,
+      "text": "He was born at 39 weeks.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 506.41,
+      "end": 509.41,
+      "text": "Didn't need to stay in the hospital at all.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 509.41,
+      "end": 513.41,
+      "text": "Yeah, it was a pretty smooth pregnancy compared to some of the other ones.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 513.41,
+      "end": 514.41,
+      "text": "Okay.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 514.41,
+      "end": 516.41,
+      "text": "Oh, that's, that's great.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 516.41,
+      "end": 519.41,
+      "text": "Do you remember.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 519.41,
+      "end": 525.41,
+      "text": "Apker score or his birth weight?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 525.41,
+      "end": 531.41,
+      "text": "I don't exactly remember his app score scores.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 531.41,
+      "end": 534.41,
+      "text": "I think they were like just,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 534.41,
+      "end": 535.41,
+      "text": "just.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 535.41,
+      "end": 538.41,
+      "text": "They were normal, like there was nothing concerning about that.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 538.41,
+      "end": 544.41,
+      "text": "And birth weight, I think he was probably around.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 544.41,
+      "end": 548.41,
+      "text": "Three, three kilograms.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 548.41,
+      "end": 552.41,
+      "text": "Okay, great, so, yeah, healthy birth weight at term.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 552.41,
+      "end": 556.85,
+      "text": "It sounds like, and so healthy,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 556.85,
+      "end": 559.35,
+      "text": "does he take any medications regularly?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 560.37,
+      "end": 562.17,
+      "text": "No, no medications.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 562.17,
+      "end": 567.17,
+      "text": "Okay, and can you tell me about who he's living with currently",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 569.05,
+      "end": 570.71,
+      "text": "and who's looking after him?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 571.93,
+      "end": 576.93,
+      "text": "Yeah, so he's living with myself, his mother,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 577.09,
+      "end": 579.17,
+      "text": "and then my husband,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 580.85,
+      "end": 584.45,
+      "text": "and he has two older siblings.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 584.45,
+      "end": 588.45,
+      "text": "One is a boy, seven years old, and another one,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 589.49,
+      "end": 591.65,
+      "text": "like a 10-year-old girl.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 591.65,
+      "end": 594.81,
+      "text": "Okay, and has anybody in the house been sick?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 597.09,
+      "end": 600.25,
+      "text": "No, no one has been sick recently.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 601.25,
+      "end": 603.81,
+      "text": "However, he does,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 603.81,
+      "end": 607.29,
+      "text": "they did let them go back into school at one point,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 607.29,
+      "end": 609.45,
+      "text": "so I don't know, I don't know,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 609.45,
+      "end": 610.53,
+      "text": "so that was his last week,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 610.53,
+      "end": 613.49,
+      "text": "so I don't know if he caught something from school.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 613.49,
+      "end": 615.49,
+      "text": "Okay, but nobody that you know",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 615.49,
+      "end": 617.61,
+      "text": "that's had similar symptoms.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 617.61,
+      "end": 618.93,
+      "text": "No.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 618.93,
+      "end": 623.93,
+      "text": "No, okay, and do you travel anywhere?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 624.41,
+      "end": 626.37,
+      "text": "No, we've been at home.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 627.89,
+      "end": 632.89,
+      "text": "Okay, and yeah, no recent changes to anything",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 633.61,
+      "end": 635.21,
+      "text": "in the diet you've mentioned.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 636.49,
+      "end": 639.81,
+      "text": "No, diet's been fine.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 639.81,
+      "end": 644.81,
+      "text": "Okay, and any concerns for safety in the home,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 646.65,
+      "end": 651.65,
+      "text": "whether the physical or verbal abuse?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 653.29,
+      "end": 654.81,
+      "text": "No, no concerns like that.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 655.81,
+      "end": 660.81,
+      "text": "Okay, yeah, a question that we opt to ask everybody,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 660.97,
+      "end": 663.81,
+      "text": "and is there any smoking in the home?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 665.61,
+      "end": 667.73,
+      "text": "No, no, we don't smoke.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 667.73,
+      "end": 671.53,
+      "text": "Okay, great, Zen, are there any pets?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 672.73,
+      "end": 673.73,
+      "text": "Nope, no pets.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 674.73,
+      "end": 679.73,
+      "text": "All right, and the family has there been anybody",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 680.45,
+      "end": 684.41,
+      "text": "who's had any heart problems or any lung problems?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 685.09,
+      "end": 690.09,
+      "text": "We are getting the 10-year-old tested for just asthma.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 696.09,
+      "end": 699.65,
+      "text": "Okay, but nothing diagnosed yet, no?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 700.65,
+      "end": 703.49,
+      "text": "Okay, anybody in the family",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 705.05,
+      "end": 709.57,
+      "text": "have any congenital diseases or any genetic diseases?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 710.77,
+      "end": 711.93,
+      "text": "No, not that I know.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 712.61,
+      "end": 717.61,
+      "text": "Okay, anybody in the family have a silly act disease",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 717.61,
+      "end": 719.37,
+      "text": "or a Crohn's disease?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 721.21,
+      "end": 727.89,
+      "text": "No, no, no history of any kind of mental diseases.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 728.97,
+      "end": 734.49,
+      "text": "Okay, so I think that's everything I wanted to ask about today.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 737.05,
+      "end": 739.89,
+      "text": "Was there anything that maybe I forgot to ask",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 739.89,
+      "end": 741.97,
+      "text": "or that I missed that you wanted to tell me?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 744.33,
+      "end": 747.85,
+      "text": "Yeah, no, it's also just like I was just reading up.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 749.81,
+      "end": 753.69,
+      "text": "Can it be like, I don't know if it can be COVID as well,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 753.69,
+      "end": 755.61,
+      "text": "if it can do this as well?",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 756.81,
+      "end": 758.21,
+      "text": "It is possible.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 759.53,
+      "end": 763.29,
+      "text": "It's especially with non-specific symptoms,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 763.29,
+      "end": 766.29,
+      "text": "COVID can cause a variety of different presentations",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 766.29,
+      "end": 773.01,
+      "text": "and for some people it can be more gastrointestinal issues",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 773.01,
+      "end": 778.49,
+      "text": "like your son has with vomiting and diarrhea and belly pain,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 778.49,
+      "end": 788.01,
+      "text": "but it also could be another type of gastrointestinal virus itself",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 788.01,
+      "end": 790.57,
+      "text": "or a viral illness like the common cold,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 790.57,
+      "end": 795.25,
+      "text": "which can also end up causing symptoms like this as well.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 796.45,
+      "end": 802.61,
+      "text": "So we will go ahead and do a COVID test today,",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 802.61,
+      "end": 805.57,
+      "text": "along with some other but work",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 807.13,
+      "end": 811.81,
+      "text": "and maybe increase the hydration as well.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 811.81,
+      "end": 814.93,
+      "text": "It sounds like he has lost a lot of fluid",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 814.93,
+      "end": 817.37,
+      "text": "over these last couple of days.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 817.37,
+      "end": 822.37,
+      "text": "So we'll check electrolytes and go from there on the test results.",
+      "speaker": "Speaker 1"
+    },
+    {
+      "start": 822.37,
+      "end": 826.61,
+      "text": "All right, that sounds good. Thank you so much.",
+      "speaker": "Speaker 1"
+    }
+  ]
+}

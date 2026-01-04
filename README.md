@@ -1,4 +1,4 @@
-# Podcast Intelligence Engine – Automated Audio Transcription and Topic Segmentation
+# Podcast Intelligence – Automated Audio Transcription and Topic Segmentation
 
 ## Overview
 This is an end-to-end AI system that processes long audio or podcast files and converts them into structured, searchable intelligence. The system performs audio preprocessing, speech-to-text transcription, semantic topic segmentation, summarization, keyword extraction, sentiment and emotion analysis, and provides an interactive Streamlit-based user interface with semantic search and an AI chatbot.
@@ -72,7 +72,7 @@ project/
 ### Run Command
 Launch the application using Streamlit:
 ```bash
-streamlit run src/ui_app.py
+python -m streamlit run src/ui_app.py
 ```
 
 ## Application Walkthrough

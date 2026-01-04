@@ -1,0 +1,1652 @@
+{
+  "language": "en",
+  "topics": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 37.82,
+      "text": "what brings you in here today? Yeah, hi, I'm, I have a baby in my belly. It started a couple of hours ago. Okay, and where exactly in your belly do you have this pain? It's mostly up here on the right side. On the right side? Yeah. And can you describe what kind of pain is it? Is it like a dollopene, a sharp pain, an aching pain? Oh, I guess it's an aching pain, I'd say.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.0,
+          "text": "what brings you in here today?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.7323552370071411
+        },
+        {
+          "start": 2.0,
+          "end": 7.0,
+          "text": "Yeah, hi, I'm, I have a baby in my belly.",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.6401110887527466
+        },
+        {
+          "start": 7.0,
+          "end": 12.0,
+          "text": "It started a couple of hours ago.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8640894293785095
+        },
+        {
+          "start": 12.0,
+          "end": 16.0,
+          "text": "Okay, and where exactly in your belly do you have this pain?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5055477619171143
+        },
+        {
+          "start": 16.0,
+          "end": 20.0,
+          "text": "It's mostly up here on the right side.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9435296654701233
+        },
+        {
+          "start": 20.0,
+          "end": 22.0,
+          "text": "On the right side?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.803193986415863
+        },
+        {
+          "start": 22.0,
+          "end": 23.0,
+          "text": "Yeah.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8143122792243958
+        },
+        {
+          "start": 23.0,
+          "end": 26.0,
+          "text": "And can you describe what kind of pain is it?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5488676428794861
+        },
+        {
+          "start": 26.0,
+          "end": 30.0,
+          "text": "Is it like a dollopene, a sharp pain, an aching pain?",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.9257168173789978
+        },
+        {
+          "start": 30.0,
+          "end": 37.82,
+          "text": "Oh, I guess it's an aching pain, I'd say.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.9132905006408691
+        }
+      ],
+      "summary": " A baby in my belly is mostly up here on the right side of my belly . It started a couple of hours ago. It's a sharp pain, an aching pain, I'd say .",
+      "tldr": " A baby in my belly is mostly up here on the right side of my belly . It started a couple of hours ago. It's a sharp pain, an aching pain, I'd say .",
+      "title": " A baby in my belly is mostly up here on the right side of my belly . It started a couple of hours ago. It's a sharp pain, an aching pain, I'd say .",
+      "bullets": [
+        "A baby in my belly is mostly up here on the right side of my belly",
+        "It started a couple of hours ago",
+        "It's a sharp pain, an aching pain, I'd say ."
+      ],
+      "keywords": [
+        "aching pain",
+        "belly",
+        "pain",
+        "aching",
+        "side"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9857983589172363,
+      "emotion": "sadness",
+      "emotion_score": 0.9639822244644165
+    },
+    {
+      "id": 1,
+      "start": 37.82,
+      "end": 69.44,
+      "text": "It kind of just, it would initially just come and go but now it's just staying. It's not going away. Okay, and so it's in the right area. And does it travel anywhere else where besides it all from the right side? No. And on a scale of 1 to 10, 1 being the least amount of pain you're felt in your life and 10 being the worst.",
+      "segments": [
+        {
+          "start": 37.82,
+          "end": 45.82,
+          "text": "It kind of just, it would initially just come and go but now it's just staying.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9321992993354797
+        },
+        {
+          "start": 45.82,
+          "end": 48.82,
+          "text": "It's not going away.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7774404287338257
+        },
+        {
+          "start": 48.82,
+          "end": 51.82,
+          "text": "Okay, and so it's in the right area.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.948785126209259
+        },
+        {
+          "start": 51.82,
+          "end": 57.82,
+          "text": "And does it travel anywhere else where besides it all from the right side?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7695647478103638
+        },
+        {
+          "start": 57.82,
+          "end": 58.82,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 58.82,
+          "end": 69.44,
+          "text": "And on a scale of 1 to 10, 1 being the least amount of pain you're felt in your life and 10 being the worst.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.9527450799942017
+        }
+      ],
+      "summary": " On a scale of 1 to 10, 1 is the least amount of pain you're felt in your life and 10 is the worst . \"It's not going away. It kind of just, it would initially just come and go but now it's just staying,\" says author .",
+      "tldr": " On a scale of 1 to 10, 1 is the least amount of pain you're felt in your life",
+      "title": " On a scale of 1 to 10, 1 is the least",
+      "bullets": [
+        "On a scale of 1 to 10, 1 is the least amount of pain you're felt in your life and 10 is the worst",
+        "\"It's not going away",
+        "It kind of just, it would initially just come and go but now it's just staying,\" says author ."
+      ],
+      "keywords": [
+        "amount of pain",
+        "pain",
+        "pain you felt",
+        "staying",
+        "travel"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.993767499923706,
+      "emotion": "disgust",
+      "emotion_score": 0.9533259868621826
+    },
+    {
+      "id": 2,
+      "start": 69.44,
+      "end": 102.44,
+      "text": "How much would you rate it right now? It's about an aching, maybe. An aching, okay. And so just to clarify, when did it start? Sort of about eight hours ago. Eight hours ago. Okay. And were you doing anything before? Like did you have a meal or how were you asleep and it woke you up? What was going on before you had the pain? I was just about to go to sleep. I wasn't doing anything particular at the time.",
+      "segments": [
+        {
+          "start": 69.44,
+          "end": 72.44,
+          "text": "How much would you rate it right now?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8672638535499573
+        },
+        {
+          "start": 72.44,
+          "end": 75.44,
+          "text": "It's about an aching, maybe.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.9322790503501892
+        },
+        {
+          "start": 75.44,
+          "end": 77.44,
+          "text": "An aching, okay.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.9200406670570374
+        },
+        {
+          "start": 77.44,
+          "end": 80.44,
+          "text": "And so just to clarify, when did it start?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8473159074783325
+        },
+        {
+          "start": 80.44,
+          "end": 83.44,
+          "text": "Sort of about eight hours ago.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7927739024162292
+        },
+        {
+          "start": 83.44,
+          "end": 85.44,
+          "text": "Eight hours ago.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7866833806037903
+        },
+        {
+          "start": 85.44,
+          "end": 86.44,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 86.44,
+          "end": 88.44,
+          "text": "And were you doing anything before?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5151169896125793
+        },
+        {
+          "start": 88.44,
+          "end": 92.44,
+          "text": "Like did you have a meal or how were you asleep and it woke you up?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6313701272010803
+        },
+        {
+          "start": 92.44,
+          "end": 95.44,
+          "text": "What was going on before you had the pain?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5541419386863708
+        },
+        {
+          "start": 95.44,
+          "end": 98.44,
+          "text": "I was just about to go to sleep.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4478294551372528
+        },
+        {
+          "start": 98.44,
+          "end": 102.44,
+          "text": "I wasn't doing anything particular at the time.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.47513875365257263
+        }
+      ],
+      "summary": " When did it start? Sort of about eight hours ago? Eight hours ago. How much would you rate it right now? It's about an aching, maybe. An aching . And were you doing anything before? Like did you have a meal or how were you asleep and it woke you up? I was just about to go to sleep .",
+      "tldr": " When did it start? Sort of about eight hours ago? Eight hours ago . How much would you rate it right now? It's",
+      "title": " When did it start? Sort of about eight hours ago?",
+      "bullets": [
+        "When did it start? Sort of about eight hours ago? Eight hours ago",
+        "How much would you rate it right now? It's about an aching, maybe",
+        "An aching",
+        "And were you doing anything before? Like did you have a meal or how were you asleep and it woke you up? I was just about to go to sleep ."
+      ],
+      "keywords": [
+        "aching",
+        "asleep",
+        "pain",
+        "woke",
+        "sleep"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.999036431312561,
+      "emotion": "sadness",
+      "emotion_score": 0.8228931427001953
+    },
+    {
+      "id": 3,
+      "start": 102.44,
+      "end": 155.23,
+      "text": "Okay. And has it been getting worse since it first started? Oh yeah, definitely. It would come and go, but now for the past, I'd say, five to six hours. It's been constant. It's just there all the time. And have you had any similar pain like this in the past? Yeah. I have the same pain that sort of comes and goes after I eat. Usually after I've had something like something fatty, something from outdoors, maybe like a burger or fries or something. I initially thought it was indigestion, but I don't know what's going on now.",
+      "segments": [
+        {
+          "start": 102.44,
+          "end": 104.44,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 104.44,
+          "end": 108.44,
+          "text": "And has it been getting worse since it first started?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.7486292123794556
+        },
+        {
+          "start": 108.44,
+          "end": 110.44,
+          "text": "Oh yeah, definitely.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8081798553466797
+        },
+        {
+          "start": 110.44,
+          "end": 117.44,
+          "text": "It would come and go, but now for the past, I'd say, five to six hours.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9470398426055908
+        },
+        {
+          "start": 117.44,
+          "end": 120.44,
+          "text": "It's been constant.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9583543539047241
+        },
+        {
+          "start": 120.44,
+          "end": 124.23,
+          "text": "It's just there all the time.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9422460198402405
+        },
+        {
+          "start": 124.23,
+          "end": 129.23,
+          "text": "And have you had any similar pain like this in the past?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7509863376617432
+        },
+        {
+          "start": 129.23,
+          "end": 132.23,
+          "text": "Yeah.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8143122792243958
+        },
+        {
+          "start": 132.23,
+          "end": 140.23,
+          "text": "I have the same pain that sort of comes and goes after I eat.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.34871846437454224
+        },
+        {
+          "start": 140.23,
+          "end": 146.23,
+          "text": "Usually after I've had something like something fatty, something from outdoors,",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6375751495361328
+        },
+        {
+          "start": 146.23,
+          "end": 149.23,
+          "text": "maybe like a burger or fries or something.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9066584706306458
+        },
+        {
+          "start": 149.23,
+          "end": 155.23,
+          "text": "I initially thought it was indigestion, but I don't know what's going on now.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.5738890171051025
+        }
+      ],
+      "summary": " I initially thought it was indigestion, but I don't know what's going on now . I have the same pain that sort of comes and goes after I eat . Usually after I've had something like something fatty, something from outdoors, maybe like a burger .",
+      "tldr": " I initially thought it was indigestion, but I don't know what's going on now",
+      "title": " I initially thought it was indigestion, but I",
+      "bullets": [
+        "I initially thought it was indigestion, but I don't know what's going on now",
+        "I have the same pain that sort of comes and goes after I eat",
+        "Usually after I've had something like something fatty, something from outdoors, maybe like a burger ."
+      ],
+      "keywords": [
+        "indigestion",
+        "similar pain",
+        "pain",
+        "eat",
+        "fatty"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9967857599258423,
+      "emotion": "disgust",
+      "emotion_score": 0.5496490597724915
+    },
+    {
+      "id": 4,
+      "start": 155.23,
+      "end": 206.23,
+      "text": "Okay. And does anything make it better or worse? Anything that you've tried? Well, I guess eating sometimes makes it worse. But I don't think there's anything that's making it better. Okay. Have you tried any meditation at all? I tried Tylenol, but that didn't do anything. Okay. And besides the pain that you're having, do you have any nausea and vomiting? I am a little nauseous, but no, I haven't, I haven't vomiting yet, no. Okay. And have you been having any fevers? I don't think so. I haven't checked. But I don't feel feverish. Any sweats or like chills?",
+      "segments": [
+        {
+          "start": 155.23,
+          "end": 156.23,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 156.23,
+          "end": 159.23,
+          "text": "And does anything make it better or worse?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.7637353539466858
+        },
+        {
+          "start": 159.23,
+          "end": 161.23,
+          "text": "Anything that you've tried?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6405486464500427
+        },
+        {
+          "start": 161.23,
+          "end": 166.23,
+          "text": "Well, I guess eating sometimes makes it worse.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.9465155005455017
+        },
+        {
+          "start": 166.23,
+          "end": 170.23,
+          "text": "But I don't think there's anything that's making it better.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7471112608909607
+        },
+        {
+          "start": 170.23,
+          "end": 171.23,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 171.23,
+          "end": 175.23,
+          "text": "Have you tried any meditation at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8623781800270081
+        },
+        {
+          "start": 175.23,
+          "end": 179.23,
+          "text": "I tried Tylenol, but that didn't do anything.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.6991351842880249
+        },
+        {
+          "start": 179.23,
+          "end": 180.23,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 180.23,
+          "end": 186.23,
+          "text": "And besides the pain that you're having, do you have any nausea and vomiting?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.5482531189918518
+        },
+        {
+          "start": 186.23,
+          "end": 194.23,
+          "text": "I am a little nauseous, but no, I haven't, I haven't vomiting yet, no.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6211563944816589
+        },
+        {
+          "start": 194.23,
+          "end": 195.23,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 195.23,
+          "end": 198.23,
+          "text": "And have you been having any fevers?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7862958312034607
+        },
+        {
+          "start": 198.23,
+          "end": 200.23,
+          "text": "I don't think so.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7487612962722778
+        },
+        {
+          "start": 200.23,
+          "end": 202.23,
+          "text": "I haven't checked.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.46997472643852234
+        },
+        {
+          "start": 202.23,
+          "end": 204.23,
+          "text": "But I don't feel feverish.",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.9278391599655151
+        },
+        {
+          "start": 204.23,
+          "end": 206.23,
+          "text": "Any sweats or like chills?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8724075555801392
+        }
+      ],
+      "summary": " Have you tried any meditation at all? I tried Tylenol, but that didn't do anything . Have you been having any fevers? I don't think so. I haven't checked. Any sweats or like chills?",
+      "tldr": " Have you tried any meditation at all? I tried Tylenol, but that didn't do anything . Have you been having any fevers? I don't think so. I haven't checked. Any sweats or like chills?",
+      "title": " Have you tried any meditation at all? I tried Tylenol, but that didn't do anything . Have you been having any fevers? I don't think so. I haven't checked. Any sweats or like chills?",
+      "bullets": [
+        "Have you tried any meditation at all? I tried Tylenol, but that didn't do anything",
+        "Have you been having any fevers? I don't think so",
+        "I haven't checked",
+        "Any sweats or like chills?"
+      ],
+      "keywords": [
+        "fevers",
+        "nauseous",
+        "vomiting",
+        "Tylenol",
+        "eating sometimes makes"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9976670742034912,
+      "emotion": "neutral",
+      "emotion_score": 0.6101610660552979
+    },
+    {
+      "id": 5,
+      "start": 206.23,
+      "end": 242.06,
+      "text": "No. I don't think so. Okay. Any changes in your bowel movements like constipation diarrhea? No. Have you traveled anywhere recently? No, I haven't. Have you been feeling at all very tired? Not your usual self fatigue? Well, the pain is making it difficult for me to do things. But I guess I'm not a little bit deep, baby.",
+      "segments": [
+        {
+          "start": 206.23,
+          "end": 207.23,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 207.23,
+          "end": 209.23,
+          "text": "I don't think so.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7487612962722778
+        },
+        {
+          "start": 209.23,
+          "end": 210.23,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 210.23,
+          "end": 213.23,
+          "text": "Any changes in your bowel movements like constipation diarrhea?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.5639234781265259
+        },
+        {
+          "start": 213.23,
+          "end": 214.23,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 214.23,
+          "end": 219.79,
+          "text": "Have you traveled anywhere recently?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7393190264701843
+        },
+        {
+          "start": 219.79,
+          "end": 221.79,
+          "text": "No, I haven't.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7367821335792542
+        },
+        {
+          "start": 221.79,
+          "end": 226.26,
+          "text": "Have you been feeling at all very tired?",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.66829913854599
+        },
+        {
+          "start": 226.26,
+          "end": 230.26,
+          "text": "Not your usual self fatigue?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.576438844203949
+        },
+        {
+          "start": 230.26,
+          "end": 235.26,
+          "text": "Well, the pain is making it difficult for me to do things.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.6653105616569519
+        },
+        {
+          "start": 235.26,
+          "end": 242.06,
+          "text": "But I guess I'm not a little bit deep, baby.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8577196598052979
+        }
+      ],
+      "summary": " Any changes in bowel movements like constipation diarrhea? No. Have you traveled anywhere recently? No, I haven't . Have you been feeling at all very tired? Not your usual self fatigue? Well, the pain is making it difficult for me to do things .",
+      "tldr": " Any changes in bowel movements like constipation diarrhea? No . Have you traveled anywhere recently? No",
+      "title": " Any changes in bowel movements like constipation diarrhea? No .",
+      "bullets": [
+        "Any changes in bowel movements like constipation diarrhea? No",
+        "Have you traveled anywhere recently? No, I haven't",
+        "Have you been feeling at all very tired? Not your usual self fatigue? Well, the pain is making it difficult for me to do things ."
+      ],
+      "keywords": [
+        "constipation diarrhea",
+        "bowel movements",
+        "movements like constipation",
+        "constipation",
+        "bowel"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9989436268806458,
+      "emotion": "sadness",
+      "emotion_score": 0.46647676825523376
+    },
+    {
+      "id": 6,
+      "start": 242.06,
+      "end": 287.14,
+      "text": "Have you been having any changes in your urinary patterns? No. No. Any changes in your skin and your rashes? Any yellowing in your skin? Nothing that I've noticed. No, I don't think so. Any changes in your urine color? No. Have you noticed blood in your stool at all? I have not. And how about your appetite? Has this changed at all? Well, I guess because this pain happens, usually happens after I eat, I think I've been eating less than usual. Because I don't want to, you know, I don't like the pain.",
+      "segments": [
+        {
+          "start": 242.06,
+          "end": 247.06,
+          "text": "Have you been having any changes in your urinary patterns?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6695929169654846
+        },
+        {
+          "start": 247.06,
+          "end": 248.06,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 248.06,
+          "end": 249.06,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 249.06,
+          "end": 252.06,
+          "text": "Any changes in your skin and your rashes?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7171717882156372
+        },
+        {
+          "start": 252.06,
+          "end": 254.06,
+          "text": "Any yellowing in your skin?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.422316312789917
+        },
+        {
+          "start": 254.06,
+          "end": 256.06,
+          "text": "Nothing that I've noticed.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5550428628921509
+        },
+        {
+          "start": 256.06,
+          "end": 257.06,
+          "text": "No, I don't think so.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.582718551158905
+        },
+        {
+          "start": 257.06,
+          "end": 260.91,
+          "text": "Any changes in your urine color?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.463922917842865
+        },
+        {
+          "start": 260.91,
+          "end": 262.91,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 262.91,
+          "end": 267.35,
+          "text": "Have you noticed blood in your stool at all?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.8895580768585205
+        },
+        {
+          "start": 267.35,
+          "end": 269.35,
+          "text": "I have not.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6766592860221863
+        },
+        {
+          "start": 269.35,
+          "end": 273.14,
+          "text": "And how about your appetite?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9219104647636414
+        },
+        {
+          "start": 273.14,
+          "end": 275.14,
+          "text": "Has this changed at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5327784419059753
+        },
+        {
+          "start": 275.14,
+          "end": 280.14,
+          "text": "Well, I guess because this pain happens, usually happens after I eat,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5203167200088501
+        },
+        {
+          "start": 280.14,
+          "end": 283.14,
+          "text": "I think I've been eating less than usual.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.547585129737854
+        },
+        {
+          "start": 283.14,
+          "end": 287.14,
+          "text": "Because I don't want to, you know, I don't like the pain.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.7936524748802185
+        }
+      ],
+      "summary": " Have you been having any changes in your urinary patterns? No. Have you noticed blood in your stool at all? I have not . And how about your appetite? Well, I guess because this pain happens, usually happens after I eat .",
+      "tldr": " Have you been having any changes in your urinary patterns? No. Have you noticed blood in",
+      "title": " Have you noticed blood in your stool at all? I have",
+      "bullets": [
+        "Have you been having any changes in your urinary patterns? No",
+        "Have you noticed blood in your stool at all? I have not",
+        "And how about your appetite? Well, I guess because this pain happens, usually happens after I eat ."
+      ],
+      "keywords": [
+        "urine color",
+        "urinary patterns",
+        "pain",
+        "appetite",
+        "urine"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9965865612030029,
+      "emotion": "disgust",
+      "emotion_score": 0.5152180790901184
+    },
+    {
+      "id": 7,
+      "start": 287.14,
+      "end": 320.86,
+      "text": "Any significant weight loss recently? I don't think so. Any recent infections recently at all? No. And otherwise are you, do you have any other medical conditions like diabetes, high blood pressure or anything else? I do have diabetes, but that's about it, I think. And do you take anything for your diabetes?",
+      "segments": [
+        {
+          "start": 287.14,
+          "end": 291.49,
+          "text": "Any significant weight loss recently?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6743986010551453
+        },
+        {
+          "start": 292.49,
+          "end": 294.49,
+          "text": "I don't think so.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7487612962722778
+        },
+        {
+          "start": 294.49,
+          "end": 299.86,
+          "text": "Any recent infections recently at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6565688848495483
+        },
+        {
+          "start": 299.86,
+          "end": 301.86,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 301.86,
+          "end": 308.86,
+          "text": "And otherwise are you, do you have any other medical conditions like diabetes,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8911463022232056
+        },
+        {
+          "start": 308.86,
+          "end": 310.86,
+          "text": "high blood pressure or anything else?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.401840478181839
+        },
+        {
+          "start": 310.86,
+          "end": 316.86,
+          "text": "I do have diabetes, but that's about it, I think.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9072423577308655
+        },
+        {
+          "start": 316.86,
+          "end": 320.86,
+          "text": "And do you take anything for your diabetes?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8325076103210449
+        }
+      ],
+      "summary": " Do you have any other medical conditions like diabetes, high blood pressure or anything else? I do have diabetes, but that's about it, I think. Any significant weight loss recently? I don't think so. Any recent infections recently at all? No .",
+      "tldr": " Do you have any other medical conditions like diabetes, high blood pressure or anything else? I",
+      "title": " Do you have any other medical conditions like diabetes, high blood",
+      "bullets": [
+        "Do you have any other medical conditions like diabetes, high blood pressure or anything else? I do have diabetes, but that's about it, I think",
+        "Any significant weight loss recently? I don't think so",
+        "Any recent infections recently at all? No ."
+      ],
+      "keywords": [
+        "weight loss recently",
+        "recent infections recently",
+        "infections recently",
+        "recent infections",
+        "significant weight loss"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9956229329109192,
+      "emotion": "neutral",
+      "emotion_score": 0.8107171654701233
+    },
+    {
+      "id": 8,
+      "start": 321.86,
+      "end": 356.86,
+      "text": "I take my form. Okay. Do you take any other medications at all? No. No, I don't. Sorry. No, no, no. Do you have any allergies to any medications? No. Any environmental allergies? No, no, I don't. Okay. Have you been hospitalized in the past? No, no, haven't ever. I've been very, I've been healthy. No hospitalizations. Any past surgeries? I got my vicinity removed when I was a teenager.",
+      "segments": [
+        {
+          "start": 321.86,
+          "end": 323.86,
+          "text": "I take my form.",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.4230397045612335
+        },
+        {
+          "start": 323.86,
+          "end": 324.86,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 324.86,
+          "end": 327.86,
+          "text": "Do you take any other medications at all?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8426422476768494
+        },
+        {
+          "start": 327.86,
+          "end": 329.86,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 329.86,
+          "end": 330.86,
+          "text": "No, I don't.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5140902996063232
+        },
+        {
+          "start": 330.86,
+          "end": 331.86,
+          "text": "Sorry.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.9393317103385925
+        },
+        {
+          "start": 331.86,
+          "end": 332.86,
+          "text": "No, no, no.",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.3311096727848053
+        },
+        {
+          "start": 332.86,
+          "end": 335.86,
+          "text": "Do you have any allergies to any medications?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8300861120223999
+        },
+        {
+          "start": 335.86,
+          "end": 336.86,
+          "text": "No.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8298869729042053
+        },
+        {
+          "start": 336.86,
+          "end": 337.86,
+          "text": "Any environmental allergies?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7242048978805542
+        },
+        {
+          "start": 337.86,
+          "end": 339.86,
+          "text": "No, no, I don't.",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.31026747822761536
+        },
+        {
+          "start": 339.86,
+          "end": 340.86,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 340.86,
+          "end": 343.86,
+          "text": "Have you been hospitalized in the past?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4391617178916931
+        },
+        {
+          "start": 343.86,
+          "end": 345.86,
+          "text": "No, no, haven't ever.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5997250080108643
+        },
+        {
+          "start": 345.86,
+          "end": 347.86,
+          "text": "I've been very, I've been healthy.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.47294706106185913
+        },
+        {
+          "start": 347.86,
+          "end": 349.86,
+          "text": "No hospitalizations.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.5689764022827148
+        },
+        {
+          "start": 349.86,
+          "end": 352.86,
+          "text": "Any past surgeries?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8417076468467712
+        },
+        {
+          "start": 352.86,
+          "end": 356.86,
+          "text": "I got my vicinity removed when I was a teenager.",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.4115765690803528
+        }
+      ],
+      "summary": " Have you been hospitalized in the past? No, no, haven't ever . Do you take any other medications at all? No. No, I don't. I take my form. Do you have any allergies to any medications? No .",
+      "tldr": " Have you been hospitalized in the past? No, no, haven't ever . Do you take any other medications at all? No. No, I don't. I take my form. Do you have any allergies to any medications? No .",
+      "title": " Have you been hospitalized in the past? No, no, haven't ever . Do you take any other medications at all? No. No, I don't. I take my form. Do you have any allergies to any medications? No .",
+      "bullets": [
+        "Have you been hospitalized in the past? No, no, haven't ever",
+        "Do you take any other medications at all? No",
+        "No, I don't",
+        "I take my form",
+        "Do you have any allergies to any medications? No ."
+      ],
+      "keywords": [
+        "medications",
+        "allergies",
+        "form",
+        "hospitalized",
+        "environmental allergies"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9972814321517944,
+      "emotion": "neutral",
+      "emotion_score": 0.6105119585990906
+    },
+    {
+      "id": 9,
+      "start": 356.86,
+      "end": 388.63,
+      "text": "Okay. Have you been in contact with anyone who has been ill recently? No, I don't think so. And in terms of your family history, has anyone had any cancers or any IVD, like Crohn's disease or ulcerative colitis? No, not that I know of.",
+      "segments": [
+        {
+          "start": 356.86,
+          "end": 357.86,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 357.86,
+          "end": 362.86,
+          "text": "Have you been in contact with anyone who has been ill recently?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5459981560707092
+        },
+        {
+          "start": 362.86,
+          "end": 369.68,
+          "text": "No, I don't think so.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.582718551158905
+        },
+        {
+          "start": 369.68,
+          "end": 373.68,
+          "text": "And in terms of your family history,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9304733276367188
+        },
+        {
+          "start": 373.68,
+          "end": 380.68,
+          "text": "has anyone had any cancers or any IVD,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5957098007202148
+        },
+        {
+          "start": 380.68,
+          "end": 383.68,
+          "text": "like Crohn's disease or ulcerative colitis?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.46331268548965454
+        },
+        {
+          "start": 383.68,
+          "end": 388.63,
+          "text": "No, not that I know of.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7893836498260498
+        }
+      ],
+      "summary": " Have you been in contact with anyone who has been ill recently? No, I don't think so . Have anyone had any cancers or any IVD, like Crohn's disease or ulcerative colitis? Not that I know of .",
+      "tldr": " Have you been in contact with anyone who has been ill recently? No, I don't think so . Have anyone had any cancers or any IVD, like Crohn's disease or ulcerative colitis? Not that I know of .",
+      "title": " Have you been in contact with anyone who has been ill recently? No, I don't think so . Have anyone had any cancers or any IVD, like Crohn's disease or ulcerative colitis? Not that I know of .",
+      "bullets": [
+        "Have you been in contact with anyone who has been ill recently? No, I don't think so",
+        "Have anyone had any cancers or any IVD, like Crohn's disease or ulcerative colitis? Not that I know of ."
+      ],
+      "keywords": [
+        "ulcerative colitis",
+        "colitis",
+        "Crohn disease",
+        "disease",
+        "Crohn"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9982476234436035,
+      "emotion": "neutral",
+      "emotion_score": 0.6656043529510498
+    },
+    {
+      "id": 10,
+      "start": 388.63,
+      "end": 419.04,
+      "text": "Anything that runs in the family at all? My dad had a heart attack when he was in his 60s. But that's it. And currently right now, do you work? No, I'm lead off because of COVID. Okay. And currently, what is your home situation like? What do you mean?",
+      "segments": [
+        {
+          "start": 388.63,
+          "end": 391.63,
+          "text": "Anything that runs in the family at all?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5404433608055115
+        },
+        {
+          "start": 391.63,
+          "end": 397.63,
+          "text": "My dad had a heart attack when he was in his 60s.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.8809471726417542
+        },
+        {
+          "start": 397.63,
+          "end": 401.04,
+          "text": "But that's it.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6403282880783081
+        },
+        {
+          "start": 401.04,
+          "end": 406.04,
+          "text": "And currently right now, do you work?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6072618365287781
+        },
+        {
+          "start": 406.04,
+          "end": 411.04,
+          "text": "No, I'm lead off because of COVID.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.778479278087616
+        },
+        {
+          "start": 411.04,
+          "end": 413.04,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 413.04,
+          "end": 417.04,
+          "text": "And currently, what is your home situation like?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9157845973968506
+        },
+        {
+          "start": 417.04,
+          "end": 419.04,
+          "text": "What do you mean?",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.8178222179412842
+        }
+      ],
+      "summary": " Anything that runs in the family at all? My dad had a heart attack when he was in his 60s . Currently right now, do you work? No, I'm lead off because of COVID.",
+      "tldr": " Anything that runs in the family at all? My dad had a heart attack when he was in his 60s . Currently right now, do you work? No, I'm lead off because of COVID.",
+      "title": " Anything that runs in the family at all? My dad had a heart attack when he was in his 60s . Currently right now, do you work? No, I'm lead off because of COVID.",
+      "bullets": [
+        "Anything that runs in the family at all? My dad had a heart attack when he was in his 60s",
+        "Currently right now, do you work? No, I'm lead off because of COVID."
+      ],
+      "keywords": [
+        "COVID",
+        "home situation",
+        "family",
+        "heart attack",
+        "home"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.97658771276474,
+      "emotion": "sadness",
+      "emotion_score": 0.3912571370601654
+    },
+    {
+      "id": 11,
+      "start": 419.04,
+      "end": 449.38,
+      "text": "So do you live in an apartment, a house, and do you live with anyone? I live in an apartment. I live alone. Okay. And in terms of your daily routine, you feel that you get enough exercise, the walks and runs and you can write that. I usually go out for a run, especially when it's a little bit warmer,",
+      "segments": [
+        {
+          "start": 419.04,
+          "end": 421.04,
+          "text": "So do you live in an apartment, a house,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6270003318786621
+        },
+        {
+          "start": 421.04,
+          "end": 424.04,
+          "text": "and do you live with anyone?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5424326062202454
+        },
+        {
+          "start": 424.04,
+          "end": 426.04,
+          "text": "I live in an apartment.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.38784170150756836
+        },
+        {
+          "start": 426.04,
+          "end": 430.38,
+          "text": "I live alone.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.9585500359535217
+        },
+        {
+          "start": 430.38,
+          "end": 431.38,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 431.38,
+          "end": 434.38,
+          "text": "And in terms of your daily routine,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.900140106678009
+        },
+        {
+          "start": 434.38,
+          "end": 438.38,
+          "text": "you feel that you get enough exercise,",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.9732400178909302
+        },
+        {
+          "start": 438.38,
+          "end": 442.38,
+          "text": "the walks and runs and you can write that.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9161137342453003
+        },
+        {
+          "start": 442.38,
+          "end": 446.38,
+          "text": "I usually go out for a run,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6726871728897095
+        },
+        {
+          "start": 446.38,
+          "end": 449.38,
+          "text": "especially when it's a little bit warmer,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8855741024017334
+        }
+      ],
+      "summary": " I live in an apartment. I live alone. I usually go out for a run, especially when it's a little bit warmer, I say . And in terms of your daily routine, you feel that you get enough exercise .",
+      "tldr": " I usually go out for a run, especially when it's a little bit warmer,",
+      "title": " I usually go out for a run, especially when it's",
+      "bullets": [
+        "I live in an apartment",
+        "I live alone",
+        "I usually go out for a run, especially when it's a little bit warmer, I say",
+        "And in terms of your daily routine, you feel that you get enough exercise ."
+      ],
+      "keywords": [
+        "daily routine",
+        "routine",
+        "exercise",
+        "run",
+        "walks"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9345270991325378,
+      "emotion": "neutral",
+      "emotion_score": 0.5904794931411743
+    },
+    {
+      "id": 12,
+      "start": 449.38,
+      "end": 489.4,
+      "text": "which it now is. And do you drink alcohol? Sometimes. How much would you say you drink in an average week? I wanted to drink a day. And what do you usually drink? I'll just drink a glass of wine at night. It just helps me relax. Okay. And do you smoke cigarettes? I don't know. And do you use any recreational drugs like marijuana? No, I don't.",
+      "segments": [
+        {
+          "start": 449.38,
+          "end": 452.38,
+          "text": "which it now is.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8391493558883667
+        },
+        {
+          "start": 452.38,
+          "end": 455.38,
+          "text": "And do you drink alcohol?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5961653590202332
+        },
+        {
+          "start": 455.38,
+          "end": 458.38,
+          "text": "Sometimes.",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.30939698219299316
+        },
+        {
+          "start": 458.38,
+          "end": 461.38,
+          "text": "How much would you say you drink in an average week?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7523273825645447
+        },
+        {
+          "start": 461.38,
+          "end": 466.38,
+          "text": "I wanted to drink a day.",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.5445873737335205
+        },
+        {
+          "start": 466.38,
+          "end": 469.38,
+          "text": "And what do you usually drink?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8716781735420227
+        },
+        {
+          "start": 469.38,
+          "end": 472.38,
+          "text": "I'll just drink a glass of wine at night.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7013726830482483
+        },
+        {
+          "start": 472.38,
+          "end": 475.38,
+          "text": "It just helps me relax.",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.8081871271133423
+        },
+        {
+          "start": 475.38,
+          "end": 476.38,
+          "text": "Okay.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5348886847496033
+        },
+        {
+          "start": 476.38,
+          "end": 478.38,
+          "text": "And do you smoke cigarettes?",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.35344192385673523
+        },
+        {
+          "start": 478.38,
+          "end": 481.38,
+          "text": "I don't know.",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6272885203361511
+        },
+        {
+          "start": 481.38,
+          "end": 485.38,
+          "text": "And do you use any recreational drugs like marijuana?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7045460343360901
+        },
+        {
+          "start": 485.38,
+          "end": 489.4,
+          "text": "No, I don't.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5140902996063232
+        }
+      ],
+      "summary": " Do you smoke cigarettes? I don't know. And do you use any recreational drugs like marijuana like marijuana? No, he doesn't. I'll just drink a glass of wine at night. It just helps me relax. It's just helping me relax .",
+      "tldr": " Do you smoke cigarettes? I don't know. And do you use any recreational drugs",
+      "title": " Do you smoke cigarettes? I don't know. And do",
+      "bullets": [
+        "Do you smoke cigarettes? I don't know",
+        "And do you use any recreational drugs like marijuana like marijuana? No, he doesn't",
+        "I'll just drink a glass of wine at night",
+        "It just helps me relax",
+        "It's just helping me relax ."
+      ],
+      "keywords": [
+        "marijuana",
+        "drink alcohol",
+        "alcohol",
+        "drink",
+        "wine"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.999242901802063,
+      "emotion": "neutral",
+      "emotion_score": 0.7240048050880432
+    },
+    {
+      "id": 13,
+      "start": 489.4,
+      "end": 520.13,
+      "text": "All right, so that's all the questions I have. And just to clarify, is your pain come and go or is it constant? Yeah, so initially it would come and go. But now, so for the first two hours, it would come and go. And when I would have the pain when I was eating, it would come and go. But over the past six hours, it's just been constant.",
+      "segments": [
+        {
+          "start": 489.4,
+          "end": 492.4,
+          "text": "All right, so that's all the questions I have.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.910453200340271
+        },
+        {
+          "start": 492.4,
+          "end": 495.4,
+          "text": "And just to clarify,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8554081320762634
+        },
+        {
+          "start": 495.4,
+          "end": 498.4,
+          "text": "is your pain come and go or is it constant?",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.45822471380233765
+        },
+        {
+          "start": 498.4,
+          "end": 503.4,
+          "text": "Yeah, so initially it would come and go.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8937590718269348
+        },
+        {
+          "start": 503.4,
+          "end": 506.4,
+          "text": "But now, so for the first two hours,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9212343692779541
+        },
+        {
+          "start": 506.4,
+          "end": 508.4,
+          "text": "it would come and go.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6340665817260742
+        },
+        {
+          "start": 508.4,
+          "end": 511.4,
+          "text": "And when I would have the pain when I was eating,",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.3507249653339386
+        },
+        {
+          "start": 511.4,
+          "end": 514.4,
+          "text": "it would come and go.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6340665817260742
+        },
+        {
+          "start": 514.4,
+          "end": 516.4,
+          "text": "But over the past six hours,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.523303210735321
+        },
+        {
+          "start": 516.4,
+          "end": 520.13,
+          "text": "it's just been constant.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9624074697494507
+        }
+      ],
+      "summary": " Initially it would come and go. But now, so for the first two hours, it's just constant . Over the past six hours, the pain has just been constant .",
+      "tldr": " Initially it would come and go. But now, so for the first two hours, it's just constant . Over the past six hours, the pain has just been constant .",
+      "title": " Initially it would come and go. But now, so for the first two hours, it's just constant . Over the past six hours, the pain has just been constant .",
+      "bullets": [
+        "Initially it would come and go",
+        "But now, so for the first two hours, it's just constant",
+        "Over the past six hours, the pain has just been constant ."
+      ],
+      "keywords": [
+        "pain",
+        "eating",
+        "past six hours",
+        "constant",
+        "hours"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9920496344566345,
+      "emotion": "neutral",
+      "emotion_score": 0.554072380065918
+    }
+  ]
+}
