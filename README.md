@@ -32,26 +32,31 @@ The system follows a sequential pipeline from user upload to final visualization
 ##  Technology Stack
 
  **Frontend** :  React, Tailwind CSS 
+ 
  **Backend**  :  Flask 
+ 
  **AI Models**:  Whisper, BART
+ 
  **NLP**      :  NLTK, Sentence Transformers 
+ 
  **Audio**    :  FFmpeg, Librosa 
 
 
 ##  Project Hierarchy
 
+```text
 AUTOMATED-PODCAST-TRANSCRIPTION/
 ├── backend/                        
-│   ├── audio_preprocessing/            # preprocess.py (16kHz conversion)
-│   ├── transcription/                  # transcribe.py (Whisper Model)
-│   ├── segmentation/                   # segmentation.py (Topic splitting)
-│   ├── data/                           # Storage for raw/clean audio & JSON segments
-│   └── app.py                          # Main Flask API orchestrator
+[cite_start]│   ├── audio_preprocessing/        # preprocess.py (16kHz conversion) [cite: 154, 215, 219]
+[cite_start]│   ├── transcription/              # transcribe.py (Whisper Model) [cite: 155, 230, 234]
+[cite_start]│   ├── segmentation/               # segmentation.py (Topic splitting) [cite: 156, 225, 229]
+[cite_start]│   ├── data/                       # Storage for raw/clean audio & JSON segments [cite: 138, 220, 236]
+[cite_start]│   └── app.py                      # Main Flask API orchestrator [cite: 153, 199, 235]
 ├── frontend/                       
 │   ├── src/
-│   │   ├── components/                 # UploadCard, PodcastResult, Navbar
-│   │   ├── api.js                      # Axios service layer
-│   │   └── App.jsx                     # Main application state
+[cite_start]│   │   ├── components/             # UploadCard, PodcastResult, Navbar, Hero [cite: 152, 251, 260]
+[cite_start]│   │   ├── api.js                  # Axios service layer [cite: 248, 274]
+[cite_start]│   │   └── App.jsx                 # Main application state [cite: 247, 276]
 │   └── package.json
 └── README.md
 
