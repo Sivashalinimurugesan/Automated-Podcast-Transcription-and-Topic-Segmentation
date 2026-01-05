@@ -40,7 +40,7 @@ AUTOMATED-PODCAST-TRANSCRIPTION/
 │   └── Automated-Podcast-Transcription-and-Topic-Segmentation.pdf
 ├── LICENSE                         # MIT License file
 └── README.md
-
+```
 ## System Work-Flow
 
 The system follows a modular pipeline to ensure high-quality results:
