@@ -34,25 +34,19 @@ The project focuses on speed, modularity, and explainability, making it suitable
 
 📂 Project Structure
 Automated-Podcast-Transcription-and-Topic-Segmentation/
-│
-├── audio_raw/                   # Original uploaded audio files
-├── audio_preprocessed/          # Cleaned & normalized WAV files
-│
-├── transcripts/                 # Raw transcription output (.txt)
-├── segmented_transcripts/       # Sentence-based segmented transcripts (.json)
-├── keywords/                    # Extracted keywords per segment (.json)
-├── summaries/                   # Initial extractive summaries (.json)
-│
-├── src/
-│   ├── preprocess_audio.py      # Audio preprocessing pipeline
-│   ├── transcribe_faster_whisper.py  # Faster-Whisper transcription
-│   ├── segment_transcripts.py   # Transcript segmentation logic
-│   ├── extract_keywords.py      # TF-IDF + diversity-based keyword extraction
-│   ├── generate_initial_summaries.py # Initial extractive summarization
-│
-├── requirements.txt             # Python dependencies
-├── README.md                    # Project documentation
-└── .gitignore
+│── audio_raw/              # Storage for original uploaded audio files
+│── audio_processed/        # Cleaned and normalized audio (WAV format)
+│── transcripts/            #Transcripted files saved as txt
+│── segments/               #segments of each transcripts saved in JSON
+│── keywords/               #keywords for segments
+│── summaries/              #summaries of transcripts
+│── src/                    # Main source code modules
+│   ├── preprocessing.py    # Audio cleaning, VAD, and normalization
+│   ├── transcription.py    # Whisper AI speech-to-text pipeline
+│   ├── segmentation.py     # Topic segmentation logic
+│   ├── summarization.py    # Text summarization (BART/Transformers)
+│   ├── keyword_extraction.py # Keyword extraction (YAKE/NLTK)
+
 
 🛠️ Technology Stack
 
