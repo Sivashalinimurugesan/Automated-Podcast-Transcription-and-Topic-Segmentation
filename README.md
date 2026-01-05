@@ -42,16 +42,16 @@ The system follows a sequential pipeline from user upload to final visualization
 
 AUTOMATED-PODCAST-TRANSCRIPTION/
 ├── backend/                        
-│   ├── audio_preprocessing/        # preprocess.py (16kHz conversion)
-│   ├── transcription/              # transcribe.py (Whisper Model)
-│   ├── segmentation/               # segmentation.py (Topic splitting)
-│   ├── data/                       # Storage for raw/clean audio & JSON segments
-│   └── app.py                      # Main Flask API orchestrator
+│   ├── audio_preprocessing/            # preprocess.py (16kHz conversion)
+│   ├── transcription/                  # transcribe.py (Whisper Model)
+│   ├── segmentation/                   # segmentation.py (Topic splitting)
+│   ├── data/                           # Storage for raw/clean audio & JSON segments
+│   └── app.py                          # Main Flask API orchestrator
 ├── frontend/                       
 │   ├── src/
-│   │   ├── components/             # UploadCard, PodcastResult, Navbar
-│   │   ├── api.js                  # Axios service layer
-│   │   └── App.jsx                 # Main application state
+│   │   ├── components/                 # UploadCard, PodcastResult, Navbar
+│   │   ├── api.js                      # Axios service layer
+│   │   └── App.jsx                     # Main application state
 │   └── package.json
 └── README.md
 
@@ -75,5 +75,17 @@ AUTOMATED-PODCAST-TRANSCRIPTION/
 **Audio Search Engine**: Locate specific words or phrases within long audio files instantly.
 
 **Accessibility**: Providing text versions and summaries for hearing-impaired users.
+
+---
+
+##  License
+
+This project is licensed under the **MIT License**.
+
+Copyright (c) 2025 springboardmentor13579x-proj
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files... (and so on)
+
+> See the [LICENSE](./LICENSE) file for the full text.
 
 **Information Retrieval**: Helping students and researchers find precise information in lengthy discussions quickly.
