@@ -33,6 +33,8 @@ The project focuses on speed, modularity, and explainability, making it suitable
  Maintain a clean, modular, and extensible pipeline
 
 ## 📂 Project Structure
+
+```text
 Automated-Podcast-Transcription-and-Topic-Segmentation/
 │
 ├── audio_raw/               # Storage for original uploaded audio files
@@ -48,7 +50,6 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 │   ├── segmentation.py      # Topic segmentation logic
 │   ├── summarization.py     # Text summarization
 │   └── keyword_extraction.py # Keyword extraction
-
 
 
 
