@@ -1,4 +1,4 @@
-# 🎙️ Automated Podcast Transcription and Topic Segmentation
+# Automated Podcast Transcription and Topic Segmentation
 
 ## I. Overview
 
@@ -13,7 +13,7 @@ It is designed to efficiently process **long-form audio content** and is suitabl
 
 ---
 
-## II. Objectives
+## Objectives
 
 -  Convert audio recordings into accurate text transcripts using **OpenAI Whisper**
 -  Segment long conversations into meaningful topics using **semantic analysis**
@@ -23,7 +23,7 @@ It is designed to efficiently process **long-form audio content** and is suitabl
 
 ---
 
-## III. Key Features
+## Key Features
 
 - **Automatic Speech Recognition (ASR)**  
   High-accuracy transcription using **OpenAI Whisper**
@@ -45,7 +45,7 @@ It is designed to efficiently process **long-form audio content** and is suitabl
 
 ---
 
-## IV. Dataset
+## Dataset
 
 This project was developed and tested using a subset of the **TED Talks Audio Dataset**.
 
@@ -55,7 +55,7 @@ This project was developed and tested using a subset of the **TED Talks Audio Da
 
 
 
-## V. Tech Stack
+## Tech Stack
 
 - **Python 3.9+**
 - **OpenAI Whisper** – Speech-to-text transcription
@@ -67,7 +67,7 @@ This project was developed and tested using a subset of the **TED Talks Audio Da
 
 ---
 
-## IX. Use Cases
+## Use Cases
 
 ### Automated Meeting Minutes
 Converts recorded meetings into structured transcripts with topic-wise summaries, enabling faster review and better documentation.
@@ -87,7 +87,7 @@ Supports organizations in organizing, analyzing, and retrieving insights from la
 ---
 
 
-## VI. Project Structure
+## Project Structure
 
 ```text
 AUTOMATED-PODCAST-TRANSCRIPTION/
