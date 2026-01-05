@@ -1,6 +1,6 @@
 # Automated Podcast Transcription and Topic Segmentation
 
-## I. Overview
+## Overview
 
 This project provides an **end-to-end AI-powered pipeline** to automatically convert **meeting or podcast audio** into accurate text transcripts, followed by **topic-based segmentation, summarization, keyword extraction, and sentiment analysis** using modern Natural Language Processing (NLP) techniques.
 
