@@ -1,267 +1,112 @@
-# Automated-Podcast-Transcription-and-Topic-Segmentation
+🎙️ Automated Podcast Transcription & Topic Segmentation
 
-*A Springboard Internship Program Project*
+This project implements an AI-powered pipeline to automatically transcribe podcast audio files, segment long transcripts into meaningful sections, extract keywords, and generate initial summaries.
+It is designed to help users efficiently navigate and analyze long-form audio content such as podcasts, interviews, and lectures.
 
+📌 Project Overview
 
-## **Project Overview**
+Podcasts often span several hours, making it difficult to locate specific discussions or topics.
+This system solves that problem by:
 
-The **Automated Podcast Transcription & Topic Segmentation** project aims to build an end-to-end AI system that can:
+Converting audio into accurate text transcripts
 
-* Convert podcast audio into accurate transcripts
-* Detect topic boundaries automatically
-* Segment the transcript into meaningful chapters
-* Extract keywords and summaries for each topic
-* Provide a UI to navigate the podcast episode by topics & timestamps
-* Display segment-level visual analytics
+Structuring transcripts into smaller semantic segments
 
-This project focuses on applying **AI, Speech Processing, NLP, and ML engineering** to create a practical real-world audio intelligence tool.
+Extracting representative keywords for each segment
 
+Generating initial summaries for quick understanding
 
-##  **Project Objectives**
+The project focuses on speed, modularity, and explainability, making it suitable for academic, internship, and production-oriented workflows.
 
-### 1. **Transcription (Speech-to-Text)**
+🎯 Objectives
 
-* Convert long podcast audio files into text using ASR models
-* Support noisy, multi-speaker, real-world audio
-* Produce timestamps for each transcribed segment
+ Transcribe podcast audio using fast and accurate speech-to-text models
 
-### 2. **Topic Segmentation**
+ Preprocess and normalize audio for better transcription quality
 
-* Detect shifts in content and break the transcript into chapters
-* Use NLP techniques such as:
+ Segment transcripts into manageable, topic-oriented chunks
 
-  * TextTiling
-  * Embedding similarity (BERT / Sentence Transformers)
-  * Change-point detection methods
+ Extract keywords for each segment to support topic discovery
 
-### 3. **Summarization & Keyword Extraction**
+ Generate initial summaries to provide high-level context
 
-* Generate per-topic:
+ Maintain a clean, modular, and extensible pipeline
 
-  * Short summaries
-  * Bullet-point notes
-  * Keywords
+## 📂 Project Structure
 
-### 4. **UI for Navigation**
+```text
+Automated-Podcast-Transcription-and-Topic-Segmentation/
+│
+├── audio_raw/               # Storage for original uploaded audio files
+├── audio_processed/         # Cleaned and normalized audio (WAV format)
+├── transcripts/             # Transcribed files saved as .txt
+├── segments/                # Segments of each transcript saved as JSON
+├── keywords/                # Keywords extracted for segments
+├── summaries/               # Summaries of transcripts
+│
+├── src/                     # Main source code modules
+│   ├── preprocessing.py     # Audio cleaning, VAD, and normalization
+│   ├── transcription.py     # Whisper AI speech-to-text pipeline
+│   ├── segmentation.py      # Topic segmentation logic
+│   ├── summarization.py     # Text summarization
+│   └── keyword_extraction.py # Keyword extraction
 
-* Show transcript & segment list
-* Allow clicking a segment → jump to timestamp
-* Provide playback & visualizations
 
 
-## **System Architecture**
+🛠️ Technology Stack
 
-```
-Audio Input → Preprocessing → Transcription (ASR) → Transcript Cleaning
-             ↓
-    Embedding Model → Topic Segmentation → Segment Summaries & Keywords
-             ↓
-          Indexing → UI (Search, Playback, Visualization)
-```
+Programming Language
+ Python 3.12
 
+Speech-to-Text
+ Faster-Whisper – Optimized Whisper inference using CTranslate2
+  Faster CPU performance
+  GPU support (optional)
 
-##  **Tech Stack**
+Audio Processing
+ SoundFile
+ Librosa
+ NumPy
 
-### **Core**
+Natural Language Processing
+ NLTK – Sentence tokenization
+ Scikit-learn
+  TF-IDF vectorization
+  Cosine similarity
+ MMR (Maximal Marginal Relevance) – Diversity-aware keyword selection
 
-* Python 3.9+
-* Whisper (OpenAI) / Faster Whisper / Google Speech-to-Text
-* Librosa, PyDub, ffmpeg
+Data Handling
+ JSON
+ OS / Glob utilities
+ 
+ 
+ 🔄 Workflow
 
-### **NLP**
+1) Audio Ingestion
+  Place raw podcast audio files into audio_raw/
 
-* NLTK / SpaCy
-* HuggingFace Transformers
-* Sentence Transformers
-* YAKE / RAKE / KeyBERT
+2) Audio Preprocessing
+   Noise handling
+  Normalization
+  Conversion to WAV format
+Output → audio_preprocessed/
 
-### **Visualization & UI**
+3) Transcription
+  Fast speech-to-text using Faster-Whisper
+  One transcript per audio file
+Output → transcripts/
 
-* Streamlit / Flask
-* Plotly, Matplotlib
-
-### **Storage**
-
-* JSON / CSV / SQLite for metadata
-* FAISS / vector DB (optional) for topic search
-
-
-## **Recommended Folder Structure**
-
-```
-project/
-│── audio_raw/
-│── audio_processed/
-│── transcripts/
-│── segments/
-│── notebooks/
-│── src/
-│   ├── preprocessing.py
-│   ├── transcription.py
-│   ├── segmentation.py
-│   ├── summarization.py
-│   ├── keyword_extraction.py
-│   ├── ui_app.py
-│── docs/
-│── tests/
-│── README.md
-│── requirements.txt
-│── LICENSE
-```
-
----
-
-## **Getting Started**
-
-### **Steps Interns Should Follow**
-
-- **Step 1 — Clone the repository**
-
-```bash
-git clone https://github.com/mentor/project-repo.git
-cd project-repo
-```
-
-- **Step 2 — Create their branch**
-
-```bash
-git checkout -b intern-<name>
-```
-
-Example:
-
-```bash
-git checkout -b intern-goutham
-```
-
-- **Step 3 — Make changes**
-
-Work on code, notebooks, documentation, etc.
-
-- **Step 4 — Add files**
-
-```bash
-git add .
-```
-
-- **Step 5 — Commit with message**
-
-```bash
-git commit -m "Completed milestone 1 data preprocessing"
-```
-
-- **Step 6 — Push to their branch**
-
-```bash
-git push origin intern-goutham
-```
-
-
-## **Milestone Plan (8 Weeks)**
-
-### **Week 1**
-
-* Dataset download
-* Basic audio preprocessing
-* Whisper installation + test transcription
-
-### **Week 2**
-
-* Build baseline transcription pipeline
-* Start transcript cleaning
-
-### **Week 3**
-
-* Implement topic segmentation (TextTiling + embedding-based)
-
-### **Week 4**
-
-* Segment evaluation
-* Summaries & keywords generation
-
-### **Week 5**
-
-* Build initial UI (Streamlit)
-* Integrate audio + transcript + segments
-
-### **Week 6**
-
-* Add visualization:
-
-  * Topic timeline
-  * Word clouds
-  * Sentiment trends
-
-### **Week 7**
-
-* Testing & refinements
-* Improve segmentation accuracy
-
-### **Week 8**
-
-* Final project report
-* Demo presentation
-* GitHub cleanup & documentation
-
-## **Evaluation Criteria**
-
-Interns will be evaluated on:
-
-* Technical accuracy of ASR & segmentation
-* Commit frequency & GitHub hygiene
-* Code clarity & modular design
-* Documentation quality
-* Final demo performance
-* Completion of milestones
-
-
-## **Future Enhancements (Optional)**
-
-* Multi-speaker diarization
-* Semantic search across segments
-* Embedding-based recommendation
-* Podcast summarization at episode level
-* Deploy UI online (Streamlit Cloud / Render)
-
-
-## **Intern Work Guidelines**
-
-Each intern must:
-
-* Work **individually** on their own GitHub branch
-* Commit regularly
-* Maintain clean code + folder structure
-* Follow milestone timelines
-* Attend mentor sessions (Mon–Fri)
-* Participate in final demo
-
-Intern pre-cautions,
-
-* **🚫 Don’t upload large files (datasets > 50 MB)**
-
-- Use Google Drive + link instead.
-
-* **🚫 Don’t create multiple branches unnecessarily**
-
-- Use only **one branch per intern**.
-
-* **🚫 Don’t work directly on the main branch**
-
-* **🚫 Don’t push zipped files**
-
-- Push notebooks, scripts, and markdown files.
-
-
-# **License**
-
-This project uses the **MIT License**.
-Create a `LICENSE` file from GitHub’s license picker.
-
-
-
-# **Contact**
-
-For questions or doubts:
-[springboardmentor13579x@gmail.com](mailto:springboardmentor13579x@gmail.com) (official mentor email)
-
-
+4) Segmentation
+  Sentence-based segmentation
+  Fixed-size semantic chunks
+Output → segmented_transcripts/
+
+5) Keyword Extraction
+  TF-IDF + diversity-aware selection (MMR)
+  Prevents repeated keywords across segments
+Output → keywords/
+
+6) Initial Summarization
+  Extractive summarization using TF-IDF
+  Produces a high-level overview of each transcript
+Output → summaries/
