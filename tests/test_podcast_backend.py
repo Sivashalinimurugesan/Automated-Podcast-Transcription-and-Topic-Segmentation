@@ -10,8 +10,11 @@ parent_dir = os.path.dirname(current_dir)
 src_path = os.path.join(parent_dir, 'src')
 sys.path.append(src_path)
 
-
-import podcast_backend
+try:
+    import podcast_backend
+except ImportError:
+    print("CRITICAL: Could not import 'podcast_backend'. Check your folder structure.")
+    sys.exit(1)
 
 class TestPodcastBackend(unittest.TestCase):
 
@@ -19,9 +22,9 @@ class TestPodcastBackend(unittest.TestCase):
         """
         Test if seconds are correctly converted to MM:SS format.
         """
-    
+        
         self.assertEqual(podcast_backend.format_time(60), "01:00")
-    
+       
         self.assertEqual(podcast_backend.format_time(65), "01:05")
         
         self.assertEqual(podcast_backend.format_time(0), "00:00")
@@ -32,14 +35,15 @@ class TestPodcastBackend(unittest.TestCase):
         """
         Test if keyword extraction works on a simple string.
         """
-    
+        
         dummy_text = "apple banana apple orange banana apple grape"
         
-    
+        
         result = podcast_backend.extract_keywords_text(dummy_text, top_n=2)
         
+     
         self.assertIsInstance(result, str)
-    
+        
         self.assertIn("apple", result)
 
     def test_setup_directories(self):
@@ -48,10 +52,10 @@ class TestPodcastBackend(unittest.TestCase):
         """
         test_base_dir = "temp_test_data"
         
-    
+     
         dirs = podcast_backend.setup_directories(test_base_dir)
         
-    
+        
         self.assertTrue(os.path.exists(dirs["audio"]))
         self.assertTrue(os.path.exists(dirs["transcripts"]))
         
