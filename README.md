@@ -64,7 +64,9 @@ For a detailed explanation of the project, including methodology and results, re
 ##  Use Cases
 
 **Audio Search Engine**: Users can search for phrases and instantly jump to exact timestamps within long-form audio.
+
 **Accessibility**: Provides readable transcripts and summaries for hearing-impaired users and non-native speakers.
+
 **Information Retrieval**: Enables students and researchers to find precise data without listening to entire episodes.
 
 ---
