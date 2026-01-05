@@ -33,6 +33,22 @@ The project focuses on speed, modularity, and explainability, making it suitable
  Maintain a clean, modular, and extensible pipeline
 
 ## 📂 Project Structure
+Automated-Podcast-Transcription-and-Topic-Segmentation/
+│
+├── audio_raw/               # Storage for original uploaded audio files
+├── audio_processed/         # Cleaned and normalized audio (WAV format)
+├── transcripts/             # Transcribed files saved as .txt
+├── segments/                # Segments of each transcript saved as JSON
+├── keywords/                # Keywords extracted for segments
+├── summaries/               # Summaries of transcripts
+│
+├── src/                     # Main source code modules
+│   ├── preprocessing.py     # Audio cleaning, VAD, and normalization
+│   ├── transcription.py     # Whisper AI speech-to-text pipeline
+│   ├── segmentation.py      # Topic segmentation logic
+│   ├── summarization.py     # Text summarization
+│   └── keyword_extraction.py # Keyword extraction
+
 
 
 
