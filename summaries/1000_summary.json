@@ -1,0 +1,11 @@
+{
+  "source_file": "1000.txt",
+  "summary_sentence_count": 5,
+  "summary": [
+    "Anyway, as you'll see in a moment,  Susana was able to turn on the flight motor  of what's the equivalent of the spinal cord of these flies  and get some of the headless bodies to actually take off  and fly away.",
+    "We can incorporate such an element of adaptive intelligence  into our model by assuming that the fly's brain contains  not only an actor, but a different group of cells,  a critic that provides a running commentary on the actor's  choice.",
+    "What's common among these groups of cells  is that they all produce the neurotransmitter dopamine,  but the identities of the individual dopamine-producing  neurons are clearly largely different  on the left and on the right.",
+    "We know from our formal model that the brain structure  at the receiving end of the critic's commentary  is the act, so this anatomy suggests  that the mushroom bodies have something to do  with action choice.",
+    "There's some ideas in computer science  and in artificial intelligence  as to how this might be done,  but we still haven't solved a single example  of how intelligent behavior  springs from the physical interactions in the living matter."
+  ]
+}

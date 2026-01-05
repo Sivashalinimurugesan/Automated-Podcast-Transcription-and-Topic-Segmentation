@@ -1,0 +1,336 @@
+{
+  "source_file": "1000.txt",
+  "num_segments": 33,
+  "keywords_per_segment": [
+    {
+      "segment_id": 1,
+      "keywords": [
+        "ted",
+        "jairo meissenbach",
+        "meissenbach",
+        "jairo",
+        "ted conference"
+      ]
+    },
+    {
+      "segment_id": 2,
+      "keywords": [
+        "observed controlled",
+        "bone",
+        "observed",
+        "motives",
+        "ball android"
+      ]
+    },
+    {
+      "segment_id": 3,
+      "keywords": [
+        "understanding",
+        "wait",
+        "cart horse",
+        "cart",
+        "minute"
+      ]
+    },
+    {
+      "segment_id": 4,
+      "keywords": [
+        "activity",
+        "patterns",
+        "understand",
+        "look",
+        "patterns just"
+      ]
+    },
+    {
+      "segment_id": 5,
+      "keywords": [
+        "dot",
+        "cell",
+        "visible cell",
+        "cell fires",
+        "visible"
+      ]
+    },
+    {
+      "segment_id": 6,
+      "keywords": [
+        "don",
+        "pattern",
+        "don know",
+        "code",
+        "know"
+      ]
+    },
+    {
+      "segment_id": 7,
+      "keywords": [
+        "essential",
+        "rearrange",
+        "activity",
+        "activity neurons",
+        "code"
+      ]
+    },
+    {
+      "segment_id": 8,
+      "keywords": [
+        "ll",
+        "mysteries",
+        "realistic grandiose",
+        "realistic",
+        "mysteries ll"
+      ]
+    },
+    {
+      "segment_id": 9,
+      "keywords": [
+        "galvani",
+        "years galvani",
+        "late 18th",
+        "nugget neural",
+        "200 years"
+      ]
+    },
+    {
+      "segment_id": 10,
+      "keywords": [
+        "number",
+        "wires",
+        "state art",
+        "wires inserted",
+        "wires brain"
+      ]
+    },
+    {
+      "segment_id": 11,
+      "keywords": [
+        "broadcast",
+        "flash light",
+        "flash",
+        "turn",
+        "light"
+      ]
+    },
+    {
+      "segment_id": 12,
+      "keywords": [
+        "receivers",
+        "receivers materials",
+        "receivers just",
+        "turns fabricate",
+        "just think"
+      ]
+    },
+    {
+      "segment_id": 13,
+      "keywords": [
+        "biology",
+        "spontaneously",
+        "biology let",
+        "zoom purple",
+        "miraculous"
+      ]
+    },
+    {
+      "segment_id": 14,
+      "keywords": [
+        "electrical",
+        "current",
+        "pores",
+        "electrical current",
+        "light"
+      ]
+    },
+    {
+      "segment_id": 15,
+      "keywords": [
+        "light activated",
+        "activated",
+        "genes",
+        "activated pore",
+        "pore"
+      ]
+    },
+    {
+      "segment_id": 16,
+      "keywords": [
+        "susana",
+        "sort optical",
+        "caused brief",
+        "moving",
+        "susana susana"
+      ]
+    },
+    {
+      "segment_id": 17,
+      "keywords": [
+        "fly",
+        "position flash",
+        "trigger escape",
+        "jumps spreads",
+        "new position"
+      ]
+    },
+    {
+      "segment_id": 18,
+      "keywords": [
+        "fly",
+        "reaction",
+        "vibrates",
+        "sure reaction",
+        "live day"
+      ]
+    },
+    {
+      "segment_id": 19,
+      "keywords": [
+        "motor equivalent",
+        "spinal cord",
+        "turn flight",
+        "spinal",
+        "stand grow"
+      ]
+    },
+    {
+      "segment_id": 20,
+      "keywords": [
+        "ways",
+        "question life",
+        "question",
+        "ve come",
+        "twitch jump"
+      ]
+    },
+    {
+      "segment_id": 21,
+      "keywords": [
+        "environment context",
+        "context",
+        "decision making",
+        "environment",
+        "making"
+      ]
+    },
+    {
+      "segment_id": 22,
+      "keywords": [
+        "chamber",
+        "simple dimensional",
+        "cctv",
+        "orders security",
+        "orders"
+      ]
+    },
+    {
+      "segment_id": 23,
+      "keywords": [
+        "actor",
+        "order",
+        "policy",
+        "try new",
+        "chamber order"
+      ]
+    },
+    {
+      "segment_id": 24,
+      "keywords": [
+        "church",
+        "critic",
+        "thought mother",
+        "nagging",
+        "logic experiment"
+      ]
+    },
+    {
+      "segment_id": 25,
+      "keywords": [
+        "thought",
+        "choices",
+        "flies",
+        "cells",
+        "odor case"
+      ]
+    },
+    {
+      "segment_id": 26,
+      "keywords": [
+        "left right",
+        "optically",
+        "dopamine",
+        "cells",
+        "right"
+      ]
+    },
+    {
+      "segment_id": 27,
+      "keywords": [
+        "behavior",
+        "behavior fly",
+        "midpoint",
+        "chamber",
+        "right"
+      ]
+    },
+    {
+      "segment_id": 28,
+      "keywords": [
+        "critic",
+        "neurons left",
+        "structure",
+        "12 cells",
+        "12"
+      ]
+    },
+    {
+      "segment_id": 29,
+      "keywords": [
+        "body",
+        "mushroom",
+        "activates different",
+        "toy",
+        "electronic toy"
+      ]
+    },
+    {
+      "segment_id": 30,
+      "keywords": [
+        "motors",
+        "connection",
+        "motors stay",
+        "stay fly",
+        "stay"
+      ]
+    },
+    {
+      "segment_id": 31,
+      "keywords": [
+        "motors",
+        "mind",
+        "situation",
+        "odor",
+        "light caused"
+      ]
+    },
+    {
+      "segment_id": 32,
+      "keywords": [
+        "piece",
+        "good news",
+        "news",
+        "good",
+        "piece good"
+      ]
+    },
+    {
+      "segment_id": 33,
+      "keywords": [
+        "ted",
+        "2010",
+        "ll conclusion",
+        "oxford england",
+        "recorded ted"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "source_file": "1.txt",
+  "num_segments": 30,
+  "keywords_per_segment": [
+    {
+      "segment_id": 1,
+      "keywords": [
+        "ted",
+        "talks",
+        "ted talks",
+        "gore",
+        "al gore"
+      ]
+    },
+    {
+      "segment_id": 2,
+      "keywords": [
+        "say",
+        "grateful",
+        "position",
+        "nice comments",
+        "partly need"
+      ]
+    },
+    {
+      "segment_id": 3,
+      "keywords": [
+        "true",
+        "story",
+        "story bit",
+        "like true",
+        "ll tell"
+      ]
+    },
+    {
+      "segment_id": 4,
+      "keywords": [
+        "little",
+        "nashville",
+        "driving home",
+        "east nashville",
+        "east"
+      ]
+    },
+    {
+      "segment_id": 5,
+      "keywords": [
+        "got exit",
+        "exit",
+        "restaurant",
+        "got",
+        "tennyson"
+      ]
+    },
+    {
+      "segment_id": 6,
+      "keywords": [
+        "fly",
+        "said",
+        "africa make",
+        "took",
+        "fly somebody"
+      ]
+    },
+    {
+      "segment_id": 7,
+      "keywords": [
+        "speech",
+        "just",
+        "telling",
+        "restaurant man",
+        "shoneys low"
+      ]
+    },
+    {
+      "segment_id": 8,
+      "keywords": [
+        "washington",
+        "printed",
+        "middle",
+        "story",
+        "run"
+      ]
+    },
+    {
+      "segment_id": 9,
+      "keywords": [
+        "saying",
+        "restaurant",
+        "tipper",
+        "quote",
+        "david"
+      ]
+    },
+    {
+      "segment_id": 10,
+      "keywords": [
+        "degrees",
+        "january",
+        "just",
+        "records",
+        "month"
+      ]
+    },
+    {
+      "segment_id": 11,
+      "keywords": [
+        "wanted",
+        "efficiency",
+        "use",
+        "usual efficiency",
+        "usual"
+      ]
+    },
+    {
+      "segment_id": 12,
+      "keywords": [
+        "negative",
+        "negative positive",
+        "positive",
+        "profit sign",
+        "profit"
+      ]
+    },
+    {
+      "segment_id": 13,
+      "keywords": [
+        "trucks",
+        "cars trucks",
+        "cars",
+        "path",
+        "talked slide"
+      ]
+    },
+    {
+      "segment_id": 14,
+      "keywords": [
+        "likely",
+        "okay",
+        "puzzle transportation",
+        "sequestration ccs",
+        "sequestration"
+      ]
+    },
+    {
+      "segment_id": 15,
+      "keywords": [
+        "better",
+        "buy",
+        "mentioned automobiles",
+        "options better",
+        "profitable installation"
+      ]
+    },
+    {
+      "segment_id": 16,
+      "keywords": [
+        "harsh",
+        "effect",
+        "harsh effect",
+        "live carbon",
+        "make decision"
+      ]
+    },
+    {
+      "segment_id": 17,
+      "keywords": [
+        "really",
+        "reduce carbon",
+        "acquire",
+        "connects people",
+        "connects"
+      ]
+    },
+    {
+      "segment_id": 18,
+      "keywords": [
+        "carbon",
+        "carbon calculator",
+        "calculator",
+        "reduce updated",
+        "purchases offsets"
+      ]
+    },
+    {
+      "segment_id": 19,
+      "keywords": [
+        "invested",
+        "going",
+        "short term",
+        "term",
+        "short"
+      ]
+    },
+    {
+      "segment_id": 20,
+      "keywords": [
+        "ought",
+        "trying",
+        "politics",
+        "mean",
+        "links"
+      ]
+    },
+    {
+      "segment_id": 21,
+      "keywords": [
+        "work",
+        "way supposed",
+        "work way",
+        "work support",
+        "emissions warming"
+      ]
+    },
+    {
+      "segment_id": 22,
+      "keywords": [
+        "second",
+        "market",
+        "logic",
+        "permission needs",
+        "permission"
+      ]
+    },
+    {
+      "segment_id": 23,
+      "keywords": [
+        "climate",
+        "warming suggested",
+        "collapse good",
+        "collapse",
+        "climate collapse"
+      ]
+    },
+    {
+      "segment_id": 24,
+      "keywords": [
+        "terrible migraines",
+        "old terrible",
+        "old",
+        "recommending effects",
+        "tipper naturally"
+      ]
+    },
+    {
+      "segment_id": 25,
+      "keywords": [
+        "bar",
+        "therapy thank",
+        "therapy",
+        "practice little",
+        "thank god"
+      ]
+    },
+    {
+      "segment_id": 26,
+      "keywords": [
+        "epiphenomena",
+        "conscious awareness",
+        "conscious",
+        "information marker",
+        "awareness"
+      ]
+    },
+    {
+      "segment_id": 27,
+      "keywords": [
+        "aggregate",
+        "card",
+        "make easily",
+        "report card",
+        "bring lot"
+      ]
+    },
+    {
+      "segment_id": 28,
+      "keywords": [
+        "direction",
+        "climate crisis",
+        "crisis",
+        "climate",
+        "right direction"
+      ]
+    },
+    {
+      "segment_id": 29,
+      "keywords": [
+        "shouldn partisan",
+        "shouldn",
+        "opportunity just",
+        "partisan influence",
+        "republicans shouldn"
+      ]
+    },
+    {
+      "segment_id": 30,
+      "keywords": [
+        "ted",
+        "ted talks",
+        "talks",
+        "talks produced",
+        "2006"
+      ]
+    }
+  ]
+}

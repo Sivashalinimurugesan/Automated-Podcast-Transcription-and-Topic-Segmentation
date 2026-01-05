@@ -1,0 +1,396 @@
+{
+  "source_file": "1010.txt",
+  "num_segments": 39,
+  "keywords_per_segment": [
+    {
+      "segment_id": 1,
+      "keywords": [
+        "village",
+        "left",
+        "time school",
+        "canada",
+        "away left"
+      ]
+    },
+    {
+      "segment_id": 2,
+      "keywords": [
+        "jewelry business",
+        "really didn",
+        "retired took",
+        "tale retired",
+        "wife cynthia"
+      ]
+    },
+    {
+      "segment_id": 3,
+      "keywords": [
+        "life",
+        "says true",
+        "life decided",
+        "true",
+        "possibilities world"
+      ]
+    },
+    {
+      "segment_id": 4,
+      "keywords": [
+        "miles",
+        "miles intact",
+        "miles 90",
+        "wonderful life",
+        "wonderful"
+      ]
+    },
+    {
+      "segment_id": 5,
+      "keywords": [
+        "decided",
+        "school know",
+        "like school",
+        "look like",
+        "locally called"
+      ]
+    },
+    {
+      "segment_id": 6,
+      "keywords": [
+        "extremely",
+        "walls",
+        "square green",
+        "square",
+        "riding bamboo"
+      ]
+    },
+    {
+      "segment_id": 7,
+      "keywords": [
+        "built",
+        "school",
+        "world",
+        "little girl",
+        "built school"
+      ]
+    },
+    {
+      "segment_id": 8,
+      "keywords": [
+        "life classrooms",
+        "sitting possibilities",
+        "sitting",
+        "light beautiful",
+        "possibilities life"
+      ]
+    },
+    {
+      "segment_id": 9,
+      "keywords": [
+        "bubbles",
+        "breeze",
+        "natural",
+        "rubber",
+        "know"
+      ]
+    },
+    {
+      "segment_id": 10,
+      "keywords": [
+        "pay",
+        "kids",
+        "signed",
+        "courses called",
+        "world indestructible"
+      ]
+    },
+    {
+      "segment_id": 11,
+      "keywords": [
+        "owned",
+        "second called",
+        "proud",
+        "rewaxing happened",
+        "world grid"
+      ]
+    },
+    {
+      "segment_id": 12,
+      "keywords": [
+        "meter",
+        "half",
+        "turbine drops",
+        "turbine",
+        "vortex built"
+      ]
+    },
+    {
+      "segment_id": 13,
+      "keywords": [
+        "water",
+        "waste mixing",
+        "waste",
+        "people times",
+        "really smart"
+      ]
+    },
+    {
+      "segment_id": 14,
+      "keywords": [
+        "people",
+        "wanted",
+        "school wanted",
+        "people okay",
+        "toilets school"
+      ]
+    },
+    {
+      "segment_id": 15,
+      "keywords": [
+        "work beautiful",
+        "pvc",
+        "dragged",
+        "things didn",
+        "doing things"
+      ]
+    },
+    {
+      "segment_id": 16,
+      "keywords": [
+        "school sits",
+        "sits south",
+        "sits",
+        "whiteboard green",
+        "whiteboard"
+      ]
+    },
+    {
+      "segment_id": 17,
+      "keywords": [
+        "said",
+        "looked little",
+        "24 hours",
+        "24",
+        "met father"
+      ]
+    },
+    {
+      "segment_id": 18,
+      "keywords": [
+        "green school",
+        "picture",
+        "school saw",
+        "school got",
+        "said dream"
+      ]
+    },
+    {
+      "segment_id": 19,
+      "keywords": [
+        "green",
+        "school",
+        "people",
+        "green school",
+        "school paths"
+      ]
+    },
+    {
+      "segment_id": 20,
+      "keywords": [
+        "pavement",
+        "laid hand",
+        "look petrochemicals",
+        "stones laid",
+        "volcanic stones"
+      ]
+    },
+    {
+      "segment_id": 21,
+      "keywords": [
+        "planning",
+        "planning eat",
+        "rains green",
+        "sidewalks gravel",
+        "school buffalo"
+      ]
+    },
+    {
+      "segment_id": 22,
+      "keywords": [
+        "tapioca",
+        "sliced thinly",
+        "sliced",
+        "right edge",
+        "delicious chips"
+      ]
+    },
+    {
+      "segment_id": 23,
+      "keywords": [
+        "rice",
+        "culture know",
+        "rice culture",
+        "culture",
+        "know"
+      ]
+    },
+    {
+      "segment_id": 24,
+      "keywords": [
+        "skills",
+        "rice cycle",
+        "organic vegetables",
+        "vegetables",
+        "look know"
+      ]
+    },
+    {
+      "segment_id": 25,
+      "keywords": [
+        "lunch",
+        "food",
+        "lunch day",
+        "women cook",
+        "women"
+      ]
+    },
+    {
+      "segment_id": 26,
+      "keywords": [
+        "pioneers",
+        "countries",
+        "microcosm",
+        "year 160",
+        "year"
+      ]
+    },
+    {
+      "segment_id": 27,
+      "keywords": [
+        "learn",
+        "learn bamboo",
+        "things learn",
+        "reading favorites",
+        "school learn"
+      ]
+    },
+    {
+      "segment_id": 28,
+      "keywords": [
+        "practice ancient",
+        "ancient balinese",
+        "ancient",
+        "wrestling rice",
+        "love mothers"
+      ]
+    },
+    {
+      "segment_id": 29,
+      "keywords": [
+        "local",
+        "balinese",
+        "balinese really",
+        "balinese scholarship",
+        "buy green"
+      ]
+    },
+    {
+      "segment_id": 30,
+      "keywords": [
+        "volunteers",
+        "new",
+        "teachers",
+        "came",
+        "agriculture woman"
+      ]
+    },
+    {
+      "segment_id": 31,
+      "keywords": [
+        "beautiful",
+        "different",
+        "renamed prolexic",
+        "need come",
+        "come study"
+      ]
+    },
+    {
+      "segment_id": 32,
+      "keywords": [
+        "thriving",
+        "tree months",
+        "like train",
+        "train grows",
+        "train"
+      ]
+    },
+    {
+      "segment_id": 33,
+      "keywords": [
+        "like",
+        "things",
+        "keek",
+        "strong",
+        "roof architects"
+      ]
+    },
+    {
+      "segment_id": 34,
+      "keywords": [
+        "mainly",
+        "school changed",
+        "mainly renamed",
+        "rethought mainly",
+        "rethought"
+      ]
+    },
+    {
+      "segment_id": 35,
+      "keywords": [
+        "administrators things",
+        "models",
+        "plans looked",
+        "said built",
+        "built big"
+      ]
+    },
+    {
+      "segment_id": 36,
+      "keywords": [
+        "cathedral",
+        "bamboo",
+        "scaffolding",
+        "carpenters",
+        "cathedral green"
+      ]
+    },
+    {
+      "segment_id": 37,
+      "keywords": [
+        "believe",
+        "bamboo",
+        "roofs floors",
+        "school seven",
+        "biggest bamboo"
+      ]
+    },
+    {
+      "segment_id": 38,
+      "keywords": [
+        "model built",
+        "simple",
+        "model",
+        "built",
+        "lead think"
+      ]
+    },
+    {
+      "segment_id": 39,
+      "keywords": [
+        "ted",
+        "2010",
+        "life gave",
+        "world come",
+        "england"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "source_file": "1009.txt",
+  "num_segments": 34,
+  "keywords_per_segment": [
+    {
+      "segment_id": 1,
+      "keywords": [
+        "ted",
+        "shimon shachan",
+        "shachan",
+        "shimon",
+        "talks recorded"
+      ]
+    },
+    {
+      "segment_id": 2,
+      "keywords": [
+        "feel",
+        "mountain",
+        "biking",
+        "israel",
+        "young invincible"
+      ]
+    },
+    {
+      "segment_id": 3,
+      "keywords": [
+        "picture",
+        "unfortunately",
+        "rider",
+        "names",
+        "picture looking"
+      ]
+    },
+    {
+      "segment_id": 4,
+      "keywords": [
+        "rain",
+        "tuesday rain",
+        "rain shine",
+        "way ve",
+        "20 minutes"
+      ]
+    },
+    {
+      "segment_id": 5,
+      "keywords": [
+        "trips",
+        "surrounded barbed",
+        "usual trips",
+        "usual",
+        "surrounded"
+      ]
+    },
+    {
+      "segment_id": 6,
+      "keywords": [
+        "told",
+        "warden",
+        "way",
+        "know",
+        "went warden"
+      ]
+    },
+    {
+      "segment_id": 7,
+      "keywords": [
+        "supposed",
+        "told place",
+        "know going",
+        "jersey making",
+        "jersey"
+      ]
+    },
+    {
+      "segment_id": 8,
+      "keywords": [
+        "weeks tremendous",
+        "weeks",
+        "months later",
+        "raz concerned",
+        "raz"
+      ]
+    },
+    {
+      "segment_id": 9,
+      "keywords": [
+        "sorts",
+        "small",
+        "sorts sizes",
+        "vistas like",
+        "vistas"
+      ]
+    },
+    {
+      "segment_id": 10,
+      "keywords": [
+        "increasingly",
+        "difficulties",
+        "physically unfit",
+        "dealing frustration",
+        "physically"
+      ]
+    },
+    {
+      "segment_id": 11,
+      "keywords": [
+        "gets",
+        "slightly injured",
+        "slightly",
+        "rocky terrain",
+        "terrain tire"
+      ]
+    },
+    {
+      "segment_id": 12,
+      "keywords": [
+        "curse",
+        "throw",
+        "standing watching",
+        "scene complete",
+        "throws helmet"
+      ]
+    },
+    {
+      "segment_id": 13,
+      "keywords": [
+        "happen",
+        "used algorithms",
+        "deal raging",
+        "data structures",
+        "data"
+      ]
+    },
+    {
+      "segment_id": 14,
+      "keywords": [
+        "took incidents",
+        "disaster",
+        "problem",
+        "words threats",
+        "ve problem"
+      ]
+    },
+    {
+      "segment_id": 15,
+      "keywords": [
+        "stay close",
+        "stay",
+        "kid",
+        "close",
+        "away"
+      ]
+    },
+    {
+      "segment_id": 16,
+      "keywords": [
+        "don",
+        "rest minutes",
+        "terribly difficult",
+        "terribly",
+        "rest"
+      ]
+    },
+    {
+      "segment_id": 17,
+      "keywords": [
+        "alex",
+        "rides",
+        "sent shipped",
+        "alex piece",
+        "sent"
+      ]
+    },
+    {
+      "segment_id": 18,
+      "keywords": [
+        "spent",
+        "adult",
+        "kid",
+        "ended",
+        "years"
+      ]
+    },
+    {
+      "segment_id": 19,
+      "keywords": [
+        "vision",
+        "started program",
+        "winning underdogs",
+        "winning",
+        "creating"
+      ]
+    },
+    {
+      "segment_id": 20,
+      "keywords": [
+        "love",
+        "love respect",
+        "respect",
+        "team",
+        "project purpose"
+      ]
+    },
+    {
+      "segment_id": 21,
+      "keywords": [
+        "vision",
+        "did",
+        "happen",
+        "virtues empathy",
+        "virtues"
+      ]
+    },
+    {
+      "segment_id": 22,
+      "keywords": [
+        "principles",
+        "like principles",
+        "ride",
+        "like",
+        "principles focused"
+      ]
+    },
+    {
+      "segment_id": 23,
+      "keywords": [
+        "perspective",
+        "like",
+        "look",
+        "time realize",
+        "obstacle raise"
+      ]
+    },
+    {
+      "segment_id": 24,
+      "keywords": [
+        "cold",
+        "stand",
+        "self esteem",
+        "stand rainy",
+        "self"
+      ]
+    },
+    {
+      "segment_id": 25,
+      "keywords": [
+        "monastery",
+        "yoke",
+        "look",
+        "say",
+        "primed say"
+      ]
+    },
+    {
+      "segment_id": 26,
+      "keywords": [
+        "loving",
+        "parking lot",
+        "parking",
+        "lot started",
+        "say hey"
+      ]
+    },
+    {
+      "segment_id": 27,
+      "keywords": [
+        "special",
+        "day",
+        "special words",
+        "words",
+        "talked"
+      ]
+    },
+    {
+      "segment_id": 28,
+      "keywords": [
+        "says",
+        "water",
+        "place got",
+        "looks like",
+        "got water"
+      ]
+    },
+    {
+      "segment_id": 29,
+      "keywords": [
+        "plan",
+        "said",
+        "ago final",
+        "background joshua",
+        "africa"
+      ]
+    },
+    {
+      "segment_id": 30,
+      "keywords": [
+        "settlements",
+        "000",
+        "000 000",
+        "ruins",
+        "napa settlements"
+      ]
+    },
+    {
+      "segment_id": 31,
+      "keywords": [
+        "tuesday",
+        "took tuesday",
+        "picture took",
+        "white appreciating",
+        "white"
+      ]
+    },
+    {
+      "segment_id": 32,
+      "keywords": [
+        "feel blessed",
+        "fortunate",
+        "blessed fortunate",
+        "blessed",
+        "incredible"
+      ]
+    },
+    {
+      "segment_id": 33,
+      "keywords": [
+        "years",
+        "russia feel",
+        "russia",
+        "returned",
+        "morocco russia"
+      ]
+    },
+    {
+      "segment_id": 34,
+      "keywords": [
+        "ted",
+        "israel",
+        "thank",
+        "recorded tedxtv",
+        "tedxtv israel"
+      ]
+    }
+  ]
+}

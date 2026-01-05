@@ -1,0 +1,106 @@
+{
+  "source_file": "1006.txt",
+  "num_segments": 10,
+  "keywords_per_segment": [
+    {
+      "segment_id": 1,
+      "keywords": [
+        "ted",
+        "eric burlow",
+        "eric",
+        "burlow",
+        "stock contains"
+      ]
+    },
+    {
+      "segment_id": 2,
+      "keywords": [
+        "complex",
+        "hope",
+        "complicated",
+        "olive",
+        "minutes"
+      ]
+    },
+    {
+      "segment_id": 3,
+      "keywords": [
+        "study",
+        "food",
+        "food web",
+        "web",
+        "species"
+      ]
+    },
+    {
+      "segment_id": 4,
+      "keywords": [
+        "studying nature",
+        "studying",
+        "share",
+        "key insights",
+        "unanticipated discovering"
+      ]
+    },
+    {
+      "segment_id": 5,
+      "keywords": [
+        "simple",
+        "corporate",
+        "step",
+        "species",
+        "complexity"
+      ]
+    },
+    {
+      "segment_id": 6,
+      "keywords": [
+        "complicated",
+        "complex",
+        "complex problem",
+        "government",
+        "problem"
+      ]
+    },
+    {
+      "segment_id": 7,
+      "keywords": [
+        "world premiere",
+        "time world",
+        "time",
+        "thought great",
+        "thought"
+      ]
+    },
+    {
+      "segment_id": 8,
+      "keywords": [
+        "degrees",
+        "degrees degrees",
+        "sphere",
+        "like",
+        "diagram"
+      ]
+    },
+    {
+      "segment_id": 9,
+      "keywords": [
+        "want",
+        "thank",
+        "simple",
+        "complexity",
+        "zoom embrace"
+      ]
+    },
+    {
+      "segment_id": 10,
+      "keywords": [
+        "ted",
+        "2010",
+        "visit ted",
+        "visit",
+        "burlow reported"
+      ]
+    }
+  ]
+}

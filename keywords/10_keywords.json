@@ -1,0 +1,76 @@
+{
+  "source_file": "10.txt",
+  "num_segments": 7,
+  "keywords_per_segment": [
+    {
+      "segment_id": 1,
+      "keywords": [
+        "ted",
+        "talk",
+        "ornich",
+        "dean ornich",
+        "talks"
+      ]
+    },
+    {
+      "segment_id": 2,
+      "keywords": [
+        "like",
+        "disease",
+        "people",
+        "die like",
+        "die"
+      ]
+    },
+    {
+      "segment_id": 3,
+      "keywords": [
+        "tech",
+        "low",
+        "diet lifestyle",
+        "lifestyle",
+        "preventable"
+      ]
+    },
+    {
+      "segment_id": 4,
+      "keywords": [
+        "tumor",
+        "tumor growth",
+        "mri",
+        "70",
+        "growth"
+      ]
+    },
+    {
+      "segment_id": 5,
+      "keywords": [
+        "starting",
+        "diet",
+        "like",
+        "asia starting",
+        "big food"
+      ]
+    },
+    {
+      "segment_id": 6,
+      "keywords": [
+        "mcdonald",
+        "came",
+        "foods",
+        "sexy hip",
+        "sexy"
+      ]
+    },
+    {
+      "segment_id": 7,
+      "keywords": [
+        "ted",
+        "need",
+        "malaria",
+        "ted com",
+        "resources"
+      ]
+    }
+  ]
+}

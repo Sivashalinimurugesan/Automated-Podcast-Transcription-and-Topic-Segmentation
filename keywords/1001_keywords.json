@@ -1,0 +1,79 @@
+{
+  "source_file": "1001.txt",
+  "num_segments": 12,
+  "keywords_per_segment": [
+    {
+      "segment_id": 1,
+      "keywords": [
+        "ted",
+        "byrd",
+        "andrew",
+        "andrew byrd",
+        "think"
+      ]
+    },
+    {
+      "segment_id": 2,
+      "keywords": [
+        "time",
+        "think just",
+        "think",
+        "just going",
+        "lots talk"
+      ]
+    },
+    {
+      "segment_id": 3,
+      "keywords": [
+        "sing",
+        "birthday",
+        "like gonna",
+        "like",
+        "happy birthday"
+      ]
+    },
+    {
+      "segment_id": 4,
+      "keywords": []
+    },
+    {
+      "segment_id": 5,
+      "keywords": []
+    },
+    {
+      "segment_id": 6,
+      "keywords": []
+    },
+    {
+      "segment_id": 7,
+      "keywords": []
+    },
+    {
+      "segment_id": 8,
+      "keywords": [
+        "systems"
+      ]
+    },
+    {
+      "segment_id": 9,
+      "keywords": [
+        "systems",
+        "systems systems"
+      ]
+    },
+    {
+      "segment_id": 10,
+      "keywords": [
+        "systems systems"
+      ]
+    },
+    {
+      "segment_id": 11,
+      "keywords": []
+    },
+    {
+      "segment_id": 12,
+      "keywords": []
+    }
+  ]
+}

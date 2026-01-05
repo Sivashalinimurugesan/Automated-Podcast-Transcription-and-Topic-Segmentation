@@ -1,0 +1,466 @@
+{
+  "source_file": "1014.txt",
+  "num_segments": 46,
+  "keywords_per_segment": [
+    {
+      "segment_id": 1,
+      "keywords": [
+        "work",
+        "good",
+        "good work",
+        "great",
+        "great work"
+      ]
+    },
+    {
+      "segment_id": 2,
+      "keywords": [
+        "space",
+        "building",
+        "ask",
+        "maybe",
+        "really"
+      ]
+    },
+    {
+      "segment_id": 3,
+      "keywords": [
+        "need",
+        "say",
+        "object",
+        "question really",
+        "object time"
+      ]
+    },
+    {
+      "segment_id": 4,
+      "keywords": [
+        "ll hear",
+        "hear",
+        "hear things",
+        "things like",
+        "ll"
+      ]
+    },
+    {
+      "segment_id": 5,
+      "keywords": [
+        "office",
+        "place called",
+        "spending money",
+        "work office",
+        "spending"
+      ]
+    },
+    {
+      "segment_id": 6,
+      "keywords": [
+        "work moments",
+        "moments",
+        "work",
+        "work day",
+        "don work"
+      ]
+    },
+    {
+      "segment_id": 7,
+      "keywords": [
+        "day",
+        "ve",
+        "minutes",
+        "look day",
+        "ve probably"
+      ]
+    },
+    {
+      "segment_id": 8,
+      "keywords": [
+        "used",
+        "sat desk",
+        "went meetings",
+        "sat",
+        "work sat"
+      ]
+    },
+    {
+      "segment_id": 9,
+      "keywords": [
+        "did",
+        "didn actually",
+        "didn",
+        "actually",
+        "actually meaningful"
+      ]
+    },
+    {
+      "segment_id": 10,
+      "keywords": [
+        "problem",
+        "hours",
+        "problem carefully",
+        "somebody",
+        "problem quick"
+      ]
+    },
+    {
+      "segment_id": 11,
+      "keywords": [
+        "hours",
+        "office hours",
+        "time hours",
+        "hours maybe",
+        "hours office"
+      ]
+    },
+    {
+      "segment_id": 12,
+      "keywords": [
+        "distractions",
+        "sleep",
+        "office",
+        "just",
+        "time"
+      ]
+    },
+    {
+      "segment_id": 13,
+      "keywords": [
+        "sleep",
+        "based",
+        "phase",
+        "dream things",
+        "mean talking"
+      ]
+    },
+    {
+      "segment_id": 14,
+      "keywords": [
+        "ones",
+        "early ones",
+        "morning",
+        "early",
+        "start"
+      ]
+    },
+    {
+      "segment_id": 15,
+      "keywords": [
+        "say sleep",
+        "really don",
+        "sleep thing",
+        "thing went",
+        "went bed"
+      ]
+    },
+    {
+      "segment_id": 16,
+      "keywords": [
+        "expect",
+        "interrupted",
+        "stuff interrupted",
+        "sleep just",
+        "sleep interrupted"
+      ]
+    },
+    {
+      "segment_id": 17,
+      "keywords": [
+        "expect people",
+        "happen",
+        "expect",
+        "interrupted",
+        "yes"
+      ]
+    },
+    {
+      "segment_id": 18,
+      "keywords": [
+        "ll say",
+        "ll",
+        "know",
+        "want",
+        "managers"
+      ]
+    },
+    {
+      "segment_id": 19,
+      "keywords": [
+        "tv",
+        "decide want",
+        "decide",
+        "distractions",
+        "want"
+      ]
+    },
+    {
+      "segment_id": 20,
+      "keywords": [
+        "youtube websites",
+        "involuntary",
+        "interruptions distractions",
+        "far",
+        "walk office"
+      ]
+    },
+    {
+      "segment_id": 21,
+      "keywords": [
+        "going",
+        "problem people",
+        "website work",
+        "website",
+        "sites china"
+      ]
+    },
+    {
+      "segment_id": 22,
+      "keywords": [
+        "smoke",
+        "twitter youtube",
+        "youtube",
+        "facebook twitter",
+        "twitter"
+      ]
+    },
+    {
+      "segment_id": 23,
+      "keywords": [
+        "real problems",
+        "problems",
+        "real",
+        "ms",
+        "office real"
+      ]
+    },
+    {
+      "segment_id": 24,
+      "keywords": [
+        "managers",
+        "don managers",
+        "managers meetings",
+        "don",
+        "meetings"
+      ]
+    },
+    {
+      "segment_id": 25,
+      "keywords": [
+        "world",
+        "lot",
+        "world lot",
+        "work make",
+        "world managers"
+      ]
+    },
+    {
+      "segment_id": 26,
+      "keywords": [
+        "thing interrupting",
+        "long time",
+        "interrupting long",
+        "hey going",
+        "going sort"
+      ]
+    },
+    {
+      "segment_id": 27,
+      "keywords": [
+        "meetings",
+        "toxic",
+        "thing managers",
+        "poisonous things",
+        "work know"
+      ]
+    },
+    {
+      "segment_id": 28,
+      "keywords": [
+        "meeting",
+        "spontaneous meeting",
+        "don care",
+        "people right",
+        "disruptive thing"
+      ]
+    },
+    {
+      "segment_id": 29,
+      "keywords": [
+        "stop",
+        "doing",
+        "important",
+        "stop doing",
+        "people ready"
+      ]
+    },
+    {
+      "segment_id": 30,
+      "keywords": [
+        "talk",
+        "procreate",
+        "things supposed",
+        "stuff doesn",
+        "meetings procreate"
+      ]
+    },
+    {
+      "segment_id": 31,
+      "keywords": [
+        "meeting",
+        "meeting tends",
+        "tends lead",
+        "tends",
+        "lead meeting"
+      ]
+    },
+    {
+      "segment_id": 32,
+      "keywords": [
+        "meeting 10",
+        "hour",
+        "hour meeting",
+        "10",
+        "10 hour"
+      ]
+    },
+    {
+      "segment_id": 33,
+      "keywords": [
+        "minutes",
+        "hour",
+        "scheduled",
+        "minutes hour",
+        "30"
+      ]
+    },
+    {
+      "segment_id": 34,
+      "keywords": [
+        "place people",
+        "enlightened",
+        "outside",
+        "office better",
+        "problems businesses"
+      ]
+    },
+    {
+      "segment_id": 35,
+      "keywords": [
+        "resort",
+        "want right",
+        "office offices",
+        "stuff office",
+        "offices equipped"
+      ]
+    },
+    {
+      "segment_id": 36,
+      "keywords": [
+        "talk thursdays",
+        "fit",
+        "don know",
+        "change suggestions",
+        "change"
+      ]
+    },
+    {
+      "segment_id": 37,
+      "keywords": [
+        "afternoon",
+        "thursday",
+        "just",
+        "month",
+        "thursday month"
+      ]
+    },
+    {
+      "segment_id": 38,
+      "keywords": [
+        "actually",
+        "bothering interrupting",
+        "work better",
+        "gets",
+        "work actually"
+      ]
+    },
+    {
+      "segment_id": 39,
+      "keywords": [
+        "better new",
+        "new",
+        "better",
+        "quiet",
+        "new software"
+      ]
+    },
+    {
+      "segment_id": 40,
+      "keywords": [
+        "distracting",
+        "week",
+        "really distracting",
+        "really",
+        "week week"
+      ]
+    },
+    {
+      "segment_id": 41,
+      "keywords": [
+        "quit",
+        "quit im",
+        "quit email",
+        "quit boss",
+        "manager things"
+      ]
+    },
+    {
+      "segment_id": 42,
+      "keywords": [
+        "going",
+        "check",
+        "schedule",
+        "email",
+        "im"
+      ]
+    },
+    {
+      "segment_id": 43,
+      "keywords": [
+        "monday",
+        "mean",
+        "monday usually",
+        "mean like",
+        "erase memory"
+      ]
+    },
+    {
+      "segment_id": 44,
+      "keywords": [
+        "just fine",
+        "fine",
+        "time monday",
+        "thought make",
+        "morning actually"
+      ]
+    },
+    {
+      "segment_id": 45,
+      "keywords": [
+        "think",
+        "think hope",
+        "people time",
+        "people think",
+        "pay"
+      ]
+    },
+    {
+      "segment_id": 46,
+      "keywords": [
+        "ted",
+        "visit ted",
+        "visit",
+        "october",
+        "recorded tedx"
+      ]
+    }
+  ]
+}

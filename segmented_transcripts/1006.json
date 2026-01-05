@@ -1,0 +1,46 @@
+{
+  "source_file": "1006.txt",
+  "num_segments": 10,
+  "segments": [
+    {
+      "segment_id": 1,
+      "text": "Ted Talks are acquitted live at the TED conference and partner events. This episode features ecologist Eric Burlow. The stock contains powerful visuals. Download the video at TED.com. Here's Eric Burlow."
+    },
+    {
+      "segment_id": 2,
+      "text": "Do you ever feel completely overwhelmed when you're faced with a complex problem? Well, I hope to change that in less than three minutes. So I hope to convince you that complex doesn't always equal complicated. So for me, a well-crafted baguette fresh out of the oven is complex. But a curry, onion, green olive, poppy cheese bread is complicated."
+    },
+    {
+      "segment_id": 3,
+      "text": "I'm an ecologist and I study complexity. I love complexity. And I study that in the natural world, the interconnectedness of species. So here's a food web or a map of feeding links between species  that live in alpine lakes and mountains of California. And this is what happens to that food web when it's stocked with non-native fish  that never lived there before."
+    },
+    {
+      "segment_id": 4,
+      "text": "All the grayed-out species disappear. Some are actually on the brink of extinction. And lakes with fish have more mosquitoes even though they eat them. These effects are all unanticipated and yet we're discovering they're predictable. So I want to share with you a couple key insights about complexity  we're learning from studying nature that maybe are applicable to other problems."
+    },
+    {
+      "segment_id": 5,
+      "text": "First is this simple power of good visualization tools to help untangle complexity  and just encourage you to ask questions you didn't think of before. For example, you could plot the flow of carbon through a corporate supply chain  in a corporate ecosystem or the interconnections of habitat patches  for endangered species in your semi-national park. The next thing is that if you want to predict the effect of one species on another,  if you focus on only that link and then you black-box the rest,  it's actually less predictable than if you step back,  consider the entire system, all these pieces, all the links,  and from that place hone in on the sphere of influence that matters most. And we're discovering with our research that it's often very local  to the node you care about within one or two degrees. So the more you step back and embrace complexity,  the better chance you have of finding simple answers  and it's often different than the simple answer that you started with."
+    },
+    {
+      "segment_id": 6,
+      "text": "So let's switch gears and look at a really complex problem,  courtesy of the US government. This is a diagram of the US Pounder Insurgency Strategy in Afghanistan. It was front page of the New York Times a couple of months ago,  instantly ridiculed by the media for being so crazy complicated. And the stated goal was to increase popular support for the Afghan government. Clearly a complex problem, but is it complicated?"
+    },
+    {
+      "segment_id": 7,
+      "text": "But when I saw this in front page of the Times,  I thought, great, finally something I can relate to. You know, I can stick my teeth into this. So let's do it. So here you go for the first time ever,  a world premiere view of this spaghetti diagram as an ordered network. A circled node is one we're trying to influence,  popular support for the government."
+    },
+    {
+      "segment_id": 8,
+      "text": "And so now we can look one degrees, two degrees,  three degrees away from that node  and eliminate like three quarters of the diagram  outside that sphere of influence. Within that sphere, most of those nodes are not actionable,  like the harshness of the terrain  and a very small minority are actual military actions. Most are nonviolent and they fall into two broad categories. Active engagement with ethnic rivalries and religious beliefs  and fair, transparent economic development  and provisioning services. I don't know about this, but this is where I can decipher  from this diagram in 24 seconds."
+    },
+    {
+      "segment_id": 9,
+      "text": "When you see a diagram like this,  I don't want you to be afraid, I want you to be excited,  I want you to be relieved  because simple answers may emerge. We're discovering a nature that simplicity often lies  on the other side of complexity. So for any problem, the more you can zoom out  and embrace complexity, the better chance you have  of zooming in on the simple details in all of these. Thank you. Thank you."
+    },
+    {
+      "segment_id": 10,
+      "text": "That was Eric Burlow,  reported at TED Global 2010 in Oxford, England,  July 2010. For more information on TED, visit TED.com."
+    }
+  ]
+}

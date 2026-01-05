@@ -1,0 +1,536 @@
+{
+  "source_file": "1017.txt",
+  "num_segments": 53,
+  "keywords_per_segment": [
+    {
+      "segment_id": 1,
+      "keywords": [
+        "ted",
+        "urie",
+        "william urie",
+        "william",
+        "visuals"
+      ]
+    },
+    {
+      "segment_id": 2,
+      "keywords": [
+        "left",
+        "camels",
+        "son left",
+        "son",
+        "man left"
+      ]
+    },
+    {
+      "segment_id": 3,
+      "keywords": [
+        "doesn divide",
+        "divide",
+        "doesn",
+        "divide doesn",
+        "negotiation 17"
+      ]
+    },
+    {
+      "segment_id": 4,
+      "keywords": [
+        "finally",
+        "wise old",
+        "wise",
+        "old woman",
+        "woman"
+      ]
+    },
+    {
+      "segment_id": 5,
+      "keywords": [
+        "son took",
+        "son",
+        "took",
+        "half",
+        "18"
+      ]
+    },
+    {
+      "segment_id": 6,
+      "keywords": [
+        "think",
+        "think story",
+        "moment think",
+        "think resembles",
+        "17 camel"
+      ]
+    },
+    {
+      "segment_id": 7,
+      "keywords": [
+        "like",
+        "18th",
+        "18th camel",
+        "camel",
+        "situation fresh"
+      ]
+    },
+    {
+      "segment_id": 8,
+      "keywords": [
+        "family",
+        "tribes",
+        "15",
+        "tribes planet",
+        "thanks communications"
+      ]
+    },
+    {
+      "segment_id": 9,
+      "keywords": [
+        "ve",
+        "question",
+        "differences",
+        "conflicts",
+        "deal"
+      ]
+    },
+    {
+      "segment_id": 10,
+      "keywords": [
+        "simple",
+        "new maybe",
+        "new",
+        "maybe ancient",
+        "simple new"
+      ]
+    },
+    {
+      "segment_id": 11,
+      "keywords": [
+        "conflict",
+        "resolved",
+        "curious",
+        "conflict play",
+        "month spent"
+      ]
+    },
+    {
+      "segment_id": 12,
+      "keywords": [
+        "arrows",
+        "poison arrows",
+        "poison",
+        "living",
+        "like"
+      ]
+    },
+    {
+      "segment_id": 13,
+      "keywords": [
+        "days",
+        "days days",
+        "send",
+        "alive point",
+        "tempers high"
+      ]
+    },
+    {
+      "segment_id": 14,
+      "keywords": [
+        "versus",
+        "think",
+        "conflict",
+        "normally think",
+        "normally"
+      ]
+    },
+    {
+      "segment_id": 15,
+      "keywords": [
+        "sake",
+        "family",
+        "family sake",
+        "family members",
+        "members"
+      ]
+    },
+    {
+      "segment_id": 16,
+      "keywords": [
+        "machines saying",
+        "best",
+        "machines",
+        "make best",
+        "metaphor place"
+      ]
+    },
+    {
+      "segment_id": 17,
+      "keywords": [
+        "war",
+        "leaders",
+        "war crimes",
+        "crimes",
+        "talks"
+      ]
+    },
+    {
+      "segment_id": 18,
+      "keywords": [
+        "puerto rico",
+        "puerto",
+        "rico",
+        "started",
+        "started racing"
+      ]
+    },
+    {
+      "segment_id": 19,
+      "keywords": [
+        "country",
+        "balcony",
+        "parties balcony",
+        "past",
+        "paused looked"
+      ]
+    },
+    {
+      "segment_id": 20,
+      "keywords": [
+        "step",
+        "question",
+        "east",
+        "middle east",
+        "middle"
+      ]
+    },
+    {
+      "segment_id": 21,
+      "keywords": [
+        "times",
+        "pay attention",
+        "pay",
+        "away pay",
+        "away"
+      ]
+    },
+    {
+      "segment_id": 22,
+      "keywords": [
+        "religious",
+        "feel",
+        "stories",
+        "story",
+        "stories matter"
+      ]
+    },
+    {
+      "segment_id": 23,
+      "keywords": [
+        "let",
+        "let try",
+        "try",
+        "stories",
+        "tell"
+      ]
+    },
+    {
+      "segment_id": 24,
+      "keywords": [
+        "origin",
+        "origin story",
+        "story",
+        "middle",
+        "east"
+      ]
+    },
+    {
+      "segment_id": 25,
+      "keywords": [
+        "unity",
+        "stood",
+        "message",
+        "basic",
+        "soul just"
+      ]
+    },
+    {
+      "segment_id": 26,
+      "keywords": [
+        "today face",
+        "today",
+        "scourge terrorism",
+        "scourge",
+        "think moment"
+      ]
+    },
+    {
+      "segment_id": 27,
+      "keywords": [
+        "terrorism",
+        "stranger treating",
+        "innocent stranger",
+        "taking innocent",
+        "treating"
+      ]
+    },
+    {
+      "segment_id": 28,
+      "keywords": [
+        "stands",
+        "terrorism vaccine",
+        "religious intolerance",
+        "story life",
+        "tell story"
+      ]
+    },
+    {
+      "segment_id": 29,
+      "keywords": [
+        "need",
+        "thinking",
+        "story thinking",
+        "need able",
+        "people need"
+      ]
+    },
+    {
+      "segment_id": 30,
+      "keywords": [
+        "footsteps abraham",
+        "footsteps",
+        "walk",
+        "abraham",
+        "real power"
+      ]
+    },
+    {
+      "segment_id": 31,
+      "keywords": [
+        "shoulder",
+        "walk",
+        "face",
+        "come",
+        "walking"
+      ]
+    },
+    {
+      "segment_id": 32,
+      "keywords": [
+        "route",
+        "silk route",
+        "walk negotiations",
+        "walks woods",
+        "tough people"
+      ]
+    },
+    {
+      "segment_id": 33,
+      "keywords": [
+        "cross",
+        "footsteps abraham",
+        "footsteps",
+        "abraham",
+        "students cross"
+      ]
+    },
+    {
+      "segment_id": 34,
+      "keywords": [
+        "took",
+        "mesopotamia took",
+        "bus took",
+        "took bus",
+        "studied"
+      ]
+    },
+    {
+      "segment_id": 35,
+      "keywords": [
+        "went",
+        "northern jordan",
+        "named",
+        "named abraham",
+        "turns named"
+      ]
+    },
+    {
+      "segment_id": 36,
+      "keywords": [
+        "gives",
+        "strange",
+        "stranger",
+        "question experience",
+        "neighborhood strange"
+      ]
+    },
+    {
+      "segment_id": 37,
+      "keywords": [
+        "offer",
+        "path discover",
+        "essence",
+        "east expect",
+        "discover villages"
+      ]
+    },
+    {
+      "segment_id": 38,
+      "keywords": [
+        "people",
+        "abraham middle",
+        "alive living",
+        "book people",
+        "book"
+      ]
+    },
+    {
+      "segment_id": 39,
+      "keywords": [
+        "women",
+        "men",
+        "people",
+        "people old",
+        "turkey syria"
+      ]
+    },
+    {
+      "segment_id": 40,
+      "keywords": [
+        "run",
+        "idea",
+        "abraham path",
+        "path",
+        "sao"
+      ]
+    },
+    {
+      "segment_id": 41,
+      "keywords": [
+        "guardian",
+        "said",
+        "manchester",
+        "month piece",
+        "story month"
+      ]
+    },
+    {
+      "segment_id": 42,
+      "keywords": [
+        "woman",
+        "woman lives",
+        "psychology",
+        "mad woman",
+        "people walk"
+      ]
+    },
+    {
+      "segment_id": 43,
+      "keywords": [
+        "partially",
+        "partially blind",
+        "seven kids",
+        "seven",
+        "poor partially"
+      ]
+    },
+    {
+      "segment_id": 44,
+      "keywords": [
+        "walkers come",
+        "walkers",
+        "come",
+        "sit floor",
+        "makes delicious"
+      ]
+    },
+    {
+      "segment_id": 45,
+      "keywords": [
+        "potential",
+        "path",
+        "team said",
+        "team",
+        "income"
+      ]
+    },
+    {
+      "segment_id": 46,
+      "keywords": [
+        "change",
+        "change frame",
+        "frame",
+        "game",
+        "picked walking"
+      ]
+    },
+    {
+      "segment_id": 47,
+      "keywords": [
+        "oak",
+        "oak tree",
+        "tree",
+        "acorn",
+        "associated"
+      ]
+    },
+    {
+      "segment_id": 48,
+      "keywords": [
+        "europe",
+        "spent",
+        "common",
+        "prosperous",
+        "chicago spent"
+      ]
+    },
+    {
+      "segment_id": 49,
+      "keywords": [
+        "thanks common",
+        "thanks",
+        "common",
+        "transformed easy",
+        "transformed"
+      ]
+    },
+    {
+      "segment_id": 50,
+      "keywords": [
+        "depends",
+        "taking",
+        "northern ireland",
+        "taking let",
+        "simply depends"
+      ]
+    },
+    {
+      "segment_id": 51,
+      "keywords": [
+        "different",
+        "small",
+        "conversation listen",
+        "break moment",
+        "moment just"
+      ]
+    },
+    {
+      "segment_id": 52,
+      "keywords": [
+        "ted",
+        "step",
+        "peace",
+        "world",
+        "walk let"
+      ]
+    },
+    {
+      "segment_id": 53,
+      "keywords": [
+        "lion",
+        "halt",
+        "halt lion",
+        "unite",
+        "webs"
+      ]
+    }
+  ]
+}
