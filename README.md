@@ -60,7 +60,7 @@ AUTOMATED-PODCAST-TRANSCRIPTION/
 │   └── package.json
 └── README.md
 
-
+```
 ## System Work-Flow
 1. The system follows a sequential pipeline from user upload to final visualization:
 
