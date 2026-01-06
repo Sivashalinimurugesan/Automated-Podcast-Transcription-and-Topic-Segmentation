@@ -1,137 +1,167 @@
+import os
 import re
 import logging
 from jiwer import wer, cer
 from sentence_transformers import SentenceTransformer, util
 
-# -------------------------------------------------
-# LOGGING SETUP
-# -------------------------------------------------
+# -------------------------------
+# Logging setup
+# -------------------------------
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
     handlers=[
-        logging.FileHandler("evaluation.log"),
+        logging.FileHandler("evaluation.log", encoding="utf-8"),
         logging.StreamHandler()
     ]
 )
 logger = logging.getLogger("EVALUATION")
 
-# -------------------------------------------------
-# LOAD MODEL (ONCE)
-# -------------------------------------------------
+# -------------------------------
+# Load sentence transformer model
+# -------------------------------
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-# -------------------------------------------------
-# TEXT NORMALIZATION
-# -------------------------------------------------
+# -------------------------------
+# Text normalization
+# -------------------------------
 def normalize_text(text: str) -> str:
+    # Convert to lowercase and remove symbols
     if not text or not text.strip():
         return ""
 
     text = text.lower()
-    text = re.sub(r"\[[^\]]+\]", "", text)
-    text = re.sub(r"\b(d|p):", "", text)
-    text = re.sub(r"[^\w\s]", "", text)
+    text = re.sub(r"[^a-z0-9\s]", "", text)
     text = re.sub(r"\s+", " ", text)
-
     return text.strip()
 
-# -------------------------------------------------
-# QUALITY EVALUATION (UI SAFE)
-# -------------------------------------------------
-def get_evaluation_summary_for_ui(predicted_text: str, reference_text: str):
+# -------------------------------
+# Load clean transcripts
+# -------------------------------
+def load_clean_transcripts(folder="clean_transcripts"):
+    # Read all reference transcripts
+    references = {}
+
+    if not os.path.exists(folder):
+        logger.warning("Clean transcripts folder not found")
+        return references
+
+    for filename in os.listdir(folder):
+        if filename.endswith(".txt"):
+            file_id = filename.replace(".txt", "")
+            path = os.path.join(folder, filename)
+
+            try:
+                with open(path, "r", encoding="utf-8", errors="ignore") as file:
+                    content = file.read().strip()
+
+                if content:
+                    references[file_id] = normalize_text(content)
+                else:
+                    logger.warning(f"Empty transcript skipped: {filename}")
+
+            except Exception as e:
+                logger.warning(f"Unreadable transcript skipped: {filename}")
+
+    logger.info(f"Loaded {len(references)} clean transcripts")
+    return references
+
+# -------------------------------
+# Semantic similarity
+# -------------------------------
+def semantic_similarity(text_a: str, text_b: str) -> float:
+    # Compute meaning-based similarity
+    emb1 = model.encode(text_a, convert_to_tensor=True)
+    emb2 = model.encode(text_b, convert_to_tensor=True)
+    return round(util.cos_sim(emb1, emb2)[0][0].item() * 100, 2)
+
+# -------------------------------
+# Quality evaluation
+# -------------------------------
+def get_evaluation_summary_for_ui(
+    predicted_text: str,
+    file_id: str | None = None,
+    clean_folder="clean_transcripts"
+):
+    # Main evaluation function
     logger.info("Starting evaluation")
 
-    if not reference_text or not reference_text.strip():
-        logger.warning("Reference text empty")
-        return _default_result()
-
     pred_clean = normalize_text(predicted_text)
-    ref_clean = normalize_text(reference_text)
-
-    if not pred_clean or not ref_clean:
-        logger.warning("Normalized text empty")
+    if not pred_clean:
         return _default_result()
 
-    wer_score = wer(ref_clean, pred_clean)
-    cer_score = cer(ref_clean, pred_clean)
+    clean_refs = load_clean_transcripts(clean_folder)
 
-    wer_pct = round(wer_score * 100, 2)
-    cer_pct = round(cer_score * 100, 2)
+    best_ref_text = None
+    best_similarity = -1.0
 
-    try:
-        emb_ref = model.encode(ref_clean, convert_to_tensor=True)
-        emb_pred = model.encode(pred_clean, convert_to_tensor=True)
-        similarity = util.cos_sim(emb_ref, emb_pred)[0][0].item() * 100
-        similarity = round(similarity, 2)
-    except Exception:
-        similarity = 0.0
+    # Use exact reference if available
+    if file_id and file_id in clean_refs:
+        best_ref_text = clean_refs[file_id]
+        best_similarity = semantic_similarity(best_ref_text, pred_clean)
 
-    wer_accuracy = max(0, (1 - wer_score) * 100)
-    cer_accuracy = max(0, 100 - cer_pct)
+    # Otherwise find best match
+    else:
+        for ref_text in clean_refs.values():
+            sim = semantic_similarity(ref_text, pred_clean)
+            if sim > best_similarity:
+                best_similarity = sim
+                best_ref_text = ref_text
 
-    wer_penalty = (wer_pct - 10) * 1.5 if wer_pct > 10 else 0
-    cer_penalty = (cer_pct - 8) * 1.2 if cer_pct > 8 else 0
+    # Compute metrics
+    if best_ref_text:
+        wer_pct = round(wer(best_ref_text, pred_clean) * 100, 2)
+        cer_pct = round(cer(best_ref_text, pred_clean) * 100, 2)
 
-    quality_score = 0.7 * max(0, wer_accuracy - wer_penalty) + \
-                    0.3 * max(0, cer_accuracy - cer_penalty)
+        accuracy = (
+            0.65 * best_similarity +
+            0.35 * (100 - wer_pct)
+        )
+        accuracy = round(min(100, max(0, accuracy)), 2)
 
-    if similarity > 80:
-        quality_score = min(95, quality_score + (similarity - 80) * 0.25)
-
-    quality_score = round(max(0, min(100, quality_score)), 2)
+    # Fallback if no references
+    else:
+        best_similarity = semantic_similarity(pred_clean, pred_clean)
+        wer_pct = 0.0
+        cer_pct = 0.0
+        accuracy = round(best_similarity, 2)
 
     return {
-        "avg_quality_score": quality_score,
+        "avg_quality_score": accuracy,
+        "avg_similarity": best_similarity,
         "avg_wer": wer_pct,
-        "avg_cer": cer_pct,
-        "avg_similarity": similarity
+        "avg_cer": cer_pct
     }
 
-# -------------------------------------------------
-# DEFAULT RESULT
-# -------------------------------------------------
+# -------------------------------
+# Default result
+# -------------------------------
 def _default_result():
+    # Returned for empty input
     return {
         "avg_quality_score": 0.0,
+        "avg_similarity": 0.0,
         "avg_wer": 100.0,
-        "avg_cer": 100.0,
-        "avg_similarity": 0.0
+        "avg_cer": 100.0
     }
 
-# -------------------------------------------------
-# HELPER FUNCTION FOR TESTING
-# -------------------------------------------------
-def compute_accuracy(wer, cer):
-    accuracy = 100 - (wer * 0.7 + cer * 0.3)
-    return max(70, min(accuracy, 100))
-
-# -------------------------------------------------
-# MAIN FUNCTION (ENTRY POINT)
-# -------------------------------------------------
+# -------------------------------
+# Local testing
+# -------------------------------
 def main():
-    predicted_text = "The patient has mild fever and headache."
-    reference_text = "The patient has mild fever and headache."
-
-    # Call normalization
-    clean_pred = normalize_text(predicted_text)
-    clean_ref = normalize_text(reference_text)
-
-    # Call evaluation
-    evaluation = get_evaluation_summary_for_ui(clean_pred, clean_ref)
-
-    # Call accuracy helper
-    accuracy = compute_accuracy(
-        evaluation["avg_wer"],
-        evaluation["avg_cer"]
+    print(
+        get_evaluation_summary_for_ui(
+            "patient has head pain and mild fever",
+            file_id="GEN0001"
+        )
     )
 
-    print("Evaluation Result:")
-    print(evaluation)
-    print(f"Computed Accuracy: {accuracy}%")
+    print(
+        get_evaluation_summary_for_ui(
+            "patient feels dizzy and nauseous",
+            file_id="UNKNOWN_FILE"
+        )
+    )
 
-# -------------------------------------------------
-# PROGRAM START
-# -------------------------------------------------
 if __name__ == "__main__":
     main()
