@@ -1,0 +1,208 @@
+/* src/App.css - The Glass & Neon Theme */
+:root {
+  --bg-dark: #0f1115;
+  --panel-bg: rgba(22, 25, 32, 0.85);
+  --neon-blue: #00f2ff;
+  --neon-purple: #bd00ff;
+  --text-main: #ffffff;
+  --text-muted: #8892b0;
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-dark); /* This fixes the white background */
+  color: var(--text-main);
+  overflow: hidden; /* Prevents scrollbars on main page */
+}
+
+/* --- LAYOUT CONTAINERS --- */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: radial-gradient(circle at top right, #1a1f2e 0%, #0f1115 100%);
+}
+
+.view-container {
+  padding: 20px 40px;
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 350px 1fr; /* Left Panel Fixed, Right Panel Flex */
+  gap: 25px;
+}
+
+/* --- HEADER --- */
+.glass-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: rgba(22, 25, 32, 0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.brand {
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  background: linear-gradient(90deg, #fff, var(--neon-blue));
+  
+  /* The Fix: Add the standard property below the webkit one */
+  -webkit-background-clip: text;
+  background-clip: text; 
+  
+  -webkit-text-fill-color: transparent;
+  /* color: transparent;  <-- Optional: Helps in some browsers */
+}
+
+.nav-pills {
+  display: flex;
+  gap: 10px;
+  background: rgba(0,0,0,0.3);
+  padding: 5px;
+  border-radius: 30px;
+  border: 1px solid var(--glass-border);
+}
+
+.pill-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.pill-btn:hover { color: #fff; }
+
+.pill-btn.active {
+  background: var(--neon-blue);
+  color: #000;
+  font-weight: 600;
+  box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
+}
+
+/* --- CARDS & PANELS --- */
+.upload-card, .segment-container, .audio-box, .feature-section, .settings-container, .search-container {
+  background: var(--panel-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* --- LEFT PANEL --- */
+.left-panel { display: flex; flex-direction: column; gap: 20px; height: 100%; }
+
+.upload-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, var(--neon-blue), #00c8d6);
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.upload-btn:hover { transform: scale(1.02); }
+
+.segment-container {
+  flex: 1; /* Fills remaining height */
+  display: flex;
+  flex-direction: column;
+  min-height: 0; /* Important for scroll */
+}
+
+.scroll-area {
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 15px;
+  padding-right: 5px;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+
+.segment-row {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.segment-row:hover { background: rgba(255,255,255,0.05); }
+.segment-row.active {
+  background: rgba(0, 242, 255, 0.1);
+  border-left: 3px solid var(--neon-blue);
+}
+
+.seg-id { color: var(--neon-blue); font-size: 0.9rem; margin-bottom: 4px; }
+.seg-time { color: var(--text-muted); font-size: 0.8rem; }
+
+/* --- RIGHT PANEL --- */
+.right-panel { display: flex; flex-direction: column; gap: 20px; height: 100%; }
+
+.feature-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--glass-border);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.glow-tag {
+  background: rgba(0, 242, 255, 0.1);
+  border: 1px solid var(--neon-blue);
+  color: var(--neon-blue);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  box-shadow: 0 0 8px rgba(0, 242, 255, 0.2);
+}
+
+/* --- TOGGLES & INPUTS --- */
+.search-bar {
+  width: 100%;
+  padding: 15px;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid var(--glass-border);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.toggle-switch {
+  width: 50px; height: 26px; background: #333; border-radius: 13px;
+  position: relative; cursor: pointer; transition: 0.3s;
+}
+.toggle-switch::after {
+  content: ''; position: absolute; top: 3px; left: 3px;
+  width: 20px; height: 20px; background: #fff; border-radius: 50%; transition: 0.3s;
+}
+.toggle-switch.on { background: var(--neon-blue); }
+.toggle-switch.on::after { left: 27px; }
+
+.setting-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 20px 0; border-bottom: 1px solid #333;
+}
+.danger-btn {
+  background: rgba(255, 75, 75, 0.1); border: 1px solid #ff4b4b; color: #ff4b4b;
+  padding: 10px 20px; border-radius: 8px; cursor: pointer;
+}
+.empty-text { color: #555; text-align: center; padding: 20px; font-style: italic; }
+.highlight { background: rgba(0, 242, 255, 0.3); color: #fff; }

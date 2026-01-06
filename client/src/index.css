@@ -1,0 +1,16 @@
+.custom-range::-webkit-slider-runnable-track {
+  background: #333;
+  height: 8px;
+  border-radius: 4px;
+}
+.custom-range::-webkit-slider-thumb {
+  background: #ff5722;
+  border: 2px solid #fff;
+  margin-top: -6px;
+}
+.form-control:focus {
+  background-color: #1e1e20;
+  border-color: #ff5722;
+  color: white;
+  box-shadow: none;
+}
