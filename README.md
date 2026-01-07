@@ -19,11 +19,17 @@ Word clouds highlighting dominant keywords.
 A user-friendly web interface built using Streamlit allows users to:
 
 1.Select transcripts
+
 2.Play cleaned audio
+
 3.View transcripts and segmented text
+
 4.See extracted keywords
+
 5.Search keywords inside text
+
 6.View visual analytics
+
 7.This project demonstrates how AI can be applied in real-world multimedia processing and data analysis applications.
 
 ------------------------------------------------------------------------------------------
@@ -52,23 +58,34 @@ Audio libraries can preserve spoken content in searchable text form for long-ter
 ------------------------------------------------------------------
 Benefits
  
-.Saves time compared to manual transcription
-.Automatically extracts meaningful insights
-.Helps in understanding large audio datasets
-.Easy visualization of important words
-.Search functionality for keywords
-.Modular and scalable project structure
+Saves time compared to manual transcription
+
+Automatically extracts meaningful insights
+
+Helps in understanding large audio datasets
+
+Easy visualization of important words
+
+Search functionality for keywords
+
+Modular and scalable project structure
 
 
 ---------------------------------------------------------------------
  Project Objectives
  
-.Convert audio files into readable text
-.Clean and preprocess the transcripts
-.Segment text into logical parts
-.Extract keywords automatically
-.Visualize text insights using graphs and word clouds
-.Provide an interactive UI
+
+Convert audio files into readable text
+
+Clean and preprocess the transcripts
+
+Segment text into logical parts
+
+Extract keywords automatically
+
+Visualize text insights using graphs and word clouds
+
+Provide an interactive UI
 
 
 -----------------------------------------------------------------
