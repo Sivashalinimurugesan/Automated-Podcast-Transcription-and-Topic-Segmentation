@@ -14,9 +14,9 @@ from transformers import pipeline
 INPUT_DIR = r"D:\farrakh important\internship_project infosys\data\transcripts"
 OUTPUT_DIR = r"D:\farrakh important\internship_project infosys\data\semantic_segments"
 
-# --- TUNING SETTINGS (ADJUSTED FOR BETTER SEGMENTATION) ---
-WINDOW_SIZE = 2          # Lowered to 2 to catch faster topic shifts
-SIMILARITY_THRESHOLD = 0.65  # Raised to 0.65 to force more splits
+
+WINDOW_SIZE = 2          
+SIMILARITY_THRESHOLD = 0.65  
 SUMMARY_MODEL = "sshleifer/distilbart-cnn-12-6"
 
 def setup_resources():
@@ -116,20 +116,19 @@ def segment_transcript_with_time(json_data):
 def generate_summary(text, summarizer):
     try:
         clean_text = text[:3000]
-        # Estimate word count to adjust summary length dynamically
+        
         word_count = len(clean_text.split())
         
-        # If very short, return original text instead of trying to summarize
+       
         if word_count < 30:
             return clean_text
 
-        # Dynamic max_length to avoid "input shorter than max_length" warnings
-        # We target a summary that is shorter than the input (e.g., 80% of input length), capped at 120
+        
         dynamic_max = int(min(120, word_count * 0.8))
-        # Ensure min_length is smaller than max_length
+        
         dynamic_min = int(min(40, dynamic_max * 0.5))
         
-        # Safety bounds to prevent model errors with 0 length
+       
         dynamic_max = max(10, dynamic_max)
         dynamic_min = max(5, dynamic_min)
 
@@ -155,12 +154,12 @@ def process_semantic_segmentation():
     files = list(input_path.glob("*.json"))
     files.sort()
 
-    print(f"📂 Found {len(files)} transcripts to analyze.")
+    print(f" Found {len(files)} transcripts to analyze.")
 
     for file_path in tqdm(files, desc="Processing Topics"):
         output_file = output_path / f"{file_path.stem}_topics.txt"
         
-        # Always remove old file to force regeneration with new settings
+      
         if output_file.exists():
              os.remove(output_file) 
 
@@ -182,7 +181,7 @@ def process_semantic_segmentation():
                 t_start = format_time(topic['start'])
                 t_end = format_time(topic['end'])
                 
-                # Generate a short headline from the summary
+                
                 headline = summary.split('.')[0]
                 if len(headline) > 60:
                     headline = headline[:60] + "..."
@@ -196,9 +195,9 @@ def process_semantic_segmentation():
                 f.write("\n".join(final_report))
 
         except Exception as e:
-            print(f"\n❌ Error processing {file_path.name}: {e}")
+            print(f"\n Error processing {file_path.name}: {e}")
 
-    print(f"\n✅ Segmentation Complete. Output in: {OUTPUT_DIR}")
+    print(f"\n Segmentation Complete. Output in: {OUTPUT_DIR}")
 
 if __name__ == "__main__":
     process_semantic_segmentation()
