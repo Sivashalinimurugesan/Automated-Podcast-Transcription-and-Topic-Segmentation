@@ -15,7 +15,11 @@ data/processed/
 *.flac
 
 node_modules/
-client/node_modules/
+dist/
+build/
 *.mp3
 *.wav
+__pycache__/
+venv/
+env/
 .DS_Store

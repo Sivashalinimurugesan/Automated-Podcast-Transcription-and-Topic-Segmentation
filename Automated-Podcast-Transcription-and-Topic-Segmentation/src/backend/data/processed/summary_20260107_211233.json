@@ -1,0 +1,849 @@
+{
+    "topics": [
+        {
+            "topic_id": "1 ===",
+            "summary": "Part 2 of Adventure 6 from the Adventures of Sherlock Holmes. A stable boy had run out to the horse's head, and springing down, I followed Holmes up the small winding gravel drive which led to the house.",
+            "keywords": [
+                "part",
+                "2",
+                "adventure",
+                "6",
+                "holmes"
+            ],
+            "sentiment": -0.015211640211640213,
+            "text_snippet": "Part 2 of Adventure 6 from the Adventures of Sherlock Holmes. This Librevox recording is in the public domain, recording by Ruth Golding. Adventure 6,..."
+        },
+        {
+            "topic_id": "2 ===",
+            "summary": "As we approached, the door flew open, and a little blonde woman stood in the opening, clared in some sort of light musseline de soire, with a touch of fluffy pink chiffon at her neck and wrists. Her body slightly bent, her head and face protruded with eager eyes and parted lips, a standing question.",
+            "keywords": [
+                "door",
+                "stood",
+                "light",
+                "one",
+                "approached"
+            ],
+            "sentiment": -0.002314814814814813,
+            "text_snippet": "As we approached, the door flew open, and a little blonde woman stood in the opening, clared in some sort of light musseline de soire, with a touch of..."
+        },
+        {
+            "topic_id": "3 ===",
+            "summary": "And then, seeing that there were two of us, she gave a cry of hope which sank into a groan as she saw that my companion shook his head and shrugged his shoulders. No good news?",
+            "keywords": [
+                "well",
+                "seeing",
+                "two",
+                "us",
+                "gave"
+            ],
+            "sentiment": -2.7755575615628914e-17,
+            "text_snippet": "Well! And then, seeing that there were two of us, she gave a cry of hope which sank into a groan as she saw that my companion shook his head and shrug..."
+        },
+        {
+            "topic_id": "4 ===",
+            "summary": "Thank God for that. But come in, you must be weary for you have had a long day.",
+            "keywords": [
+                "thank",
+                "god",
+                "come",
+                "must",
+                "weary"
+            ],
+            "sentiment": -0.05,
+            "text_snippet": "No. Thank God for that. But come in, you must be weary for you have had a long day. This is my friend, Dr. Watson...."
+        },
+        {
+            "topic_id": "5 ===",
+            "summary": "You will, I am sure, forgive anything that may be wanting in our arrangements, when you consider the blow which has come so suddenly upon us. My dear madam, said I, I am an old campaigner, and if I were not I can very well see that no apology is needed.",
+            "keywords": [
+                "see",
+                "said",
+                "vital",
+                "use",
+                "several"
+            ],
+            "sentiment": 0.2757575757575758,
+            "text_snippet": "He has been of most vital use to me in several of my cases. Under lucky chance has made it possible for me to bring him out and associate him with dis..."
+        },
+        {
+            "topic_id": "6 ===",
+            "summary": "No, Mr. Sherlock Holmes, said the lady, as we entered a well lit dining-room upon the table of which a cold supper had been laid out. I should very much like to ask you one or two plain questions to which I beg that you will give a plain answer.",
+            "keywords": [
+                "plain",
+                "assistance",
+                "either",
+                "friend",
+                "shall"
+            ],
+            "sentiment": 0.04095238095238097,
+            "text_snippet": "If I can be of any assistance either to you or to my friend here, I shall indeed be happy. No, Mr. Sherlock Holmes, said the lady, as we entered a wel..."
+        },
+        {
+            "topic_id": "7 ===",
+            "summary": "I am not hysterical nor given to fainting. I simply wish to hear your real, real opinion.",
+            "keywords": [
+                "real",
+                "trouble",
+                "feelings",
+                "hysterical",
+                "given"
+            ],
+            "sentiment": 0.225,
+            "text_snippet": "Do not trouble about my feelings. I am not hysterical nor given to fainting. I simply wish to hear your real, real opinion. Upon what point? In your h..."
+        },
+        {
+            "topic_id": "8 ===",
+            "summary": "Sherlock Holmes seemed to be embarrassed by the question. Frankly now, she repeated standing upon the rug and looking keenly down at him as he leaned back in a basket-chair.",
+            "keywords": [
+                "think",
+                "frankly",
+                "never",
+                "alive",
+                "sherlock"
+            ],
+            "sentiment": -0.06388888888888888,
+            "text_snippet": "Do you think that never is alive? Sherlock Holmes seemed to be embarrassed by the question. Frankly now, she repeated standing upon the rug and lookin..."
+        },
+        {
+            "topic_id": "9 ===",
+            "summary": "I do not say that, perhaps. And on what day did he meet his death?",
+            "keywords": [
+                "merged",
+                "say",
+                "perhaps",
+                "day",
+                "meet"
+            ],
+            "sentiment": 0.0,
+            "text_snippet": "I do. Merged? I do not say that, perhaps. And on what day did he meet his death? On Monday...."
+        },
+        {
+            "topic_id": "10 ===",
+            "summary": "Then, perhaps, Mr. Holmes, you will be good enough to explain how it is that I have received a letter from him today. Sherlock Holmes sprang out of his chair as if he had been galvanised.",
+            "keywords": [
+                "holmes",
+                "perhaps",
+                "good",
+                "enough",
+                "explain"
+            ],
+            "sentiment": 0.35,
+            "text_snippet": "Then, perhaps, Mr. Holmes, you will be good enough to explain how it is that I have received a letter from him today. Sherlock Holmes sprang out of hi..."
+        },
+        {
+            "topic_id": "11 ===",
+            "summary": "She stood smiling, holding out a little slip of paper in the air. He snatched it from her in his eagerness and smoothing it out upon the table.",
+            "keywords": [
+                "yes",
+                "today",
+                "stood",
+                "smiling",
+                "holding"
+            ],
+            "sentiment": 0.013392857142857137,
+            "text_snippet": "Yes, today. She stood smiling, holding out a little slip of paper in the air. May I see it? Certainly. He snatched it from her in his eagerness and sm..."
+        },
+        {
+            "topic_id": "12 ===",
+            "summary": "He drew over the lamp and examined it intently. The envelope was a very coarse one and was stamped with the grave's end postmark and with the date of that very day or rather of the day before for it to us considerably after midnight.",
+            "keywords": [
+                "day",
+                "drew",
+                "lamp",
+                "examined",
+                "intently"
+            ],
+            "sentiment": 0.07500000000000001,
+            "text_snippet": "He drew over the lamp and examined it intently. I had left my chair and was gazing at it over his shoulder. The envelope was a very coarse one and was..."
+        },
+        {
+            "topic_id": "13 ===",
+            "summary": "I perceive also that whoever addressed the envelope had to go and inquire as to the address. The name you see is in perfectly black ink which has dried itself.",
+            "keywords": [
+                "surely",
+                "husband",
+                "writing",
+                "madam",
+                "enclosure"
+            ],
+            "sentiment": 0.04444444444444445,
+            "text_snippet": "Surely this is not your husband's writing, madam? No, but the enclosure is. I perceive also that whoever addressed the envelope had to go and inquire ..."
+        },
+        {
+            "topic_id": "14 ===",
+            "summary": "If it had been written straight off and then blotted, none would be of a deep black shade. This man has written the name and there has then been a pause before he wrote the address, which can only mean that he was not familiar with it.",
+            "keywords": [
+                "written",
+                "rest",
+                "greyish",
+                "colour",
+                "shows"
+            ],
+            "sentiment": -0.009523809523809521,
+            "text_snippet": "The rest is of the greyish colour which shows that blotting paper has been used. If it had been written straight off and then blotted, none would be o..."
+        },
+        {
+            "topic_id": "15 ===",
+            "summary": "Yes, there was a ring, his signatory. And are you sure that this is your husband's hand?",
+            "keywords": [
+                "one",
+                "ah",
+                "enclosure",
+                "yes",
+                "ring"
+            ],
+            "sentiment": 0.5,
+            "text_snippet": "Ah, there has been an enclosure here. Yes, there was a ring, his signatory. And are you sure that this is your husband's hand? One of his hands? One...."
+        },
+        {
+            "topic_id": "16 ===",
+            "summary": "It is very unlike his usual writing and yet I know it well. There is a huge error which it may take some little time to rectify.",
+            "keywords": [
+                "well",
+                "hand",
+                "wrote",
+                "hurriedly",
+                "unlike"
+            ],
+            "sentiment": 0.08249999999999999,
+            "text_snippet": "His hand when he wrote hurriedly. It is very unlike his usual writing and yet I know it well. First do not be frightened or will come well. There is a..."
+        },
+        {
+            "topic_id": "17 ===",
+            "summary": "Written in pencil upon the flyleaf of a book, Octavo's size, no watermark. Ha, and the flap has been gummed if I am not very much in error by a person who had been chewing tobacco.",
+            "keywords": [
+                "written",
+                "pencil",
+                "upon",
+                "flyleaf",
+                "book"
+            ],
+            "sentiment": -0.3384615384615385,
+            "text_snippet": "Written in pencil upon the flyleaf of a book, Octavo's size, no watermark. Posted today in Graves' End by a man with a dirty thumb. Ha, and the flap h..."
+        },
+        {
+            "topic_id": "18 ===",
+            "summary": "And they were posted today at Graves' End. Well, Mrs. Sinclair, the clouds, lighten, though I should not venture to say that the danger is over.",
+            "keywords": [
+                "never",
+                "wrote",
+                "words",
+                "posted",
+                "today"
+            ],
+            "sentiment": 0.1,
+            "text_snippet": "Never wrote those words. And they were posted today at Graves' End. Well, Mrs. Sinclair, the clouds, lighten, though I should not venture to say that ..."
+        },
+        {
+            "topic_id": "19 ===",
+            "summary": "Unless this is a clever forgery to put us on the wrong scent, the ring after all proves nothing. And may have been taken from him.",
+            "keywords": [
+                "holmes",
+                "unless",
+                "clever",
+                "forgery",
+                "put"
+            ],
+            "sentiment": 0.1893333333333333,
+            "text_snippet": "Holmes. Unless this is a clever forgery to put us on the wrong scent, the ring after all proves nothing. And may have been taken from him. No, no, it ..."
+        },
+        {
+            "topic_id": "20 ===",
+            "summary": "It may however have been written on Monday and only posted today. If so much may have happened between.",
+            "keywords": [
+                "may",
+                "however",
+                "written",
+                "monday",
+                "posted"
+            ],
+            "sentiment": 0.06666666666666667,
+            "text_snippet": "It may however have been written on Monday and only posted today. That is possible. If so much may have happened between. Oh, you must not discourage ..."
+        },
+        {
+            "topic_id": "21 ===",
+            "summary": "On the very day that I saw him last, he cut himself in the bedroom, and yet I in the dining room rushed upstairs instantly with the utmost certainty that something had happened. I have seen too much not to know that the impression of a woman may be more valuable than the conclusion of an analytical reasoner.",
+            "keywords": [
+                "know",
+                "yet",
+                "well",
+                "keen",
+                "sympathy"
+            ],
+            "sentiment": -0.0142857142857143,
+            "text_snippet": "I know that all is well with him. There is so keen a sympathy between us that I should know if evil came upon him. On the very day that I saw him last..."
+        },
+        {
+            "topic_id": "22 ===",
+            "summary": "And in this letter you certainly have a very strong piece of evidence to corroborate your view. But if your husband is alive and able to write letters, why should he remain away from you?",
+            "keywords": [
+                "letter",
+                "certainly",
+                "strong",
+                "piece",
+                "evidence"
+            ],
+            "sentiment": 0.2655238095238095,
+            "text_snippet": "And in this letter you certainly have a very strong piece of evidence to corroborate your view. But if your husband is alive and able to write letters..."
+        },
+        {
+            "topic_id": "23 ===",
+            "summary": "And you were surprised to see him in Swandham Lane. What was the window open?",
+            "keywords": [
+                "surprised",
+                "see",
+                "swandham",
+                "lane",
+                "much"
+            ],
+            "sentiment": 0.12,
+            "text_snippet": "No. And you were surprised to see him in Swandham Lane. Very much so. What was the window open? Yes...."
+        },
+        {
+            "topic_id": "24 ===",
+            "summary": "Then he might have called to you. He only, as I understand, gave an inarticulate cry.",
+            "keywords": [
+                "might",
+                "called",
+                "understand",
+                "gave",
+                "inarticulate"
+            ],
+            "sentiment": -0.05,
+            "text_snippet": "Then he might have called to you. He might. He only, as I understand, gave an inarticulate cry. Yes. A call for help, you thought?..."
+        },
+        {
+            "topic_id": "25 ===",
+            "summary": "What it might have been a cry of surprise? A astonishment at the unexpected sight of you might cause him to throw up his hands.",
+            "keywords": [
+                "hands",
+                "might",
+                "yes",
+                "waved",
+                "cry"
+            ],
+            "sentiment": 0.05,
+            "text_snippet": "Yes. He waved his hands. What it might have been a cry of surprise? A astonishment at the unexpected sight of you might cause him to throw up his hand..."
+        },
+        {
+            "topic_id": "26 ===",
+            "summary": "And you thought he was pulled back. He might have left back.",
+            "keywords": [
+                "back",
+                "thought",
+                "pulled",
+                "disappeared",
+                "suddenly"
+            ],
+            "sentiment": 0.0,
+            "text_snippet": "And you thought he was pulled back. He disappeared so suddenly. He might have left back. You did not see anyone else in the room. No...."
+        },
+        {
+            "topic_id": "27 ===",
+            "summary": "But this horrible man confessed to having been there, and the last car was at the foot of the stairs. But without his collar or tie, I distinctly saw his bare throat.",
+            "keywords": [
+                "horrible",
+                "man",
+                "confessed",
+                "last",
+                "car"
+            ],
+            "sentiment": -0.1333333333333333,
+            "text_snippet": "But this horrible man confessed to having been there, and the last car was at the foot of the stairs. Quite so. Your husband, as far as you could see,..."
+        },
+        {
+            "topic_id": "28 ===",
+            "summary": "Never. Had he ever showed any signs of having taken opium?",
+            "keywords": [
+                "never",
+                "ever",
+                "showed",
+                "signs",
+                "taken"
+            ],
+            "sentiment": 0.0,
+            "text_snippet": "Never. Had he ever showed any signs of having taken opium? Never. Thank you, Mrs. Sinclair...."
+        },
+        {
+            "topic_id": "29 ===",
+            "summary": "A large and comfortable, double-bedded room had been placed at our disposal, and I was quickly between the sheets, for I was weary after my night of adventure. Sherlock Holmes was a man, however, who, when he had an unsolved problem upon his mind, would go for days and even for a week without rest, turning it over, rearranging his facts, looking at it from every point of view until he had either fathomed it or convinced himself that his data were insufficient.",
+            "keywords": [
+                "principal",
+                "points",
+                "wished",
+                "absolutely",
+                "clear"
+            ],
+            "sentiment": 0.17715986394557823,
+            "text_snippet": "Those are the principal points about which I wished to be absolutely clear. We shall now have a little supper and then retire, for we may have a very ..."
+        },
+        {
+            "topic_id": "30 ===",
+            "summary": "In the dim light of the lamp I saw him sitting there, an old briar pipe between his lips, his eyes fixed vacantly upon the corner of the ceiling, the blue smoke curling up from him, silent, motionless, with the light shining upon his strong-set, aqualine features. The pipe was still between his lips, the smoke still curled upward, and the room was full of a dent tobacco haze, but nothing remained of the heap of shag which I had seen upon the previous night.",
+            "keywords": [
+                "upon",
+                "blue",
+                "room",
+                "shag",
+                "tobacco"
+            ],
+            "sentiment": 0.12480158730158729,
+            "text_snippet": "He took off his coat and waistcoat, put on a large blue dressing-gown, and then wandered about the room collecting pillows from his bed and cushions f..."
+        },
+        {
+            "topic_id": "31 ===",
+            "summary": "Awake Watson, he asked. No one is stirring it, but I know where the stableboy sleeps, and we shall soon have to trap out.",
+            "keywords": [
+                "awake",
+                "watson",
+                "asked",
+                "yes",
+                "game"
+            ],
+            "sentiment": -0.09285714285714287,
+            "text_snippet": "Awake Watson, he asked. Yes! Game for a morning drive. Certainly, then dress. No one is stirring it, but I know where the stableboy sleeps, and we sha..."
+        },
+        {
+            "topic_id": "32 ===",
+            "summary": "He chuckled to himself as he spoke, his eyes twinkled, and he seemed a different man to the somber thinker of the previous night. I had hardly finished when Holmes returned with the news that the boy was putting in the horse.",
+            "keywords": [
+                "chuckled",
+                "spoke",
+                "eyes",
+                "twinkled",
+                "seemed"
+            ],
+            "sentiment": -0.17708333333333331,
+            "text_snippet": "He chuckled to himself as he spoke, his eyes twinkled, and he seemed a different man to the somber thinker of the previous night. As I dressed, I glan..."
+        },
+        {
+            "topic_id": "33 ===",
+            "summary": "I want to test a little theory of mine, said he, pulling on his boots. I think Watson, that you are now standing in the presence of one of the most absolute fools in Europe.",
+            "keywords": [
+                "think",
+                "want",
+                "test",
+                "little",
+                "theory"
+            ],
+            "sentiment": 0.1025,
+            "text_snippet": "I want to test a little theory of mine, said he, pulling on his boots. I think Watson, that you are now standing in the presence of one of the most ab..."
+        },
+        {
+            "topic_id": "34 ===",
+            "summary": "In the bathroom, he answered, oh yes, I am not joking. Come on, my boy, and we shall see whether it will not fit the lock.",
+            "keywords": [
+                "asked",
+                "smiling",
+                "bathroom",
+                "answered",
+                "oh"
+            ],
+            "sentiment": -0.2,
+            "text_snippet": "I asked smiling. In the bathroom, he answered, oh yes, I am not joking. He continued seeing my look of incredulity. I have just been there, and I have..."
+        },
+        {
+            "topic_id": "35 ===",
+            "summary": "A few country-carts were stirring, bearing in vegetables to the metropolis, but the lines of villas on either side were as silent and lifeless as some city in a dream. It has been in some point a singular case, said Holmes flicking the horse on into a gallop.",
+            "keywords": [
+                "horse",
+                "made",
+                "way",
+                "downstairs",
+                "quietly"
+            ],
+            "sentiment": 0.0688888888888889,
+            "text_snippet": "We made our way downstairs as quietly as possible, and out into the bright morning sunshine. In the roads stood our horse and chat, with the half-clad..."
+        },
+        {
+            "topic_id": "36 ===",
+            "summary": "Passing down the Waterloo Bridge Road we crossed over the river, and dashing up Wellington Street, wheeled sharply to the right and found ourselves in both street. Sherlock Holmes was well known to the force, and the two constables at the door saluted him, one of them held the horses head while the other led us in.",
+            "keywords": [
+                "learn",
+                "street",
+                "confess",
+                "blind",
+                "mole"
+            ],
+            "sentiment": -0.05997732426303854,
+            "text_snippet": "I confess that I have been as blind as a mole, but it is better to learn wisdom late than never to learn it at all. In town the earliest risers were j..."
+        },
+        {
+            "topic_id": "37 ===",
+            "summary": "A tall, stout official had come down the stone-flagged passage in a peaked cap and frog's jacket. I wish to have a quiet word with your Bradstreet.",
+            "keywords": [
+                "bradstreet",
+                "ask",
+                "holmes",
+                "inspector",
+                "sir"
+            ],
+            "sentiment": -0.07777777777777778,
+            "text_snippet": "Ask Holmes. Inspector Bradstreet, sir. Ah, Bradstreet, how are you? A tall, stout official had come down the stone-flagged passage in a peaked cap and..."
+        },
+        {
+            "topic_id": "38 ===",
+            "summary": "Certainly, Mr. Holmes, step into my room here. It was a small office-like room with a huge ledger upon the table and a telephone projecting from the wall.",
+            "keywords": [
+                "room",
+                "certainly",
+                "holmes",
+                "step",
+                "small"
+            ],
+            "sentiment": 0.052182539682539664,
+            "text_snippet": "Certainly, Mr. Holmes, step into my room here. It was a small office-like room with a huge ledger upon the table and a telephone projecting from the w..."
+        },
+        {
+            "topic_id": "39 ===",
+            "summary": "I had called about that beggar man, Boone, the one who was charged with being concerned in the disappearance of Mr. Neville's inclair of Lee. As he was brought up and reminded for further inquiries, so I heard.",
+            "keywords": [
+                "holmes",
+                "called",
+                "beggar",
+                "man",
+                "boone"
+            ],
+            "sentiment": 0.0,
+            "text_snippet": "Holmes? I had called about that beggar man, Boone, the one who was charged with being concerned in the disappearance of Mr. Neville's inclair of Lee. ..."
+        },
+        {
+            "topic_id": "40 ===",
+            "summary": "Oh, he gives no trouble, but he is a dirty scoundrel. Well, once his case has been settled, he will have a regular prison bath, and I think if you saw him, he would agree with me that he needed it.",
+            "keywords": [
+                "dirty",
+                "quiet",
+                "oh",
+                "gives",
+                "trouble"
+            ],
+            "sentiment": -0.21111111111111114,
+            "text_snippet": "Is he quiet? Oh, he gives no trouble, but he is a dirty scoundrel. Dirty? Yes, it's all we can do to make him what his hands and his face is as black ..."
+        },
+        {
+            "topic_id": "41 ===",
+            "summary": "I should like to see him very much. That is easily done.",
+            "keywords": [
+                "like",
+                "see",
+                "much",
+                "would",
+                "easily"
+            ],
+            "sentiment": 0.3466666666666667,
+            "text_snippet": "I should like to see him very much. Would you? That is easily done. Come this way. You can leave your bag...."
+        },
+        {
+            "topic_id": "42 ===",
+            "summary": "He led us down a passage, opened a barred door, passed down a winding stair, and brought us to a white-washed corridor with a line of doors on each side. The third on the right is his, said the inspector.",
+            "keywords": [
+                "us",
+                "think",
+                "take",
+                "good",
+                "come"
+            ],
+            "sentiment": 0.1769206349206349,
+            "text_snippet": "No, I think that I'll take it. Very good. Come this way if you please. He led us down a passage, opened a barred door, passed down a winding stair, an..."
+        },
+        {
+            "topic_id": "43 ===",
+            "summary": "He quietly shot back a panel in the upper part of the door and glanced through. We both put our eyes to the grating.",
+            "keywords": [
+                "quietly",
+                "shot",
+                "back",
+                "panel",
+                "upper"
+            ],
+            "sentiment": 0.05,
+            "text_snippet": "Here it is. He quietly shot back a panel in the upper part of the door and glanced through. He is asleep, said he. You can see him very well. We both ..."
+        },
+        {
+            "topic_id": "44 ===",
+            "summary": "The prisoner lay with his face towards us in a very deep sleep, breathing slowly and heavily. A broad wheel from an old scar ran right across it from Ida Chin, and by its contraction had turned up one side of the upper lip, so that three teeth were exposed in a perpetual snarl.",
+            "keywords": [
+                "face",
+                "prisoner",
+                "lay",
+                "towards",
+                "us"
+            ],
+            "sentiment": -0.10575396825396827,
+            "text_snippet": "The prisoner lay with his face towards us in a very deep sleep, breathing slowly and heavily. He was a middle-sized man, causally clad as became his c..."
+        },
+        {
+            "topic_id": "45 ===",
+            "summary": "A shock of very bright red hair grew lower for his eyes and forehead. He certainly needs a wash.",
+            "keywords": [
+                "shock",
+                "bright",
+                "red",
+                "hair",
+                "grew"
+            ],
+            "sentiment": 0.3747619047619048,
+            "text_snippet": "A shock of very bright red hair grew lower for his eyes and forehead. He's a beauty, isn't he? Said the inspector. He certainly needs a wash. Remarked..."
+        },
+        {
+            "topic_id": "46 ===",
+            "summary": "He opened the Gladstone bag, as he spoke, and took out to my astonishment a very large bath-sponge. Now, if you will have the great goodness to open that door very quietly, we will soon make him cut a much more respectable figure.",
+            "keywords": [
+                "took",
+                "idea",
+                "might",
+                "liberty",
+                "bringing"
+            ],
+            "sentiment": 0.32388392857142856,
+            "text_snippet": "I had an idea that he might, and I took the liberty of bringing the tools with me. He opened the Gladstone bag, as he spoke, and took out to my astoni..."
+        },
+        {
+            "topic_id": "47 ===",
+            "summary": "He slipped his key into the lock, and we all very quietly entered the cell. Homes stooped to the water jug, moistened his sponge, and then rubbed it twice vigorously across and down the prisoner's face.",
+            "keywords": [
+                "well",
+                "know",
+                "said",
+                "inspector",
+                "look"
+            ],
+            "sentiment": 0.0031746031746031794,
+            "text_snippet": "Well, I don't know why not, said the inspector. He doesn't look a credit to the Boastryt cells, does he? He slipped his key into the lock, and we all ..."
+        },
+        {
+            "topic_id": "48 ===",
+            "summary": "Let me introduce you, he shouted, to Mr. Neville's in clare of Lee in the county of Kent. One was the coarse brown tint, gone too, was the horrid scar which had seemed it across, and the twisted lip which had given the repulsive sneer to the face.",
+            "keywords": [
+                "face",
+                "let",
+                "introduce",
+                "shouted",
+                "neville"
+            ],
+            "sentiment": -0.16666666666666666,
+            "text_snippet": "Let me introduce you, he shouted, to Mr. Neville's in clare of Lee in the county of Kent. Never in my life have I seen such a sight. The man's face pe..."
+        },
+        {
+            "topic_id": "49 ===",
+            "summary": "A twitch brought away the tangled red hair, and there, sitting up in his bed, was a pale, sad face, refined looking man. Back haired and smooth skinned, rubbing his eyes and staring about him with sleepy bewilderment.",
+            "keywords": [
+                "face",
+                "twitch",
+                "brought",
+                "away",
+                "tangled"
+            ],
+            "sentiment": -0.07206349206349205,
+            "text_snippet": "A twitch brought away the tangled red hair, and there, sitting up in his bed, was a pale, sad face, refined looking man. Back haired and smooth skinne..."
+        },
+        {
+            "topic_id": "50 ===",
+            "summary": "It is indeed a missing man! The prisoner turned with the reckless air of a man who abandoned himself to his destiny.",
+            "keywords": [
+                "man",
+                "indeed",
+                "missing",
+                "know",
+                "photograph"
+            ],
+            "sentiment": -0.3125,
+            "text_snippet": "It is indeed a missing man! I know him from the photograph! The prisoner turned with the reckless air of a man who abandoned himself to his destiny. I..."
+        },
+        {
+            "topic_id": "51 ===",
+            "summary": "Neville's scent, oh come you can't be charged with that unless they make a case of attempted suicide of it, said the inspector with a grin. If I am Mr. Neville's sincler, then it is obvious that no crime has been committed, that therefore I am illegally detained.",
+            "keywords": [
+                "neville",
+                "said",
+                "crime",
+                "committed",
+                "scent"
+            ],
+            "sentiment": 0.175,
+            "text_snippet": "Neville's scent, oh come you can't be charged with that unless they make a case of attempted suicide of it, said the inspector with a grin. Well, I ha..."
+        },
+        {
+            "topic_id": "52 ===",
+            "summary": "You would have done better to have trusted your wife. God help me, I would not have the machine of their father.",
+            "keywords": [
+                "would",
+                "wife",
+                "god",
+                "done",
+                "better"
+            ],
+            "sentiment": 0.625,
+            "text_snippet": "You would have done better to have trusted your wife. It was not the wife, it was the children, grown to prisoner. God help me, I would not have the m..."
+        },
+        {
+            "topic_id": "53 ===",
+            "summary": "On the other hand, if you convince the police authorities that there is no possible case against you, I do not know that there is any reason that the details should find their way into the papers. Inspector Brad Street, would I am sure make notes upon anything which you might tell us and submit it to the proper authorities?",
+            "keywords": [
+                "court",
+                "authorities",
+                "case",
+                "would",
+                "sherlock"
+            ],
+            "sentiment": 0.07847222222222222,
+            "text_snippet": "Sherlock Holmes sat down beside him on the couch and pated him kindly on the shoulder. If you leave it to a court of law to clear the matter up, said ..."
+        },
+        {
+            "topic_id": "54 ===",
+            "summary": "I would have endured imprisonment, I even execution rather than have left my miserable secret as a family bloc to my children. I travelled in my youth, took to the stage, and finally became a reporter on an evening paper in London.",
+            "keywords": [
+                "god",
+                "bless",
+                "cried",
+                "prisoner",
+                "passionately"
+            ],
+            "sentiment": -0.0285714285714286,
+            "text_snippet": "God bless you, cried the prisoner passionately. I would have endured imprisonment, I even execution rather than have left my miserable secret as a fam..."
+        },
+        {
+            "topic_id": "55 ===",
+            "summary": "One day my editor wished to have a series of articles upon begging in the Metropolis, and I volunteered to supply them. It was only by trying begging us an amateur that I could get the facts on which to base my articles.",
+            "keywords": [
+                "articles",
+                "begging",
+                "one",
+                "day",
+                "editor"
+            ],
+            "sentiment": -0.15,
+            "text_snippet": "One day my editor wished to have a series of articles upon begging in the Metropolis, and I volunteered to supply them. There was the point from which..."
+        },
+        {
+            "topic_id": "56 ===",
+            "summary": "For seven hours I applied my trade, and when I returned home in the evening, I found to my surprise that I had received no less than 26 shillings and four pints. I wrote my articles and thought little more of them at it, until some time later I'd back to Bill for a friend and had a rick served upon me for 25 pounds.",
+            "keywords": [
+                "painted",
+                "face",
+                "make",
+                "pitiable",
+                "possible"
+            ],
+            "sentiment": 0.13715277777777776,
+            "text_snippet": "I painted my face and to make myself as pitiable as possible. I made a good scar and fixed one side of my lip in a twist by the aid of a small slip of..."
+        },
+        {
+            "topic_id": "57 ===",
+            "summary": "Well, you can imagine how hard it was to settle down to Arduous Work at two pounds a week, when I knew that I could earn as much in a day by smearing my face for a little paint, laying my cap on the ground and sitting still. It was a long fight between my pride and the money, but the dollars one at last and I threw up reporting and sat there after day in the corner which I had first chosen, inspiring pity by my ghastly face and filling my pockets with coppers.",
+            "keywords": [
+                "money",
+                "day",
+                "face",
+                "wit",
+                "end"
+            ],
+            "sentiment": -0.0219017094017094,
+            "text_snippet": "I was at my wit's end where to get the money, but a sudden idea came to me. A beg to fortnight grace from the creditor, asked for a holiday for my emp..."
+        },
+        {
+            "topic_id": "58 ===",
+            "summary": "He was the keeper of a low den in which I used to lodge in Swondham Lane, where I could every morning emerge as a squalid beggar, and in the evenings, to transform myself into a well-dressed man-about town. I do not mean that any beggar in the streets of London could earn seven hundred pounds a year, which is less than my average takings, but I had exceptional advantages in my power of making up, and also in a facility of repartee, which improved by practice and made me quite a recognised character in the city.",
+            "keywords": [
+                "knew",
+                "secret",
+                "could",
+                "beggar",
+                "well"
+            ],
+            "sentiment": 0.04602272727272727,
+            "text_snippet": "Only one man knew my secret. He was the keeper of a low den in which I used to lodge in Swondham Lane, where I could every morning emerge as a squalid..."
+        },
+        {
+            "topic_id": "59 ===",
+            "summary": "All day a stream of pennies varied by silver poured in upon me, and it was a very bad day in which I felt to take two pounds. Last Monday I had finished for the day and was dressing in my room above the opium den, when I looked out of my window and saw to my horror and astonishment that my wife was standing in the street with her eyes fixed full upon me.",
+            "keywords": [
+                "day",
+                "upon",
+                "grew",
+                "wife",
+                "knew"
+            ],
+            "sentiment": 0.08222222222222225,
+            "text_snippet": "All day a stream of pennies varied by silver poured in upon me, and it was a very bad day in which I felt to take two pounds. As I grew richer I grew ..."
+        },
+        {
+            "topic_id": "60 ===",
+            "summary": "I gave a cry of surprise, threw up my arms to cover my face, and rushing to my confidante, the last car, in treated him to prevent anyone from coming up to me. I heard her voice downstairs, but I knew that she could not ascend, swiftly I drew off my clothes, pulled on those of a beggar and put on my pigments and wig.",
+            "keywords": [
+                "threw",
+                "could",
+                "clothes",
+                "might",
+                "gave"
+            ],
+            "sentiment": -0.0375,
+            "text_snippet": "I gave a cry of surprise, threw up my arms to cover my face, and rushing to my confidante, the last car, in treated him to prevent anyone from coming ..."
+        },
+        {
+            "topic_id": "61 ===",
+            "summary": "Then I seized my coat, which was weighted by the coppers which I had just transferred to it from the leather bag in which I carried my takings. The other clothes would have followed, but at that moment there was a rott of constables at the stair, and a few minutes after I found, rather I confess to my relief, that instead of being identified as Mr. Neville's enclair, I was arrested as his murderer.",
+            "keywords": [
+                "seized",
+                "coat",
+                "weighted",
+                "coppers",
+                "transferred"
+            ],
+            "sentiment": -0.1625,
+            "text_snippet": "Then I seized my coat, which was weighted by the coppers which I had just transferred to it from the leather bag in which I carried my takings. I hurl..."
+        },
+        {
+            "topic_id": "62 ===",
+            "summary": "Knowing that my wife would be terribly anxious, I slipped off my ring and confided it to the last gar at a moment when no constable was watching me, together with a hurried scroll, telling her that she had no cause to fear. The police have watched this last gar, said Inspector Bradstreet, and I can quite understand that he might find it difficult to post a letter I observed.",
+            "keywords": [
+                "last",
+                "gar",
+                "said",
+                "determined",
+                "preserve"
+            ],
+            "sentiment": -0.16944444444444443,
+            "text_snippet": "I was determined to preserve my disguise as long as possible and hence my preference for a dirty face. Knowing that my wife would be terribly anxious,..."
+        },
+        {
+            "topic_id": "63 ===",
+            "summary": "Probably he handed it to some sailor customer of his who forgot all about it for some days. That was it, said Holmes, nodding approvingly, I have no doubt of it.",
+            "keywords": [
+                "said",
+                "probably",
+                "handed",
+                "sailor",
+                "customer"
+            ],
+            "sentiment": 0.45833333333333337,
+            "text_snippet": "Probably he handed it to some sailor customer of his who forgot all about it for some days. That was it, said Holmes, nodding approvingly, I have no d..."
+        },
+        {
+            "topic_id": "64 ===",
+            "summary": "If the police at a harsh this thing up, there must be no more of you, Boone. In that case, I think it is probable that no further steps may be taken, but if you are found again, then all must come out.",
+            "keywords": [
+                "must",
+                "police",
+                "harsh",
+                "thing",
+                "boone"
+            ],
+            "sentiment": 0.135,
+            "text_snippet": "If the police at a harsh this thing up, there must be no more of you, Boone. I have sworn it by the most solemn oaths which a man can take. In that ca..."
+        },
+        {
+            "topic_id": "65 ===",
+            "summary": "I reached this one, said my friend, by sitting upon five pillows and consuming an ounce of shag. I think Watson, that if we drive to Baker Street, we shall just be in time for breakfast.",
+            "keywords": [
+                "reached",
+                "wish",
+                "knew",
+                "results",
+                "one"
+            ],
+            "sentiment": -0.5,
+            "text_snippet": "I wish I knew how you reached your results. I reached this one, said my friend, by sitting upon five pillows and consuming an ounce of shag. I think W..."
+        }
+    ]
+}
