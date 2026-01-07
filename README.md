@@ -5,7 +5,7 @@ It provides a simple UI where users can listen to cleaned audio, view transcript
 
 --------------------------------------------------------------------------------
 
-1.Project Overview
+Project Overview
 
 The Automated Podcast Transcription and Topic Segmentation System is designed to automatically convert long audio recordings such as podcasts, interviews, lectures, and meetings into structured and meaningful textual data. Manual transcription and analysis of audio content is time-consuming and error-prone. This project eliminates that effort by using Natural Language Processing (NLP) and audio processing techniques.
 
@@ -28,7 +28,7 @@ A user-friendly web interface built using Streamlit allows users to:
 
 ------------------------------------------------------------------------------------------
 
-2. Expanded Use Cases
+ Expanded Use Cases
  
  1. Podcast Content Analysis
 Podcast creators can automatically transcribe episodes, analyze popular topics, identify frequently discussed terms, and improve future content planning.
@@ -50,7 +50,7 @@ Audio libraries can preserve spoken content in searchable text form for long-ter
 
 
 ------------------------------------------------------------------
-3. Benefits
+Benefits
  
 .Saves time compared to manual transcription
 .Automatically extracts meaningful insights
@@ -61,7 +61,7 @@ Audio libraries can preserve spoken content in searchable text form for long-ter
 
 
 ---------------------------------------------------------------------
-4. Project Objectives
+ Project Objectives
  
 .Convert audio files into readable text
 .Clean and preprocess the transcripts
@@ -72,7 +72,7 @@ Audio libraries can preserve spoken content in searchable text form for long-ter
 
 
 -----------------------------------------------------------------
-5.System Architecture
+System Architecture
 
 Audio Input
 Raw audio files stored in audio_raw/
@@ -98,7 +98,7 @@ Displays audio, transcript, segments, keywords, search and visualization
 
 
 ---------------------------------------------------------------------------------
-6. Tech Stack
+ Tech Stack
  
 Programming Language: Python
 Libraries:
@@ -113,7 +113,7 @@ Version Control: GitHub
 
 
 --------------------------------------------------------------------------------------
-7. Project Folder Structure
+ Project Folder Structure
 
 
 project/
@@ -138,7 +138,7 @@ project/
 └── LICENSE
 streamlit run ui/app.py
 ------------------------------------------------------------------------------------------------------
-8.Features
+Features
 
  Audio Playback
  Transcript Display
