@@ -1,27 +1,33 @@
 Automated Podcast Transcription and Topic Segmentation
+
 This project focuses on converting podcast/audio files into text, cleaning the transcripts, segmenting the text into meaningful parts, extracting keywords, and visualizing important insights using charts and word clouds.
 It provides a simple UI where users can listen to cleaned audio, view transcripts, segmented text, extracted keywords, search keywords, and visualize word frequencies.
 
+--------------------------------------------------------------------------------
 
-----------------------------------------------------------------------
-Project Overview
+1.Project Overview
+
 The Automated Podcast Transcription and Topic Segmentation System is designed to automatically convert long audio recordings such as podcasts, interviews, lectures, and meetings into structured and meaningful textual data. Manual transcription and analysis of audio content is time-consuming and error-prone. This project eliminates that effort by using Natural Language Processing (NLP) and audio processing techniques.
 The system begins by taking raw audio files and performing audio cleaning to remove noise and improve speech clarity. The cleaned audio is then processed using speech recognition techniques to generate accurate transcripts. These transcripts undergo preprocessing such as removing unnecessary symbols, stop words, headers, and irrelevant text.
 Once cleaned, the text is segmented into logical sections or topics, allowing users to understand different parts of the content easily. The system also extracts important keywords that summarize the main ideas discussed in the audio. These keywords help in indexing, searching, and quick content understanding.
 To make the data more understandable and visually appealing, the system generates visualizations such as:
 Bar charts showing the most frequent words
-Word clouds highlighting dominant keywords
+Word clouds highlighting dominant keywords.
+
 A user-friendly web interface built using Streamlit allows users to:
-Select transcripts
-Play cleaned audio
-View transcripts and segmented text
-See extracted keywords
-Search keywords inside text
-View visual analytics
-This project demonstrates how AI can be applied in real-world multimedia processing and data analysis applications.
+
+1.Select transcripts
+2.Play cleaned audio
+3.View transcripts and segmented text
+4.See extracted keywords
+5.Search keywords inside text
+6.View visual analytics
+7.This project demonstrates how AI can be applied in real-world multimedia processing and data analysis applications.
+
 ------------------------------------------------------------------------------------------
 
- Expanded Use Cases
+2. Expanded Use Cases
+ 
  1. Podcast Content Analysis
 Podcast creators can automatically transcribe episodes, analyze popular topics, identify frequently discussed terms, and improve future content planning.
  2. Educational Lectures Transcription
@@ -42,27 +48,30 @@ Audio libraries can preserve spoken content in searchable text form for long-ter
 
 
 ------------------------------------------------------------------
- Benefits
-Saves time compared to manual transcription
-Automatically extracts meaningful insights
-Helps in understanding large audio datasets
-Easy visualization of important words
-Search functionality for keywords
-Modular and scalable project structure
+3. Benefits
+ 
+.Saves time compared to manual transcription
+.Automatically extracts meaningful insights
+.Helps in understanding large audio datasets
+.Easy visualization of important words
+.Search functionality for keywords
+.Modular and scalable project structure
 
 
 ---------------------------------------------------------------------
- Project Objectives
-Convert audio files into readable text
-Clean and preprocess the transcripts
-Segment text into logical parts
-Extract keywords automatically
-Visualize text insights using graphs and word clouds
-Provide an interactive UI
+4. Project Objectives
+ 
+.Convert audio files into readable text
+.Clean and preprocess the transcripts
+.Segment text into logical parts
+.Extract keywords automatically
+.Visualize text insights using graphs and word clouds
+.Provide an interactive UI
 
 
 -----------------------------------------------------------------
-System Architecture
+5.System Architecture
+
 Audio Input
 Raw audio files stored in audio_raw/
 Audio Cleaning
@@ -87,7 +96,8 @@ Displays audio, transcript, segments, keywords, search and visualization
 
 
 ---------------------------------------------------------------------------------
- Tech Stack
+6. Tech Stack
+ 
 Programming Language: Python
 Libraries:
 SpeechRecognition
@@ -101,8 +111,8 @@ Version Control: GitHub
 
 
 --------------------------------------------------------------------------------------
- Project Folder Structure
-Copy code
+7. Project Folder Structure
+
 
 project/
 │
@@ -126,7 +136,8 @@ project/
 └── LICENSE
 streamlit run ui/app.py
 ------------------------------------------------------------------------------------------------------
-Features
+8.Features
+
  Audio Playback
  Transcript Display
  Segmented Text View
