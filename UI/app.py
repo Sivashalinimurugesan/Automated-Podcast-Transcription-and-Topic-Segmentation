@@ -145,7 +145,7 @@ def keyword_insights():
     neu = len(SEGMENTS) - pos - neg
 
     return f"""
-### 🌟 Insights
+###  insights
 - 🟢 Positive: **{pos}**
 - 🟡 Neutral: **{neu}**
 - 🔴 Negative: **{neg}**
