@@ -1,0 +1,147 @@
+Title:
+
+Automated Podcast Transcription and Topic Segmentation Using NLP
+------------------------------------------------------------------------------------
+
+ Overview:
+
+This project focuses on building an automated system that converts podcast or audio recordings into structured textual information. The system performs audio cleaning, speech-to-text transcription, text preprocessing, topic segmentation, keyword extraction, and visualization.
+Manual transcription and analysis of long audio files is time-consuming and inefficient. This project automates the entire pipeline, enabling users to quickly understand audio content through text and visual analytics.
+A user-friendly interface allows users to upload and select transcripts, listen to cleaned audio, view segmented text, search keywords, and analyze data using charts and word clouds.
+---------------------------------------------------------------------------------------
+
+ Approach:
+
+Audio Input
+Raw audio files are taken from the dataset.
+Audio Cleaning
+Noise removal and audio enhancement is performed to improve clarity.
+Speech Transcription
+Cleaned audio is converted into text.
+Text Preprocessing
+Removing unnecessary symbols, headers, and stop words.
+Converting text into a clean format.
+Topic Segmentation
+Long transcripts are divided into meaningful segments.
+Keyword Extraction
+Important words are extracted based on frequency.
+Visualization
+Bar charts for word frequency.
+Word cloud for keyword distribution.
+User Interface
+Streamlit-based interface for easy interaction.
+-------------------------------------------------------------------------------------------------------------
+
+ Tech Stack:
+
+Category
+Tools
+Programming Language
+Python
+UI Framework
+Streamlit
+Data Processing
+Pandas
+Visualization
+Matplotlib, WordCloud
+NLP
+NLTK
+Audio Processing
+Librosa
+IDE
+VS Code
+Version Control
+GitHub
+-------------------------------------------------------------------------------------------------------------
+Setup:
+
+1. Install Python
+Download and install Python from:
+https://www.python.org
+Make sure Python is added to system PATH.
+
+2. Clone the Repository
+Copy code
+Bash
+git clone <your-github-repo-link>
+cd Automated-Podcast-Transcription
+
+3. Install Required Libraries
+Copy code
+Bash
+python -m pip install streamlit matplotlib pandas wordcloud nltk librosa
+
+4. Download NLTK Data
+Open Python terminal and run:
+Copy code
+Python
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+
+5. Run the Application
+Copy code
+Bash
+streamlit run ui/app.py
+-----------------------------------------------------------------------------------------
+
+ Usage:
+
+Launch the web application.
+Select a transcript file from the dropdown.
+View transcription text.
+Play cleaned audio.
+View segmented text.
+Check extracted keywords.
+Search for keywords.
+View word frequency chart and word cloud.
+---------------------------------------------------------------------------------------------------
+
+ Troubleshooting:
+
+Problem
+Solution
+pip not recognized
+Use python -m pip install
+Missing library error
+Reinstall the library
+Streamlit not opening
+Check Python PATH
+Audio not loading
+Check file path
+Visualization not showing
+Ensure matplotlib installed
+Permission error
+Run terminal as administrator
+----------------------------------------------------------------------------------------------------------
+
+ Limitations and Challenges:
+
+Accuracy depends on audio quality.
+Background noise affects transcription.
+Large audio files increase processing time.
+Topic segmentation is rule-based.
+Real-time processing not supported.
+Language support is limited.
+
+-----------------------------------------------------------------------------------------------------------------------
+ Future Scope:
+
+Real-time transcription support.
+Multi-language support.
+Advanced AI-based topic modeling.
+Automatic summary generation.
+Cloud deployment.
+Mobile app version.
+Speaker identification.
+Sentiment analysis.
+--------------------------------------------------------------------------------------------------------------------------------
+References:
+
+Python Documentation
+Streamlit Documentation
+NLTK Library
+Librosa Documentation
+Matplotlib Documentation
+WordCloud Library
+GitHub Open Source Projects
