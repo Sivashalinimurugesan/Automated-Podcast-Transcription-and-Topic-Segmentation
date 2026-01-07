@@ -38,19 +38,26 @@ A user-friendly web interface built using Streamlit allows users to:
  
  1. Podcast Content Analysis
 Podcast creators can automatically transcribe episodes, analyze popular topics, identify frequently discussed terms, and improve future content planning.
- 2. Educational Lectures Transcription
+
+ 3. Educational Lectures Transcription
 Teachers and students can convert recorded lectures into text notes, segment topics for easy studying, and extract important keywords for revision.
- 3. Journalism and Media Monitoring
+
+ 5. Journalism and Media Monitoring
 News agencies can analyze interviews and reports quickly, extract keywords, summarize discussions, and track trending topics.
- 4. Business Meetings Documentation
+
+ 7. Business Meetings Documentation
 Companies can transcribe meeting recordings, generate summaries, and store searchable transcripts for future reference.
- 5. Research and NLP Experimentation
+
+ 9. Research and NLP Experimentation
 Researchers can use this system to experiment with speech recognition, text processing, topic segmentation, and visualization techniques.
- 6. Accessibility Support
+
+ 11. Accessibility Support
 Hearing-impaired users can access audio content in readable text format.
- 7. Data Analytics and Insights
+
+ 13. Data Analytics and Insights
 Large audio datasets can be converted into structured text data for analytics, trend discovery, and reporting.
- 8. Digital Archiving
+
+ 15. Digital Archiving
 Audio libraries can preserve spoken content in searchable text form for long-term storage and retrieval.
 
 
