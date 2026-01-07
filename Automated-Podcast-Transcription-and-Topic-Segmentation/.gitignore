@@ -14,12 +14,20 @@ data/processed/
 *.wav
 *.flac
 
+# Dependency directories
 node_modules/
-dist/
-build/
+src/frontend/node_modules/
+venv/
+src/backend/venv/
+__pycache__/
+
+# Large Media Files
 *.mp3
 *.wav
-__pycache__/
-venv/
-env/
+*.mp4
+uploads/
+
+# System files
 .DS_Store
+dist/
+build/
