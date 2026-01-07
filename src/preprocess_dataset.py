@@ -16,7 +16,7 @@ OUTPUT_DIR = os.getenv("PROCESSED_DIR", r"D:\farrakh important\internship_projec
 
 
 TARGET_SR = 16000  
-# ---------------------
+
 
 def verify_conversion(input_files, output_dir):
     """Picks one file and prints the Before vs After stats"""
@@ -30,7 +30,7 @@ def verify_conversion(input_files, output_dir):
     if not processed_file.exists():
         return
 
-    print("\n🔎 --- VERIFICATION: Spot Check ---")
+    print("\n --- VERIFICATION: Spot Check ---")
     
     try:
         
@@ -52,7 +52,7 @@ def verify_conversion(input_files, output_dir):
         print("-" * 65)
         print(" The AI will now process this file much faster.")
     except Exception as e:
-        print(f"⚠️ Verification failed: {e}")
+        print(f" Verification failed: {e}")
 
 def preprocess_all():
     input_path = Path(INPUT_DIR)
@@ -67,7 +67,7 @@ def preprocess_all():
                   list(input_path.glob("*.flac"))
     
     if not audio_files:
-        print(f"❌ No audio files found in {INPUT_DIR}")
+        print(f" No audio files found in {INPUT_DIR}")
         return
 
     print(f" Found {len(audio_files)} files. Checking for new files...")
