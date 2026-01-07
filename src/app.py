@@ -51,13 +51,13 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# --- HEADER ---
+
 st.markdown('<div class="main-header">🎙️ AI Podcast Analytics</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-header">Automated Transcription, Segmentation, Sentiment Analysis, and Summarization.</div>', unsafe_allow_html=True)
 
-# --- SIDEBAR: CONTROLS ---
+
 with st.sidebar:
-    st.header("⚙️ Control Panel")
+    st.header(" Control Panel")
     
     st.subheader("1. Add Content")
     input_tab1, input_tab2 = st.tabs(["📤 Upload", "🔗 URL"])
@@ -84,17 +84,17 @@ with st.sidebar:
         
     st.divider()
     
-    if st.button("🚀 Start Processing", type="primary", use_container_width=True):
+    if st.button(" Start Processing", type="primary", use_container_width=True):
         source = uploaded_file if uploaded_file else audio_url
         is_url = bool(audio_url) and not uploaded_file
         
         if source:
-            with st.spinner("🤖 AI is working... This may take a few minutes."):
+            with st.spinner(" AI is working... This may take a few minutes."):
                 try:
                    
                     status = podcast_backend.process_new_upload(source, str(BASE_DIR), is_url=is_url)
                     if status == "Success":
-                        st.success("✅ Done! Refreshing...")
+                        st.success("Done! Refreshing...")
                         time.sleep(1)
                         st.rerun()
                     else:
@@ -230,21 +230,20 @@ if not available_files:
     if search_query:
         st.warning(f"No podcasts found matching '{search_query}'.")
     else:
-        st.info("👋 Welcome! Upload your first podcast to begin.")
+        st.info(" Welcome! Upload your first podcast to begin.")
 
 selected_podcast = available_files[0] if available_files else None
 if available_files and len(available_files) > 1:
      selected_podcast = st.selectbox("Select Episode", available_files, index=0)
 
 
-# --- KEYWORD SENTIMENT INDICATOR ---
 if search_query and selected_podcast:
     s_path = SENTIMENT_DIR / f"{selected_podcast}_sentiment.json"
     if s_path.exists():
         try:
             s_data = json.loads(s_path.read_text(encoding='utf-8'))
             
-            # Find score of sentences containing the keyword
+            
             scores = [s['score'] for s in s_data if search_query.lower() in s['text'].lower()]
             
             if scores:
@@ -257,12 +256,12 @@ if search_query and selected_podcast:
                 else:
                     search_sentiment = ":gray[Neutral]"
                     
-                st.markdown(f"##### 🔎 Topic Sentiment for '{search_query}': **{search_sentiment}**")
+                st.markdown(f"#####  Topic Sentiment for '{search_query}': **{search_sentiment}**")
         except:
             pass
 
 
-tab_overview, tab_analysis, tab_transcript = st.tabs(["📌 Overview", "📊 Visualization", "📜 Transcript & Search"])
+tab_overview, tab_analysis, tab_transcript = st.tabs([" Overview", " Visualization", " Transcript & Search"])
 
 
 with tab_overview:
@@ -272,13 +271,13 @@ with tab_overview:
         col_sum, col_key = st.columns([2, 1])
         
         with col_sum:
-            st.markdown("### 📝 Smart Summary")
+            st.markdown("###  Smart Summary")
             summary_text = load_data(SUMMARY_DIR, f"{selected_podcast}_summary.txt")
             if not summary_text:
                 transcript_json = load_data(TRANSCRIPT_DIR, f"{selected_podcast}.json", is_json=True)
                 if transcript_json:
                     summary_text = transcript_json.get('text', '')[:500] + "..."
-                    st.caption("⚠️ AI Summary pending. Showing transcript preview:")
+                    st.caption(" AI Summary pending. Showing transcript preview:")
             
             if summary_text:
                 st.markdown(f'<div class="metric-card">{summary_text}</div>', unsafe_allow_html=True)
@@ -286,16 +285,16 @@ with tab_overview:
                 st.info("No content available for summary.")
                 
         with col_key:
-            st.markdown("### 🔑 Top Keywords")
+            st.markdown("### Top Keywords")
             keywords_text = load_data(KEYWORD_DIR, f"{selected_podcast}_keywords.txt")
             if keywords_text:
                 kws = [line.strip() for line in keywords_text.splitlines() if not line.startswith("===")]
-                for kw in kws[:10]: st.caption(f"🏷️ {kw}")
+                for kw in kws[:10]: st.caption(f" {kw}")
             else:
                 st.info("Keywords pending...")
 
         st.divider()
-        st.markdown("### 📚 Topic Segments & Analysis")
+        st.markdown("### Topic Segments & Analysis")
         
         topics_text = load_data(TOPIC_DIR, f"{selected_podcast}_topics.txt")
         sentiment_data = load_data(SENTIMENT_DIR, f"{selected_podcast}_sentiment.json", is_json=True)
@@ -342,7 +341,7 @@ with tab_analysis:
     if not selected_podcast:
         st.info("Please upload a podcast to view visualizations.")
     else:
-        st.markdown("### 📈 Full Episode Emotional Journey")
+        st.markdown("###  Full Episode Emotional Journey")
         sentiment_data = load_data(SENTIMENT_DIR, f"{selected_podcast}_sentiment.json", is_json=True)
 
         if sentiment_data:
@@ -382,7 +381,7 @@ with tab_transcript:
     if not selected_podcast:
         st.info("Please upload a podcast to view the transcript.")
     else:
-        st.markdown("### 📜 Full Transcript")
+        st.markdown("###  Full Transcript")
         highlight_term = st.text_input("Highlight keyword in text:", value=search_query if search_query else "")
         transcript_json = load_data(TRANSCRIPT_DIR, f"{selected_podcast}.json", is_json=True)
         
@@ -398,3 +397,4 @@ with tab_transcript:
                 st.text_area("Content", full_text, height=500)
         else:
             st.error("Transcript file missing.")
+
