@@ -1,9 +1,14 @@
 // src/App.jsx
 import React, { useState, useRef } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine } from 'recharts';
-import './App.css'; // This connects the design!
+// 1. FIXED IMPORTS: Added BarChart, Bar, Cell, Legend
+import { 
+  LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine,
+  BarChart, Bar, Cell, Legend 
+} from 'recharts';
+import './App.css';
 
 function App() {
+  // --- STATE MANAGEMENT ---
   const [view, setView] = useState('dashboard'); // 'dashboard', 'search', 'sentiment', 'settings'
   const [file, setFile] = useState(null);
   const [audioUrl, setAudioUrl] = useState(null);
@@ -42,11 +47,18 @@ function App() {
 
   // --- HANDLERS ---
   const handleFileChange = (e) => {
-    if (e.target.files[0]) {
-      setFile(e.target.files[0]);
-      setAudioUrl(URL.createObjectURL(e.target.files[0]));
-      setTopics([]);
-      setSelectedTopic(null);
+    const selectedFile = e.target.files[0];
+    if (selectedFile) {
+        // Security Check
+        const fileName = selectedFile.name.toLowerCase();
+        if (!fileName.endsWith('.mp3') && !fileName.endsWith('.wav')) {
+            alert("❌ Invalid file type! Please upload only MP3 or WAV audio files.");
+            return;
+        }
+        setFile(selectedFile);
+        setAudioUrl(URL.createObjectURL(selectedFile));
+        setTopics([]);
+        setSelectedTopic(null);
     }
   };
 
@@ -101,7 +113,7 @@ function App() {
         <div className="upload-card">
           <h3 style={{margin:'0 0 10px 0', color:'#fff'}}>{file ? "File Ready" : "Upload Audio"}</h3>
           <div style={{fontSize:'0.8rem', color:'#888', marginBottom:'15px'}}>{file ? file.name : "Drag & Drop MP3 / WAV"}</div>
-          <input type="file" id="fIn" hidden onChange={handleFileChange} />
+          <input type="file" id="fIn" hidden accept=".mp3,.wav" onChange={handleFileChange} />
           {!file ? <label htmlFor="fIn" className="upload-btn" style={{color:'#000'}}>Select File</label> 
                  : <button className="upload-btn" onClick={handleUpload} disabled={loading}>{loading ? "Analyzing..." : "Start AI Process"}</button>}
         </div>
@@ -179,7 +191,13 @@ function App() {
   };
 
   const renderSentiment = () => {
-    // 2. FIXED TOOLTIP (No 'label' error)
+    // 2. NEW: Calculate Sentiment Counts for Bar Graph
+    const sentimentCounts = [
+        { name: 'Positive', count: topics.filter(t => t.sentimentLabel === 'Positive').length, color: '#22c55e' },
+        { name: 'Neutral', count: topics.filter(t => t.sentimentLabel === 'Neutral').length, color: '#888888' },
+        { name: 'Negative', count: topics.filter(t => t.sentimentLabel === 'Negative').length, color: '#ff4b4b' }
+    ];
+
     const CustomTooltip = ({ active, payload }) => {
       if (active && payload && payload.length) {
         const data = payload[0].payload;
@@ -203,10 +221,12 @@ function App() {
 
     return (
       <div className="settings-container view-container" style={{maxWidth:'1000px', margin:'0 auto'}}>
-        <h2 style={{color:'white'}}>Sentiment Timeline</h2>
-        <p style={{color:'#888'}}>Interactive timeline showing emotional tone across the podcast.</p>
+        <h2 style={{color:'white'}}>Sentiment Analysis Dashboard</h2>
+        <p style={{color:'#888'}}>Deep dive into the emotional structure of the conversation.</p>
         
-        <div style={{width: '100%', height: 400, marginTop:'30px', background:'rgba(0,0,0,0.2)', padding:'20px', borderRadius:'16px'}}>
+        {/* GRAPH 1: LINE CHART */}
+        <h3 style={{marginTop:'30px', color:'#00f2ff'}}>1. Emotional Timeline</h3>
+        <div style={{width: '100%', height: 350, background:'rgba(0,0,0,0.2)', padding:'20px', borderRadius:'16px', border:'1px solid rgba(255,255,255,0.05)'}}>
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={topics} onClick={(e) => { if(e && e.activePayload) handleSegmentClick(e.activePayload[0].payload); }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#333" />
@@ -218,7 +238,44 @@ function App() {
             </LineChart>
           </ResponsiveContainer>
         </div>
-        <p style={{textAlign:'center', color:'#555', marginTop:'10px'}}>Click on any data point to jump to that segment.</p>
+
+        {/* GRAPH 2: BAR CHART (NEW) */}
+        <h3 style={{marginTop:'40px', color:'#bd00ff'}}>2. Overall Tone Distribution</h3>
+        <div style={{display:'flex', gap:'20px', alignItems:'center', flexWrap:'wrap'}}>
+            <div style={{flex: 1, minWidth:'300px', height: 300, background:'rgba(0,0,0,0.2)', padding:'20px', borderRadius:'16px', border:'1px solid rgba(255,255,255,0.05)'}}>
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart data={sentimentCounts}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#333" vertical={false} />
+                  <XAxis dataKey="name" stroke="#fff" />
+                  <YAxis stroke="#888" allowDecimals={false} />
+                  <Tooltip 
+                    contentStyle={{backgroundColor: '#161920', border: '1px solid #555', borderRadius:'8px'}}
+                    itemStyle={{color:'#fff'}}
+                    cursor={{fill: 'rgba(255,255,255,0.1)'}}
+                  />
+                  <Bar dataKey="count" radius={[10, 10, 0, 0]} barSize={60}>
+                    {sentimentCounts.map((entry, index) => (
+                      <Cell key={`cell-${index}`} fill={entry.color} />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+
+            <div style={{flex: 1, minWidth:'250px', padding:'20px', background:'rgba(255,255,255,0.03)', borderRadius:'16px'}}>
+                <h4 style={{marginTop:0}}>Summary Insights</h4>
+                <ul style={{lineHeight:'1.8', color:'#ccc'}}>
+                    <li><strong style={{color:'#22c55e'}}>Positive Segments:</strong> {sentimentCounts[0].count}</li>
+                    <li><strong style={{color:'#888'}}>Neutral Segments:</strong> {sentimentCounts[1].count}</li>
+                    <li><strong style={{color:'#ff4b4b'}}>Negative Segments:</strong> {sentimentCounts[2].count}</li>
+                </ul>
+                <p style={{fontSize:'0.9rem', color:'#888', marginTop:'15px'}}>
+                    The chart on the left shows the total number of segments for each emotional category.
+                </p>
+            </div>
+        </div>
+
+        <p style={{textAlign:'center', color:'#555', marginTop:'20px'}}>Click on any data point to jump to that segment.</p>
       </div>
     );
   };
@@ -242,7 +299,6 @@ function App() {
 
   return (
     <div className="app-container">
-      {/* 1. ORIGINAL HEADER: Only the 4 buttons you want */}
       <header className="glass-header">
         <div className="brand">AI PODCAST ANALYZER</div>
         <div className="nav-pills">
@@ -253,7 +309,6 @@ function App() {
         </div>
       </header>
       
-      {/* VIEW ROUTING */}
       {view === 'dashboard' && renderDashboard()}
       {view === 'search' && renderSearch()}
       {view === 'sentiment' && renderSentiment()}
