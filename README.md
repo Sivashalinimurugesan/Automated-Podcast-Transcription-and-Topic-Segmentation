@@ -8,7 +8,9 @@ It provides a simple UI where users can listen to cleaned audio, view transcript
 1.Project Overview
 
 The Automated Podcast Transcription and Topic Segmentation System is designed to automatically convert long audio recordings such as podcasts, interviews, lectures, and meetings into structured and meaningful textual data. Manual transcription and analysis of audio content is time-consuming and error-prone. This project eliminates that effort by using Natural Language Processing (NLP) and audio processing techniques.
+
 The system begins by taking raw audio files and performing audio cleaning to remove noise and improve speech clarity. The cleaned audio is then processed using speech recognition techniques to generate accurate transcripts. These transcripts undergo preprocessing such as removing unnecessary symbols, stop words, headers, and irrelevant text.
+
 Once cleaned, the text is segmented into logical sections or topics, allowing users to understand different parts of the content easily. The system also extracts important keywords that summarize the main ideas discussed in the audio. These keywords help in indexing, searching, and quick content understanding.
 To make the data more understandable and visually appealing, the system generates visualizations such as:
 Bar charts showing the most frequent words
