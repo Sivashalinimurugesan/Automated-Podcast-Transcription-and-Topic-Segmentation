@@ -7,16 +7,15 @@ from tqdm import tqdm
 import random
 from dotenv import load_dotenv
 
-# --- CONFIGURATION ---
+
 load_dotenv()
 
-# Use environment variables for paths, with fallbacks
-# Preprocessing takes raw audio (AUDIO_DIR) and saves to processed (PROCESSED_DIR)
+
 INPUT_DIR = os.getenv("AUDIO_DIR", r"D:\farrakh important\internship_project infosys\data\audio")
 OUTPUT_DIR = os.getenv("PROCESSED_DIR", r"D:\farrakh important\internship_project infosys\data\processed")
 
-# Settings for Whisper AI
-TARGET_SR = 16000  # Whisper expects 16kHz audio
+
+TARGET_SR = 16000  
 # ---------------------
 
 def verify_conversion(input_files, output_dir):
@@ -24,7 +23,7 @@ def verify_conversion(input_files, output_dir):
     if not input_files:
         return
 
-    # Pick a random file to test
+    
     test_file = random.choice(input_files)
     processed_file = Path(output_dir) / (test_file.stem + ".wav")
 
@@ -34,12 +33,12 @@ def verify_conversion(input_files, output_dir):
     print("\n🔎 --- VERIFICATION: Spot Check ---")
     
     try:
-        # Load Original
+        
         y_orig, sr_orig = librosa.load(str(test_file), sr=None, mono=False)
         channels_orig = "Mono" if len(y_orig.shape) == 1 else "Stereo"
         size_orig = os.path.getsize(test_file) / 1024
 
-        # Load Processed
+        
         y_proc, sr_proc = librosa.load(str(processed_file), sr=None, mono=False)
         channels_proc = "Mono" if len(y_proc.shape) == 1 else "Stereo"
         size_proc = os.path.getsize(processed_file) / 1024
@@ -51,7 +50,7 @@ def verify_conversion(input_files, output_dir):
         print(f"{'Channels':<15} | {channels_orig:<20} | {channels_proc:<20}")
         print(f"{'File Size':<15} | {size_orig:.1f} KB {'(Compressed)':<12} | {size_proc:.1f} KB (Uncompressed)")
         print("-" * 65)
-        print("✅ The AI will now process this file much faster.")
+        print(" The AI will now process this file much faster.")
     except Exception as e:
         print(f"⚠️ Verification failed: {e}")
 
@@ -59,10 +58,10 @@ def preprocess_all():
     input_path = Path(INPUT_DIR)
     output_path = Path(OUTPUT_DIR)
     
-    # Create output directory
+    
     output_path.mkdir(parents=True, exist_ok=True)
 
-    # Find all audio files (MP3, WAV, FLAC)
+    
     audio_files = list(input_path.glob("*.mp3")) + \
                   list(input_path.glob("*.wav")) + \
                   list(input_path.glob("*.flac"))
@@ -71,14 +70,14 @@ def preprocess_all():
         print(f"❌ No audio files found in {INPUT_DIR}")
         return
 
-    print(f"🔍 Found {len(audio_files)} files. Checking for new files...")
-    print(f"🎯 Target: 16kHz, Mono, Normalized WAV")
+    print(f" Found {len(audio_files)} files. Checking for new files...")
+    print(f" Target: 16kHz, Mono, Normalized WAV")
 
     success_count = 0
 
     for audio_file in tqdm(audio_files):
         try:
-            # Construct the expected output path first
+            
             output_filename = audio_file.stem + ".wav"
             save_path = output_path / output_filename
 
