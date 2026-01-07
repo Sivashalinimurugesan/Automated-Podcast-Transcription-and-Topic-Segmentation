@@ -4,7 +4,7 @@ It provides a simple UI where users can listen to cleaned audio, view transcript
 
 
 ----------------------------------------------------------------------
-📌 Project Overview
+Project Overview
 The system takes raw audio files and performs:
 Audio preprocessing and cleaning
 Speech-to-text transcription
@@ -16,7 +16,7 @@ User-friendly UI for interaction
 
 
 ----------------------------------------------------------------------
-🎯 Use Cases
+ Use Cases
 Podcast transcription automation
 Audio content analysis
 Topic discovery in long audio files
@@ -26,7 +26,7 @@ NLP research demonstrations
 
 
 ------------------------------------------------------------------
-🌟 Benefits
+ Benefits
 Saves time compared to manual transcription
 Automatically extracts meaningful insights
 Helps in understanding large audio datasets
@@ -36,7 +36,7 @@ Modular and scalable project structure
 
 
 ---------------------------------------------------------------------
-🚀 Project Objectives
+ Project Objectives
 Convert audio files into readable text
 Clean and preprocess the transcripts
 Segment text into logical parts
@@ -46,7 +46,7 @@ Provide an interactive UI
 
 
 -----------------------------------------------------------------
-🏗️ System Architecture
+System Architecture
 Audio Input
 Raw audio files stored in audio_raw/
 Audio Cleaning
@@ -71,7 +71,7 @@ Displays audio, transcript, segments, keywords, search and visualization
 
 
 ---------------------------------------------------------------------------------
-🛠️ Tech Stack
+ Tech Stack
 Programming Language: Python
 Libraries:
 SpeechRecognition
@@ -85,7 +85,7 @@ Version Control: GitHub
 
 
 --------------------------------------------------------------------------------------
-📁 Project Folder Structure
+ Project Folder Structure
 Copy code
 
 project/
@@ -113,7 +113,7 @@ project/
 -------------------------------------------------------------
 
 streamlit run ui/app.py
-📊 Features
+Features
  Audio Playback
  Transcript Display
  Segmented Text View
