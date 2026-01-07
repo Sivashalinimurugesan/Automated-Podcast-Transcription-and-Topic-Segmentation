@@ -106,7 +106,6 @@ function App() {
   };
 
   // --- RENDER FUNCTIONS ---
-
   const renderDashboard = () => (
     <div className="main-grid view-container">
       <div className="left-panel">
@@ -296,9 +295,18 @@ function App() {
       </div>
     </div>
   );
-
-  return (
+const renderLoading = () => (
+    <div className="loading-overlay">
+      <div className="spinner"></div>
+      <div className="loading-text">Processing Audio...</div>
+      <div className="loading-subtext">Transcribing • Segmenting • Analyzing Sentiment</div>
+    </div>
+  );
+return (
     <div className="app-container">
+      {/* --- NEW: Loading Overlay Trigger --- */}
+      {loading && renderLoading()}
+
       <header className="glass-header">
         <div className="brand">AI PODCAST ANALYZER</div>
         <div className="nav-pills">
