@@ -9,12 +9,13 @@ def segment_text(text, max_sentences=5):
         segments.append(chunk)
     return segments
 
+
 def segment_transcripts(input_dir, output_dir, max_sentences=5):
     os.makedirs(output_dir, exist_ok=True)
 
     files = [f for f in os.listdir(input_dir) if f.endswith(".txt")]
     if not files:
-        print("No transcript files found in:", input_dir)
+        print("No transcript files found.")
         return
 
     for file in files:
@@ -31,8 +32,3 @@ def segment_transcripts(input_dir, output_dir, max_sentences=5):
                 f.write(f"[SEGMENT {idx}]\n{seg}\n\n")
 
         print("Segmented:", file)
-
-if __name__ == "__main__":
-    INPUT_DIR = "transcripts/asr"
-    OUTPUT_DIR = "segments"
-    segment_transcripts(INPUT_DIR, OUTPUT_DIR)
