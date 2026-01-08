@@ -14,7 +14,7 @@ def segment_transcripts(input_dir, output_dir, max_sentences=5):
 
     files = [f for f in os.listdir(input_dir) if f.endswith(".txt")]
     if not files:
-        print("No transcript files found.")
+        print("No transcript files found in:", input_dir)
         return
 
     for file in files:
@@ -35,5 +35,4 @@ def segment_transcripts(input_dir, output_dir, max_sentences=5):
 if __name__ == "__main__":
     INPUT_DIR = "transcripts/asr"
     OUTPUT_DIR = "segments"
-
     segment_transcripts(INPUT_DIR, OUTPUT_DIR)
