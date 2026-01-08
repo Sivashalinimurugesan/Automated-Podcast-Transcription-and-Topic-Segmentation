@@ -1,9 +1,10 @@
-from preprocessing import preprocess_audio
-from transcription import transcribe_audio
-from segmentation import segment_transcripts
-from summarization import summarize_segments
-from keyword_extraction import run_keyword_extraction
-from evaluate_asr import evaluate_asr
+from src.preprocessing import preprocess_audio
+from src.transcription import transcribe_audio
+from src.segmentation import segment_text
+from src.summarization import summarize_segments
+from src.keyword_extraction import run_keyword_extraction
+from src.evaluate_asr import evaluate_asr
+
 
 
 AUDIO_RAW = "audio_raw"
@@ -49,3 +50,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
