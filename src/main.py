@@ -1,10 +1,9 @@
 from src.preprocessing import preprocess_audio
 from src.transcription import transcribe_audio
-from src.segmentation import segment_text
+from src.segmentation import segment_transcripts
 from src.summarization import summarize_segments
 from src.keyword_extraction import run_keyword_extraction
 from src.evaluate_asr import evaluate_asr
-
 
 
 AUDIO_RAW = "audio_raw"
@@ -36,7 +35,11 @@ def main():
     run_keyword_extraction()
 
     print("\nStep 6: Evaluating ASR quality...")
-    evaluate_asr()
+    evaluate_asr(
+        reference_dir=REFERENCE_TRANSCRIPTS,
+        hypothesis_dir=ASR_TRANSCRIPTS,
+        output_path="results/asr_evaluation.csv"
+    )
 
     print("\n===== PIPELINE COMPLETED SUCCESSFULLY =====\n")
     print("Generated Outputs:")
@@ -44,10 +47,8 @@ def main():
     print("• Segments        → segments/")
     print("• Summaries       → transcripts/final/")
     print("• Keywords        → docs/keywords.txt")
-    print("• Evaluation      → docs/asr_evaluation.csv")
-    print("• Table           → docs/asr_evaluation_table.txt")
+    print("• Evaluation      → results/asr_evaluation.csv")
 
 
 if __name__ == "__main__":
     main()
-
