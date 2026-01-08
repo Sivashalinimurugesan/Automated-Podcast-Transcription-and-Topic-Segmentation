@@ -80,111 +80,119 @@
 
 
 
-Technology Stack
+# ```
 
-Programming Language
 
 
 
-Python 3.9+
 
 
 
-Speech-to-Text
 
 
+```
 
-OpenAI Whisper: State-of-the-art automatic speech recognition (ASR).
 
 
+---
 
-Faster Whisper: Optimized inference for faster processing.
 
 
+\### Technology Stack
 
-Audio Processing
 
 
+\*\*Programming Language\*\*
 
-Silero VAD: Voice Activity Detection to remove silence and background noise.
 
 
+\* Python 3.9+
 
-Librosa / SoundFile: For audio signal processing and I/O.
 
 
+\*\*Speech-to-Text\*\*
 
-PyTorch: Deep learning framework backend.
 
 
+\* \*\*OpenAI Whisper:\*\* State-of-the-art automatic speech recognition (ASR).
 
-Natural Language Processing
+\* \*\*Faster Whisper:\*\* Optimized inference for faster processing.
 
 
 
-NLTK: Tokenization and text processing.
+\*\*Audio Processing\*\*
 
 
 
-Transformers (Hugging Face): For abstractive summarization (BART/T5).
+\* \*\*Silero VAD:\*\* Voice Activity Detection to remove silence and background noise.
 
+\* \*\*Librosa / SoundFile:\*\* For audio signal processing and I/O.
 
+\* \*\*PyTorch:\*\* Deep learning framework backend.
 
-Scikit-learn: For semantic analysis and clustering.
 
 
+\*\*Natural Language Processing\*\*
 
-KeyBERT / YAKE: For keyword extraction.
 
 
+\* \*\*NLTK:\*\* Tokenization and text processing.
 
-Visualization and UI
+\* \*\*Transformers (Hugging Face):\*\* For abstractive summarization (BART/T5).
 
+\* \*\*Scikit-learn:\*\* For semantic analysis and clustering.
 
+\* \*\*KeyBERT / YAKE:\*\* For keyword extraction.
 
-Streamlit: Interactive web dashboard creation.
 
 
+\*\*Visualization and UI\*\*
 
-Pandas: Data manipulation and management.
 
 
+\* \*\*Streamlit:\*\* Interactive web dashboard creation.
 
-Workflow
+\* \*\*Pandas:\*\* Data manipulation and management.
 
-Audio Ingestion: Audio ingestion from local files or uploads via the interface.
 
 
+---
 
-Audio Preprocessing: Includes noise reduction and normalization using VAD.
 
 
+\### Workflow
 
-Transcription: Transcription using speech-to-text models (Whisper).
 
 
+1\. \*\*Audio Ingestion:\*\* Audio ingestion from local files or uploads via the interface.
 
-Topic Segmentation: Segmentation based on semantic similarity and pauses.
+2\. \*\*Audio Preprocessing:\*\* Includes noise reduction and normalization using VAD.
 
+3\. \*\*Transcription:\*\* Transcription using speech-to-text models (Whisper).
 
+4\. \*\*Topic Segmentation:\*\* Segmentation based on semantic similarity and pauses.
 
-Keyword Extraction: Keyword extraction and summarization for each segment.
+5\. \*\*Keyword Extraction:\*\* Keyword extraction and summarization for each segment.
 
+6\. \*\*Visualization:\*\* Visualization and browsing using a web interface.
 
 
-Visualization: Visualization and browsing using a web interface.
 
+---
 
 
-How to Run the Project
 
-1\. Setup Environment Clone the repository and install the required dependencies:
+\### How to Run the Project
 
 
 
-Bash
+\*\*1. Setup Environment\*\*
 
+Clone the repository and install the required dependencies:
 
+
+
+```bash
 
 git clone \[https://github.com/springboardmentor13579x-proj/Automated-Podcast-Transcription-and-Topic-Segmentation.git](https://github.com/springboardmentor13579x-proj/Automated-Podcast-Transcription-and-Topic-Segmentation.git)
 
@@ -192,27 +200,39 @@ cd Automated-Podcast-Transcription-and-Topic-Segmentation
 
 pip install -r requirements.txt
 
-2\. Run the Application Launch the interactive dashboard using Streamlit:
+
+
+```
 
 
 
-Bash
+\*\*2. Run the Application\*\*
+
+Launch the interactive dashboard using Streamlit:
 
 
+
+```bash
 
 streamlit run src/ui\_app.py
 
-3\. Usage
+
+
+```
 
 
 
-Open your browser to the local URL provided (usually http://localhost:8501).
+\*\*3. Usage\*\*
 
 
 
-Upload an audio file to start the pipeline.
+\* Open your browser to the local URL provided (usually `http://localhost:8501`).
+
+\* Upload an audio file to start the pipeline.
+
+\* Use the search interface to find specific topics and play audio segments.
 
 
 
-Use the search interface to find specific topics and play audio segments.
+
 
