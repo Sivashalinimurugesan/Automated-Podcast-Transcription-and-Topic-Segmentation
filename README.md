@@ -126,7 +126,7 @@ pip install -r requirements.txt
 ### Step 4: Execute the Pipeline
 
 ``` bash
-python src/main.py
+python -m src.main
 ```
 
 ------------------------------------------------------------------------
