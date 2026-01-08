@@ -1,0 +1,12 @@
+openai-whisper
+librosa
+soundfile
+numpy
+scikit-learn
+jiwer
+nltk
+streamlit
+matplotlib
+wordcloud
+yt-dlp
+youtube-transcript-api
