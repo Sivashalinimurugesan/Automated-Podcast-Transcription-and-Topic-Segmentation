@@ -135,23 +135,28 @@ python -m pytest
 
 ---
 
+Here is the corrected "Troubleshooting" section. I have fixed the indentation so that **Cause** and **Fix** appear clearly *under* each error message, which is the standard format for documentation.
+
+You can copy and paste this block directly into your `README.md`.
+
+
 ## 7. Troubleshooting
 
-* **Error: `FileNotFoundError: [WinError 2] The system cannot find the file specified**`
-* **Cause:** FFmpeg is not installed or not in your system PATH.
-* **Fix:** Install FFmpeg and restart your terminal.
-
+* **Error: `FileNotFoundError: [WinError 2] The system cannot find the file specified`**
+  * **Cause:** FFmpeg is not installed or it is not added to your system PATH.
+  * **Fix:** Install FFmpeg and restart your terminal.
 
 * **App crashes with "Out of Memory"**
-* **Cause:** The Whisper model (defaulting to "medium") is too large for your available RAM.
-* **Fix:** Open `src/transcription.py` and change the line `model_size="medium"` to `model_size="tiny"` or `model_size="base"`.
+  * **Cause:** The Whisper model (defaulting to "medium") is too large for your available RAM.
+  * **Fix:** Open `src/transcription.py` and change the line `model_size="medium"` to `model_size="tiny"` or `model_size="base"`.
+
+* **Error: `Streamlit command not found`**
+  * **Cause:** The virtual environment is not currently activated.
+  * **Fix:** Activate your environment before running the command:
+    * **Windows:** `.venv\Scripts\activate`
+    * **Mac/Linux:** `source .venv/bin/activate`
 
 
-* **Error: `Streamlit command not found**`
-* **Cause:** The virtual environment is not currently activated.
-* **Fix:** Activate your environment before running the command:
-* **Windows:** `.venv\Scripts\activate`
-* **Mac/Linux:** `source .venv/bin/activate`
 
 
 
