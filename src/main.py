@@ -19,27 +19,21 @@ FINAL_TRANSCRIPTS = "transcripts/final"
 def main():
     print("\n===== HR INTERVIEW PIPELINE STARTED =====\n")
 
-    # Step 1: Audio Preprocessing
     print("Step 1: Preprocessing audio...")
     preprocess_audio(AUDIO_RAW, AUDIO_PROCESSED)
 
-    # Step 2: Transcription
     print("\nStep 2: Transcribing audio with Whisper...")
     transcribe_audio(AUDIO_PROCESSED, ASR_TRANSCRIPTS)
 
-    # Step 3: Segmentation
     print("\nStep 3: Segmenting transcripts...")
     segment_transcripts(ASR_TRANSCRIPTS, SEGMENTS_DIR)
 
-    # Step 4: Summarization
     print("\nStep 4: Summarizing segments...")
     summarize_segments()
 
-    # Step 5: Keyword Extraction
     print("\nStep 5: Extracting keywords...")
     run_keyword_extraction()
 
-    # Step 6: ASR Evaluation
     print("\nStep 6: Evaluating ASR quality...")
     evaluate_asr()
 
