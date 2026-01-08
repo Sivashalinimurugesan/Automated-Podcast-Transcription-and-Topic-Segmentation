@@ -1,0 +1,16 @@
+# Ignore audio and large files
+*.wav
+*.mp3
+*.flac
+
+# Ignore generated data
+audio_raw/
+audio_processed/
+transcripts/
+segments/
+results/
+docs/
+
+# Ignore test media
+tests/*.wav
+tests/*.mp3
