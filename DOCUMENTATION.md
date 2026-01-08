@@ -58,7 +58,8 @@ cd Automated-Podcast-Transcription-and-Topic-Segmentation
 
 2. **Backend Configuration:**
 ```bash
-cd server
+cd Automated-Podcast-Transcription-and-Topic-Segmentation
+cd src\backend
 pip install -r requirements.txt
 python server.py
 
@@ -68,7 +69,8 @@ python server.py
 *Server runs on: `http://127.0.0.1:5000*`
 3. **Frontend Configuration:**
 ```bash
-cd client
+cd Automated-Podcast-Transcription-and-Topic-Segmentation
+cd src\frontend
 npm install
 npm run dev
 

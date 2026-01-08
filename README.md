@@ -74,7 +74,9 @@ cd Automated-Podcast-Transcription-and-Topic-Segmentation
 
 
 # Backend Setup(Python)
-cd server
+cd Automated-Podcast-Transcription-and-Topic-Segmentation
+cd src\backend
+python server.py
 # Create a virtual environment (Optional but recommended)
 python -m venv venv
 # Windows: venv\Scripts\activate
@@ -87,7 +89,8 @@ pip install -r requirements.txt
 python server.py
 
 # Frontend Setup(React)
-cd client
+cd Automated-Podcast-Transcription-and-Topic-Segmentation
+cd src\frontend
 npm install
 npm run dev
 ```
