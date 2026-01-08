@@ -78,23 +78,36 @@ This project addresses that challenge by:
 ##  Project Structure
 
 ```text
-Automated-Medical-Podcast-Transcription
+Automated-Medical-Podcast-Transcription & Topic Segmentation
+│
 ├── audio_raw/                          # Original uploaded podcast audio files
 ├── audio_processed/                    # Preprocessed / cleaned audio files
 ├── segments_keywordExtract_summary/    # Generated segments, keywords & summaries
+├── transcripts/                        # Final transcript text files (.txt)
+│
 ├── src/                                # Core processing scripts
 │   ├── preprocessing.py                # Audio preprocessing logic
 │   ├── transcription.py                # Whisper-based transcription module
 │   └── segmentation_keywordExtract_Summary.py
 │                                        # Segmentation, keyword extraction & summary
-├── transcripts/                        # Final transcript text files (.txt)
+│
+├── tests/                              # Unit & integration tests
+│   ├── test_preprocessing.py           # Tests for audio preprocessing
+│   ├── test_transcription.py           # Tests for Whisper transcription
+│   ├── test_segmentation.py            # Tests for transcript segmentation
+│   ├── test_keyword_extraction.py      # Tests for keyword extraction
+│   ├── test_keyword_cloud.py           # Tests for keyword cloud generation
+│   ├── test_summary.py                 # Tests for summary generation
+│   ├── test_sentiment.py               # Tests for sentiment analysis
+│   └── __init__.py
+│
+├── app.py                              # Main Streamlit application
+├── config.py                           # Centralized configuration & paths
+├── requirements.txt                    # Python dependencies
 ├── .env.example                        # Environment variable template
 ├── .gitignore                          # Git ignore rules
 ├── LICENSE                             # License information
 ├── README.md                           # Project documentation
-├── app.py                              # Main Streamlit application
-└── config.py                           # Centralized configuration & paths
-
 
 ```
 # Workflow
