@@ -80,3 +80,31 @@ def test_detect_speaker_fallback():
     text = "This is just a neutral sentence without clear context."
     speaker = detect_speaker(text)
     assert speaker in ["Narrator", "Interviewer", "Candidate"]
+
+def test_empty_input():
+    assert sentence_based_segments("") == []
+    assert summarize_text("") == ""
+    assert detect_speaker("") == "Narrator"
+
+
+def test_short_text_segmentation():
+    text = "Hello! How are you?"
+    segments = sentence_based_segments(text)
+    assert len(segments) == 2
+
+
+def test_speaker_detection_interviewer():
+    text = "Why do you want this job?"
+    assert detect_speaker(text) == "Interviewer"
+
+
+def test_speaker_detection_candidate():
+    text = "I want to grow in my career and learn new skills."
+    assert detect_speaker(text) == "Candidate"
+
+
+def test_summarize_length():
+    text = "This is sentence one. This is sentence two. This is sentence three."
+    summary = summarize_text(text, n_sentences=2)
+    assert len(summary.split(".")) <= 3
+

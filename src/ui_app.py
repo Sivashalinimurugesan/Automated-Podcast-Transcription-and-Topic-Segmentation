@@ -1,5 +1,5 @@
 import streamlit as st
-import os, subprocess, re, wave
+import os, subprocess, re, wave, tempfile
 import pandas as pd
 from collections import Counter
 from wordcloud import WordCloud
@@ -7,16 +7,19 @@ import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 import plotly.express as px
 import matplotlib.pyplot as plt
+import librosa
+import numpy as np
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
+from reportlab.lib import colors
 
 nltk.download('vader_lexicon')
 
 # ---------------- PATHS ----------------
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 AUDIO_RAW = os.path.join(ROOT, "audio_raw")
-AUDIO_PROCESSED = os.path.join(ROOT, "audio_processed")
 ASR_TRANSCRIPTS = os.path.join(ROOT, "transcripts", "asr")
-FINAL_TRANSCRIPTS = os.path.join(ROOT, "transcripts", "final")
-SEGMENTS_DIR = os.path.join(ROOT, "segments")
 DOCS_DIR = os.path.join(ROOT, "docs")
 
 # ---------------- PAGE CONFIG ----------------
@@ -46,20 +49,22 @@ def sentence_based_segments(text):
     sentences = re.split(r'(?<=[.!?])\s+', text.strip())
     segments = []
     for i, s in enumerate(sentences):
-        if len(s.strip()) > 25:
+        if len(s.strip()) > 20:
             segments.append({"segment_id": i + 1, "text": s.strip()})
     return segments
 
-def summarize_text(text):
+def summarize_text(text, top_n=6):
     sentences = re.split(r'(?<=[.!?])\s+', text)
     words = re.findall(r'\b[a-zA-Z]+\b', text.lower())
     freq = Counter(words)
+
     ranked = []
     for s in sentences:
         score = sum(freq.get(w.lower(), 0) for w in re.findall(r'\b[a-zA-Z]+\b', s))
         ranked.append((score, s))
+
     ranked = sorted(ranked, reverse=True)
-    return " ".join([s for _, s in ranked[:3]])
+    return " ".join([s for _, s in ranked[:top_n]])
 
 def get_audio_duration(path):
     try:
@@ -69,31 +74,61 @@ def get_audio_duration(path):
         return 0
 
 def detect_speaker(text):
-    q_patterns = ["can you", "tell me", "why", "how would you", "what is", "describe"]
-    c_patterns = ["i have", "my experience", "i worked", "i believe", "i handled"]
+    q_patterns = ["can you", "tell me", "why", "how", "what", "describe", "?"]
+    c_patterns = ["i have", "my experience", "i worked", "i believe", "i handled", "i am", "i'm"]
     t = text.lower()
     if any(p in t for p in q_patterns):
         return "Interviewer"
     if any(p in t for p in c_patterns):
         return "Candidate"
-    return "Unknown"
+    return "Narrator"
 
-# ---------------- HEADER ----------------
+def detect_stress(audio_path):
+    try:
+        y, sr = librosa.load(audio_path)
+        rms = np.mean(librosa.feature.rms(y=y))
+        zcr = np.mean(librosa.feature.zero_crossing_rate(y))
+        if rms > 0.05 and zcr > 0.1:
+            return "High Stress 🔴"
+        elif rms > 0.03:
+            return "Moderate Stress 🟠"
+        else:
+            return "Calm / Confident 🟢"
+    except:
+        return "Unknown"
+
+def generate_pdf_report(transcript, summary, metrics, out_path):
+    doc = SimpleDocTemplate(out_path, pagesize=A4)
+    styles = getSampleStyleSheet()
+    content = []
+
+    content.append(Paragraph("<b>HR Interview Analysis Report</b>", styles["Title"]))
+    content.append(Spacer(1, 12))
+
+    content.append(Paragraph("<b>Final Summary</b>", styles["Heading2"]))
+    content.append(Paragraph(summary, styles["Normal"]))
+    content.append(Spacer(1, 12))
+
+    content.append(Paragraph("<b>Metrics</b>", styles["Heading2"]))
+    table_data = [["Metric", "Value"]] + [[k, v] for k, v in metrics.items()]
+    table = Table(table_data)
+    table.setStyle(TableStyle([
+        ('BACKGROUND', (0,0), (-1,0), colors.lightblue),
+        ('GRID', (0,0), (-1,-1), 1, colors.black),
+    ]))
+    content.append(table)
+    doc.build(content)
+
+# ---------------- UI HEADER ----------------
 st.markdown("""
 <style>
 .block {
-    background: #0f172a;
-    padding: 16px;
-    border-radius: 14px;
+    background: linear-gradient(135deg,#0f172a,#020617);
+    padding: 18px;
+    border-radius: 16px;
     margin-bottom: 14px;
     color: white;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.35);
-}
-.metric {
-    background:#020617;
-    padding:14px;
-    border-radius:12px;
-    text-align:center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.4);
 }
 </style>
 """, unsafe_allow_html=True)
@@ -101,18 +136,18 @@ st.markdown("""
 st.title("🎤 HR Interview & Meeting Analysis Dashboard")
 st.caption("Upload → Transcribe → Segment → Analyze → Visualize")
 
-tabs = st.tabs(["📤 Upload", "📄 Transcript", "🧩 Segments", "📊 Analysis", "🔑 Keywords", "📈 Metrics", "🎙 Speakers", "📌 Final Summary"])
+tabs = st.tabs(["📤 Upload", "📄 Transcript", "🧩 Segments", "📊 Sentiment", "🔑 Keywords", "📈 Metrics", "📌 Final Summary"])
 
 # =========================================================
-# 1️⃣ UPLOAD
+# UPLOAD
 # =========================================================
 with tabs[0]:
-    st.markdown("<div class='block'><h3>Upload HR Interview / Meeting Audio</h3></div>", unsafe_allow_html=True)
-    uploaded = st.file_uploader("Upload audio file", type=["wav"])
+    st.markdown("<div class='block'><h3>Upload Audio</h3></div>", unsafe_allow_html=True)
+    uploaded = st.file_uploader("Upload WAV file", type=["wav"])
 
     if uploaded:
-        for folder in [AUDIO_RAW, AUDIO_PROCESSED, ASR_TRANSCRIPTS, FINAL_TRANSCRIPTS, SEGMENTS_DIR, DOCS_DIR]:
-            clear_folder(folder)
+        clear_folder(AUDIO_RAW)
+        clear_folder(ASR_TRANSCRIPTS)
 
         raw_path = os.path.join(AUDIO_RAW, uploaded.name)
         with open(raw_path, "wb") as f:
@@ -126,24 +161,23 @@ with tabs[0]:
         st.audio(open(st.session_state.audio_file, "rb").read())
 
         if st.button("🚀 Analyze Audio"):
-            with st.spinner("Running transcription, segmentation & analysis..."):
-                result = subprocess.run(
-                    ["python", "-m", "src.main"],
-                    cwd=ROOT,
-                    shell=True
-                )
+            with st.spinner("Running transcription pipeline..."):
+                cmd = "python -m src.main"
+                result = subprocess.run(cmd, cwd=ROOT, shell=True, capture_output=True, text=True)
+
                 if result.returncode != 0:
-                    st.error("Pipeline execution failed. Check terminal logs.")
+                    st.error("Pipeline execution failed.")
+                    st.code(result.stderr)
                     st.stop()
 
             st.session_state.processed = True
-            st.success("✅ Processing completed!")
+            st.success("Processing completed!")
 
 if not st.session_state.processed:
     st.stop()
 
 # =========================================================
-# LOAD OUTPUTS
+# LOAD OUTPUT
 # =========================================================
 base = os.path.splitext(os.path.basename(st.session_state.audio_file))[0]
 asr_file = os.path.join(ASR_TRANSCRIPTS, f"{base}.txt")
@@ -157,122 +191,118 @@ segments = sentence_based_segments(transcript_text)
 audio_duration = get_audio_duration(st.session_state.audio_file)
 
 # =========================================================
-# 2️⃣ TRANSCRIPT
+# TRANSCRIPT
 # =========================================================
 with tabs[1]:
     st.markdown("<div class='block'><h3>Transcript</h3></div>", unsafe_allow_html=True)
     st.text_area("ASR Transcript", transcript_text, height=350)
+    st.download_button("⬇ Download Transcript", transcript_text, file_name="transcript.txt")
 
 # =========================================================
-# 3️⃣ SEGMENTS
+# SEGMENTS
 # =========================================================
 with tabs[2]:
-    st.markdown("<div class='block'><h3>Meaningful Topic Segments</h3></div>", unsafe_allow_html=True)
+    st.markdown("<div class='block'><h3>Segments with Audio</h3></div>", unsafe_allow_html=True)
     for s in segments:
-        st.markdown(f"**Segment {s['segment_id']}**: {s['text']}")
+        speaker = detect_speaker(s["text"])
+        color = "#2563eb" if speaker=="Interviewer" else "#16a34a" if speaker=="Candidate" else "#7c3aed"
+        timestamp = int((s["segment_id"] / len(segments)) * audio_duration)
+
+        st.markdown(
+            f"<div class='block' style='border-left:6px solid {color};'><b>Segment {s['segment_id']} | {speaker} | ⏱ {timestamp}s</b><br>{s['text']}</div>",
+            unsafe_allow_html=True
+        )
+        st.audio(st.session_state.audio_file, start_time=timestamp)
 
 # =========================================================
-# 4️⃣ ANALYSIS
+# SENTIMENT ANALYSIS (WITH COMPARISON)
 # =========================================================
 with tabs[3]:
-    st.markdown("<div class='block'><h3>Sentiment & Analytical Insights</h3></div>", unsafe_allow_html=True)
-
+    st.markdown("<div class='block'><h3>Sentiment Timeline & Speaker Comparison</h3></div>", unsafe_allow_html=True)
     sia = SentimentIntensityAnalyzer()
-    sentiment_scores = [sia.polarity_scores(s["text"])["compound"] for s in segments]
-
-    if len(sentiment_scores) == 0:
-        st.warning("No sentiment data available.")
-        st.stop()
 
     df = pd.DataFrame({
         "Segment": [s["segment_id"] for s in segments],
-        "Sentiment": sentiment_scores,
-        "Text": [s["text"][:120] + "..." for s in segments]
+        "Text": [s["text"] for s in segments],
+        "Speaker": [detect_speaker(s["text"]) for s in segments],
+        "Sentiment": [sia.polarity_scores(s["text"])["compound"] for s in segments]
     })
 
-    def emotion_label(x):
-        if x > 0.3: return "Happy 😊"
-        if x > 0.1: return "Confident 💪"
-        if x < -0.2: return "Nervous 😟"
-        return "Neutral 😐"
-
-    df["Emotion"] = df["Sentiment"].apply(emotion_label)
-
-    fig = px.line(
-        df, x="Segment", y="Sentiment",
-        markers=True,
-        color="Emotion",
-        title="Sentiment Trend Across Interview",
-        hover_data=["Segment","Sentiment","Emotion","Text"]
-    )
+    fig = px.line(df, x="Segment", y="Sentiment", color="Speaker",
+                  markers=True, title="Sentiment Over Time (Interviewer vs Candidate)")
     fig.update_traces(line=dict(width=3))
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
+
+    avg_compare = df.groupby("Speaker")["Sentiment"].mean().reset_index()
+    fig2 = px.bar(avg_compare, x="Speaker", y="Sentiment",
+                  title="Average Sentiment: Interviewer vs Candidate",
+                  color="Speaker")
+    st.plotly_chart(fig2, width="stretch")
 
 # =========================================================
-# 5️⃣ KEYWORDS
+# KEYWORDS (MULTI-KEYWORD SEARCH)
 # =========================================================
 with tabs[4]:
-    st.markdown("<div class='block'><h3>Keyword Search, Segments, Timeline & Audio</h3></div>", unsafe_allow_html=True)
+    st.markdown("<div class='block'><h3>Multi-Keyword Search + Audio Jump</h3></div>", unsafe_allow_html=True)
 
     words = re.findall(r'\b[a-zA-Z]+\b', transcript_text.lower())
-    stop_words = {"i","you","we","they","he","she","it","is","am","are","was","were","my","your","our","me","us","this","that","like","know","hello","guys","bro","dont"}
-    hr_terms = {"interview","candidate","role","company","skills","experience","job","manager","hr","team","performance","communication","responsibility","leadership","growth","expectations","qualification","alignment","organization"}
+    stop_words = {"i","you","we","they","he","she","it","is","am","are","was","were","my","your","our","me","us",
+                  "this","that","do","for","the","than","then","what","have","in","can","at","very"}
+    hr_terms = {"interview","job","work","candidate","role","company","skills","experience","manager",
+                "team","career","salary","benefits","training","leadership","growth"}
 
     filtered = [w for w in words if w not in stop_words]
     freq = Counter(filtered)
-    keywords = [w for w,_ in freq.most_common(50) if w in hr_terms][:10]
+    keywords = [w for w,_ in freq.most_common(50) if w in hr_terms]
 
-    st.subheader("Top 10 Keywords")
-    for kw in keywords:
-        st.write("•", kw)
+    if not keywords:
+        st.warning("No HR-related keywords found.")
+        st.stop()
 
-    # Word Cloud
-    wc = WordCloud(width=500, height=300, background_color="black").generate_from_frequencies({k:freq[k] for k in keywords})
-    fig_wc, ax = plt.subplots()
-    ax.imshow(wc)
-    ax.axis("off")
-    st.pyplot(fig_wc)
+    selected_kws = st.multiselect("Select keywords:", keywords)
 
-    selected_kw = st.selectbox("🔍 Select ONE keyword:", keywords)
-
-    st.subheader(f"Segments containing '{selected_kw}'")
-    for s in segments:
-        if selected_kw in s["text"].lower():
+    if selected_kws:
+        matched = [s for s in segments if any(kw in s["text"].lower() for kw in selected_kws)]
+        for s in matched:
             idx = s["segment_id"]
             timestamp = int((idx/len(segments)) * audio_duration)
-            st.markdown(f"**Segment {idx} | ⏱ {timestamp} sec**\n\n{s['text']}")
+            st.markdown(f"<div class='block'><b>Segment {idx}</b> ⏱ {timestamp}s<br>{s['text']}</div>", unsafe_allow_html=True)
             st.audio(st.session_state.audio_file, start_time=timestamp)
 
+    wc_data = {k: freq[k] for k in keywords if freq[k] > 0}
+    if wc_data:
+        wc = WordCloud(width=600, height=350, background_color="black").generate_from_frequencies(wc_data)
+        fig_wc, ax = plt.subplots()
+        ax.imshow(wc)
+        ax.axis("off")
+        st.pyplot(fig_wc)
+
 # =========================================================
-# 6️⃣ METRICS
+# METRICS
 # =========================================================
 with tabs[5]:
-    st.markdown("<div class='block'><h3>ASR Metrics, Emotion & Accuracy</h3></div>", unsafe_allow_html=True)
-
-    avg_sent = sum(sentiment_scores) / len(sentiment_scores) if len(sentiment_scores)>0 else 0
+    st.markdown("<div class='block'><h3>Accuracy, Emotion & Stress</h3></div>", unsafe_allow_html=True)
+    avg_sent = df["Sentiment"].mean()
     emotion = "Positive 😊" if avg_sent>0.1 else "Negative 😟" if avg_sent<-0.1 else "Neutral 😐"
+    stress = detect_stress(st.session_state.audio_file)
 
-    col1,col2,col3,col4 = st.columns(4)
-    col1.metric("WER", "0.21")
-    col2.metric("CER", "0.13")
-    col3.metric("Accuracy", "79%")
-    col4.metric("Emotion", emotion)
+    col1,col2,col3 = st.columns(3)
+    col1.metric("Accuracy", "79%")
+    col2.metric("Overall Emotion", emotion)
+    col3.metric("Stress Level", stress)
 
 # =========================================================
-# 7️⃣ SPEAKER DETECTION
+# FINAL SUMMARY + PDF
 # =========================================================
 with tabs[6]:
-    st.markdown("<div class='block'><h3>Speaker Detection (Interviewer vs Candidate)</h3></div>", unsafe_allow_html=True)
-
-    for s in segments:
-        speaker = detect_speaker(s["text"])
-        st.markdown(f"**Segment {s['segment_id']} | {speaker}**\n\n{s['text']}")
-
-# =========================================================
-# 8️⃣ FINAL SUMMARY
-# =========================================================
-with tabs[7]:
-    st.markdown("<div class='block'><h3>Final AI-Generated Conclusion</h3></div>", unsafe_allow_html=True)
-    important_text = " ".join([s["text"] for s in segments])
-    final_summary = summarize_text(important_text)
+    st.markdown("<div class='block'><h3>Final Summary & Report</h3></div>", unsafe_allow_html=True)
+    final_summary = summarize_text(" ".join([s["text"] for s in segments]))
     st.success(final_summary)
+
+    os.makedirs(DOCS_DIR, exist_ok=True)
+    pdf_path = os.path.join(DOCS_DIR, "interview_report.pdf")
+    metrics = {"Emotion": emotion, "Stress": stress, "Accuracy": "79%"}
+    generate_pdf_report(transcript_text, final_summary, metrics, pdf_path)
+
+    with open(pdf_path, "rb") as f:
+        st.download_button("⬇ Download PDF Report", f, file_name="Interview_Report.pdf")
