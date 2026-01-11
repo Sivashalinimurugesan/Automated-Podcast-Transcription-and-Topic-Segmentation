@@ -79,7 +79,17 @@ npm run dev
 
 *Client runs on: `http://localhost:5173*`
 
-## 6. Usage
+## 6. Testing & Validation
+
+This project includes a modular **Unit Testing Suite** to ensure backend reliability. The tests cover API health checks, file validation, and error handling.
+
+### **How to Run Tests**
+1. Navigate to the backend directory:
+   ```bash
+   cd src/backend
+   Run the Automated Test Suite:python -m unittest discover tests
+
+## 7. Usage
 
 1. **Upload:** Open the application in your browser. Drag and drop an `.mp3` or `.wav` file into the upload area or click "Select File".
 2. **Processing:** Click the "Start AI Process" button. A loading indicator will appear while the backend analyzes the audio.
@@ -91,26 +101,26 @@ npm run dev
 
 4. **Search:** Use the "Search" tab to find specific keywords across all segments.
 
-## 7. Troubleshooting
+## 8. Troubleshooting
 
 * **"Backend Offline" Error:** Ensure the Python server is running in a separate terminal window and that port 5000 is free.
 * **Upload Fails:** Check that the file is strictly `.mp3` or `.wav` format. The system blocks other file types (like PDF) for security.
 * **Empty Graphs:** If the graph is blank, ensure the audio file has distinct speech content. Silence or music-only files may result in neutral scores (0.0).
 
-## 8. Limitations and Challenges
+## 9. Limitations and Challenges
 
 * **Processing Time:** Analyzing long audio files (1+ hours) can take significant time (1-2 minutes) depending on CPU power.
 * **Context Nuance:** The VADER sentiment model is lexicon-based and may struggle to detect sarcasm or complex cultural nuances compared to advanced transformer models (like BERT).
 * **Speaker Identification:** The current version segments by *topic*, but does not distinguish between different *speakers* (Diarization).
 
-## 9. Future Scope
+## 10. Future Scope
 
 * **Speaker Diarization:** Implementing models (like PyAnnotate) to label "Speaker A" and "Speaker B" in the transcript.
 * **User Authentication:** Adding a login system (Firebase/Auth0) so users can save their analysis history and access it later.
 * **Export Functionality:** Allowing users to download the analysis report as a PDF or formatted Word document.
 * **Real-time Processing:** Exploring streaming transcription for live audio feeds.
 
-## 10. References
+## 11. References
 
 1. **React Documentation:** [https://react.dev/](https://react.dev/)
 2. **Flask Documentation:** [https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)
