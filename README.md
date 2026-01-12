@@ -1,6 +1,6 @@
 # Automated Podcast Transcription and Topic Segmentation
 
-## 📌 Project Overview
+##Project Overview
 
 The **Automated Podcast Transcription & Topic Segmentation** project aims to build an end-to-end AI system that can:
 
@@ -15,7 +15,7 @@ This project focuses on applying **AI, Speech Processing, NLP, and ML engineerin
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 ### 1. Transcription (Speech-to-Text)
 - Convert long podcast audio files into text using ASR models.
@@ -41,7 +41,7 @@ Generate per-topic:
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ```
 Audio Input 
@@ -60,7 +60,7 @@ Audio Input
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Core
 - Python 3.9+
@@ -84,7 +84,7 @@ Audio Input
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 Podcast_Transcription1/
@@ -117,7 +117,7 @@ Podcast_Transcription1/
 
 ---
 
-## ⚙ Installation & Setup
+## Installation & Setup
 
 ### Clone Project
 ```bash
@@ -143,7 +143,7 @@ pip install flask transformers torch torchaudio sentence-transformers textblob k
 
 ---
 
-## 🚀 Run Pipeline
+## Run Pipeline
 
 ```bash
 # Step 1: Transcribe
@@ -167,17 +167,17 @@ Open browser:
 
 ---
 
-## 📂 Dataset Access
+## Dataset Access
 Due to the large size of the audio files, the dataset is hosted externally.
 
-**📥 [https://drive.google.com/drive/folders/1ObaGoyfMw8_Wtvy7xw5lMRNIJI30Z7gh?usp=drive_link] 
+** [https://drive.google.com/drive/folders/1ObaGoyfMw8_Wtvy7xw5lMRNIJI30Z7gh?usp=drive_link] 
 
 ### **Setup Instructions**
 1. Download the dataset from the link above.
 2. Extract the folder.
 3. Place the audio files in a folder named `audio_raw` inside the project root.
 
-**📥 [https://drive.google.com/drive/folders/1yN69e6oQ2PJtBvhJ90a-YYtRfbIz7vcW?usp=drive_link] 
+**[https://drive.google.com/drive/folders/1yN69e6oQ2PJtBvhJ90a-YYtRfbIz7vcW?usp=drive_link] 
 
 ### **Setup Instructions**
 1. Download the processed dataset from the link above.
