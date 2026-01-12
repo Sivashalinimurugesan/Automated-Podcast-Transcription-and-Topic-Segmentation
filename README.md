@@ -169,6 +169,98 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 ├── requirements.txt
 └── .env.example
 ```
+## Usage
+
+Follow the steps below to set up and run the Automated Medical Podcast Transcription and Topic Segmentation application locally.
+
+### Prerequisites
+- Python 3.9 or higher
+- Node.js 16+ (for frontend UI)
+- Git
+- FFmpeg (required for audio processing)
+
+---
+
+### 1. Clone the Repository
+
+git clone https://github.com/<username>/Automated-Podcast-Transcription-and-Topic-Segmentation.git
+
+cd Automated-Podcast-Transcription-and-Topic-Segmentation
+
+---
+
+### 2. Create and Activate Virtual Environment (Recommended)
+
+python -m venv venv
+
+Windows:
+venv\Scripts\activate
+
+Linux / macOS:
+source venv/bin/activate
+
+---
+
+### 3. Install Backend Dependencies
+
+pip install -r requirements.txt
+
+---
+
+### 4. Configure Environment Variables
+
+Create a .env file using the provided example:
+
+cp .env.example .env
+
+Update required API keys or configuration values inside the .env file.
+
+---
+
+### 5. Run the Backend Application
+
+Start the Flask backend server:
+
+python app.py
+
+The backend initializes audio preprocessing, transcription, topic segmentation, keyword extraction, sentiment analysis, and quality evaluation modules.
+
+---
+
+### 6. Run the Frontend UI (Optional)
+
+Navigate to the frontend directory:
+
+cd ui_app
+
+Install frontend dependencies:
+
+npm install
+
+Start the React development server:
+
+npm start
+
+The application UI will be available at:
+
+http://localhost:3000
+
+---
+
+### 7. Output and Results
+
+- Generated transcripts, topic segments, keywords, sentiment scores, and quality metrics are stored in the Inference/ directory.
+- Outputs are saved in structured formats such as JSON and CSV for further analysis and visualization.
+
+---
+
+### UI Preview
+
+![UI Landing Page](docs/ui_landing_page.png)
+
+Place the screenshot inside the docs/ folder of the repository.
+
+
 ## Testing and Validation (Recently Added)
 
 Comprehensive **Pytest-based unit testing** has been added to validate the reliability and correctness of the backend modules without altering the core application logic.
