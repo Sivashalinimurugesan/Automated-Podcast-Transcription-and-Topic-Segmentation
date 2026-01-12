@@ -1,66 +1,40 @@
-import os
-import glob
-from faster_whisper import WhisperModel
+import whisper
+import re
 
-# -----------------------------
-# SETTINGS
-# -----------------------------
-INPUT_DIR = r"D:\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_preprocessed"
-OUTPUT_DIR = r"D:\Automated-Podcast-Transcription-and-Topic-Segmentation\transcripts"
+model = whisper.load_model("base")
 
-MODEL_SIZE = "small"        # tiny | base | small | medium | large-v2
-DEVICE = "cpu"              # "cuda" if NVIDIA GPU available
-COMPUTE_TYPE = "int8"       # CPU: int8 | GPU: float16
+def summarize_text(text, max_sentences=4):
+    if not text:
+        return ""
 
+    # Proper sentence splitting
+    sentences = re.split(r'(?<=[.!?])\s+', text.strip())
 
-# -----------------------------
-# MAIN
-# -----------------------------
-def main():
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    summary_sentences = sentences[:max_sentences]
+    summary = " ".join(summary_sentences).strip()
 
-    wav_files = glob.glob(os.path.join(INPUT_DIR, "*.wav"))
+    # Ensure clean ending
+    if summary and summary[-1] not in ".!?":
+        summary += "."
 
-    if not wav_files:
-        raise RuntimeError("No WAV files found in input directory")
-
-    print(f"[INFO] Found {len(wav_files)} WAV files")
-
-    print(f"[INFO] Loading Faster-Whisper model: {MODEL_SIZE}")
-    model = WhisperModel(
-        MODEL_SIZE,
-        device=DEVICE,
-        compute_type=COMPUTE_TYPE
-    )
-
-    for wav_path in wav_files:
-        filename = os.path.splitext(os.path.basename(wav_path))[0]
-        output_txt = os.path.join(OUTPUT_DIR, f"{filename}.txt")
-
-        print(f"[INFO] Transcribing: {filename}.wav")
-
-        try:
-            segments, info = model.transcribe(
-                wav_path,
-                beam_size=5,
-                language="en"
-            )
-
-            transcript = " ".join(segment.text for segment in segments)
-
-            with open(output_txt, "w", encoding="utf-8") as f:
-                f.write(transcript.strip())
-
-            print(f"[OK] Saved: {output_txt}")
-
-        except Exception as e:
-            print(f"[ERROR] Failed {filename}: {e}")
-
-    print("\n[INFO] All transcriptions completed.")
+    return summary
 
 
-# -----------------------------
-# RUN
-# -----------------------------
-if __name__ == "__main__":
-    main()
+def transcribe_audio(audio_path):
+    result = model.transcribe(audio_path, fp16=False)
+
+    segments = []
+    for seg in result["segments"]:
+        segments.append({
+            "start": seg["start"],
+            "end": seg["end"],
+            "text": seg["text"].strip()
+        })
+
+    full_text = " ".join(s["text"] for s in segments)
+
+    return {
+        "full_text": full_text,
+        "summary": summarize_text(full_text),
+        "segments": segments
+    }
