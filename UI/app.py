@@ -155,11 +155,19 @@ def keyword_insights():
     neu = len(SEGMENTS) - pos - neg
 
     return f"""
+<<<<<<< HEAD
 ### 🔍 Overall Insights
 - 🟢 Positive Segments: **{pos}**
 - 🟡 Neutral Segments: **{neu}**
 - 🔴 Negative Segments: **{neg}**
 - 🔑 Keywords Extracted: **{len(KEYWORDS)}**
+=======
+###  insights
+- 🟢 Positive: **{pos}**
+- 🟡 Neutral: **{neu}**
+- 🔴 Negative: **{neg}**
+- 🔑 Keywords: **{len(KEYWORDS)}**
+>>>>>>> 2bedf9c27f319dbc27d8fd0a0097928fd81dfed7
 """
 
 # ================= SENTIMENT TIMELINE =================
