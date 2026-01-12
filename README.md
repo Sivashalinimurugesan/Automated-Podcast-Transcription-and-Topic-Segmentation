@@ -132,19 +132,19 @@ For each topic segment:
 ```
 Automated-Medical-Podcast-Transcription/
 │
-├── Data/                           # Audio datasets (not committed)
-│   ├── audio_raw/                 # Original podcast audio files
-│   └── audio_processed/           # Cleaned audio files
+├── Data/                          
+│   ├── audio_raw/                 
+│   └── audio_processed/           
 │
-├── src/                            # Backend processing logic
-│   ├── preprocessing.py           # Audio preprocessing
-│   ├── transcription.py           # Speech-to-text transcription
-│   ├── segmentation.py            # Topic segmentation logic
-│   ├── summarization.py           # Segment summarization
-│   ├── keyword_extraction.py      # Medical keyword extraction
-│   └── evaluation_summary.py      # Result evaluation
+├── src/                            
+│   ├── preprocessing.py           
+│   ├── transcription.py           
+│   ├── segmentation.py            
+│   ├── summarization.py           
+│   ├── keyword_extraction.py      
+│   └── evaluation_summary.py      
 │
-├── frontend/                       # React frontend UI
+├── frontend/                       
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
@@ -159,14 +159,14 @@ Automated-Medical-Podcast-Transcription/
 │   ├── package.json
 │   └── package-lock.json
 │
-├── Inference/                      # Generated outputs (not committed)
+├── Inference/                      
 │   ├── transcripts/
 │   ├── segments/
 │   └── keywords/
 │
-├── notebooks/                      # Experiments and analysis
-├── docs/                           # Documentation
-├── tests/                          # Test cases
+├── notebooks/                      
+├── docs/                          
+├── tests/                          
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
