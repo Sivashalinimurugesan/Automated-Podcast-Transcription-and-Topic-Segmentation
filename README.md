@@ -255,7 +255,7 @@ Place the screenshot inside the docs/ folder of the repository.
 
 
 
-## Testing and Validation (Recently Added)
+## Testing and Validation 
 
 Comprehensive **Pytest-based unit testing** has been added to validate the reliability and correctness of the backend modules without altering the core application logic.
 
