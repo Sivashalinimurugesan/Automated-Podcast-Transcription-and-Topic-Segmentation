@@ -51,7 +51,7 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 │   ├── summarization.py     # Text summarization
 │   └── keyword_extraction.py # Keyword extraction
 
-
+ ```
 
 🛠️ Technology Stack
 
@@ -78,7 +78,7 @@ Natural Language Processing
 Data Handling
  JSON
  OS / Glob utilities
- ```
+
  
  🔄 Workflow
 
