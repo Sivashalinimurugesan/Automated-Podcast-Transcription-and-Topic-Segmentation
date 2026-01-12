@@ -106,11 +106,10 @@ Podcast_Transcription1/
 │       │   ├── index.html      # Homepage UI
 │       │   └── player.html     # Transcript Player
 │       └── app.py              # Flask server entrypoint
-│
-├── main.py                     # Step 1: Transcription
-├── run_segmentation.py         # Step 2: Topic Segmentation
-├── run_processing.py           # Step 3: Summary & Keywords
-├── evaluate_accuracy.py        # WER evaluation
+│   ├── run_segmentation.py     #Topic Segmentation
+│   ├── run_processing.py       # Summary & Keywords
+│   ├── evaluate_accuracy.py    # WER evaluation
+├── main.py                     # Transcription
 ├── requirements.txt            # Dependencies
 └── README.md                   # Project documentation
 ```
