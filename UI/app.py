@@ -156,12 +156,15 @@ def keyword_insights():
 
     return f"""
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 🔍 Overall Insights
 - 🟢 Positive Segments: **{pos}**
 - 🟡 Neutral Segments: **{neu}**
 - 🔴 Negative Segments: **{neg}**
 - 🔑 Keywords Extracted: **{len(KEYWORDS)}**
 =======
+=======
+>>>>>>> 2bedf9c27f319dbc27d8fd0a0097928fd81dfed7
 ###  insights
 - 🟢 Positive: **{pos}**
 - 🟡 Neutral: **{neu}**
