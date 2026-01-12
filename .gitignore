@@ -1,12 +1,28 @@
-# Ignore audio and large files
-*.wav
-*.mp3
-*.flac
-
-# Ignore test media
-tests/*.wav
-tests/*.mp3
-
-# Ignore cache
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+venv/
+diarization_env/
+.env
+
+# Audio / data files
+audio_raw/
+audio_processed/
+segments/
+transcripts/
+docs/keywords.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Test artifacts
+.pytest_cache/
