@@ -1,0 +1,44 @@
+# Core
+python-dotenv
+numpy
+pandas
+
+# Audio Processing
+librosa
+soundfile
+pydub
+
+# Speech-to-Text (Local Faster Whisper)
+faster-whisper
+torch
+torchaudio
+ctranslate2
+
+# NLP & Topic Segmentation
+nltk
+spacy
+scikit-learn
+gensim
+sentence-transformers
+
+# Text Processing
+regex
+tqdm
+
+# Web Framework
+flask
+flask-cors
+jinja2
+
+# Visualization
+matplotlib
+seaborn
+
+# File Handling
+python-docx
+fpdf
+
+# Utilities
+requests
+joblib
+
