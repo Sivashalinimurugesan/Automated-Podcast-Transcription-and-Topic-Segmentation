@@ -183,8 +183,7 @@ Follow the steps below to set up and run the Automated Medical Podcast Transcrip
 
 ### 1. Clone the Repository
 
-git clone https://github.com/<username>/Automated-Podcast-Transcription-and-Topic-Segmentation.git
-
+git clone https://github.com/springboardmentor13579x-proj/Automated-Podcast-Transcription-and-Topic-Segmentation.git  
 cd Automated-Podcast-Transcription-and-Topic-Segmentation
 
 ---
@@ -193,10 +192,10 @@ cd Automated-Podcast-Transcription-and-Topic-Segmentation
 
 python -m venv venv
 
-Windows:
+Windows:  
 venv\Scripts\activate
 
-Linux / macOS:
+Linux / macOS:  
 source venv/bin/activate
 
 ---
@@ -231,14 +230,8 @@ The backend initializes audio preprocessing, transcription, topic segmentation, 
 
 Navigate to the frontend directory:
 
-cd ui_app
-
-Install frontend dependencies:
-
-npm install
-
-Start the React development server:
-
+cd ui_app  
+npm install  
 npm start
 
 The application UI will be available at:
@@ -259,6 +252,7 @@ http://localhost:3000
 ![UI Landing Page](docs/ui_landing_page.png)
 
 Place the screenshot inside the docs/ folder of the repository.
+
 
 
 ## Testing and Validation (Recently Added)
