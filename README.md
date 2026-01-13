@@ -129,6 +129,7 @@ AI_PODCAST_TRANSCRIPT/
 ├── transcripts/                       # Generated transcripts
 ├── README.md                           # Project documentation
 └── .gitignore                          # Git ignore rules
+```
 ______________________________________________________________________________________________________________________________________
 ____________________________________
                                             
