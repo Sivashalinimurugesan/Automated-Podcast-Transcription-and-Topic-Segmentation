@@ -249,10 +249,10 @@ http://localhost:3000
 
 ### UI Preview
 
-![UI Landing Page](docs/ui_landing_page.png)
 
-Place the screenshot inside the docs/ folder of the repository.
+![UI Landing Page](docs/Screenshot%202026-01-12%20183624.png)
 
+---
 
 
 ## Testing and Validation 
