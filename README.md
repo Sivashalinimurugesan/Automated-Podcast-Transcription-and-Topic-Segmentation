@@ -177,6 +177,18 @@ Streamlit UI tested for:
 - Keywords and summaries reviewed for relevance.
 
 - Future improvements: add automated benchmark tests for transcription accuracy and segmentation quality.
+
+  ## References
+
+1. OpenAI Whisper — https://github.com/openai/whisper  
+2. Librosa Audio Processing Library — https://librosa.org/doc/main/index.html  
+3. NLTK (Natural Language Toolkit) — https://www.nltk.org/  
+4. Scikit‑learn Documentation — https://scikit-learn.org/  
+5. Streamlit Documentation — https://docs.streamlit.io/  
+6. WordCloud Library — https://github.com/amueller/word_cloud  
+7. Matplotlib Documentation — https://matplotlib.org/stable/  
+8. Speech and Language Processing (Jurafsky & Martin) — https://web.stanford.edu/~jurafsky/slp3/
+
                                             
 # **License**
 
