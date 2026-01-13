@@ -131,7 +131,52 @@ AI_PODCAST_TRANSCRIPT/
 └── .gitignore                          # Git ignore rules
 ```
 ______________________________________________________________________________________________________________________________________
-____________________________________
+
+## **Testing**
+
+This project uses **pytest** to ensure that each module works correctly and the full pipeline runs smoothly.  
+
+### 1. **Unit Testing with pytest**
+- Test files included:
+  - `test_preprocessing.py` → tests audio preprocessing functions
+  - `test_transcript.py` → tests transcription functionality using Whisper
+  - `test_segment_keySearch.py` → tests topic segmentation, keyword extraction, and summarization
+- Run all tests with:
+  ```bash
+  pytest
+
+### 2. **Integration Testing**
+
+Verified end-to-end pipeline:
+
+```Audio Upload → Preprocessing → Transcription → Topic Segmentation → Keyword Extraction → Visualization```
+
+
+Checked segment timestamps match audio playback in the UI.
+
+### 3. **Manual Testing**
+
+Streamlit UI tested for:
+
+- Uploading audio files
+
+- Navigating between segments
+
+- Searching keywords
+
+- Viewing summaries and sentiment per segment
+
+- Verified correct display for long podcast episodes (~1–2 hours).
+
+ ### 4. **Performance & Accuracy Validation**
+
+- Transcription accuracy checked on different audio qualities.
+
+- Topic segmentation manually validated against natural topic changes.
+
+- Keywords and summaries reviewed for relevance.
+
+- Future improvements: add automated benchmark tests for transcription accuracy and segmentation quality.
                                             
 # **License**
 
