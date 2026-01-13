@@ -168,7 +168,7 @@ Streamlit UI tested for:
 
 - Verified correct display for long podcast episodes (~1–2 hours).
 
- ### 4.** Performance & Accuracy Validation**
+ ### 4. **Performance & Accuracy Validation**
 
 - Transcription accuracy checked on different audio qualities.
 
