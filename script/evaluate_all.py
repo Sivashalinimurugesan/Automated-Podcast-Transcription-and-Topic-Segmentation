@@ -37,3 +37,4 @@ with open(REPORT_FILE, "w", newline="", encoding="utf-8") as csvfile:
             predicted_text,
             ground_truth_text
         ])
+        print("✅ evaluation_report.csv created correctly")
