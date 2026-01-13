@@ -1,172 +1,147 @@
-Automated Podcast Transcription and Topic Segmentation
-
-This project focuses on converting podcast/audio files into text, cleaning the transcripts, segmenting the text into meaningful parts, extracting keywords, and visualizing important insights using charts and word clouds.
-It provides a simple UI where users can listen to cleaned audio, view transcripts, segmented text, extracted keywords, search keywords, and visualize word frequencies.
-
---------------------------------------------------------------------------------
-
-Project Overview
-
-The Automated Podcast Transcription and Topic Segmentation System is designed to automatically convert long audio recordings such as podcasts, interviews, lectures, and meetings into structured and meaningful textual data. Manual transcription and analysis of audio content is time-consuming and error-prone. This project eliminates that effort by using Natural Language Processing (NLP) and audio processing techniques.
-
-The system begins by taking raw audio files and performing audio cleaning to remove noise and improve speech clarity. The cleaned audio is then processed using speech recognition techniques to generate accurate transcripts. These transcripts undergo preprocessing such as removing unnecessary symbols, stop words, headers, and irrelevant text.
-
-Once cleaned, the text is segmented into logical sections or topics, allowing users to understand different parts of the content easily. The system also extracts important keywords that summarize the main ideas discussed in the audio. These keywords help in indexing, searching, and quick content understanding.
-To make the data more understandable and visually appealing, the system generates visualizations such as:
-Bar charts showing the most frequent words
-Word clouds highlighting dominant keywords.
-
-A user-friendly web interface built using Streamlit allows users to:
-
-1.Select transcripts
-
-2.Play cleaned audio
-
-3.View transcripts and segmented text
-
-4.See extracted keywords
-
-5.Search keywords inside text
-
-6.View visual analytics
-
-7.This project demonstrates how AI can be applied in real-world multimedia processing and data analysis applications.
-
-------------------------------------------------------------------------------------------
-
- Expanded Use Cases
+ Project Title
+ --------------
  
- 1. Podcast Content Analysis
-Podcast creators can automatically transcribe episodes, analyze popular topics, identify frequently discussed terms, and improve future content planning.
+Automated Podcast Transcription & Topic Segmentation Dashboard
+--------------------------------------------------------------------------
 
- 3. Educational Lectures Transcription
-Teachers and students can convert recorded lectures into text notes, segment topics for easy studying, and extract important keywords for revision.
+ Overview
+ ------------
+ 
+This project provides an end-to-end pipeline to automatically process podcast audio files into meaningful textual insights. It converts audio recordings into clean transcripts, segments the content into logical topics, extracts important keywords, and visualizes insights using an interactive dashboard.
+The system helps users analyze large audio datasets efficiently without manual transcription or review. The web-based UI allows easy browsing of transcripts, segmented text, keyword extraction, audio playback, and visual analytics.
+This project is built using Python, Natural Language Processing (NLP), and Streamlit.
 
- 5. Journalism and Media Monitoring
-News agencies can analyze interviews and reports quickly, extract keywords, summarize discussions, and track trending topics.
+-------------------------------------------------------------------------------
 
- 7. Business Meetings Documentation
-Companies can transcribe meeting recordings, generate summaries, and store searchable transcripts for future reference.
+Objectives
+----------------
 
- 9. Research and NLP Experimentation
-Researchers can use this system to experiment with speech recognition, text processing, topic segmentation, and visualization techniques.
-
- 11. Accessibility Support
-Hearing-impaired users can access audio content in readable text format.
-
- 13. Data Analytics and Insights
-Large audio datasets can be converted into structured text data for analytics, trend discovery, and reporting.
-
- 15. Digital Archiving
-Audio libraries can preserve spoken content in searchable text form for long-term storage and retrieval.
-
-
+Automatically clean and preprocess raw podcast audio.
+Generate text transcripts from audio recordings.
+Segment long transcripts into meaningful topic sections.
+Extract keywords for quick content understanding.
+Provide interactive visualization of word frequencies and word clouds.
+Enable playback of cleaned audio files.
+Build a simple and user-friendly dashboard for analysis.
 
 ------------------------------------------------------------------
-Benefits
+ Use Cases
+ ---------
  
-Saves time compared to manual transcription
+Podcast creators analyzing episode content.
+Researchers performing speech-to-text analysis.
+Students learning NLP pipelines.
+Content analysts extracting important topics.
+Audio archive management.
+Text analytics demonstrations and academic projects.
 
-Automatically extracts meaningful insights
-
-Helps in understanding large audio datasets
-
-Easy visualization of important words
-
-Search functionality for keywords
-
-Modular and scalable project structure
-
-
----------------------------------------------------------------------
- Project Objectives
+ Approach
+ -----------
  
-
-Convert audio files into readable text
-
-Clean and preprocess the transcripts
-
-Segment text into logical parts
-
-Extract keywords automatically
-
-Visualize text insights using graphs and word clouds
-
-Provide an interactive UI
-
-
------------------------------------------------------------------
-System Architecture
-
-Audio Input
-Raw audio files stored in audio_raw/
-Audio Cleaning
-Noise reduction and preprocessing
-Cleaned audio saved in audio_processed/
+Audio Processing
+Raw audio files are stored in audio_raw.
+Noise reduction and cleaning scripts generate cleaned audio in audio_processed.
 Transcription
-Converts audio to text
-Output stored in transcripts/
-Text Preprocessing
-Removes headers, footers, noise text
+Audio files are converted into text transcripts.
+Transcripts are saved in the transcripts folder.
+Preprocessing
+Text cleaning removes unwanted headers, footers, symbols, and noise.
 Segmentation
-Splits text into logical segments
-Output stored in segmented/
+Cleaned text is divided into meaningful segments.
+Output stored in segmented folder.
 Keyword Extraction
-Extracts important keywords
-Output stored in keywords/
+Important keywords are extracted using frequency analysis.
+Results saved in keywords folder.
 Visualization
-Bar chart of word frequency
-Word cloud visualization
-UI
-Displays audio, transcript, segments, keywords, search and visualization
+Word frequency bar chart.
+Word cloud visualization.
+Dashboard UI
+Built using Streamlit.
+Users can upload files, view transcripts, segments, keywords, visualizations, and play cleaned audio.
 
-
----------------------------------------------------------------------------------
- Tech Stack
- 
-Programming Language: Python
-Libraries:
-SpeechRecognition
-NLTK / spaCy
-pandas
-matplotlib
-wordcloud
-streamlit
-IDE: VS Code
-Version Control: GitHub
-
-
---------------------------------------------------------------------------------------
- Project Folder Structure
+-----------------------------------------------------------------------------------------------
+project folder
+-------------
 
 
 project/
 │
-├── audio_raw/            → Original audio files
-├── audio_processed/      → Cleaned audio files
-├── transcripts/          → Generated transcripts
-├── segmented/            → Segmented text files
-├── keywords/             → Extracted keywords
-├── ground_truth/         → Reference data
-├── script/               → Python processing scripts
-│   ├── transcript.py
-│   ├── preprocess.py
-│   ├── segment_text.py
-│   ├── extract_keywords.py
-│   └── audio_clean.py
+├── audio_raw/           → Raw audio input files
+├── audio_processed/     → Cleaned audio output
+├── transcripts/         → Generated transcripts (.txt)
+├── segmented/           → Topic segmented text files
+├── keywords/            → Extracted keywords files
+├── script/              → Processing scripts
+│     ├── audio_clean.py
+│     ├── preprocess.py
+│     ├── transcript.py
+│     ├── segment_text.py
+│     ├── extract_keywords.py
+│     └── evaluate_all.py
 │
 ├── ui/
-│   └── app.py             → Streamlit UI
+│     └── app.py          → Streamlit dashboard
 │
-├── README.md
-└── LICENSE
-streamlit run ui/app.py
-------------------------------------------------------------------------------------------------------
-Features
+└── evaluation_report.xlsx
 
- Audio Playback
- Transcript Display
- Segmented Text View
- Keyword Extraction
- Keyword Search
-Visualization (Bar chart & Word Cloud)
+ 
+
+
+Usage
+-------
+
+Upload transcript file using Upload tab.
+View full transcript in Transcript tab.
+View segmented text in Topic Segments tab.
+View extracted keywords in Keywords tab.
+Explore charts and word cloud in Visualizations tab.
+Listen to cleaned audio in Cleaned Audio tab.
+
+
+Troubleshooting
+----------------
+
+Issue
+Solution
+Streamlit not found
+Run pip install streamlit
+No files visible
+Check folder paths
+Audio not playing
+Ensure audio files exist in audio_processed
+Charts not loading
+Install matplotlib and wordcloud
+Port already in use
+Restart system or change port
+
+
+ Limitations
+ ---------------
+ 
+Large audio files may take longer processing time.
+Accuracy depends on transcription quality.
+Keyword extraction is frequency-based (basic NLP).
+No cloud deployment included.
+Works on local machine only.
+
+
+ Future Enhancements
+ ----------------------
+ 
+Real-time audio transcription.
+Speaker identification.
+Sentiment analysis.
+Topic modeling with ML models.
+Cloud deployment.
+Multi-language support.
+Export reports to PDF/Excel.
+
+
+References
+------------
+
+Streamlit Documentation
+Python NLP Tutorials
+WordCloud Library
+Matplotlib Documentation
+GitHub Guides
