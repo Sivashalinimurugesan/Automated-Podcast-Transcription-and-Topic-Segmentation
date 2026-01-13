@@ -88,12 +88,14 @@ This project includes a modular **Unit Testing Suite** to ensure backend reliabi
    ```bash
    cd src/backend
    Run the Automated Test Suite:python -m unittest discover tests
-
 ## 7. Usage
 
 1. **Upload:** Open the application in your browser. Drag and drop an `.mp3` or `.wav` file into the upload area or click "Select File".
 2. **Processing:** Click the "Start AI Process" button. A loading indicator will appear while the backend analyzes the audio.
-3. **Dashboard:** Once complete, the dashboard will populate with:
+3. **Dashboard:** Once complete, the dashboard will populate with the results.
+
+![Application Dashboard Interface](./screenshots/dashboard.jpg)
+
 * **Segment List:** Click any segment on the left to read its summary.
 * **Audio Player:** The player automatically syncs to the start time of the selected segment.
 * **Visualization:** View the "Sentiment" tab to see the emotional timeline graph.
