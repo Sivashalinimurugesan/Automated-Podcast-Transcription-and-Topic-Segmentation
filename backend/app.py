@@ -1,84 +1,101 @@
-from flask import Flask, request, jsonify,send_from_directory
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import os
 import logging
 
-# Aapke scripts se functions import
+# ===== YOUR PROJECT MODULE IMPORTS =====
 from audio_preprocessing.preprocess import preprocess_audio
 from transcription.transcribe import get_transcription
 from segmentation.segmentation import process_segments, extract_keywords
 
-# 1. Logging Setup (Terminal mein debug dekhne ke liye)
+# ===== LOGGING CONFIG =====
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
+# ===== FLASK APP INIT =====
 app = Flask(__name__)
-CORS(app) # React connection allow karne ke liye
+CORS(app)
 
-@app.route('/upload', methods=['POST'])
+# ===== SERVE CLEAN AUDIO TO FRONTEND =====
+@app.route("/audio/<filename>")
+def serve_audio(filename):
+    return send_from_directory("data/clean_audio", filename)
+
+# ===== MAIN PIPELINE =====
+@app.route("/upload", methods=["POST"])
 def run_pipeline():
     logger.info("--- New Request Received ---")
-    try:
-        # Check karein ki file aayi hai ya nahi
-        if 'audio' not in request.files:
-            logger.warning("No audio file in request")
-            return jsonify({"error": "No audio file found"}), 400
-            
-        audio_file = request.files['audio']
-        mode = request.form.get('mode', 'summarize')
-        logger.info(f"File: {audio_file.filename} | Mode: {mode}")
 
-        # Folders create karein agar nahi hain
+    try:
+        # ---------- VALIDATION ----------
+        if "audio" not in request.files:
+            return jsonify({"error": "No audio file found"}), 400
+
+        audio_file = request.files["audio"]
+        mode = request.form.get("mode", "summarize")
+
+        # ---------- FOLDERS ----------
         os.makedirs("data/raw_audio", exist_ok=True)
         os.makedirs("data/clean_audio", exist_ok=True)
 
-        # Step 1: Raw file save karein
+        # ---------- SAVE RAW AUDIO ----------
         raw_path = os.path.join("data/raw_audio", audio_file.filename)
         audio_file.save(raw_path)
-        logger.info(f"Step 1: Raw file saved at {raw_path}")
 
-        # Step 2: Preprocessing (Noise reduction & WAV conversion)
-        logger.info("Step 2: Starting Preprocessing...")
+        # ---------- PREPROCESS ----------
         clean_wav = preprocess_audio(audio_file.filename)
-        logger.info(f"Preprocessing complete. Clean file: {clean_wav}")
 
-        # Step 3: Transcription (Whisper AI)
-        logger.info("Step 3: Starting Transcription (Whisper AI)...")
+        audio_filename = os.path.basename(clean_wav)
+        audio_url = f"http://127.0.0.1:5000/audio/{audio_filename}"
+
+        # ---------- TRANSCRIPTION ----------
         transcript = get_transcription(clean_wav)
-        logger.info("Transcription complete.")
-
-        # Keywords nikalna (Dono modes ke liye)
         keywords = extract_keywords(transcript)
 
-        # Mode wise Response
+        # ==================================================
+        # TRANSCRIBE ONLY MODE
+        # ==================================================
         if mode == "transcribe":
-            logger.info("Sending Transcribe-only response.")
-            return jsonify({
-                "mode": "transcribe",
+            segments = [{
+                "start_time": "00:00",
+                "end_time": "Full Audio",
                 "text": transcript,
                 "keywords": keywords,
-                "segments": []
+                "summary": "",
+                "sentiment": "NEUTRAL"
+            }]
+
+            return jsonify({
+                "mode": "transcribe",
+                "segments": segments,
+                "audioUrl": audio_url
             })
 
-        # Step 4: Segmentation & Summarization (BART AI)
-        logger.info("Step 4: Starting Segmentation & Summarization...")
-        final_data = process_segments(transcript, clean_wav)
-        logger.info("All processing steps complete. Sending response.")
+        # ==================================================
+        # TRANSCRIBE + SUMMARIZE MODE
+        # ==================================================
+        final_segments = process_segments(transcript, clean_wav)
 
         return jsonify({
             "mode": "summarize",
-            "segments": final_data,
+            "segments": final_segments,
+            "audioUrl": audio_url,
             "overall_keywords": keywords
         })
 
     except Exception as e:
-        logger.error(f"FATAL ERROR in pipeline: {str(e)}", exc_info=True)
+        logger.error(f"FATAL ERROR: {str(e)}", exc_info=True)
         return jsonify({"error": str(e)}), 500
 
-if __name__ == '__main__':
-    # Debug False aur Reloader False taaki server crash na ho
-    logger.info("Starting Flask Server on http://127.0.0.1:5000")
-    app.run(port=5000, debug=False, use_reloader=False)
+
+# ===== RUN SERVER =====
+if __name__ == "__main__":
+    app.run(
+        host="127.0.0.1",
+        port=5000,
+        debug=False,
+        use_reloader=False
+    )

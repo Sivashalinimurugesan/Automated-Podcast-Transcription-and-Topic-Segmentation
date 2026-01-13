@@ -1,29 +1,53 @@
-export default function Features() {
-  const features = [
-    { title: "Lightning Fast Transcription"},
-    { title: "Intelligent Topic Segmentation"  },
-    { title: "Smart Search & Navigation" },
-    { title: "AI-Generated Summaries"},
-  ];
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import "./Navbar.css";
+
+const Navbar = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleFeaturesClick = (e) => {
+    e.preventDefault();
+    navigate("/");
+
+    setTimeout(() => {
+      const section = document.getElementById("features");
+      section?.scrollIntoView({ behavior: "smooth" });
+    }, 100);
+  };
 
   return (
-    <section className="mt-24 px-12">
-      <h2 className="text-center font-semibold">Powerful Features</h2>
-
-      <div className="grid md:grid-cols-4 gap-6 mt-10">
-        {features.map((f, i) => (
-          <div
-            key={i}
-            className="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition"
-          >
-            <div className="text-2xl">{f.icon}</div>
-            <h3 className="mt-4 font-medium">{f.title}</h3>
-            <p className="text-sm text-gray-500 mt-2">
-              Advanced AI powered processing.
-            </p>
-          </div>
-        ))}
+    <nav className="navbar">
+      <div className="navbar-left">
+        {/* 🔥 Home logo click */}
+        <Link to="/" className="logo-link">
+          <span className="logo">🎙️ PodcastAI</span>
+        </Link>
       </div>
-    </section>
+
+      <ul className="nav-links">
+        {/* ✅ Home → Home.jsx */}
+        <li className={location.pathname === "/" ? "active" : ""}>
+          <Link to="/">Home</Link>
+        </li>
+
+        {/* ⭐ Features → Home.jsx + scroll */}
+        <li>
+          <Link to="/" onClick={handleFeaturesClick}>
+            Features
+          </Link>
+        </li>
+
+        {/* Other pages */}
+        <li className={location.pathname === "/analytics" ? "active" : ""}>
+          <Link to="/analytics">Analytics</Link>
+        </li>
+
+        <li className="nav-btn-highlight">
+          <Link to="/insights">View Insights</Link>
+        </li>
+      </ul>
+    </nav>
   );
-}
+};
+
+export default Navbar;

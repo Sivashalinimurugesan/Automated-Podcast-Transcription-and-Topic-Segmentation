@@ -1,0 +1,266 @@
+/* ===== View Insights Page Wrapper ===== */
+.view-insights-wrapper {
+  min-height: 100vh;
+  background: #f9fbff;
+  padding: 40px 20px;
+}
+
+/* ===== Mode Selector (Top Buttons) ===== */
+.insight-mode {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  display: flex;
+  background: #f1f5f9;
+  padding: 6px;
+  border-radius: 16px;
+}
+
+.insight-mode .mode-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  background: transparent;
+  color: #64748b;
+  transition: all 0.3s ease;
+}
+
+.insight-mode .mode-btn.active {
+  background: #ffffff;
+  color: #6366f1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== Loading Text ===== */
+.insights-loading {
+  text-align: center;
+  color: #6366f1;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* ===== Podcast Dashboard Container ===== */
+.podcast-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 30px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.04);
+  border: 1px solid #eef2f7;
+}
+
+/* ===== Audio + Timeline Section ===== */
+.viz-container {
+  margin-bottom: 30px;
+}
+
+.main-audio-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.main-audio-box audio {
+  width: 100%;
+  max-width: 700px;
+}
+
+/* ===== Timeline ===== */
+.timeline-bar {
+  display: flex;
+  height: 14px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.timeline-segment {
+  transition: opacity 0.2s;
+}
+
+.timeline-segment:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* ===== Stats Row ===== */
+.stats-row {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.stat {
+  background: #f8fafc;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #475569;
+}
+
+/* ===== Main Content Split ===== */
+.main-content-split {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 25px;
+}
+
+/* ===== Sidebar ===== */
+.navigation-sidebar {
+  background: #f8fafc;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.navigation-sidebar h4 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid #cbd5e1;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.index-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.index-item {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.index-item:hover {
+  background: #eef2ff;
+}
+
+.idx-time {
+  font-size: 11px;
+  color: #6366f1;
+  font-weight: 700;
+}
+
+.idx-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* ===== Segments Area ===== */
+.display-area {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.segment-row-card {
+  display: grid;
+  grid-template-columns: 180px 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+}
+
+/* ===== Meta Column ===== */
+.col-meta {
+  font-size: 12px;
+}
+
+.seg-label {
+  font-weight: 800;
+  color: #6366f1;
+  margin-bottom: 4px;
+}
+
+.seg-timestamp {
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+.keyword-highlight {
+  display: inline-block;
+  background: #eef2ff;
+  color: #4338ca;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 3px 3px 0 0;
+}
+
+/* ===== Text Column ===== */
+.col-text h5,
+.col-summary h5 {
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.col-text p {
+  font-size: 13px;
+  color: #334155;
+  line-height: 1.6;
+}
+
+/* ===== Summary ===== */
+.summary-box {
+  background: white;
+  border-radius: 14px;
+  padding: 12px;
+  font-size: 13px;
+  color: #1e293b;
+  border: 1px solid #e2e8f0;
+}
+
+/* ===== Transcribe Only Mode ===== */
+.simple-transcript {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 24px;
+  border: 1px solid #e5e7eb;
+}
+
+.simple-transcript h3 {
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.simple-transcript p {
+  line-height: 1.8;
+  font-size: 14px;
+  color: #334155;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+  .main-content-split {
+    grid-template-columns: 1fr;
+  }
+
+  .segment-row-card {
+    grid-template-columns: 1fr;
+  }
+}

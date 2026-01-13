@@ -1,0 +1,19 @@
+.analytics-page {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(to right, #f7f8ff, #fef6ff);
+}
+
+.analytics-page h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.analytics-msg {
+  padding: 60px;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}

@@ -67,3 +67,6 @@
 }
 
 .big-start-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.timeline-segment.POSITIVE { background: #22c55e; } 
+.timeline-segment.NEGATIVE { background: #ef4444; } 
+.timeline-segment.NEUTRAL { background: #6366f1; }

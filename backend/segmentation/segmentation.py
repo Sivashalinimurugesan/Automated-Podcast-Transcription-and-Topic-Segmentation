@@ -5,17 +5,32 @@ from sentence_transformers import SentenceTransformer, util
 from sklearn.feature_extraction.text import TfidfVectorizer
 from transformers import pipeline
 from pydub import AudioSegment
+from textblob import TextBlob  # Add this for Milestone 5
 
-# Models load karein
+# Load Models
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 model = SentenceTransformer("all-MiniLM-L6-v2")
+
+# --- Milestone 5: Sentiment Analysis Function ---
+def get_sentiment(text):
+    """
+    Analyzes the emotional tone of the segment.
+    Returns: POSITIVE, NEGATIVE, or NEUTRAL.
+    """
+    analysis = TextBlob(text)
+    score = analysis.sentiment.polarity
+    if score > 0.1:
+        return "POSITIVE"
+    elif score < -0.1:
+        return "NEGATIVE"
+    else:
+        return "NEUTRAL"
 
 def format_time(seconds):
     m = seconds // 60
     s = seconds % 60
     return f"{int(m):02d}:{int(s):02d}"
 
-# 1. Keyword Extraction Function (Ise export karna hai)
 def extract_keywords(segment):
     try:
         vectorizer = TfidfVectorizer(stop_words='english')
@@ -23,11 +38,11 @@ def extract_keywords(segment):
         scores = tfidf_matrix.toarray()[0]
         word_scores = list(zip(vectorizer.get_feature_names_out(), scores))
         sorted_words = sorted(word_scores, key=lambda x: x[1], reverse=True)
-        return [w[0] for w in sorted_words[:5]]
+        # Professional clean keywords for UI
+        return [w[0].upper() for w in sorted_words[:4]] 
     except:
         return []
 
-# 2. Summarization Function
 def summarize_segment(segment):
     words = segment.split()
     if len(words) < 40:
@@ -40,7 +55,6 @@ def summarize_segment(segment):
     except:
         return segment[:200]
 
-# 3. Segmentation Logic
 def embedding_segmentation(text):
     sentences = nltk.sent_tokenize(text)
     if not sentences: return []
@@ -62,7 +76,7 @@ def embedding_segmentation(text):
     segments.append(current_segment)
     return segments
 
-# 4. Main Export Function
+# --- Main Export Function Updated for Analytics ---
 def process_segments(text, wav_path):
     audio = AudioSegment.from_file(wav_path)
     total_sec = len(audio) / 1000 
@@ -78,7 +92,8 @@ def process_segments(text, wav_path):
             "start_time": format_time(i * seg_dur),
             "end_time": format_time((i + 1) * seg_dur),
             "text": seg,
-            "keywords": extract_keywords(seg),
-            "summary": summarize_segment(seg)
+            "sentiment": get_sentiment(seg),        # Milestone 5: Added sentiment label
+            "keywords": extract_keywords(seg),      # Milestone 3: Professional keywords
+            "summary": summarize_segment(seg)       # Milestone 3: AI Summaries
         })
     return final_output
