@@ -128,7 +128,8 @@ AI_PODCAST_TRANSCRIPT/
 │   └── segment_keySearch.py           # Topic segmentation & keyword extraction
 ├── transcripts/                       # Generated transcripts
 ├── README.md                           # Project documentation
-└── .gitignore                          # Git ignore rules```
+└── .gitignore                          # Git ignore rules
+```
 ______________________________________________________________________________________________________________________________________
 ____________________________________
                                             
