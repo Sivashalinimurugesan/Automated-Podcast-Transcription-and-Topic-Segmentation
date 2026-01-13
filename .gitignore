@@ -1,28 +1,45 @@
+# ===============================
 # Python
+# ===============================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.egg-info/
+.pytest_cache/
 
-# Virtual environments
+# ===============================
+# Virtual Environments
+# ===============================
 venv/
 diarization_env/
-.env
+.env/
 
-# Audio / data files
+# ===============================
+# Audio / Large Data Files
+# ===============================
 audio_raw/
 audio_processed/
-segments/
-transcripts/
-docs/keywords.txt
+audio_ui/
+*.wav
+*.mp3
 
-# OS
+# ===============================
+# Generated Outputs
+# ===============================
+transcripts/
+segments/
+docs/keywords.txt
+docs/asr_evaluation.csv
+docs/asr_evaluation_table.txt
+
+# ===============================
+# OS / Editor Files
+# ===============================
 .DS_Store
 Thumbs.db
 
-# Streamlit cache
+# ===============================
+# Streamlit
+# ===============================
 .streamlit/
-
-# Test artifacts
-.pytest_cache/

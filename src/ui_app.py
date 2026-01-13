@@ -1,5 +1,5 @@
 import streamlit as st
-import os, subprocess, re, wave, tempfile
+import os, subprocess, re, wave
 import pandas as pd
 from collections import Counter
 from wordcloud import WordCloud
@@ -18,7 +18,11 @@ nltk.download('vader_lexicon')
 
 # ---------------- PATHS ----------------
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-AUDIO_RAW = os.path.join(ROOT, "audio_raw")
+
+# UI uploads go here (frontend only)
+AUDIO_UI = os.path.join(ROOT, "audio_ui")
+
+# Backend outputs (DO NOT TOUCH backend folders)
 ASR_TRANSCRIPTS = os.path.join(ROOT, "transcripts", "asr")
 DOCS_DIR = os.path.join(ROOT, "docs")
 
@@ -139,17 +143,18 @@ st.caption("Upload → Transcribe → Segment → Analyze → Visualize")
 tabs = st.tabs(["📤 Upload", "📄 Transcript", "🧩 Segments", "📊 Sentiment", "🔑 Keywords", "📈 Metrics", "📌 Final Summary"])
 
 # =========================================================
-# UPLOAD
+# 1️⃣ UPLOAD
 # =========================================================
 with tabs[0]:
     st.markdown("<div class='block'><h3>Upload Audio</h3></div>", unsafe_allow_html=True)
     uploaded = st.file_uploader("Upload WAV file", type=["wav"])
 
     if uploaded:
-        clear_folder(AUDIO_RAW)
+        clear_folder(AUDIO_UI)
         clear_folder(ASR_TRANSCRIPTS)
 
-        raw_path = os.path.join(AUDIO_RAW, uploaded.name)
+        os.makedirs(AUDIO_UI, exist_ok=True)
+        raw_path = os.path.join(AUDIO_UI, uploaded.name)
         with open(raw_path, "wb") as f:
             f.write(uploaded.read())
 
@@ -191,7 +196,7 @@ segments = sentence_based_segments(transcript_text)
 audio_duration = get_audio_duration(st.session_state.audio_file)
 
 # =========================================================
-# TRANSCRIPT
+# 2️⃣ TRANSCRIPT
 # =========================================================
 with tabs[1]:
     st.markdown("<div class='block'><h3>Transcript</h3></div>", unsafe_allow_html=True)
@@ -199,7 +204,7 @@ with tabs[1]:
     st.download_button("⬇ Download Transcript", transcript_text, file_name="transcript.txt")
 
 # =========================================================
-# SEGMENTS
+# 3️⃣ SEGMENTS
 # =========================================================
 with tabs[2]:
     st.markdown("<div class='block'><h3>Segments with Audio</h3></div>", unsafe_allow_html=True)
@@ -215,10 +220,10 @@ with tabs[2]:
         st.audio(st.session_state.audio_file, start_time=timestamp)
 
 # =========================================================
-# SENTIMENT ANALYSIS (WITH COMPARISON)
+# 4️⃣ SENTIMENT
 # =========================================================
 with tabs[3]:
-    st.markdown("<div class='block'><h3>Sentiment Timeline & Speaker Comparison</h3></div>", unsafe_allow_html=True)
+    st.markdown("<div class='block'><h3>Sentiment Timeline</h3></div>", unsafe_allow_html=True)
     sia = SentimentIntensityAnalyzer()
 
     df = pd.DataFrame({
@@ -229,21 +234,15 @@ with tabs[3]:
     })
 
     fig = px.line(df, x="Segment", y="Sentiment", color="Speaker",
-                  markers=True, title="Sentiment Over Time (Interviewer vs Candidate)")
+                  markers=True, title="Sentiment Over Time")
     fig.update_traces(line=dict(width=3))
     st.plotly_chart(fig, width="stretch")
 
-    avg_compare = df.groupby("Speaker")["Sentiment"].mean().reset_index()
-    fig2 = px.bar(avg_compare, x="Speaker", y="Sentiment",
-                  title="Average Sentiment: Interviewer vs Candidate",
-                  color="Speaker")
-    st.plotly_chart(fig2, width="stretch")
-
 # =========================================================
-# KEYWORDS (MULTI-KEYWORD SEARCH)
+# 5️⃣ KEYWORDS
 # =========================================================
 with tabs[4]:
-    st.markdown("<div class='block'><h3>Multi-Keyword Search + Audio Jump</h3></div>", unsafe_allow_html=True)
+    st.markdown("<div class='block'><h3>Multi-Keyword Search</h3></div>", unsafe_allow_html=True)
 
     words = re.findall(r'\b[a-zA-Z]+\b', transcript_text.lower())
     stop_words = {"i","you","we","they","he","she","it","is","am","are","was","were","my","your","our","me","us",
@@ -257,31 +256,30 @@ with tabs[4]:
 
     if not keywords:
         st.warning("No HR-related keywords found.")
-        st.stop()
+    else:
+        selected_kws = st.multiselect("Select keywords:", keywords)
 
-    selected_kws = st.multiselect("Select keywords:", keywords)
+        if selected_kws:
+            matched = [s for s in segments if any(kw in s["text"].lower() for kw in selected_kws)]
+            for s in matched:
+                idx = s["segment_id"]
+                timestamp = int((idx/len(segments)) * audio_duration)
+                st.markdown(f"<div class='block'><b>Segment {idx}</b> ⏱ {timestamp}s<br>{s['text']}</div>", unsafe_allow_html=True)
+                st.audio(st.session_state.audio_file, start_time=timestamp)
 
-    if selected_kws:
-        matched = [s for s in segments if any(kw in s["text"].lower() for kw in selected_kws)]
-        for s in matched:
-            idx = s["segment_id"]
-            timestamp = int((idx/len(segments)) * audio_duration)
-            st.markdown(f"<div class='block'><b>Segment {idx}</b> ⏱ {timestamp}s<br>{s['text']}</div>", unsafe_allow_html=True)
-            st.audio(st.session_state.audio_file, start_time=timestamp)
-
-    wc_data = {k: freq[k] for k in keywords if freq[k] > 0}
-    if wc_data:
-        wc = WordCloud(width=600, height=350, background_color="black").generate_from_frequencies(wc_data)
-        fig_wc, ax = plt.subplots()
-        ax.imshow(wc)
-        ax.axis("off")
-        st.pyplot(fig_wc)
+        wc_data = {k: freq[k] for k in keywords if freq[k] > 0}
+        if wc_data:
+            wc = WordCloud(width=600, height=350, background_color="black").generate_from_frequencies(wc_data)
+            fig_wc, ax = plt.subplots()
+            ax.imshow(wc)
+            ax.axis("off")
+            st.pyplot(fig_wc)
 
 # =========================================================
-# METRICS
+# 6️⃣ METRICS
 # =========================================================
 with tabs[5]:
-    st.markdown("<div class='block'><h3>Accuracy, Emotion & Stress</h3></div>", unsafe_allow_html=True)
+    st.markdown("<div class='block'><h3>Emotion & Stress</h3></div>", unsafe_allow_html=True)
     avg_sent = df["Sentiment"].mean()
     emotion = "Positive 😊" if avg_sent>0.1 else "Negative 😟" if avg_sent<-0.1 else "Neutral 😐"
     stress = detect_stress(st.session_state.audio_file)
@@ -292,7 +290,7 @@ with tabs[5]:
     col3.metric("Stress Level", stress)
 
 # =========================================================
-# FINAL SUMMARY + PDF
+# 7️⃣ FINAL SUMMARY
 # =========================================================
 with tabs[6]:
     st.markdown("<div class='block'><h3>Final Summary & Report</h3></div>", unsafe_allow_html=True)
