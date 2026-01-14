@@ -136,8 +136,6 @@ python -m pytest
 
 * **Scope:** Validates audio preprocessing logic, error handling for missing files, and the accuracy of keyword extraction algorithms.
 
-Here is the corrected **Troubleshooting** section with proper bullet points and indentation. You can copy this block directly into your documentation.
-
 
 ## 7. Troubleshooting
 
