@@ -5,6 +5,10 @@ import pandas as pd
 import plotly.express as px
 import re
 import time
+import io
+import librosa
+import soundfile as sf
+import inspect
 from pathlib import Path
 
 st.set_page_config(
@@ -48,6 +52,30 @@ st.markdown("""
     .sentiment-neutral { color: #6B7280; font-weight: bold; }
 </style>
 """, unsafe_allow_html=True)
+
+# --- HELPER FUNCTIONS ---
+
+@st.cache_resource
+def get_audio_slice(file_path, start_sec, end_sec):
+    """
+    Loads only the specific segment of audio into memory.
+    This ensures the player stops exactly at end_sec.
+    """
+    try:
+        # Calculate duration
+        duration = end_sec - start_sec
+        if duration <= 0: return None
+
+        # Load specific slice using librosa (efficient)
+        y, sr = librosa.load(str(file_path), sr=None, offset=start_sec, duration=duration)
+        
+        # Write to memory buffer as WAV
+        buffer = io.BytesIO()
+        sf.write(buffer, y, sr, format='WAV')
+        return buffer.getvalue()
+    except Exception as e:
+        print(f"Error slicing audio: {e}")
+        return None
 
 def get_file_list(query):
     if not TRANSCRIPT_DIR.exists(): return []
@@ -128,6 +156,7 @@ def get_sentiment_label_for_segment(sentiment_data, start_sec, end_sec):
     except:
         return "Neutral", "gray"
 
+# --- MAIN UI ---
 st.markdown('<div class="main-header">AI Podcast Analytics</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-header">Automated Transcription, Segmentation, Sentiment Analysis, and Summarization.</div>', unsafe_allow_html=True)
 
@@ -159,13 +188,23 @@ with st.sidebar:
         if source:
             with st.spinner("Processing..."):
                 try:
-                    status = podcast_backend.process_new_upload(
-                        source, 
-                        str(BASE_DIR), 
-                        is_url=is_url,
-                        enable_sentiment=run_sentiment,
-                        enable_topics=run_topics
-                    )
+                    # Dynamically check backend arguments to prevent crashes
+                    sig = inspect.signature(podcast_backend.process_new_upload)
+                    if 'enable_sentiment' in sig.parameters:
+                        status = podcast_backend.process_new_upload(
+                            source, 
+                            str(BASE_DIR), 
+                            is_url=is_url,
+                            enable_sentiment=run_sentiment,
+                            enable_topics=run_topics
+                        )
+                    else:
+                        st.warning("⚠️ Using legacy backend: Feature toggles ignored (updating backend recommended).")
+                        status = podcast_backend.process_new_upload(
+                            source, 
+                            str(BASE_DIR), 
+                            is_url=is_url
+                        )
                     
                     if status == "Success":
                         st.success("Done! Refreshing...")
@@ -229,6 +268,9 @@ with tab_overview:
     
     if topics_text:
         parsed_topics = parse_topics(topics_text)
+        
+       
+        
         for t in parsed_topics:
             sent_label, sent_color = get_sentiment_label_for_segment(sentiment_data, t['start_sec'], t['end_sec'])
             
@@ -239,7 +281,13 @@ with tab_overview:
                 c_audio, c_dl = st.columns([3, 1])
                 with c_audio:
                     if audio_path:
-                        st.audio(str(audio_path), start_time=int(t['start_sec']))
+                        # We use get_audio_slice to create a BytesIO object of JUST that segment.
+                        # The player receives a file that is only 2 mins long, so it CANNOT play past the end.
+                        audio_clip = get_audio_slice(audio_path, t['start_sec'], t['end_sec'])
+                        if audio_clip:
+                            st.audio(audio_clip, format='audio/wav')
+                        else:
+                            st.caption("Audio segment error.")
                 with c_dl:
                     dl_text = f"Title: {t['title']}\nTime: {t['start_str']} - {t['end_str']}\n\nSummary:\n{t['summary']}\n\nKeywords:\n{t['keywords']}"
                     st.download_button("Info", dl_text, file_name=f"Topic_{t['start_sec']}.txt", key=f"dl_{t['start_sec']}")
