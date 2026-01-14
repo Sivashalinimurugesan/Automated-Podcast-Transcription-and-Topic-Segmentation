@@ -135,10 +135,6 @@ python -m pytest
 
 ---
 
-Here is the corrected "Troubleshooting" section. I have fixed the indentation so that **Cause** and **Fix** appear clearly *under* each error message, which is the standard format for documentation.
-
-You can copy and paste this block directly into your `README.md`.
-
 
 ## 7. Troubleshooting
 
