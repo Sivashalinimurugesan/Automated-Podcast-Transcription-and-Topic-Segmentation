@@ -139,7 +139,6 @@ flowchart TD
     %% Connections
     A --> B --> C --> D --> E  --> F --> H --> K --> G
 ```
-
 ---
 
 ## Output
@@ -150,6 +149,11 @@ flowchart TD
 - **Segment-level sentiment analysis** (positive, neutral, negative)  
 - Search audio segments containing particular words
 - Keyword cloud showing most frequent medical terms 
+
+---
+
+### UI Preview
+![Transcript Navigation & Global Search](Images/UI_Preview.png)
 
 ---
 
