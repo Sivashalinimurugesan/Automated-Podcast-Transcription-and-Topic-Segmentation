@@ -3,65 +3,56 @@ from flask_cors import CORS
 import os
 import logging
 
-# ===== YOUR PROJECT MODULE IMPORTS =====
 from audio_preprocessing.preprocess import preprocess_audio
 from transcription.transcribe import get_transcription
 from segmentation.segmentation import process_segments, extract_keywords
 
-# ===== LOGGING CONFIG =====
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
-)
+# ===== LOGGING =====
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# ===== FLASK APP INIT =====
+# ===== APP =====
 app = Flask(__name__)
 CORS(app)
 
-# ===== SERVE CLEAN AUDIO TO FRONTEND =====
+# ===== AUDIO SERVE =====
 @app.route("/audio/<filename>")
 def serve_audio(filename):
     return send_from_directory("data/clean_audio", filename)
 
-# ===== MAIN PIPELINE =====
+# ===== PIPELINE =====
 @app.route("/upload", methods=["POST"])
 def run_pipeline():
     logger.info("--- New Request Received ---")
 
     try:
-        # ---------- VALIDATION ----------
         if "audio" not in request.files:
             return jsonify({"error": "No audio file found"}), 400
 
         audio_file = request.files["audio"]
         mode = request.form.get("mode", "summarize")
 
-        # ---------- FOLDERS ----------
         os.makedirs("data/raw_audio", exist_ok=True)
         os.makedirs("data/clean_audio", exist_ok=True)
 
-        # ---------- SAVE RAW AUDIO ----------
         raw_path = os.path.join("data/raw_audio", audio_file.filename)
         audio_file.save(raw_path)
 
-        # ---------- PREPROCESS ----------
         clean_wav = preprocess_audio(audio_file.filename)
 
         audio_filename = os.path.basename(clean_wav)
         audio_url = f"http://127.0.0.1:5000/audio/{audio_filename}"
 
-        # ---------- TRANSCRIPTION ----------
         transcript = get_transcription(clean_wav)
         keywords = extract_keywords(transcript)
 
-        # ==================================================
-        # TRANSCRIBE ONLY MODE
-        # ==================================================
+        # ==========================
+        # TRANSCRIBE ONLY
+        # ==========================
         if mode == "transcribe":
             segments = [{
-                "start_time": "00:00",
-                "end_time": "Full Audio",
+                "start": 0,
+                "end": 9999,
                 "text": transcript,
                 "keywords": keywords,
                 "summary": "",
@@ -74,10 +65,16 @@ def run_pipeline():
                 "audioUrl": audio_url
             })
 
-        # ==================================================
-        # TRANSCRIBE + SUMMARIZE MODE
-        # ==================================================
+        # ==========================
+        # SUMMARIZE MODE
+        # ==========================
         final_segments = process_segments(transcript, clean_wav)
+
+        # ⚠️ ENSURE NUMERIC start/end
+        for seg in final_segments:
+            seg["start"] = float(seg.get("start", 0))
+            seg["end"] = float(seg.get("end", seg["start"] + 10))
+            seg["sentiment"] = seg.get("sentiment", "NEUTRAL")
 
         return jsonify({
             "mode": "summarize",
@@ -91,11 +88,5 @@ def run_pipeline():
         return jsonify({"error": str(e)}), 500
 
 
-# ===== RUN SERVER =====
 if __name__ == "__main__":
-    app.run(
-        host="127.0.0.1",
-        port=5000,
-        debug=False,
-        use_reloader=False
-    )
+    app.run(host="127.0.0.1", port=5000, debug=False, use_reloader=False)

@@ -1,0 +1,22 @@
+.waveform-wrapper {
+  width: 100%;
+  background: #f8fafc;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+.waveform-canvas {
+  width: 100%;
+  min-height: 120px;
+}
+
+.waveform-wrapper button {
+  margin-top: 10px;
+  padding: 6px 14px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
