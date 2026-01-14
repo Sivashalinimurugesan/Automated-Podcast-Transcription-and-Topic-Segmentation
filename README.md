@@ -1,24 +1,27 @@
- Automated Podcast Transcription & Topic Segmentation
+## Automated Podcast Transcription & Topic Segmentation
 
 This project implements an AI-powered pipeline to automatically transcribe podcast audio files, segment long transcripts into meaningful sections, extract keywords, and generate initial summaries.
+
 It is designed to help users efficiently navigate and analyze long-form audio content such as podcasts, interviews, and lectures.
 
-1. Project Overview
+------------------------------------------------------------------------
 
-Podcasts often span several hours, making it difficult to locate specific discussions or topics.
-This system solves that problem by:
+## 1. Project Overview
 
-Converting audio into accurate text transcripts
+ Podcasts often span several hours, making it difficult to locate specific discussions or topics.
+ This system solves that problem by:
 
-Structuring transcripts into smaller semantic segments
+ * Converting audio into accurate text transcripts
 
-Extracting representative keywords for each segment
+ * Structuring transcripts into smaller semantic segments
 
-Generating initial summaries for quick understanding
+ * Extracting representative keywords for each segment
 
-The project focuses on speed, modularity, and explainability, making it suitable for academic, internship, and production-oriented workflows.
+ * Generating initial summaries for quick understanding
 
- Objectives
+ * The project focuses on speed, modularity, and explainability, making it suitable for academic, internship, and production-oriented workflows.
+
+## Objectives
 
  * Transcribe podcast audio using fast and accurate speech-to-text models
 
@@ -31,6 +34,8 @@ The project focuses on speed, modularity, and explainability, making it suitable
  * Generate initial summaries to provide high-level context
 
  * Maintain a clean, modular, and extensible pipeline
+
+------------------------------------------------------------------------
 
 ## 2. Project Structure
 
@@ -53,62 +58,136 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 
  ```
 
-3. Technology Stack
+------------------------------------------------------------------------
 
-Programming Language
- * Python 3.12
+## 3. Technology Stack
 
-Speech-to-Text
-  * Faster-Whisper – Optimized Whisper inference using CTranslate2
-  * GPU support (optional)
+ Programming Language
+  * Python 3.12
 
-Audio Processing
-  * SoundFile
-  * Librosa
- NumPy
+ Speech-to-Text
+   * Faster-Whisper – Optimized Whisper inference using CTranslate2
+   * GPU support (optional)
 
-Natural Language Processing
- * NLTK – Sentence tokenization
- * Scikit-learn
-  * TF-IDF vectorization
-  * Cosine similarity
+ Audio Processing
+   * SoundFile
+   * Librosa
+  NumPy
 
-Data Handling
- * JSON
- * OS / Glob utilities
-Visualization and UI
- * Streamlit: Interactive web dashboard creation.
+ Natural Language Processing
+  * NLTK – Sentence tokenization
+  * Scikit-learn
+   * TF-IDF vectorization
+   * Cosine similarity
+
+ Data Handling
+  * JSON
+  * OS / Glob utilities
+ Visualization and UI
+  * Streamlit: Interactive web dashboard creation.
  
- 4. Workflow
+------------------------------------------------------------------------
+
+## 4. Workflow
 
  1) Audio Ingestion
-  *  Place raw podcast audio files into audio_raw/
+   *  Place raw podcast audio files into audio_raw/
 
  2) Audio Preprocessing
-   * Noise handling
-   * Normalization
-   * Conversion to WAV format
- Output → audio_preprocessed/
+    * Noise handling
+    * Normalization
+    * Conversion to WAV format
+  Output → audio_preprocessed/
 
-3) Transcription
-   * Fast speech-to-text using Faster-Whisper
-   * One transcript per audio file
- Output → transcripts/
+ 3) Transcription
+    * Fast speech-to-text using Faster-Whisper
+    * One transcript per audio file
+  Output → transcripts/
 
-4) Segmentation
-   * Sentence-based segmentation
-   * Fixed-size semantic chunks
- Output → segmented_transcripts/
+ 4) Segmentation
+    * Sentence-based segmentation
+    * Fixed-size semantic chunks
+  Output → segmented_transcripts/
 
-5) Keyword Extraction
-   * TF-IDF + diversity-aware selection (MMR)
-   * Prevents repeated keywords across segments
- Output → keywords/
+ 5) Keyword Extraction
+    * TF-IDF + diversity-aware selection (MMR)
+    * Prevents repeated keywords across segments
+  Output → keywords/
 
 6) Initial Summarization
    * Extractive summarization using TF-IDF
    * Produces a high-level overview of each transcript
  Output → summaries/
 
+------------------------------------------------------------------------
 
+## 5. System Setup
 
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/springboardmentor13579x-proj/Automated-Podcast-Transcription-and-Topic-Segmentation.git
+cd Automated-Podcast-Transcription-and-Topic-Segmentation
+git checkout intern-bhaskar
+```
+
+### Step 2: Create Virtual Environment (Optional)
+
+```bash
+python -m venv venv
+venv\Scripts\activate   # Windows
+```
+
+### Step 3: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Execute the Backend Pipeline
+
+```bash
+python -m src.main
+```
+
+### Step 5: Launch the Streamlit Dashboard
+
+```bash
+streamlit run app.py
+```
+
+------------------------------------------------------------------------
+
+## 6. Usage
+
+ * Place TED Talk or podcast audio files (.wav, .mp3, .m4a) in the audio_raw/ directory or upload them through the Streamlit interface.
+
+ * Run the backend pipeline or Streamlit app to preprocess audio, generate transcripts, and segment long talks into topic-based sections.
+
+ * Explore each segment using extracted keywords to quickly locate relevant parts of long TED Talks or lectures.
+
+ * View initial summaries and sentiment insights to gain a high-level understanding without reading the full transcript.
+
+ * Use the dashboard for interactive analysis and exploration rather than real-time processing.
+
+------------------------------------------------------------------------
+
+## 7. Limitations & Challenges
+ * Transcription accuracy depends heavily on audio quality; noisy or accented speech may reduce performance.
+
+ * Large Whisper models require significant memory, which can be challenging on low-resource systems.
+
+ * Topic segmentation is heuristic-based and may not always perfectly align with true conversational shifts.
+
+ * Keyword extraction and summarization rely on statistical methods and may miss deeper semantic meaning.
+
+ * The system is optimized for offline analysis of datasets like TED Talks, not large-scale real-time deployment.
+
+------------------------------------------------------------------------
+
+## 8. Testing
+ * The project includes an automated testing suite to ensure reliability.
+ Running Tests:
+ ```bash
+ python -m pytest
+ ```
