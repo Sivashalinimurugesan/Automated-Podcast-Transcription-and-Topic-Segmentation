@@ -1,0 +1,2018 @@
+{
+  "language": "en",
+  "topics": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 50.37,
+      "text": "TED Talks are recorded live at the TED conference and produced with WNYC New York Public Radio. This episode features Scottish percussionist Evelyn Glenny. TED Talks are made possible through the support of BMW. Here's Evelyn Glenny. Of course my job is all about listening and my aim really is to teach the world to listen. That's my only real aim in life and it sounds quite simple but actually it's quite a big big job because you know when you when you look at a piece of music for example",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 12.66,
+          "text": "TED Talks are recorded live at the TED conference and produced with WNYC New York Public Radio.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8295204639434814
+        },
+        {
+          "start": 12.66,
+          "end": 16.26,
+          "text": "This episode features Scottish percussionist Evelyn Glenny.",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.5669300556182861
+        },
+        {
+          "start": 16.26,
+          "end": 23.89,
+          "text": "TED Talks are made possible through the support of BMW. Here's Evelyn Glenny.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5025802850723267
+        },
+        {
+          "start": 23.89,
+          "end": 34.61,
+          "text": "Of course my job is all about listening and my aim really is to teach the world to listen.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8793289065361023
+        },
+        {
+          "start": 34.69,
+          "end": 43.49,
+          "text": "That's my only real aim in life and it sounds quite simple but actually it's quite a big",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5080384612083435
+        },
+        {
+          "start": 44.53,
+          "end": 50.37,
+          "text": "big job because you know when you when you look at a piece of music for example",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5071518421173096
+        }
+      ],
+      "summary": " This episode features Scottish percussionist Evelyn Glenny . Her aim is to teach the world to listen, she says . TED Talks are made possible through the support of BMW .",
+      "tldr": " This episode features Scottish percussionist Evelyn Glenny . Her aim is to teach the world to listen, she says . TED Talks are made possible through the support of BMW .",
+      "title": " This episode features Scottish percussionist Evelyn Glenny . Her aim is to teach the world to listen, she says . TED Talks are made possible through the support of BMW .",
+      "bullets": [
+        "This episode features Scottish percussionist Evelyn Glenny",
+        "Her aim is to teach the world to listen, she says",
+        "TED Talks are made possible through the support of BMW ."
+      ],
+      "keywords": [
+        "TED Talks",
+        "Talks are recorded",
+        "TED",
+        "TED conference",
+        "Public Radio"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9974174499511719,
+      "emotion": "joy",
+      "emotion_score": 0.7263198494911194
+    },
+    {
+      "id": 1,
+      "start": 50.37,
+      "end": 130.42,
+      "text": "if I just open my little motorbike bag we have here hopefully a piece of music that is full of little black dots on the page and you know we open it up and I read the music. So technically I can actually read this. I will follow the instructions, the tempo markings, the dynamics. I will do exactly as I'm pulled and so therefore because time is short but if I just play you literally the first maybe two lines are so it's very straightforward. There's nothing too difficult about the piece but here I'm being told that the piece of music is very quick. I'm being told where to play on the drum. I'm being told which part of the stick to use and I'm being told the dynamic and I'm also being told that the drum is without snares. Snares on, snares off. So therefore if I translate this piece of music we have this idea",
+      "segments": [
+        {
+          "start": 50.37,
+          "end": 59.17,
+          "text": "if I just open my little motorbike bag we have here hopefully a piece of music",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9128064513206482
+        },
+        {
+          "start": 59.33,
+          "end": 72.42,
+          "text": "that is full of little black dots on the page and you know we open it up and I read the music.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7635905742645264
+        },
+        {
+          "start": 73.3,
+          "end": 80.5,
+          "text": "So technically I can actually read this. I will follow the instructions, the tempo markings,",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9566985964775085
+        },
+        {
+          "start": 80.5,
+          "end": 88.5,
+          "text": "the dynamics. I will do exactly as I'm pulled and so therefore because time is short",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9503689408302307
+        },
+        {
+          "start": 88.74,
+          "end": 98.42,
+          "text": "but if I just play you literally the first maybe two lines are so it's very straightforward.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9648661613464355
+        },
+        {
+          "start": 98.42,
+          "end": 102.66,
+          "text": "There's nothing too difficult about the piece but here I'm being told that the piece of music",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7452549338340759
+        },
+        {
+          "start": 102.66,
+          "end": 109.86,
+          "text": "is very quick. I'm being told where to play on the drum. I'm being told which part of the",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.4852024018764496
+        },
+        {
+          "start": 109.86,
+          "end": 118.9,
+          "text": "stick to use and I'm being told the dynamic and I'm also being told that the drum is without",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6018769145011902
+        },
+        {
+          "start": 118.9,
+          "end": 130.42,
+          "text": "snares. Snares on, snares off. So therefore if I translate this piece of music we have this idea",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8207849264144897
+        }
+      ],
+      "summary": " If I just open my little motorbike bag we have here hopefully a piece of music that is full of little black dots on the page and you know we open it up and I read the music. So technically I can actually read this. I will follow the instructions, the tempo markings, the dynamics and I will do exactly as I'm pulled . There's nothing too difficult about the piece but here I'm being told where to play on the drum .",
+      "tldr": " If I just open my little motorbike bag we have here hopefully a piece of music that is full of little black dots on the page and you know we open it up and I read the",
+      "title": " If I just open my little motorbike bag we have here",
+      "bullets": [
+        "If I just open my little motorbike bag we have here hopefully a piece of music that is full of little black dots on the page and you know we open it up and I read the music",
+        "So technically I can actually read this",
+        "I will follow the instructions, the tempo markings, the dynamics and I will do exactly as I'm pulled",
+        "There's nothing too difficult about the piece but here I'm being told where to play on the drum ."
+      ],
+      "keywords": [
+        "snares",
+        "motorbike",
+        "motorbike bag",
+        "piece of music",
+        "music"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9973300695419312,
+      "emotion": "neutral",
+      "emotion_score": 0.9363074898719788
+    },
+    {
+      "id": 2,
+      "start": 161.98,
+      "end": 296.48,
+      "text": "and so on. My career would probably last about five years. However what I have to do is a musician is do everything that is not on the music. Everything that isn't time to learn from a teacher or to talk about even from a teacher but it's the things that you notice when you're not actually with your instrument that in fact becomes so interesting and that you you want to explore through this tiny, tiny surface of a drum. So there we experience the translation. Now we'll experience the interpretation. My career may last a little longer but in a way you know it's the same if I look at you and I see a nice bright young lady with a pink top on I see that you're clutching a teddy bear etc etc so I get a basic idea as to what you might be about, what you might like, what you might do as a profession etc etc. However that's just you know the initial idea I may have that we all get when we actually look and we try to interpret but actually it's so unbelievably shallow. In the same way I look at the",
+      "segments": [
+        {
+          "start": 161.98,
+          "end": 167.9,
+          "text": "and so on. My career would probably last about five years. However",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.947849690914154
+        },
+        {
+          "start": 168.54,
+          "end": 177.58,
+          "text": "what I have to do is a musician is do everything that is not on the music. Everything that",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9063224792480469
+        },
+        {
+          "start": 177.58,
+          "end": 185.98,
+          "text": "isn't time to learn from a teacher or to talk about even from a teacher but it's the things that",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8558151125907898
+        },
+        {
+          "start": 185.98,
+          "end": 192.46,
+          "text": "you notice when you're not actually with your instrument that in fact becomes so interesting",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.9303047060966492
+        },
+        {
+          "start": 193.02,
+          "end": 199.82,
+          "text": "and that you you want to explore through this tiny, tiny surface of a drum. So there we experience",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5856676697731018
+        },
+        {
+          "start": 199.82,
+          "end": 260.96,
+          "text": "the translation. Now we'll experience the interpretation. My career may last a little longer",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9348928928375244
+        },
+        {
+          "start": 262.32,
+          "end": 269.28,
+          "text": "but in a way you know it's the same if I look at you and I see a nice bright young lady with a",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.5404776334762573
+        },
+        {
+          "start": 269.28,
+          "end": 275.84,
+          "text": "pink top on I see that you're clutching a teddy bear etc etc so I get a basic idea as",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6815995573997498
+        },
+        {
+          "start": 275.92,
+          "end": 282.56,
+          "text": "to what you might be about, what you might like, what you might do as a profession etc etc.",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.794194757938385
+        },
+        {
+          "start": 283.6,
+          "end": 290.64,
+          "text": "However that's just you know the initial idea I may have that we all get when we actually look",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9491503834724426
+        },
+        {
+          "start": 291.36,
+          "end": 296.48,
+          "text": "and we try to interpret but actually it's so unbelievably shallow. In the same way I look at the",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.6456573605537415
+        }
+      ],
+      "summary": " My career would probably last about five years. However what I have to do is a musician is do everything that is not on the music. Everything that isn't time to learn from a teacher . It's the things that you notice when you're not actually with your instrument that becomes so interesting .",
+      "tldr": " \"My career would probably last about five years. However what I have to do is a musician is do everything that is",
+      "title": " \"My career would probably last about five years. However what",
+      "bullets": [
+        "My career would probably last about five years",
+        "However what I have to do is a musician is do everything that is not on the music",
+        "Everything that isn't time to learn from a teacher",
+        "It's the things that you notice when you're not actually with your instrument that becomes so interesting ."
+      ],
+      "keywords": [
+        "career",
+        "musician",
+        "experience the interpretation",
+        "music",
+        "experience the translation"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9898399114608765,
+      "emotion": "surprise",
+      "emotion_score": 0.7160235643386841
+    },
+    {
+      "id": 3,
+      "start": 296.48,
+      "end": 363.63,
+      "text": "music I get a basic idea I wonder what technically might be hard or you know what I want to do just the basic feeling however that is simply not enough. Please listen listen we have to listen to ourselves first of all if I play for example holding the stick where literally I do not let go if the stick you experience quite a lot of shock coming up through the arm and you feel really quite believe or not detached from the instrument and from the stuck stick even although I'm actually holding the stick quite tightly. Holding it tightly I feel strangely more detached. If I just simply let go and allow my hand my arm to be more of a support system suddenly more dynamic with less effort much more and I just feel at last one with the stick and one with the drum and",
+      "segments": [
+        {
+          "start": 296.48,
+          "end": 302.72,
+          "text": "music I get a basic idea I wonder what technically might be hard or you know what I want to do",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.9674662947654724
+        },
+        {
+          "start": 302.8,
+          "end": 311.52,
+          "text": "just the basic feeling however that is simply not enough. Please listen listen we have to listen",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7810222506523132
+        },
+        {
+          "start": 311.52,
+          "end": 319.68,
+          "text": "to ourselves first of all if I play for example holding the stick where literally I do not let go",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.4798882007598877
+        },
+        {
+          "start": 319.68,
+          "end": 328.02,
+          "text": "if the stick you experience quite a lot of shock coming up through the arm and you feel really",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.7380033731460571
+        },
+        {
+          "start": 328.02,
+          "end": 334.18,
+          "text": "quite believe or not detached from the instrument and from the stuck stick even although I'm actually",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6967719197273254
+        },
+        {
+          "start": 334.18,
+          "end": 342.88,
+          "text": "holding the stick quite tightly. Holding it tightly I feel strangely more detached. If I just",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.7781091928482056
+        },
+        {
+          "start": 342.88,
+          "end": 353.95,
+          "text": "simply let go and allow my hand my arm to be more of a support system suddenly more dynamic",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.7176632881164551
+        },
+        {
+          "start": 353.95,
+          "end": 363.63,
+          "text": "with less effort much more and I just feel at last one with the stick and one with the drum and",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6826558709144592
+        }
+      ],
+      "summary": " If I play for example holding the stick where literally I do not let go if the stick you experience quite a lot of shock coming up through the arm and you feel really quite believe or not detached from the instrument . Holding it tightly I feel strangely more detached. If I just simply let go and allow my hand my arm to be more of a support system suddenly more dynamic .",
+      "tldr": " Holding it tightly I feel strangely more detached from the instrument . If I just simply let go and allow my hand my arm be more of a support system suddenly more dynamic .",
+      "title": " Holding it tightly I feel strangely more detached from the instrument .",
+      "bullets": [
+        "If I play for example holding the stick where literally I do not let go if the stick you experience quite a lot of shock coming up through the arm and you feel really quite believe or not detached from the instrument",
+        "Holding it tightly I feel strangely more detached",
+        "If I just simply let go and allow my hand my arm to be more of a support system suddenly more dynamic ."
+      ],
+      "keywords": [
+        "basic feeling",
+        "holding the stick",
+        "stick",
+        "stuck stick",
+        "feel"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.974480152130127,
+      "emotion": "surprise",
+      "emotion_score": 0.633581817150116
+    },
+    {
+      "id": 4,
+      "start": 363.63,
+      "end": 452.67,
+      "text": "I'm doing far far less. So in the same way that I need time with this instrument I need time with people in order to interpret them not just translate them but interpret them. If for example I play just a few bars of a piece of music for which I think of myself as a technician that is someone who is basically a percussion player if I think of myself as a musician there's a little bit of a difference there that is worth just thinking about and I remember when I was 12 years old and I started playing timpani and percussion and my teacher said well how are we going to do this",
+      "segments": [
+        {
+          "start": 363.63,
+          "end": 370.51,
+          "text": "I'm doing far far less. So in the same way that I need time with this instrument I need time",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9174060821533203
+        },
+        {
+          "start": 370.51,
+          "end": 378.27,
+          "text": "with people in order to interpret them not just translate them but interpret them. If for example",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9195343852043152
+        },
+        {
+          "start": 378.99,
+          "end": 390.43,
+          "text": "I play just a few bars of a piece of music for which I think of myself as a technician that is",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9098669290542603
+        },
+        {
+          "start": 390.43,
+          "end": 433.95,
+          "text": "someone who is basically a percussion player if I think of myself as a musician there's a little",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7762796878814697
+        },
+        {
+          "start": 433.95,
+          "end": 445.23,
+          "text": "bit of a difference there that is worth just thinking about and I remember when I was 12 years old and",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5781209468841553
+        },
+        {
+          "start": 445.23,
+          "end": 452.67,
+          "text": "I started playing timpani and percussion and my teacher said well how are we going to do this",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.439696729183197
+        }
+      ],
+      "summary": " I'm doing far far less. I need time with people in order to interpret them not just translate them but interpret them . If for example I play just a few bars of a piece of music for which I think of myself as a technician that is someone who is basically a percussion player .",
+      "tldr": " \"I'm doing far far less.  I need time with people in order to interpret them not just translate them but interpret",
+      "title": " \"I'm doing far far less.  I'm doing",
+      "bullets": [
+        "I'm doing far far less",
+        "I need time with people in order to interpret them not just translate them but interpret them",
+        "If for example I play just a few bars of a piece of music for which I think of myself as a technician that is someone who is basically a percussion player ."
+      ],
+      "keywords": [
+        "playing timpani",
+        "started playing timpani",
+        "percussion player",
+        "instrument",
+        "percussion"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.997962236404419,
+      "emotion": "neutral",
+      "emotion_score": 0.9096280336380005
+    },
+    {
+      "id": 5,
+      "start": 452.75,
+      "end": 491.07,
+      "text": "you know music is about listening and I said yes I agree with that so what's the problem and he said well how are you going to hear that how are you going to hear that and I said well how do you hear it he said well I think I hear it through here and I said well I think I do too but I also hear it through my hands through my arms my cheekbones my scalp my tummy my chest my legs and so on and so we began our lessons every single time tuning drums in particular the kettle drums",
+      "segments": [
+        {
+          "start": 452.75,
+          "end": 460.51,
+          "text": "you know music is about listening and I said yes I agree with that so what's the problem",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7684255242347717
+        },
+        {
+          "start": 461.31,
+          "end": 465.87,
+          "text": "and he said well how are you going to hear that how are you going to hear that and I said well how do",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5576720833778381
+        },
+        {
+          "start": 465.87,
+          "end": 474.43,
+          "text": "you hear it he said well I think I hear it through here and I said well I think I do too but I",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7299050092697144
+        },
+        {
+          "start": 474.43,
+          "end": 482.27,
+          "text": "also hear it through my hands through my arms my cheekbones my scalp my tummy my chest my legs and",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.5187423229217529
+        },
+        {
+          "start": 482.27,
+          "end": 491.07,
+          "text": "so on and so we began our lessons every single time tuning drums in particular the kettle drums",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8338409662246704
+        }
+      ],
+      "summary": " You know music is about listening and I said yes I agree with that so what's the problem and he said well how are you going to hear that? He said well I think I hear it through here and I do too but he also hears it through my hands through my cheekbones, cheekbones and scalp .",
+      "tldr": " I said yes I agree with that so what's the problem and he said well how are you going to hear that? He said",
+      "title": " I said yes I agree with that so what's the problem",
+      "bullets": [
+        "You know music is about listening and I said yes I agree with that so what's the problem and he said well how are you going to hear that? He said well I think I hear it through here and I do too but he also hears it through my hands through my cheekbones, cheekbones and scalp ."
+      ],
+      "keywords": [
+        "tuning drums",
+        "drums",
+        "kettle drums",
+        "time tuning drums",
+        "lessons every single"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9411585330963135,
+      "emotion": "neutral",
+      "emotion_score": 0.8033379316329956
+    },
+    {
+      "id": 6,
+      "start": 491.07,
+      "end": 523.86,
+      "text": "are timpani to such a narrow pitch interval so something like that of a difference then gradually and gradually and it's amazing that when you do open your body up and open your hand up to allow the vibration to come through that in fact the tiny tiny difference can be felt with just the",
+      "segments": [
+        {
+          "start": 491.07,
+          "end": 504.29,
+          "text": "are timpani to such a narrow pitch interval so something like that of a difference then gradually",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6051179766654968
+        },
+        {
+          "start": 505.89,
+          "end": 515.3,
+          "text": "and gradually and it's amazing that when you do open your body up and open your hand up to allow",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.9279240369796753
+        },
+        {
+          "start": 515.3,
+          "end": 523.86,
+          "text": "the vibration to come through that in fact the tiny tiny difference can be felt with just the",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.633333146572113
+        }
+      ],
+      "summary": " Timpani are timpani to such a narrow pitch interval so something like that of a difference then gradually and gradually and it's amazing that when you do open your body up and open your hand up to allow the vibration to come through that in fact the tiny tiny difference can be felt with just the smallest .",
+      "tldr": " Timpani are timpani to such a narrow pitch interval so something like that of a difference then gradually and gradually . Tim",
+      "title": " Timpani are timpani to such a narrow pitch",
+      "bullets": [
+        "Timpani are timpani to such a narrow pitch interval so something like that of a difference then gradually and gradually and it's amazing that when you do open your body up and open your hand up to allow the vibration to come through that in fact the tiny tiny difference can be felt with just the smallest ."
+      ],
+      "keywords": [
+        "narrow pitch interval",
+        "pitch interval",
+        "narrow pitch",
+        "difference then gradually",
+        "tiny tiny difference"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9997003078460693,
+      "emotion": "surprise",
+      "emotion_score": 0.8095453977584839
+    },
+    {
+      "id": 7,
+      "start": 523.86,
+      "end": 585.89,
+      "text": "tiniest part of your finger there and so what we would do is that I would pop my hands on the wall of the music room and together we would listen to the sounds of the instruments and really try to connect with those sounds far far more broadly than simply depending on the ear because of course the ear is I mean subject to all sorts of things the room we happen to be in the amplification the quality of the instrument the type of sticks etc etc they're all different same I'm up same amount of weight but different sound colors and that's basically what we are we're just human beings but we all have our own little sound colors as it were that make up these extraordinary",
+      "segments": [
+        {
+          "start": 523.86,
+          "end": 531.54,
+          "text": "tiniest part of your finger there and so what we would do is that I would pop my hands on the wall",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4079219400882721
+        },
+        {
+          "start": 531.54,
+          "end": 539.7,
+          "text": "of the music room and together we would listen to the sounds of the instruments and really try to",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5055057406425476
+        },
+        {
+          "start": 539.7,
+          "end": 547.14,
+          "text": "connect with those sounds far far more broadly than simply depending on the ear because of course the",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8881433606147766
+        },
+        {
+          "start": 547.14,
+          "end": 553.94,
+          "text": "ear is I mean subject to all sorts of things the room we happen to be in the amplification the",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7423988580703735
+        },
+        {
+          "start": 553.94,
+          "end": 574.69,
+          "text": "quality of the instrument the type of sticks etc etc they're all different same I'm up same",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8663738965988159
+        },
+        {
+          "start": 574.69,
+          "end": 580.93,
+          "text": "amount of weight but different sound colors and that's basically what we are we're just human beings",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9443749785423279
+        },
+        {
+          "start": 580.93,
+          "end": 585.89,
+          "text": "but we all have our own little sound colors as it were that make up these extraordinary",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4894668459892273
+        }
+      ],
+      "summary": " We all have our own little sound colors as it were that make up these extraordinary sounds . The ear is subject to all sorts of things the room we happen to be in the amplification the quality of the instrument the type of sticks etc etc. etc. they're all different same same I'm up same weight but different sound colors .",
+      "tldr": " We all have our own little sound colors as it were that make up these extraordinary sounds . The ear is subject to all sorts of things the",
+      "title": " The ear is subject to all sorts of things the room we",
+      "bullets": [
+        "We all have our own little sound colors as it were that make up these extraordinary sounds",
+        "The ear is subject to all sorts of things the room we happen to be in the amplification the quality of the instrument the type of sticks etc etc",
+        "etc",
+        "they're all different same same I'm up same weight but different sound colors ."
+      ],
+      "keywords": [
+        "music room",
+        "sound colors",
+        "ear",
+        "instrument the type",
+        "tiniest part"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.990522027015686,
+      "emotion": "neutral",
+      "emotion_score": 0.5812581181526184
+    },
+    {
+      "id": 8,
+      "start": 585.89,
+      "end": 652.85,
+      "text": "personalities and characters and interests and things and as I grew older I then auditioned for the Royal Academy of Music in London and they said well no we won't accept you because we haven't a clue you know of the future of a so-called death musician and I just couldn't quite accept that and so therefore I said to them well look if you refuse if you refuse me through those reasons as opposed to the ability to perform and to understand and love the art of creating sound then we have to think very very hard about the people you do actually accept and as a result and once we got over a little hurdle and having to audition twice they accepted me and not only that what had happened was that it changed the whole role of the music institutions throughout",
+      "segments": [
+        {
+          "start": 585.89,
+          "end": 591.97,
+          "text": "personalities and characters and interests and things and as I grew older I then",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8415418863296509
+        },
+        {
+          "start": 591.97,
+          "end": 598.21,
+          "text": "auditioned for the Royal Academy of Music in London and they said well no we won't accept you",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.835165798664093
+        },
+        {
+          "start": 598.21,
+          "end": 606.93,
+          "text": "because we haven't a clue you know of the future of a so-called death musician and I just couldn't",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.45343053340911865
+        },
+        {
+          "start": 606.93,
+          "end": 617.01,
+          "text": "quite accept that and so therefore I said to them well look if you refuse if you refuse me through",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.7491021156311035
+        },
+        {
+          "start": 617.01,
+          "end": 629.01,
+          "text": "those reasons as opposed to the ability to perform and to understand and love the art of creating",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7848451137542725
+        },
+        {
+          "start": 629.01,
+          "end": 637.89,
+          "text": "sound then we have to think very very hard about the people you do actually accept and as a result",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9508224129676819
+        },
+        {
+          "start": 637.89,
+          "end": 646.05,
+          "text": "and once we got over a little hurdle and having to audition twice they accepted me and not only",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4031778573989868
+        },
+        {
+          "start": 646.05,
+          "end": 652.85,
+          "text": "that what had happened was that it changed the whole role of the music institutions throughout",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.4739895462989807
+        }
+      ],
+      "summary": " As a child I auditioned for the Royal Academy of Music in London and they said well no we won't accept you because we haven't a clue you know of the future of a so-called death musician and I just couldn't quite accept that . I said to them well look if you refuse to accept me through those reasons as opposed to the ability to perform and to understand and love the art of creating sound then we have to think very very hard about the people you actually accept .",
+      "tldr": " As a child I auditioned for the Royal Academy of Music in London and they said well no we won't accept you because we haven't a clue you know of the future of a so-called death musician .",
+      "title": " As a child I auditioned for the Royal Academy of Music",
+      "bullets": [
+        "As a child I auditioned for the Royal Academy of Music in London and they said well no we won't accept you because we haven't a clue you know of the future of a so-called death musician and I just couldn't quite accept that",
+        "I said to them well look if you refuse to accept me through those reasons as opposed to the ability to perform and to understand and love the art of creating sound then we have to think very very hard about the people you actually accept ."
+      ],
+      "keywords": [
+        "music institutions",
+        "death musician",
+        "so-called death musician",
+        "Royal Academy",
+        "ability to perform"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.999369204044342,
+      "emotion": "fear",
+      "emotion_score": 0.31407034397125244
+    },
+    {
+      "id": 9,
+      "start": 652.85,
+      "end": 727.5,
+      "text": "the United Kingdom under no circumstances were they to refuse any application whatsoever on the basis of whether someone had no arms no legs they could still perhaps play a wind instrument if it was supported on a stand no circumstances at all were used to refuse any entry and every single entry had to be listened to experienced and then based on the musical ability then that person could either enter or not and so therefore this in turn meant that there was an extremely interesting bunch of students who arrived in these various music institutions and I have to say many of them now in the professional orchestras throughout the world the interesting thing about this as well though is that it's quite simply that not only were people connected with sound which is basically all of us and we well know that music really is our daily medicine I say music but",
+      "segments": [
+        {
+          "start": 652.85,
+          "end": 662.45,
+          "text": "the United Kingdom under no circumstances were they to refuse any application whatsoever on the",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.8860121369361877
+        },
+        {
+          "start": 662.45,
+          "end": 668.21,
+          "text": "basis of whether someone had no arms no legs they could still perhaps play a wind instrument if it",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6819347143173218
+        },
+        {
+          "start": 668.21,
+          "end": 678.45,
+          "text": "was supported on a stand no circumstances at all were used to refuse any entry and every single",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.9298362731933594
+        },
+        {
+          "start": 678.45,
+          "end": 685.81,
+          "text": "entry had to be listened to experienced and then based on the musical ability then that person",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9223462343215942
+        },
+        {
+          "start": 686.77,
+          "end": 694.53,
+          "text": "could either enter or not and so therefore this in turn meant that there was an extremely",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7586544156074524
+        },
+        {
+          "start": 694.53,
+          "end": 701.25,
+          "text": "interesting bunch of students who arrived in these various music institutions and I have to say",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5974982380867004
+        },
+        {
+          "start": 701.25,
+          "end": 707.97,
+          "text": "many of them now in the professional orchestras throughout the world the interesting thing about",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.8216733932495117
+        },
+        {
+          "start": 707.97,
+          "end": 720.22,
+          "text": "this as well though is that it's quite simply that not only were people connected with sound which",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8856862187385559
+        },
+        {
+          "start": 720.22,
+          "end": 727.5,
+          "text": "is basically all of us and we well know that music really is our daily medicine I say music but",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9018954634666443
+        }
+      ],
+      "summary": " the United Kingdom under no circumstances were they to refuse any application whatsoever on the basis of whether someone had no arms no legs they could still perhaps play a wind instrument if it was supported on a stand . The interesting thing about this as well though is that not only were people connected with sound which is basically all of us and we well know that music really is our daily medicine .",
+      "tldr": " The United Kingdom under no circumstances were they to refuse any application whatsoever on the basis of whether someone had no arms no legs they could still perhaps play a wind instrument if it",
+      "title": " The United Kingdom under no circumstances were they to refuse any application",
+      "bullets": [
+        "the United Kingdom under no circumstances were they to refuse any application whatsoever on the basis of whether someone had no arms no legs they could still perhaps play a wind instrument if it was supported on a stand",
+        "The interesting thing about this as well though is that not only were people connected with sound which is basically all of us and we well know that music really is our daily medicine ."
+      ],
+      "keywords": [
+        "musical ability",
+        "professional orchestras",
+        "refuse any application",
+        "students who arrived",
+        "stand no circumstances"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9754337072372437,
+      "emotion": "neutral",
+      "emotion_score": 0.7485750317573547
+    },
+    {
+      "id": 10,
+      "start": 727.5,
+      "end": 903.74,
+      "text": "actually I mean sound because you know some of the extraordinary things I've experienced as a musician when you may have a 15 year old lad who is has got the most incredible challenges who may not be able to control his movements who may be deaf who may be blind etc etc suddenly if that young lad sits close to this instrument at perhaps even lies underneath the marimba and you play something that's so incredibly organ-like almost I don't really have the the right sticks perhaps but something something like this evenly simple but he would be experiencing something that I wouldn't be because I'm on top of the sound I have the sound coming this way he would have the sound coming through the resonators if there were no resonators on here we would have a fullness of sound that those of you in the front few rows wouldn't experience those of you in the back few rows wouldn't experience either every single one of us depending on where we're sitting will experience this sound quite quite differently and of course being the participator of the sound and that is starting from the idea of what type of sound I want to produce for example this sound can you hear anything exactly because I'm not even touching it but yet we get the sensation of something happening in the same way that when I see tree move then I imagine that tree making a rottling sound do you see what I mean so whatever the eye sees then there's always sound happening so there's always",
+      "segments": [
+        {
+          "start": 727.5,
+          "end": 734.06,
+          "text": "actually I mean sound because you know some of the extraordinary things I've experienced as a musician",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.8921116590499878
+        },
+        {
+          "start": 734.06,
+          "end": 743.74,
+          "text": "when you may have a 15 year old lad who is has got the most incredible challenges who may not be",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.7995733022689819
+        },
+        {
+          "start": 743.74,
+          "end": 751.02,
+          "text": "able to control his movements who may be deaf who may be blind etc etc suddenly if that young lad",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.8897515535354614
+        },
+        {
+          "start": 751.66,
+          "end": 759.1,
+          "text": "sits close to this instrument at perhaps even lies underneath the marimba and you play something",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6822535395622253
+        },
+        {
+          "start": 759.18,
+          "end": 767.18,
+          "text": "that's so incredibly organ-like almost I don't really have the the right sticks perhaps but something",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.7043090462684631
+        },
+        {
+          "start": 767.18,
+          "end": 827.44,
+          "text": "something like this evenly simple but he would be experiencing something that I wouldn't be",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6729577779769897
+        },
+        {
+          "start": 827.44,
+          "end": 833.52,
+          "text": "because I'm on top of the sound I have the sound coming this way he would have the sound",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.693177342414856
+        },
+        {
+          "start": 833.6,
+          "end": 847.79,
+          "text": "coming through the resonators if there were no resonators on here we would have a fullness of sound",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5565105080604553
+        },
+        {
+          "start": 847.79,
+          "end": 852.67,
+          "text": "that those of you in the front few rows wouldn't experience those of you in the back few rows wouldn't",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7161204814910889
+        },
+        {
+          "start": 852.67,
+          "end": 858.99,
+          "text": "experience either every single one of us depending on where we're sitting will experience this sound",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8596510291099548
+        },
+        {
+          "start": 858.99,
+          "end": 865.63,
+          "text": "quite quite differently and of course being the participator of the sound and that is starting from",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8760994076728821
+        },
+        {
+          "start": 865.71,
+          "end": 879.58,
+          "text": "the idea of what type of sound I want to produce for example this sound can you hear anything",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6680284142494202
+        },
+        {
+          "start": 881.58,
+          "end": 890.46,
+          "text": "exactly because I'm not even touching it but yet we get the sensation of something happening",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6691572666168213
+        },
+        {
+          "start": 890.46,
+          "end": 896.62,
+          "text": "in the same way that when I see tree move then I imagine that tree making a rottling sound",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.4921621084213257
+        },
+        {
+          "start": 897.18,
+          "end": 903.74,
+          "text": "do you see what I mean so whatever the eye sees then there's always sound happening so there's always",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5149011015892029
+        }
+      ],
+      "summary": " Every single one of us depending on where we're sitting will experience this sound quite quite differently . We get the sensation of something happening in the same way that when I see tree move then I imagine that tree making a rottling sound do you see what I mean .",
+      "tldr": " Every single one of us depending on where we're sitting will experience this sound quite quite differently . We get the",
+      "title": " Every single one of us depending on where we're sitting will",
+      "bullets": [
+        "Every single one of us depending on where we're sitting will experience this sound quite quite differently",
+        "We get the sensation of something happening in the same way that when I see tree move then I imagine that tree making a rottling sound do you see what I mean ."
+      ],
+      "keywords": [
+        "sound happening",
+        "sound coming",
+        "sound",
+        "rottling sound",
+        "extraordinary things"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9658439755439758,
+      "emotion": "surprise",
+      "emotion_score": 0.46912336349487305
+    },
+    {
+      "id": 11,
+      "start": 903.74,
+      "end": 961.65,
+      "text": "always that huge I mean just this kaleidoscope of things to draw from so all of my performances are based on entirely what I experience and not by learning a piece of music put him on someone else's interpretation of it buying all the CDs possible of that particular piece of music and so on and so forth because that isn't giving me enough of something that is so raw and so basic and something that that I can fully experience the journey of so it may be that in certain halls this dynamic may well work maybe that in other halls there's simply not going to experience that at all and so",
+      "segments": [
+        {
+          "start": 903.74,
+          "end": 913.1,
+          "text": "always that huge I mean just this kaleidoscope of things to draw from so all of my performances are",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6897368431091309
+        },
+        {
+          "start": 913.1,
+          "end": 920.78,
+          "text": "based on entirely what I experience and not by learning a piece of music put him on someone else's",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8414152264595032
+        },
+        {
+          "start": 920.78,
+          "end": 925.9,
+          "text": "interpretation of it buying all the CDs possible of that particular piece of music and so on and so",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8042187690734863
+        },
+        {
+          "start": 925.9,
+          "end": 933.34,
+          "text": "forth because that isn't giving me enough of something that is so raw and so basic and something",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.4264812469482422
+        },
+        {
+          "start": 933.34,
+          "end": 943.82,
+          "text": "that that I can fully experience the journey of so it may be that in certain halls this dynamic",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9257518649101257
+        },
+        {
+          "start": 945.9,
+          "end": 961.65,
+          "text": "may well work maybe that in other halls there's simply not going to experience that at all and so",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9183634519577026
+        }
+      ],
+      "summary": " All of my performances are based on entirely what I experience and not by learning a piece of music put him on someone else's interpretation of it . It may be that in certain halls this dynamic may well work maybe that in other halls there's simply not going to experience that .",
+      "tldr": " All of my performances are based on entirely what I experience and not by learning a piece of music put him on someone",
+      "title": " All of my performances are based on entirely what I experience,",
+      "bullets": [
+        "All of my performances are based on entirely what I experience and not by learning a piece of music put him on someone else's interpretation of it",
+        "It may be that in certain halls this dynamic may well work maybe that in other halls there's simply not going to experience that ."
+      ],
+      "keywords": [
+        "performances are based",
+        "halls this dynamic",
+        "music",
+        "learning a piece",
+        "piece of music"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.9952384233474731,
+      "emotion": "neutral",
+      "emotion_score": 0.9385693669319153
+    },
+    {
+      "id": 12,
+      "start": 961.65,
+      "end": 995.86,
+      "text": "therefore my level of soft soft gentle playing may have to be so because of this explosion in",
+      "segments": [
+        {
+          "start": 961.65,
+          "end": 995.86,
+          "text": "therefore my level of soft soft gentle playing may have to be so because of this explosion in",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.741217851638794
+        }
+      ],
+      "summary": "therefore my level of soft soft gentle playing may have to be so because of this explosion in",
+      "tldr": "therefore my level of soft soft gentle playing may have to be so because of this explosion in",
+      "title": "therefore my level of soft soft gentle playing may have to be so because of this explosion in",
+      "bullets": [
+        "therefore my level of soft soft gentle playing may have to be so because of this explosion in"
+      ],
+      "keywords": [
+        "soft gentle playing",
+        "level of soft",
+        "soft soft gentle",
+        "soft soft",
+        "soft gentle"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9873260855674744,
+      "emotion": "neutral",
+      "emotion_score": 0.741217851638794
+    },
+    {
+      "id": 13,
+      "start": 995.86,
+      "end": 1055.78,
+      "text": "access to sound especially through the deaf community this is not only affected how music institutions how schools for the deaf treat sound and not just as a means of therapy although of course being a participator of music that definitely is the case as well but it's meant that acquisitions have had to really think about the types of halls they put together there are so few halls in this world that actually are have very good acoustics there I see but by that I mean you can absolutely do anything you imagine that the tiny softest softest sound to something that is so broad so huge so incredible there's always something it may sound good up there may not be so good there may be great there but terrible up there may be terrible over there but not too bad",
+      "segments": [
+        {
+          "start": 995.86,
+          "end": 1004.18,
+          "text": "access to sound especially through the deaf community this is not only affected how music",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7407070398330688
+        },
+        {
+          "start": 1004.18,
+          "end": 1012.26,
+          "text": "institutions how schools for the deaf treat sound and not just as a means of therapy although of",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8117084503173828
+        },
+        {
+          "start": 1012.26,
+          "end": 1018.66,
+          "text": "course being a participator of music that definitely is the case as well but it's meant that",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8880138993263245
+        },
+        {
+          "start": 1019.46,
+          "end": 1026.9,
+          "text": "acquisitions have had to really think about the types of halls they put together there are so",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8760097622871399
+        },
+        {
+          "start": 1026.9,
+          "end": 1035.14,
+          "text": "few halls in this world that actually are have very good acoustics there I see but by that I mean",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6599847674369812
+        },
+        {
+          "start": 1035.3,
+          "end": 1043.3,
+          "text": "you can absolutely do anything you imagine that the tiny softest softest sound to something that",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.44531381130218506
+        },
+        {
+          "start": 1043.3,
+          "end": 1050.42,
+          "text": "is so broad so huge so incredible there's always something it may sound good up there may not be",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.9443514943122864
+        },
+        {
+          "start": 1050.42,
+          "end": 1055.78,
+          "text": "so good there may be great there but terrible up there may be terrible over there but not too bad",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.8689104318618774
+        }
+      ],
+      "summary": " There are so few halls in this world that actually are have very good acoustics there I see . You can absolutely do anything you imagine that the tiny softest softest sound to something that is so broad so huge so incredible .",
+      "tldr": " There are so few halls in this world that actually are have very good acoustics there",
+      "title": " There are so few halls in this world that actually are have",
+      "bullets": [
+        "There are so few halls in this world that actually are have very good acoustics there I see",
+        "You can absolutely do anything you imagine that the tiny softest softest sound to something that is so broad so huge so incredible ."
+      ],
+      "keywords": [
+        "deaf treat sound",
+        "deaf community",
+        "deaf treat",
+        "music institutions",
+        "treat sound"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9997660517692566,
+      "emotion": "surprise",
+      "emotion_score": 0.808076798915863
+    },
+    {
+      "id": 14,
+      "start": 1055.78,
+      "end": 1101.54,
+      "text": "there etc etc so to find an actual hall is incredible for which you can play exactly what you imagine without it being cosmetically enhanced and so therefore acquisitions are actually in conversation with people who are hearing impaired and who are participators of sound and this is this is quite interesting I cannot you know give you any detail as far as well what is actually happening with those halls but it's just the fact that they are going to a group of people for whom so many years for which so many years we've been saying well how an earth can they",
+      "segments": [
+        {
+          "start": 1055.78,
+          "end": 1064.98,
+          "text": "there etc etc so to find an actual hall is incredible for which you can play exactly what",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.7946258187294006
+        },
+        {
+          "start": 1064.98,
+          "end": 1072.26,
+          "text": "you imagine without it being cosmetically enhanced and so therefore acquisitions are actually",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.7106447219848633
+        },
+        {
+          "start": 1072.9,
+          "end": 1083.06,
+          "text": "in conversation with people who are hearing impaired and who are participators of sound and",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6376701593399048
+        },
+        {
+          "start": 1083.06,
+          "end": 1089.7,
+          "text": "this is this is quite interesting I cannot you know give you any detail as far as well what is",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.8818670511245728
+        },
+        {
+          "start": 1089.7,
+          "end": 1096.42,
+          "text": "actually happening with those halls but it's just the fact that they are going to a group of people",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7569875717163086
+        },
+        {
+          "start": 1096.42,
+          "end": 1101.54,
+          "text": "for whom so many years for which so many years we've been saying well how an earth can they",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5131587982177734
+        }
+      ],
+      "summary": " Acquisitions are actually in conversation with people who are hearing impaired and who are participators of sound and this is quite interesting I cannot you know give you any detail as far as well .",
+      "tldr": " Acquisitions are actually in conversation with people who are hearing impaired and who are participators of sound and this is quite interesting I cannot you know give you any detail as far as well .",
+      "title": " Acquisitions are actually in conversation with people who are hearing impaired and who are participators of sound and this is quite interesting I cannot you know give you any detail as far as well .",
+      "bullets": [
+        "Acquisitions are actually in conversation with people who are hearing impaired and who are participators of sound and this is quite interesting I cannot you know give you any detail as far as well ."
+      ],
+      "keywords": [
+        "actual hall",
+        "hall is incredible",
+        "hearing impaired",
+        "participators of sound",
+        "conversation with people"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.998079776763916,
+      "emotion": "neutral",
+      "emotion_score": 0.709379255771637
+    },
+    {
+      "id": 15,
+      "start": 1101.54,
+      "end": 1137.14,
+      "text": "can they experience music you know they're deaf we just we go like that and we imagine that's what deafness is about or we go like that and we imagine that's what blindness is about if we see someone in a wheelchair we assume they cannot walk it maybe they can walk three four five steps that to them means they can walk in a year's time it could be two extra steps in another year's time three extra steps those are hugely important aspects to think about so when we do listen to each other",
+      "segments": [
+        {
+          "start": 1101.54,
+          "end": 1105.86,
+          "text": "can they experience music you know they're deaf we just we go like that and we imagine that's",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7135404944419861
+        },
+        {
+          "start": 1105.86,
+          "end": 1110.18,
+          "text": "what deafness is about or we go like that and we imagine that's what blindness is about if we see",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8002918362617493
+        },
+        {
+          "start": 1110.18,
+          "end": 1118.02,
+          "text": "someone in a wheelchair we assume they cannot walk it maybe they can walk three four five steps that",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8964363932609558
+        },
+        {
+          "start": 1118.02,
+          "end": 1126.98,
+          "text": "to them means they can walk in a year's time it could be two extra steps in another year's time",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8943769931793213
+        },
+        {
+          "start": 1126.98,
+          "end": 1137.14,
+          "text": "three extra steps those are hugely important aspects to think about so when we do listen to each other",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9443082213401794
+        }
+      ],
+      "summary": " If we see someone in a wheelchair we assume they cannot walk it maybe they can walk three four five steps . can they experience music you know they're deaf we just go like that and we imagine that's what deafness is about or blindness is about .",
+      "tldr": " If we see someone in a wheelchair we assume they cannot walk it maybe they can walk three four five steps",
+      "title": " If we see someone in a wheelchair we assume they cannot walk",
+      "bullets": [
+        "If we see someone in a wheelchair we assume they cannot walk it maybe they can walk three four five steps",
+        "can they experience music you know they're deaf we just go like that and we imagine that's what deafness is about or blindness is about ."
+      ],
+      "keywords": [
+        "experience music",
+        "wheelchair we assume",
+        "imagine",
+        "walk",
+        "experience"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.984069287776947,
+      "emotion": "neutral",
+      "emotion_score": 0.728124737739563
+    },
+    {
+      "id": 16,
+      "start": 1137.14,
+      "end": 1184.5,
+      "text": "it's unbelievably important for us to really to really test our listening skills to really use our bodies as a resonating chamber to stop the judgment for me as a musician who deals with 99 percent of new music it's very easy for me to say oh yes I like that piece oh no I don't like that piece of song and you know I just find that I have to give those pieces of music real time it may be that the chemistry isn't quite right between myself in that particular piece of music but that doesn't mean to say I have the right to say it's a bad piece of music and you know it's just it's one of the great things about being a musician is that it is so unbelievably fluid so there are",
+      "segments": [
+        {
+          "start": 1137.14,
+          "end": 1146.34,
+          "text": "it's unbelievably important for us to really to really test our listening skills to really use",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.5262537002563477
+        },
+        {
+          "start": 1146.5,
+          "end": 1153.06,
+          "text": "our bodies as a resonating chamber to stop the judgment for me as a musician who deals with 99",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3719770610332489
+        },
+        {
+          "start": 1153.06,
+          "end": 1158.34,
+          "text": "percent of new music it's very easy for me to say oh yes I like that piece oh no I don't like that",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.6801490187644958
+        },
+        {
+          "start": 1158.34,
+          "end": 1165.54,
+          "text": "piece of song and you know I just find that I have to give those pieces of music real time it may",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8930816650390625
+        },
+        {
+          "start": 1165.54,
+          "end": 1170.58,
+          "text": "be that the chemistry isn't quite right between myself in that particular piece of music but that",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5715794563293457
+        },
+        {
+          "start": 1170.58,
+          "end": 1177.3,
+          "text": "doesn't mean to say I have the right to say it's a bad piece of music and you know it's just",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.8181331753730774
+        },
+        {
+          "start": 1177.3,
+          "end": 1184.5,
+          "text": "it's one of the great things about being a musician is that it is so unbelievably fluid so there are",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6611357927322388
+        }
+      ],
+      "summary": " It's unbelievably important for us to really to really test our listening skills to really use our bodies as a resonating chamber to stop the judgment .",
+      "tldr": " It's unbelievably important for us to really to really test our listening skills to really use our bodies as a resonating chamber to stop the judgment .",
+      "title": " It's unbelievably important for us to really to really test our listening skills to really use our bodies as a resonating chamber to stop the judgment .",
+      "bullets": [
+        "It's unbelievably important for us to really to really test our listening skills to really use our bodies as a resonating chamber to stop the judgment ."
+      ],
+      "keywords": [
+        "music real",
+        "test our listening",
+        "listening skills",
+        "piece of music",
+        "music real time"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9563095569610596,
+      "emotion": "neutral",
+      "emotion_score": 0.5045521855354309
+    },
+    {
+      "id": 17,
+      "start": 1184.5,
+      "end": 1314.69,
+      "text": "no rules no right no wrong this way that way if I asked you to clap maybe I can do this if I can just say please clap and create the sound of thunder I'm assuming we've all experienced thunder now I don't mean just the sound I mean really listen to that thunder within yourself and please try to create that through your clapping try just please try snow have you ever heard snow well then stop clapping try again try again snow see you're a weak rain not bad not bad you know the interesting thing here though is that I asked a group of kids not so long ago exactly the same question now great imagination thank you very much however not one of you got out of your seats to think right how can I clap okay maybe maybe I can use my jewelry to create extra sounds maybe I can use the other parts of my body to create extra sounds not a single one of you thought about clapping in a slightly different way other than sitting in your seats there and using two hands in the same way that when we listen to music we assume that you know it's all being fed through here this is how we experience music of course it's not we experience thunder thunder thunder think think think listen listen listen now what can we do with thunder I remember my teacher",
+      "segments": [
+        {
+          "start": 1184.5,
+          "end": 1193.46,
+          "text": "no rules no right no wrong this way that way if I asked you to clap maybe I can do this if I can",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8948432803153992
+        },
+        {
+          "start": 1193.46,
+          "end": 1202.1,
+          "text": "just say please clap and create the sound of thunder I'm assuming we've all experienced thunder",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6547242403030396
+        },
+        {
+          "start": 1202.82,
+          "end": 1209.78,
+          "text": "now I don't mean just the sound I mean really listen to that thunder within yourself and please",
+          "speaker": "Speaker 1",
+          "emotion": "anger",
+          "emotion_score": 0.36902493238449097
+        },
+        {
+          "start": 1209.78,
+          "end": 1231.33,
+          "text": "try to create that through your clapping try just please try snow have you ever heard snow",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8797475695610046
+        },
+        {
+          "start": 1232.29,
+          "end": 1245.15,
+          "text": "well then stop clapping try again try again snow see you're a weak",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6833038330078125
+        },
+        {
+          "start": 1246.19,
+          "end": 1259.81,
+          "text": "rain not bad not bad you know the interesting thing here though is that I asked a group of kids",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3612031042575836
+        },
+        {
+          "start": 1259.81,
+          "end": 1268.37,
+          "text": "not so long ago exactly the same question now great imagination thank you very much however not one",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5454021692276001
+        },
+        {
+          "start": 1268.37,
+          "end": 1277.01,
+          "text": "of you got out of your seats to think right how can I clap okay maybe maybe I can use my jewelry",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7223593592643738
+        },
+        {
+          "start": 1277.01,
+          "end": 1283.33,
+          "text": "to create extra sounds maybe I can use the other parts of my body to create extra sounds not a single",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8921961784362793
+        },
+        {
+          "start": 1283.33,
+          "end": 1289.49,
+          "text": "one of you thought about clapping in a slightly different way other than sitting in your seats there",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6972873210906982
+        },
+        {
+          "start": 1289.49,
+          "end": 1295.09,
+          "text": "and using two hands in the same way that when we listen to music we assume that you know it's all",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8009023666381836
+        },
+        {
+          "start": 1295.09,
+          "end": 1303.89,
+          "text": "being fed through here this is how we experience music of course it's not we experience thunder thunder",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7274017333984375
+        },
+        {
+          "start": 1303.89,
+          "end": 1314.69,
+          "text": "thunder think think think listen listen listen now what can we do with thunder I remember my teacher",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.38686510920524597
+        }
+      ],
+      "summary": " If I asked you to clap maybe I can do this if I can just say please clap and create the sound of thunder I'm assuming we've all experienced thunder now I don't mean just the sound . Listen to that thunder within yourself and please try to create that through your clapping .",
+      "tldr": " If I asked you to clap maybe I can do this if I can just say please clap and create the sound",
+      "title": " If I asked you to clap maybe I can do this",
+      "bullets": [
+        "If I asked you to clap maybe I can do this if I can just say please clap and create the sound of thunder I'm assuming we've all experienced thunder now I don't mean just the sound",
+        "Listen to that thunder within yourself and please try to create that through your clapping ."
+      ],
+      "keywords": [
+        "thunder thunder thunder",
+        "experience thunder thunder",
+        "thunder thunder",
+        "create extra sounds",
+        "extra sounds"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9957332015037537,
+      "emotion": "neutral",
+      "emotion_score": 0.8531646132469177
+    },
+    {
+      "id": 18,
+      "start": 1315.41,
+      "end": 1359.25,
+      "text": "when when I first started my very first lesson I was all prepared with sticks ready to go and instead of him saying okay Evelyn please you know speak slightly apart arms at a more or less 90 degree angle sticks in a more or less V shape keep keep this amount of space here etc please keep keep your back straight etc etc where I was just probably going to end up absolutely rigid frozen and I would not be able to strike the drum because I was thinking of so many other things you said Evelyn take this drum away for for seven days and I'll see you next week so heavens what was I to do I I no longer require the sticks I wasn't allowed to have these sticks I had to basically look",
+      "segments": [
+        {
+          "start": 1315.41,
+          "end": 1321.41,
+          "text": "when when I first started my very first lesson I was all prepared with sticks ready to go and",
+          "speaker": "Speaker 1",
+          "emotion": "fear",
+          "emotion_score": 0.8626058101654053
+        },
+        {
+          "start": 1321.41,
+          "end": 1327.57,
+          "text": "instead of him saying okay Evelyn please you know speak slightly apart arms at a more or less 90",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9134824275970459
+        },
+        {
+          "start": 1327.57,
+          "end": 1335.25,
+          "text": "degree angle sticks in a more or less V shape keep keep this amount of space here etc please keep",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.942110002040863
+        },
+        {
+          "start": 1335.25,
+          "end": 1341.49,
+          "text": "keep your back straight etc etc where I was just probably going to end up absolutely rigid frozen",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7675318121910095
+        },
+        {
+          "start": 1341.49,
+          "end": 1345.49,
+          "text": "and I would not be able to strike the drum because I was thinking of so many other things you said",
+          "speaker": "Speaker 1",
+          "emotion": "sadness",
+          "emotion_score": 0.3239174485206604
+        },
+        {
+          "start": 1345.49,
+          "end": 1351.73,
+          "text": "Evelyn take this drum away for for seven days and I'll see you next week so heavens what was",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5147476196289062
+        },
+        {
+          "start": 1351.73,
+          "end": 1359.25,
+          "text": "I to do I I no longer require the sticks I wasn't allowed to have these sticks I had to basically look",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8306414484977722
+        }
+      ],
+      "summary": " When I first started my very first lesson I was all prepared with sticks ready to go, instead of him saying okay Evelyn please you know speak slightly apart arms at a more or less 90 degree angle sticks in a more . or a V shape . where I was just probably going to end up absolutely rigid frozen frozen and I would not be able to strike the drum .",
+      "tldr": " Evelyn was all prepared with sticks ready to go at the start of her drum lesson . Instead of him saying okay Evelyn please you know speak slightly apart arms at",
+      "title": " Evelyn was all prepared with sticks ready to go when she",
+      "bullets": [
+        "When I first started my very first lesson I was all prepared with sticks ready to go, instead of him saying okay Evelyn please you know speak slightly apart arms at a more or less 90 degree angle sticks in a more",
+        "or a V shape",
+        "where I was just probably going to end up absolutely rigid frozen frozen and I would not be able to strike the drum ."
+      ],
+      "keywords": [
+        "strike the drum",
+        "sticks ready",
+        "rigid frozen",
+        "angle sticks",
+        "absolutely rigid frozen"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.998263418674469,
+      "emotion": "neutral",
+      "emotion_score": 0.81736820936203
+    },
+    {
+      "id": 19,
+      "start": 1359.25,
+      "end": 1392.58,
+      "text": "at this particular drum see how it was made what these little lugs did what the snares did turned it upside down experimented with the shell experimented with the head experimented with my body experimented with jewelry experimented with all sorts of things and of course I returned with",
+      "segments": [
+        {
+          "start": 1359.25,
+          "end": 1366.13,
+          "text": "at this particular drum see how it was made what these little lugs did what the snares did turned",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.6847607493400574
+        },
+        {
+          "start": 1366.13,
+          "end": 1374.77,
+          "text": "it upside down experimented with the shell experimented with the head experimented with my body",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7179577350616455
+        },
+        {
+          "start": 1376.9,
+          "end": 1392.58,
+          "text": "experimented with jewelry experimented with all sorts of things and of course I returned with",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4912151098251343
+        }
+      ],
+      "summary": " at this particular drum see how it was made what these little lugs did what the snares did turned it upside down . The artist returned with all sorts of things he returned with .",
+      "tldr": " at this particular drum see how it was made what these little lugs did what the snares did turned it upside down . The artist returned with all sorts of things he returned with .",
+      "title": " at this particular drum see how it was made what these little lugs did what the snares did turned it upside down . The artist returned with all sorts of things he returned with .",
+      "bullets": [
+        "at this particular drum see how it was made what these little lugs did what the snares did turned it upside down",
+        "The artist returned with all sorts of things he returned with ."
+      ],
+      "keywords": [
+        "experimented with jewelry",
+        "jewelry experimented",
+        "snares did turned",
+        "upside down experimented",
+        "shell experimented"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9586796760559082,
+      "emotion": "neutral",
+      "emotion_score": 0.55318683385849
+    },
+    {
+      "id": 20,
+      "start": 1392.58,
+      "end": 1467.38,
+      "text": "all sorts of bruises and things like that but nevertheless you know it was such an unbelievable experience because then where on earth are you going to experience that in a piece of music where on earth are you going to experience that in a study book so we never ever dealt with actual study books so for example one of the things that we learn when we are dealing with being a percussion player as opposed to a musician is basically straight forward single stroke rolls like that and then we get a little faster and a little faster and so on and so forth what does this piece require single stroke rolls so why can't I then do that was learning a piece of music and that's exactly what he did and interestingly the older I became and when I became a full-time student at a so-called music institution all of that went out of the window we had to study from study books and constantly the question well why why what is this relating to I need to play a piece of music",
+      "segments": [
+        {
+          "start": 1392.58,
+          "end": 1398.58,
+          "text": "all sorts of bruises and things like that but nevertheless you know it was such an unbelievable",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.9367496371269226
+        },
+        {
+          "start": 1398.58,
+          "end": 1404.02,
+          "text": "experience because then where on earth are you going to experience that in a piece of music where",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.7994795441627502
+        },
+        {
+          "start": 1404.02,
+          "end": 1410.9,
+          "text": "on earth are you going to experience that in a study book so we never ever dealt with actual study",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5158833265304565
+        },
+        {
+          "start": 1410.9,
+          "end": 1418.5,
+          "text": "books so for example one of the things that we learn when we are dealing with being a percussion",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8539056777954102
+        },
+        {
+          "start": 1418.5,
+          "end": 1428.42,
+          "text": "player as opposed to a musician is basically straight forward single stroke rolls like that and then",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8532288074493408
+        },
+        {
+          "start": 1428.42,
+          "end": 1437.46,
+          "text": "we get a little faster and a little faster and so on and so forth what does this piece require",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7844482660293579
+        },
+        {
+          "start": 1437.46,
+          "end": 1446.66,
+          "text": "single stroke rolls so why can't I then do that was learning a piece of music and that's exactly",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.7089767456054688
+        },
+        {
+          "start": 1446.66,
+          "end": 1454.34,
+          "text": "what he did and interestingly the older I became and when I became a full-time student at a so-called",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5870933532714844
+        },
+        {
+          "start": 1454.34,
+          "end": 1462.34,
+          "text": "music institution all of that went out of the window we had to study from study books and",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6610487103462219
+        },
+        {
+          "start": 1462.34,
+          "end": 1467.38,
+          "text": "constantly the question well why why what is this relating to I need to play a piece of music",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6341973543167114
+        }
+      ],
+      "summary": " Percussion player says he never ever dealt with actual study books . He says it was such an unbelievable experience because then where on earth are you going to experience that in a piece of music . The older he became and when he became a full-time student all of that went out of the window .",
+      "tldr": " Percussion player says he never ever dealt with actual study books . He says it was such an unbelievable experience because then where on",
+      "title": " Percussion player says he never ever dealt with actual study books",
+      "bullets": [
+        "Percussion player says he never ever dealt with actual study books",
+        "He says it was such an unbelievable experience because then where on earth are you going to experience that in a piece of music",
+        "The older he became and when he became a full-time student all of that went out of the window ."
+      ],
+      "keywords": [
+        "study books",
+        "actual study books",
+        "piece of music",
+        "so-called music institution",
+        "single stroke"
+      ],
+      "sentiment": "NEGATIVE",
+      "sentiment_score": 0.99174964427948,
+      "emotion": "surprise",
+      "emotion_score": 0.9406400322914124
+    },
+    {
+      "id": 21,
+      "start": 1467.38,
+      "end": 1546.83,
+      "text": "oh well this will help your control well how why do I need to learn that I need to relate it to a piece of music you know I need to say something why am I practicing paradidoles is it just literally for control for hand stick control why am I doing that I need to have the reason and the reason has to be by saying something through the music and by saying something through music which basically is sound we then can reach all sorts of things to all sorts of people but I don't want to take responsibility of your emotional baggage that's up to you when you walk through a hole because that then determines what and how we listen to certain things I may feel sorrowful or happy or exhilarated or angry when I play certain pieces of music but I'm not necessarily wanting you to feel exactly the same thing so please the next time you go to a concert just allow your body to open up to allow your body to be this resonating chamber be aware that you're not going to experience the same thing as the performer is the performer is in the worst possible position",
+      "segments": [
+        {
+          "start": 1467.38,
+          "end": 1472.98,
+          "text": "oh well this will help your control well how why do I need to learn that I need to relate it",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8523522615432739
+        },
+        {
+          "start": 1472.98,
+          "end": 1478.98,
+          "text": "to a piece of music you know I need to say something why am I practicing paradidoles",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.5875269174575806
+        },
+        {
+          "start": 1479.86,
+          "end": 1490.03,
+          "text": "is it just literally for control for hand stick control why am I doing that I need to have",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7851028442382812
+        },
+        {
+          "start": 1490.03,
+          "end": 1497.95,
+          "text": "the reason and the reason has to be by saying something through the music and by saying something",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8126592040061951
+        },
+        {
+          "start": 1497.95,
+          "end": 1505.39,
+          "text": "through music which basically is sound we then can reach all sorts of things to all sorts of people",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8078716397285461
+        },
+        {
+          "start": 1505.39,
+          "end": 1511.07,
+          "text": "but I don't want to take responsibility of your emotional baggage that's up to you when you walk",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4253576397895813
+        },
+        {
+          "start": 1511.07,
+          "end": 1518.43,
+          "text": "through a hole because that then determines what and how we listen to certain things I may feel",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.3878474533557892
+        },
+        {
+          "start": 1518.43,
+          "end": 1525.15,
+          "text": "sorrowful or happy or exhilarated or angry when I play certain pieces of music but I'm not",
+          "speaker": "Speaker 1",
+          "emotion": "joy",
+          "emotion_score": 0.9690912365913391
+        },
+        {
+          "start": 1525.15,
+          "end": 1532.75,
+          "text": "necessarily wanting you to feel exactly the same thing so please the next time you go to a concert",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.8849205374717712
+        },
+        {
+          "start": 1532.75,
+          "end": 1540.43,
+          "text": "just allow your body to open up to allow your body to be this resonating chamber be aware that you're",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.9424874782562256
+        },
+        {
+          "start": 1540.43,
+          "end": 1546.83,
+          "text": "not going to experience the same thing as the performer is the performer is in the worst possible position",
+          "speaker": "Speaker 1",
+          "emotion": "disgust",
+          "emotion_score": 0.945745587348938
+        }
+      ],
+      "summary": " I may feel sorrowful or happy or exhilarated when I play certain pieces of music but I'm not necessarily wanting you to feel exactly the same thing so please the next time you go to a concert just allow your body to open up .",
+      "tldr": " I may feel sorrowful or happy or exhilarated when I play certain pieces of music but I",
+      "title": " The next time you go to a concert just allow your body",
+      "bullets": [
+        "I may feel sorrowful or happy or exhilarated when I play certain pieces of music but I'm not necessarily wanting you to feel exactly the same thing so please the next time you go to a concert just allow your body to open up ."
+      ],
+      "keywords": [
+        "practicing paradidoles",
+        "hand stick control",
+        "stick control",
+        "emotional baggage",
+        "basically is sound"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.9988823533058167,
+      "emotion": "sadness",
+      "emotion_score": 0.9443979263305664
+    },
+    {
+      "id": 22,
+      "start": 1546.83,
+      "end": 1584.19,
+      "text": "for the actual sound because they're hearing the contact of the stick on the on the drum or the mallet on the bit of wood or the bow on the string etc or the breath that's creating the sound from wind and brass they're experiencing that rawness there but yet that experiencing something so unbelievably pure which is before the sound is actually happening please take note of the life of the sound after the actual initial strike or breath is being pulled just experience the whole",
+      "segments": [
+        {
+          "start": 1546.83,
+          "end": 1554.43,
+          "text": "for the actual sound because they're hearing the contact of the stick on the on the drum or the",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5551623702049255
+        },
+        {
+          "start": 1554.43,
+          "end": 1561.23,
+          "text": "mallet on the bit of wood or the bow on the string etc or the breath that's creating the sound",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.4206183850765228
+        },
+        {
+          "start": 1561.23,
+          "end": 1566.99,
+          "text": "from wind and brass they're experiencing that rawness there but yet that experiencing something",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.6574525833129883
+        },
+        {
+          "start": 1566.99,
+          "end": 1574.67,
+          "text": "so unbelievably pure which is before the sound is actually happening please take note of the life",
+          "speaker": "Speaker 1",
+          "emotion": "surprise",
+          "emotion_score": 0.9292811751365662
+        },
+        {
+          "start": 1574.67,
+          "end": 1584.19,
+          "text": "of the sound after the actual initial strike or breath is being pulled just experience the whole",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.5603312849998474
+        }
+      ],
+      "summary": " For the first time you can hear the contact of the stick on the on the drum or the mallet on the bit of wood or the bow on the string etc. or the breath that's creating the sound from wind and brass they're experiencing that rawness there but yet that experiencing something so pure which is before the sound is actually happening .",
+      "tldr": " For the first time you can hear the contact of the stick on the on the drum or the mallet on the bit of wood or the bow",
+      "title": " For the first time you can hear the contact of the stick",
+      "bullets": [
+        "For the first time you can hear the contact of the stick on the on the drum or the mallet on the bit of wood or the bow on the string etc",
+        "or the breath that's creating the sound from wind and brass they're experiencing that rawness there but yet that experiencing something so pure which is before the sound is actually happening ."
+      ],
+      "keywords": [
+        "brass they experiencing",
+        "actual sound",
+        "wind and brass",
+        "creating the sound",
+        "strike or breath"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.522036612033844,
+      "emotion": "disgust",
+      "emotion_score": 0.6093476414680481
+    },
+    {
+      "id": 23,
+      "start": 1584.19,
+      "end": 1884.93,
+      "text": "journey so I just asked Evelyn just to give us a treat and just a three minute performance of please very much for having me that was Evelyn Glennie recorded at the TED conference in Monterey California February 2003 TED talks are produced by WNYC New York Public Radio for TED and made possible in part through the sport of BMW for more information on TED visit TED.com",
+      "segments": [
+        {
+          "start": 1584.19,
+          "end": 1590.91,
+          "text": "journey so I just asked Evelyn just to give us a treat and just a three minute performance of",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.711866021156311
+        },
+        {
+          "start": 1591.07,
+          "end": 1870.77,
+          "text": "please very much for having me that was Evelyn Glennie recorded at the TED conference in",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.45526018738746643
+        },
+        {
+          "start": 1870.77,
+          "end": 1877.97,
+          "text": "Monterey California February 2003 TED talks are produced by WNYC New York Public Radio for TED",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7493821978569031
+        },
+        {
+          "start": 1877.97,
+          "end": 1884.93,
+          "text": "and made possible in part through the sport of BMW for more information on TED visit TED.com",
+          "speaker": "Speaker 1",
+          "emotion": "neutral",
+          "emotion_score": 0.7882775664329529
+        }
+      ],
+      "summary": " Evelyn Glennie recorded at TED conference in Monterey California February 2003 . TED talks are produced by WNYC New York Public Radio for TED .",
+      "tldr": " Evelyn Glennie recorded at TED conference in Monterey California February 2003 . TED talks are produced by WNYC New York Public Radio for TED .",
+      "title": " Evelyn Glennie recorded at TED conference in Monterey California February 2003 . TED talks are produced by WNYC New York Public Radio for TED .",
+      "bullets": [
+        "Evelyn Glennie recorded at TED conference in Monterey California February 2003",
+        "TED talks are produced by WNYC New York Public Radio for TED ."
+      ],
+      "keywords": [
+        "Evelyn Glennie recorded",
+        "Glennie recorded",
+        "TED visit TED.com",
+        "Evelyn Glennie",
+        "asked Evelyn"
+      ],
+      "sentiment": "POSITIVE",
+      "sentiment_score": 0.8291003108024597,
+      "emotion": "neutral",
+      "emotion_score": 0.5632210969924927
+    }
+  ]
+}

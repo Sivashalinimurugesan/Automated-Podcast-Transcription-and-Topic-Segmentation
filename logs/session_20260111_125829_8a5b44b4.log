@@ -1,0 +1,54 @@
+2026-01-11 12:58:29 - root - INFO - New Session Started: 20260111_125829_8a5b44b4
+2026-01-11 12:58:29 - __main__ - INFO - UI Triggered Processing for 103.mp3
+2026-01-11 12:58:29 - preprocessing - INFO - Processing 103.mp3...
+2026-01-11 12:58:45 - preprocessing - INFO - Applying noise reduction...
+2026-01-11 12:59:20 - preprocessing - INFO - Normalizing audio...
+2026-01-11 12:59:21 - preprocessing - INFO - Saved processed audio to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\103_processed.wav
+2026-01-11 12:59:21 - transcription - INFO - Transcribing F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\audio_processed\103_processed.wav...
+2026-01-11 12:59:23 - faster_whisper - INFO - Processing audio with duration 31:28.758
+2026-01-11 12:59:39 - faster_whisper - INFO - VAD filter removed 09:34.502 of audio
+2026-01-11 12:59:44 - faster_whisper - INFO - Detected language 'en' with probability 0.95
+2026-01-11 13:07:40 - transcription - INFO - Transcription complete. Detected language: en (probability: 0.95)
+2026-01-11 13:07:40 - transcription - INFO - Saved transcript to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\transcripts\103_processed.txt
+2026-01-11 13:07:40 - transcription - INFO - Saved segments to F:\Internship\Automated-Podcast-Transcription-and-Topic-Segmentation\segments\103_processed.json
+2026-01-11 13:07:40 - segmentation - INFO - Segmenting 173 segments...
+2026-01-11 13:07:45 - segmentation - INFO - Similarity stats: Mean=0.446, Std=0.116, Threshold=0.388
+2026-01-11 13:07:45 - segmentation - INFO - Found 24 topics.
+2026-01-11 13:07:45 - summarization - INFO - Summarizing 24 topics...
+2026-01-11 13:07:52 - summarization - INFO - Summarized Topic 0
+2026-01-11 13:08:17 - summarization - INFO - Summarized Topic 1
+2026-01-11 13:08:35 - summarization - INFO - Summarized Topic 2
+2026-01-11 13:08:58 - summarization - INFO - Summarized Topic 3
+2026-01-11 13:09:16 - summarization - INFO - Summarized Topic 4
+2026-01-11 13:09:36 - summarization - INFO - Summarized Topic 5
+2026-01-11 13:09:57 - summarization - INFO - Summarized Topic 6
+2026-01-11 13:10:19 - summarization - INFO - Summarized Topic 7
+2026-01-11 13:10:49 - summarization - INFO - Summarized Topic 8
+2026-01-11 13:11:14 - summarization - INFO - Summarized Topic 9
+2026-01-11 13:11:32 - summarization - INFO - Summarized Topic 10
+2026-01-11 13:11:49 - summarization - INFO - Summarized Topic 11
+2026-01-11 13:11:49 - summarization - INFO - Summarized Topic 12
+2026-01-11 13:12:06 - summarization - INFO - Summarized Topic 13
+2026-01-11 13:12:15 - summarization - INFO - Summarized Topic 14
+2026-01-11 13:12:21 - summarization - INFO - Summarized Topic 15
+2026-01-11 13:12:23 - summarization - INFO - Summarized Topic 16
+2026-01-11 13:12:27 - summarization - INFO - Summarized Topic 17
+2026-01-11 13:12:31 - summarization - INFO - Summarized Topic 18
+2026-01-11 13:12:33 - summarization - INFO - Summarized Topic 19
+2026-01-11 13:12:37 - summarization - INFO - Summarized Topic 20
+2026-01-11 13:12:40 - summarization - INFO - Summarized Topic 21
+2026-01-11 13:12:45 - summarization - INFO - Summarized Topic 22
+2026-01-11 13:12:51 - summarization - INFO - Summarized Topic 23
+2026-01-11 13:12:51 - keyword_extraction - INFO - Extracting keywords for 24 topics...
+2026-01-11 13:12:51 - keyword_extraction - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2...
+2026-01-11 13:12:51 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-11 13:12:52 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-11 13:13:01 - sentiment_analysis - INFO - Starting analysis on 24 topics...
+2026-01-11 13:13:24 - sentiment_analysis - INFO - Topic analysis completed.
+2026-01-11 13:13:24 - indexing - INFO - Loading Indexing Model: all-MiniLM-L6-v2...
+2026-01-11 13:13:24 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-11 13:13:25 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2026-01-11 13:13:25 - indexing - INFO - Indexing 24 topics...
+2026-01-11 13:13:26 - indexing - INFO - Topic indexing complete.
+2026-01-11 13:13:28 - indexing - INFO - Indexing 24 topics...
+2026-01-11 13:13:30 - indexing - INFO - Topic indexing complete.

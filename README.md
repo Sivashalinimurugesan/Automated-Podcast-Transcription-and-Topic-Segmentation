@@ -23,6 +23,35 @@ The goal is to help users quickly understand and navigate long conversations wit
 5. **Analysis**: Each segment undergoes summarization, keyword extraction, and sentiment analysis.
 6. **Indexing**: Processed data is indexed for fast retrieval and semantic search.
 7. **Visualization**: Results are displayed in the Streamlit UI, allowing users to explore the data interactively.
+## 📊 Workflow Diagram
+
+```mermaid
+flowchart TB
+    A[User Uploads Audio File] --> B[Audio Preprocessing]
+    B --> B1[Noise Reduction]
+    B1 --> B2[Normalization]
+    B2 --> B3[Resampling]
+
+    B3 --> C[Speech-to-Text Transcription]
+    C --> D[Transcript Output]
+    D --> E[Topic Segmentation]
+    E --> F[Topic Segments]
+
+    F --> G[Keyword Extraction]
+    F --> H[Topic Summarization]
+    F --> I[Sentiment & Emotion Analysis]
+
+    G --> J[Indexed Topic Data]
+    H --> J
+    I --> J
+
+    J --> K[Semantic Search Engine]
+    J --> L[Visualization Engine]
+
+    K --> M[AI Chatbot Q&A]
+    L --> N[Streamlit User Interface]
+    M --> N
+```
 
 ## Technology Stack
 - **Programming Language**: Python
