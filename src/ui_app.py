@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from pydub import AudioSegment
 import plotly.express as px
+import plotly.graph_objects as go
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -41,7 +42,7 @@ DEFAULTS = {
     "keywords": [],
     "selected_kw": None
 }
-for k,v in DEFAULTS.items():
+for k, v in DEFAULTS.items():
     if k not in st.session_state:
         st.session_state[k] = v
 
@@ -103,7 +104,7 @@ def split_into_segments(result):
     segments = []
     for seg in result["segments"]:
         text = seg["text"].strip()
-        if len(text) > 12:
+        if len(text) > 8:
             segments.append({
                 "text": text,
                 "start": float(seg["start"]),
@@ -113,13 +114,13 @@ def split_into_segments(result):
 
 def detect_speaker(text):
     t = text.lower()
-    if any(q in t for q in ["tell me", "why", "what is", "how do you", "can you", "where do you"]):
+    if any(q in t for q in ["tell me", "why", "what is", "how do you", "can you", "where do you", "explain"]):
         return "Interviewer"
     if any(c in t for c in ["i am", "i have", "my experience", "i worked", "i want", "i did"]):
         return "Candidate"
     return "Narrator"
 
-CLOSING_PHRASES = ["like and subscribe","thanks for listening","rate us","follow us","stay tuned","leave a review"]
+CLOSING_PHRASES = ["like and subscribe", "thanks for listening", "rate us", "follow us", "stay tuned", "leave a review"]
 
 def enforce_conversation_order(segments):
     speakers = [detect_speaker(s["text"]) for s in segments]
@@ -127,10 +128,10 @@ def enforce_conversation_order(segments):
         return segments
 
     first_interviewer = speakers.index("Interviewer")
-    last_conv = max(i for i,s in enumerate(speakers) if s in ["Interviewer","Candidate"])
+    last_conv = max(i for i, s in enumerate(speakers) if s in ["Interviewer", "Candidate"])
 
     filtered = []
-    for i,s in enumerate(segments):
+    for i, s in enumerate(segments):
         sp = detect_speaker(s["text"])
         text = s["text"].lower()
 
@@ -148,64 +149,84 @@ def enforce_conversation_order(segments):
 def generate_audio_clips(audio_path, segments):
     audio = AudioSegment.from_file(audio_path)
     clips = {}
-    for i,s in enumerate(segments,1):
-        start_ms = int(s["start"]*1000)
-        end_ms = int(s["end"]*1000)
+    for i, s in enumerate(segments, 1):
+        start_ms = int(s["start"] * 1000)
+        end_ms = int(s["end"] * 1000)
         clip = audio[start_ms:end_ms]
         path = os.path.join(CLIP_DIR, f"segment_{i}.wav")
         clip.export(path, format="wav")
         clips[i] = path
     return clips
 
-# ---------------- KEYWORDS (BACKEND-STYLE) ----------------
+# ---------------- KEYWORDS ----------------
 def clean_text_for_keywords(text):
-    text = re.sub(r"\[?\s*segment\s*\d*\]?", "", text, flags=re.IGNORECASE)
-    text = re.sub(r"\b\d{1,2}:\d{2}(:\d{2})?\b", "", text)
     text = re.sub(r"[^\w\s]", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text.lower()
 
 def filter_duplicates(keywords):
-    final_keywords = []
+    final = []
     for kw in keywords:
-        skip = False
-        for chosen in final_keywords:
-            if kw in chosen or chosen in kw:
-                skip = True
-                break
-        if not skip:
-            final_keywords.append(kw)
-    return final_keywords
+        if not any(kw in chosen or chosen in kw for chosen in final):
+            final.append(kw)
+    return final
 
 def extract_keywords(text, top_k=15):
     text = clean_text_for_keywords(text)
     if len(text.split()) < 5:
         return []
 
-    vectorizer = TfidfVectorizer(
-        stop_words="english",
-        ngram_range=(1, 2),
-        max_features=200,
-        min_df=1
-    )
-
-    try:
-        tfidf = vectorizer.fit_transform([text])
-    except ValueError:
-        return []
-
+    vectorizer = TfidfVectorizer(stop_words="english", ngram_range=(1, 2), max_features=200)
+    tfidf = vectorizer.fit_transform([text])
     scores = tfidf.toarray()[0]
     terms = vectorizer.get_feature_names_out()
+
     ranked = sorted(zip(terms, scores), key=lambda x: x[1], reverse=True)
     raw_keywords = [term for term, _ in ranked]
-    filtered_keywords = filter_duplicates(raw_keywords)
-    return filtered_keywords[:top_k]
+    filtered = filter_duplicates(raw_keywords)
+    return filtered[:top_k]
+
+# ---------------- EMOTION ----------------
+def classify_emotion(score):
+    if score > 0.4:
+        return "Confidence"
+    elif score < -0.4:
+        return "Stress"
+    elif -0.4 <= score <= -0.1:
+        return "Hesitation"
+    else:
+        return "Neutral"
+
+# ---------------- CANDIDATE SCORING ----------------
+def compute_candidate_scores(df):
+    cand = df[df["Speaker"] == "Candidate"]
+    if cand.empty:
+        return {"Communication": 50, "Confidence": 50, "Engagement": 50}
+
+    communication = (cand["Sentiment"].abs().mean()) * 100
+    confidence = len(cand[cand["Sentiment"] > 0.2]) / len(cand) * 100
+    engagement = len(cand) / len(df) * 100
+
+    return {
+        "Communication": round(min(100, communication), 1),
+        "Confidence": round(min(100, confidence), 1),
+        "Engagement": round(min(100, engagement), 1)
+    }
+
+def recruiter_decision(scores):
+    avg = np.mean(list(scores.values()))
+    if avg >= 65:
+        return "✅ HIRE", "Candidate shows strong confidence, engagement, and communication skills."
+    elif avg >= 45:
+        return "⚠️ HOLD", "Candidate shows moderate potential but needs further evaluation."
+    else:
+        return "❌ REJECT", "Candidate lacks sufficient confidence, clarity, or engagement."
 
 # ---------------- HEADER ----------------
 st.markdown("""
 <div class="header">
     <h1>🎤 HR Interview & Meeting Analyzer</h1>
-    <p>Professional Dashboard • Accurate Segments • Keyword Intelligence</p>
+    <p>Enterprise-Grade AI Dashboard • Audio Intelligence • Recruiter Insights</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -224,23 +245,17 @@ tabs = st.tabs([
 # =========================================================
 with tabs[0]:
     st.markdown("<div class='block'><h3>Upload Audio</h3></div>", unsafe_allow_html=True)
-    uploaded = st.file_uploader("Upload interview / meeting audio", type=["wav","mp3"])
+    uploaded = st.file_uploader("Upload interview / meeting audio", type=["wav", "mp3"])
 
     if uploaded:
         path = os.path.join(AUDIO_UI, uploaded.name)
-        with open(path,"wb") as f:
+        with open(path, "wb") as f:
             f.write(uploaded.read())
 
         if st.session_state.audio_path != path:
+            for k in DEFAULTS:
+                st.session_state[k] = DEFAULTS[k]
             st.session_state.audio_path = path
-            st.session_state.analyzed = False
-            st.session_state.segments = []
-            st.session_state.clips = {}
-            st.session_state.transcript = ""
-            st.session_state.scores = []
-            st.session_state.speakers = []
-            st.session_state.keywords = []
-            st.session_state.selected_kw = None
 
         st.success("Audio uploaded!")
 
@@ -248,7 +263,7 @@ with tabs[0]:
         st.audio(st.session_state.audio_path)
 
         if st.button("🚀 Analyze Audio"):
-            with st.spinner("Transcribing, segmenting and clipping audio..."):
+            with st.spinner("Transcribing, segmenting and analyzing..."):
                 result = transcribe_with_timestamps(st.session_state.audio_path)
                 raw = split_into_segments(result)
                 ordered = enforce_conversation_order(raw)
@@ -282,6 +297,14 @@ else:
     speakers = st.session_state.speakers
     keywords = st.session_state.keywords
 
+    df = pd.DataFrame({
+        "Segment": list(range(1, len(segments) + 1)),
+        "Sentiment": scores,
+        "Speaker": speakers,
+        "Text": [s["text"] for s in segments]
+    })
+    df["Emotion"] = df["Sentiment"].apply(classify_emotion)
+
     # =========================================================
     # 2️⃣ TRANSCRIPT
     # =========================================================
@@ -294,10 +317,10 @@ else:
     # =========================================================
     with tabs[2]:
         st.markdown("<div class='block'><h3>Conversation Segments</h3></div>", unsafe_allow_html=True)
-        for i,s in enumerate(segments,1):
+        for i, s in enumerate(segments, 1):
             speaker = detect_speaker(s["text"])
-            cls = "interviewer" if speaker=="Interviewer" else "candidate" if speaker=="Candidate" else "narrator"
-            badge = "badge-i" if speaker=="Interviewer" else "badge-c" if speaker=="Candidate" else "badge-n"
+            cls = "interviewer" if speaker == "Interviewer" else "candidate" if speaker == "Candidate" else "narrator"
+            badge = "badge-i" if speaker == "Interviewer" else "badge-c" if speaker == "Candidate" else "badge-n"
 
             st.markdown(f"""
             <div class='segment {cls}'>
@@ -309,61 +332,70 @@ else:
             st.audio(clips[i])
 
     # =========================================================
-    # 4️⃣ VISUAL ANALYTICS
+    # 4️⃣ VISUAL ANALYTICS (6 PLOTS)
     # =========================================================
     with tabs[3]:
-        df = pd.DataFrame({
-            "Segment": list(range(1,len(segments)+1)),
-            "Sentiment": scores,
-            "Speaker": speakers,
-            "Text": [s["text"] for s in segments]
-        })
+        st.subheader("📈 1. Sentiment Timeline")
+        fig1 = px.line(df, x="Segment", y="Sentiment", color="Speaker", markers=True,
+                       hover_data=["Emotion", "Text"])
+        st.plotly_chart(fig1, width="stretch")
+        st.info("Each point represents a spoken segment. Positive values = confidence, negative = stress.")
 
-        st.subheader("📈 Sentiment Trend")
-        st.plotly_chart(px.line(df, x="Segment", y="Sentiment", color="Speaker", markers=True), use_container_width=True)
+        st.subheader("🔥 2. Segment Polarity Heatmap")
+        fig2 = px.imshow([df["Sentiment"].values], color_continuous_scale="RdBu", aspect="auto")
+        st.plotly_chart(fig2, width="stretch")
+        st.info("Blue blocks = positive/confident responses. Red blocks = negative or hesitant answers.")
 
-        st.subheader("🎙 Speaker Distribution")
-        st.plotly_chart(px.histogram(df, x="Speaker", color="Speaker"), use_container_width=True)
+        st.subheader("🎙 3. Speaker Distribution")
+        speaker_counts = df["Speaker"].value_counts().reset_index()
+        speaker_counts.columns = ["Speaker", "Count"]
+        fig3 = px.bar(speaker_counts, x="Speaker", y="Count", color="Speaker")
+        st.plotly_chart(fig3, width="stretch")
+        st.info("Shows how much each participant spoke during the interview.")
 
-        st.subheader("🧠 Speaker-wise Sentiment Impact")
-        speaker_df = df.groupby("Speaker")["Sentiment"].mean().reset_index()
-        st.plotly_chart(px.bar(speaker_df, x="Speaker", y="Sentiment", color="Speaker",
-                                title="Average Sentiment by Speaker"), use_container_width=True)
+        st.subheader("📊 4. Average Sentiment by Speaker")
+        speaker_avg = df.groupby("Speaker")["Sentiment"].mean().reset_index()
+        fig4 = px.bar(speaker_avg, x="Speaker", y="Sentiment", color="Speaker")
+        st.plotly_chart(fig4, width="stretch")
+        st.info("Candidate positivity indicates confidence. Interviewer neutrality reflects evaluation tone.")
+
+        st.subheader("🧠 5. Emotion Classification")
+        emo_counts = df["Emotion"].value_counts().reset_index()
+        emo_counts.columns = ["Emotion", "Count"]
+        fig5 = px.bar(emo_counts, x="Emotion", y="Count", color="Emotion")
+        st.plotly_chart(fig5, width="stretch")
+        st.info("Shows confidence, hesitation, stress, and neutral patterns across the interview.")
+
+        st.subheader("📌 6. Candidate Engagement Radar")
+        scores_dict = compute_candidate_scores(df)
+        fig6 = go.Figure()
+        fig6.add_trace(go.Scatterpolar(
+            r=list(scores_dict.values()),
+            theta=list(scores_dict.keys()),
+            fill='toself'
+        ))
+        fig6.update_layout(polar=dict(radialaxis=dict(range=[0, 100])), showlegend=False)
+        st.plotly_chart(fig6, width="stretch")
+        st.info("Summarizes candidate performance across communication, confidence, and engagement.")
 
     # =========================================================
     # 5️⃣ KEYWORDS
     # =========================================================
     with tabs[4]:
         st.markdown("<div class='block'><h3>Keyword Search</h3></div>", unsafe_allow_html=True)
-
-        col_left, col_right = st.columns([2,1])
+        col_left, col_right = st.columns([2, 1])
 
         with col_left:
-            if st.session_state.selected_kw not in keywords:
-                st.session_state.selected_kw = keywords[0] if keywords else None
-
-            selected_kw = st.selectbox(
-                "🔍 Select a keyword:",
-                keywords,
-                index=keywords.index(st.session_state.selected_kw) if st.session_state.selected_kw in keywords else 0,
-                key="keyword_filter"
-            )
-            st.session_state.selected_kw = selected_kw
-
-            filtered_segments = [
-                (i, s) for i, s in enumerate(segments, 1)
-                if selected_kw and selected_kw.lower() in s["text"].lower()
-            ]
-
-            if filtered_segments:
-                for i, s in filtered_segments:
+            selected_kw = st.selectbox("🔍 Select a keyword:", keywords)
+            matches = [(i, s) for i, s in enumerate(segments, 1) if selected_kw.lower() in s["text"].lower()]
+            if matches:
+                for i, s in matches:
                     st.markdown(f"**⏱ {round(s['start'],1)}s – {round(s['end'],1)}s**: {s['text']}")
                     st.audio(clips[i])
             else:
-                st.markdown("<div class='empty-msg'>No segments found for this keyword.</div>", unsafe_allow_html=True)
+                st.markdown("<div class='empty-msg'>No segments found.</div>", unsafe_allow_html=True)
 
         with col_right:
-            st.subheader("☁️ Keyword Cloud")
             wc_text = " ".join(keywords)
             wc = WordCloud(width=500, height=300, background_color="black", colormap="plasma").generate(wc_text)
             fig, ax = plt.subplots()
@@ -372,29 +404,32 @@ else:
             st.pyplot(fig)
 
     # =========================================================
-    # 6️⃣ SENTIMENT METRICS
+    # 6️⃣ SENTIMENT METRICS + DECISION
     # =========================================================
     with tabs[5]:
         avg = np.mean(scores)
-        pos = len([s for s in scores if s>0.1])/len(scores)*100
-        neg = len([s for s in scores if s<-0.1])/len(scores)*100
-        neu = 100 - pos - neg
-        emotion = "Positive 😊" if avg>0.1 else "Negative 😟" if avg<-0.1 else "Neutral 😐"
+        pos = len([s for s in scores if s > 0.1]) / len(scores) * 100
+        neg = len([s for s in scores if s < -0.1]) / len(scores) * 100
+        emotion = "Positive 😊" if avg > 0.1 else "Negative 😟" if avg < -0.1 else "Neutral 😐"
 
-        c1,c2,c3,c4 = st.columns(4)
+        c1, c2, c3, c4 = st.columns(4)
         c1.metric("Avg Sentiment", f"{avg:.2f}")
         c2.metric("Positive %", f"{pos:.1f}%")
         c3.metric("Negative %", f"{neg:.1f}%")
-        c4.metric("Overall Emotion", emotion)
+        c4.metric("Overall Tone", emotion)
+
+        st.subheader("🎯 Recruiter Decision")
+        scores_dict = compute_candidate_scores(df)
+        decision, reason = recruiter_decision(scores_dict)
+        st.success(decision)
+        st.write(reason)
 
     # =========================================================
     # 7️⃣ AI SUMMARY
     # =========================================================
     with tabs[6]:
         st.markdown("<div class='block'><h3>AI Interview Summary</h3></div>", unsafe_allow_html=True)
-
         sentences = re.split(r'(?<=[.!?])\s+', transcript_text)
-        important = [s for s in sentences if any(k in s.lower() for k in keywords)]
-        summary = " ".join(important[:12])
-
-        st.success(summary if summary else "Summary could not be generated.")
+        key_sentences = [s for s in sentences if any(k in s.lower() for k in keywords)]
+        summary = " ".join(key_sentences[:6])
+        st.success(summary if summary else "AI summary could not be generated.")
