@@ -128,29 +128,60 @@ streamlit run src/ui_app.py
 ## 5. Directory Structure
 
 ```
-project/
-│── src/
-│   ├── preprocessing.py
-│   ├── transcription.py
-│   ├── segmentation.py
-│   ├── summarization.py
-│   ├── keyword_extraction.py
-│   ├── evaluate_asr.py
-│   ├── core.py
-│   ├── ui_app.py
-│   └── main.py
+Automated-Podcast-Transcription-and-Topic-Segmentation/
 │
-│── tests/
-│   └── test_core_functions.py
+├── src/
+│   ├── preprocessing.py        # Audio cleaning, normalization
+│   ├── transcription.py        # Whisper-based ASR
+│   ├── segmentation.py         # Topic & speaker segmentation
+│   ├── summarization.py        # AI / extractive summarization
+│   ├── keyword_extraction.py   # TF-IDF keyword extraction
+│   ├── evaluate_asr.py         # WER, CER, Accuracy evaluation
+│   ├── core.py                 # Pipeline controller
+│   ├── ui_app.py               # Streamlit enterprise dashboard
+│   └── main.py                 # Backend pipeline entry point
 │
-│── docs/
-│   ├── asr_evaluation.csv
-│   └── asr_evaluation_table.txt
+├── audio_raw/                  # Original uploaded audio files
 │
-│── .github/workflows/tests.yml
-│── requirements.txt
-│── .gitignore
-│── README.md
+├── audio_processed/            # Cleaned & normalized audio for ASR
+│
+├── audio_ui/                   # UI session audio
+│
+├── audio_UI_clips/             # Segment-wise audio clips for playback
+│
+├── transcripts/
+│   ├── asr/                    # Raw ASR-generated transcripts
+│   ├── final/                  # Cleaned / summarized transcripts
+│   └── raw_reference/          # Ground-truth / manual transcripts for evaluation
+│
+├── segments/                   # Speaker-labeled and timestamped segments
+│
+├── docs/
+│   ├── asr_evaluation.csv      # WER, CER, Accuracy values
+│   ├── asr_evaluation_table.txt# Tabular ASR results
+│   └── keywords.txt            # Extracted keywords
+│
+├── results/
+│   ├── Documentation_Report.md # Markdown documentation
+│   └── Documentation.pdf       # Final formatted report (PDF)
+│
+├── notebooks/                  # Experiments and analysis (optional)
+│
+├── tests/
+│   └── test_core_functions.py  # Unit tests for backend modules
+│
+│── workflows/
+│       └── tests.yml           # GitHub Actions CI for automated testing
+│    
+│
+├── venv/                       # Python virtual environment (ignored by Git)
+│
+├── .gitattributes
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
+
 ```
 
 ------------------------------------------------------------------------
