@@ -12,6 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/insights" element={<ViewInsights />} />
         <Route path="/analytics" element={<Analytics />} />
+        
       </Routes>
     </>
   );

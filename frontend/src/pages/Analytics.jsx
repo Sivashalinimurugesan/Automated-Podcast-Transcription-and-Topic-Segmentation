@@ -1,32 +1,38 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import Waveform from "../components/Waveform";
 import SentimentGraph from "../components/SentimentGraph";
+import TopKeywords from "../components/TopKeywords";
 import "./Analytics.css";
 
 export default function Analytics() {
   const [segments, setSegments] = useState([]);
   const [audioUrl, setAudioUrl] = useState("");
+  const [viewMode, setViewMode] = useState("sentiment"); // 'sentiment' or 'keywords'
 
   useEffect(() => {
     const stored = localStorage.getItem("podcastResult");
     if (stored) {
       const parsed = JSON.parse(stored);
-      console.log("ANALYTICS DATA 👉", parsed);
-
       setSegments(parsed.segments || []);
       setAudioUrl(parsed.audioUrl || "");
     }
   }, []);
 
-  if (!segments.length) {
-    return <p className="analytics-msg">No analytics data found</p>;
-  }
+  if (!audioUrl) return <p className="analytics-msg">No audio found</p>;
 
   return (
     <div className="analytics-page">
-      <h1>Podcast Analytics</h1>
+      {/* Top Action Bar with Left Aligned Button */}
+      <div className="analytics-action-bar">
+        <button 
+          className={`top-left-btn ${viewMode === "keywords" ? "active" : ""}`}
+          onClick={() => setViewMode(viewMode === "keywords" ? "sentiment" : "keywords")}
+        >
+          {viewMode === "keywords" ? "Back to Sentiment" : "🔍 Top Keywords"}
+        </button>
+        <h1>Podcast Analytics</h1>
+      </div>
 
-      {/* 🎧 Waveform */}
       <div className="analytics-card">
         <h3>Waveform Timeline</h3>
         <div className="waveform-box">
@@ -34,9 +40,15 @@ export default function Analytics() {
         </div>
       </div>
 
-      {/* 📊 Sentiment */}
-      <div className="analytics-card chart-box">
-        <SentimentGraph segments={segments} />
+      <div className="analytics-card main-viz-area">
+        {viewMode === "keywords" ? (
+          <TopKeywords segments={segments} />
+        ) : (
+          <>
+            <h3>Overall Sentiment Analysis</h3>
+            <SentimentGraph segments={segments} />
+          </>
+        )}
       </div>
     </div>
   );

@@ -24,8 +24,9 @@ export default function Home() {
       <div id="features">
         <Features />
       </div>
-
+       <div id="how-it-works">
       <HowItWorks />
+      </div>
     </div>
   );
 }

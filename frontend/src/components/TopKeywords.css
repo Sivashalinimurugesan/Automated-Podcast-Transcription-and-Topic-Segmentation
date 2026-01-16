@@ -1,0 +1,32 @@
+.top-keywords-view {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  animation: fadeIn 0.6s ease;
+}
+
+.keywords-header h3 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+.keywords-header p {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.word-cloud-container {
+  height: 450px; /* Mentor style height */
+  width: 100%;
+  background: #fcfcfc;
+  border-radius: 16px;
+  border: 1px solid #f1f5f9;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

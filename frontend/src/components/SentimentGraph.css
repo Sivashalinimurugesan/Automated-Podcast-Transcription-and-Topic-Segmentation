@@ -1,14 +1,35 @@
+/* Container for the Sentiment Graph */
 .sentiment-card {
-  background: white;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
-  max-width: 700px;
-  margin: auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 24px; /* More rounded for a modern look */
+  border: 1px solid #f1f5f9;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04); /* Soft professional shadow */
+  max-width: 800px; /* Slightly wider for better chart display */
+  margin: 30px auto;
+  transition: transform 0.3s ease;
 }
 
+/* Hover effect to make it interactive */
+.sentiment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 45px rgba(99, 102, 241, 0.1);
+}
+
+/* Heading style */
 .sentiment-card h3 {
   text-align: center;
-  margin-bottom: 20px;
-  color: #444;
+  margin-bottom: 25px;
+  color: #1e293b; /* Darker slate color for better readability */
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .sentiment-card {
+    padding: 20px;
+    margin: 15px;
+  }
 }

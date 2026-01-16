@@ -4,7 +4,8 @@ import {
   XAxis,
   YAxis,
   Tooltip,
-  ResponsiveContainer
+  ResponsiveContainer,
+  Cell // 👈 Ye import zaroor add karein
 } from "recharts";
 
 export default function SentimentGraph({ segments }) {
@@ -20,21 +21,24 @@ export default function SentimentGraph({ segments }) {
   }, {});
 
   const data = [
-    { sentiment: "POSITIVE", count: counts.POSITIVE || 0 },
-    { sentiment: "NEUTRAL", count: counts.NEUTRAL || 0 },
-    { sentiment: "NEGATIVE", count: counts.NEGATIVE || 0 }
+    { sentiment: "POSITIVE", count: counts.POSITIVE || 0, color: "#22c55e" }, // Green
+    { sentiment: "NEUTRAL", count: counts.NEUTRAL || 0, color: "#6366f1" },   // Blue/Indigo
+    { sentiment: "NEGATIVE", count: counts.NEGATIVE || 0, color: "#ef4444" }  // Red
   ];
 
   return (
     <div style={{ width: "100%", height: 300, marginTop: 40 }}>
-      <h3>Overall Sentiment Analysis</h3>
-
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={data}>
           <XAxis dataKey="sentiment" />
           <YAxis allowDecimals={false} />
-          <Tooltip />
-          <Bar dataKey="count" fill="#6a5cff" />
+          <Tooltip cursor={{fill: 'transparent'}} />
+          <Bar dataKey="count">
+            {/* 🎨 Mapping through data to apply custom colors to each bar */}
+            {data.map((entry, index) => (
+              <Cell key={`cell-${index}`} fill={entry.color} />
+            ))}
+          </Bar>
         </BarChart>
       </ResponsiveContainer>
     </div>

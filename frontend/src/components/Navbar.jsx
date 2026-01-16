@@ -8,42 +8,58 @@ const Navbar = () => {
   const handleFeaturesClick = (e) => {
     e.preventDefault();
     navigate("/");
-
     setTimeout(() => {
       const section = document.getElementById("features");
       section?.scrollIntoView({ behavior: "smooth" });
     }, 100);
   };
+  const handleHowItWorksClick = (e) => {
+  e.preventDefault();
+  navigate("/");
+
+  setTimeout(() => {
+    const section = document.getElementById("how-it-works");
+    section?.scrollIntoView({ behavior: "smooth" });
+  }, 100);
+};
+
 
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        {/* 🔥 Home logo click */}
+        {/*  Home logo click */}
         <Link to="/" className="logo-link">
           <span className="logo">🎙️ PodcastAI</span>
         </Link>
       </div>
 
       <ul className="nav-links">
-        {/* ✅ Home → Home.jsx */}
+        {/*  Home → Home.jsx */}
         <li className={location.pathname === "/" ? "active" : ""}>
           <Link to="/">Home</Link>
         </li>
 
-        {/* ⭐ Features → Home.jsx + scroll */}
+        {/* Features → Home.jsx + scroll */}
+        
+
+        {/* Other pages */}
+        
+
+        <li className="nav-btn-highlight">
+          <Link to="/insights">View Insights</Link>
+        </li>
+        <li className={location.pathname === "/analytics" ? "active" : ""}>
+          <Link to="/analytics">Analytics</Link>
+        </li>
         <li>
           <Link to="/" onClick={handleFeaturesClick}>
             Features
           </Link>
         </li>
-
-        {/* Other pages */}
-        <li className={location.pathname === "/analytics" ? "active" : ""}>
-          <Link to="/analytics">Analytics</Link>
-        </li>
-
-        <li className="nav-btn-highlight">
-          <Link to="/insights">View Insights</Link>
+        <li>
+          <Link to="/" onClick={handleHowItWorksClick}>
+            How it Work
+          </Link>
         </li>
       </ul>
     </nav>

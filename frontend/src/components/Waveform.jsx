@@ -1,53 +1,49 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import WaveSurfer from "wavesurfer.js";
-import RegionsPlugin from "wavesurfer.js/dist/plugins/regions";
-import "./Waveform.css";
+import RegionsPlugin from "wavesurfer.js/dist/plugins/regions.esm.js";
 
 export default function Waveform({ audioUrl, segments = [] }) {
   const containerRef = useRef(null);
   const waveRef = useRef(null);
+  const [isReady, setIsReady] = useState(false);
 
   useEffect(() => {
     if (!audioUrl || !containerRef.current) return;
 
-    if (waveRef.current) {
-      waveRef.current.destroy();
-    }
+    // 1. Initialize Regions Plugin [cite: 31, 32]
+    const wsRegions = RegionsPlugin.create();
 
+    // 2. WaveSurfer Instance 
     waveRef.current = WaveSurfer.create({
       container: containerRef.current,
-      waveColor: "#e0e7ff",
+      waveColor: "#e2e8f0",
       progressColor: "#6366f1",
-      cursorColor: "#111827",
-      height: 120,
+      cursorColor: "#4f46e5",
+      height: 100,
       barWidth: 2,
+      barGap: 3,
       responsive: true,
-      normalize: true,
-      plugins: [RegionsPlugin.create()],
+      plugins: [wsRegions],
     });
 
-    console.log("WAVEFORM AUDIO 👉", audioUrl);
     waveRef.current.load(audioUrl);
 
+    // 3. Logic to Add Topic Segments [cite: 32, 205]
     waveRef.current.on("ready", () => {
-      console.log("WAVE READY");
-
-      segments.forEach((seg) => {
+      setIsReady(true);
+      segments.forEach((seg, index) => {
         if (!seg.start_time) return;
-
         const [m, s] = seg.start_time.split(":").map(Number);
-        const start = m * 60 + s;
-        const end = start + 30; // fallback duration
-
-        waveRef.current.addRegion({
-          start,
-          end,
-          color:
-            seg.sentiment === "POSITIVE"
-              ? "rgba(34,197,94,0.25)"
-              : seg.sentiment === "NEGATIVE"
-              ? "rgba(239,68,68,0.25)"
-              : "rgba(99,102,241,0.25)",
+        const startTime = m * 60 + s;
+        
+        // Topic Boundary Visualization 
+        wsRegions.addRegion({
+          start: startTime,
+          end: startTime + 2, // Highlight the beginning of a topic
+          content: `T${index + 1}`,
+          color: "rgba(99, 102, 241, 0.4)",
+          drag: false,
+          resize: false,
         });
       });
     });
@@ -56,11 +52,17 @@ export default function Waveform({ audioUrl, segments = [] }) {
   }, [audioUrl, segments]);
 
   return (
-    <div className="waveform-wrapper">
-      <div ref={containerRef} className="waveform-canvas" />
-      <button onClick={() => waveRef.current?.playPause()}>
-        ▶ Play / Pause
-      </button>
+    <div className="waveform-outer-card">
+      <div ref={containerRef} className="waveform-main" />
+      <div className="waveform-controls">
+        <button 
+          className="play-btn"
+          onClick={() => waveRef.current?.playPause()}
+          disabled={!isReady}
+        >
+          {isReady ? "Play / Pause" : "Loading Waveform..."}
+        </button>
+      </div>
     </div>
   );
 }
