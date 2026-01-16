@@ -23,7 +23,7 @@ The goal is to help users quickly understand and navigate long conversations wit
 5. **Analysis**: Each segment undergoes summarization, keyword extraction, and sentiment analysis.
 6. **Indexing**: Processed data is indexed for fast retrieval and semantic search.
 7. **Visualization**: Results are displayed in the Streamlit UI, allowing users to explore the data interactively.
-## 📊 Workflow Diagram
+## Workflow Diagram
 
 ```mermaid
 flowchart TB
