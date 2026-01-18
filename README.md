@@ -40,6 +40,7 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 │── tests/                  # Testing and Validation
 │   ├── measure_accuracy.py # Tool to benchmark model performance
 │   ├── test_pipeline.py    # Unit tests for pipeline logic
+│── assets/                 # Storage for README screenshots
 │── requirements.txt        # Python dependencies
 │── README.md               # Project documentation
 │── .env                    # Environment variables (Configuration)
@@ -90,7 +91,48 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 
 ---
 
-## 5. How to Run the Project
+## User Interface & Features
+
+### 1. System Interface: Input Layer
+The main dashboard featuring model selection (Tiny/Base) and drag-and-drop file upload functionality.
+
+![Dashboard Configuration](assets/image_95c037.png)
+
+
+---
+
+### 2. Data Ingestion & Verification
+Integrated audio player allowing users to verify file integrity before initiating the AI pipeline.
+
+![Audio Verification](assets/audio_preview.png) 
+---
+
+### 3. NLP Insights: Keyword Visualization
+A dynamic visualization where bubble size represents keyword frequency, utilizing a collision-free packing algorithm.
+
+![Keyword Bubbles](assets/image_9621af.png)
+
+---
+
+### 4. Results: Sentiment Analysis & Topic Flow
+A Gantt-style timeline tracking topic shifts over time, color-coded by sentiment polarity (Red=Negative, Green=Positive).
+
+![Sentiment Heatmap](assets/sentiment_timeline.png)
+---
+
+### 5. User Features: Search & Retrieval
+Advanced search interface allowing users to filter specific podcast segments by keyword and sentiment score.
+
+![Semantic Search](assets/search_interface.png)
+---
+
+### 6. Core Deliverable: High-Fidelity Transcription
+Complete generated text output with one-click options to download the transcript as a text file.
+
+![Full Transcript](assets/full_transcript.png)
+---
+
+## 6. How to Run the Project
 
 ### 1. Setup Environment
 
@@ -120,7 +162,7 @@ streamlit run src/ui_app.py
 
 ---
 
-## 6. Testing
+## 7. Testing
 
 The project includes an automated testing suite to ensure reliability.
 
@@ -135,29 +177,23 @@ python -m pytest
 
 ---
 
-Here is the corrected "Troubleshooting" section. I have fixed the indentation so that **Cause** and **Fix** appear clearly *under* each error message, which is the standard format for documentation.
+## 8. Troubleshooting
 
-You can copy and paste this block directly into your `README.md`.
+* **Error: `FileNotFoundError: [WinError 2] The system cannot find the file specified**`
+* **Cause:** FFmpeg is not installed or it is not added to your system PATH.
+* **Fix:** Install FFmpeg and restart your terminal.
 
-
-## 7. Troubleshooting
-
-* **Error: `FileNotFoundError: [WinError 2] The system cannot find the file specified`**
-  * **Cause:** FFmpeg is not installed or it is not added to your system PATH.
-  * **Fix:** Install FFmpeg and restart your terminal.
 
 * **App crashes with "Out of Memory"**
-  * **Cause:** The Whisper model (defaulting to "medium") is too large for your available RAM.
-  * **Fix:** Open `src/transcription.py` and change the line `model_size="medium"` to `model_size="tiny"` or `model_size="base"`.
-
-* **Error: `Streamlit command not found`**
-  * **Cause:** The virtual environment is not currently activated.
-  * **Fix:** Activate your environment before running the command:
-    * **Windows:** `.venv\Scripts\activate`
-    * **Mac/Linux:** `source .venv/bin/activate`
+* **Cause:** The Whisper model (defaulting to "medium") is too large for your available RAM.
+* **Fix:** Open `src/transcription.py` and change the line `model_size="medium"` to `model_size="tiny"` or `model_size="base"`.
 
 
-
+* **Error: `Streamlit command not found**`
+* **Cause:** The virtual environment is not currently activated.
+* **Fix:** Activate your environment before running the command:
+* **Windows:** `.venv\Scripts\activate`
+* **Mac/Linux:** `source .venv/bin/activate`
 
 
 
