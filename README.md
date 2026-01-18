@@ -147,8 +147,6 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 │
 ├── audio_ui/                   # UI session audio
 │
-├── audio_UI_clips/             # Segment-wise audio clips for playback
-│
 ├── transcripts/
 │   ├── asr/                    # Raw ASR-generated transcripts
 │   ├── final/                  # Cleaned / summarized transcripts
@@ -160,11 +158,11 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 │   ├── asr_evaluation.csv      # WER, CER, Accuracy values
 │   ├── asr_evaluation_table.txt# Tabular ASR results
 │   └── keywords.txt            # Extracted keywords
-│
+│   └── Documentation.pdf       # Final report (PDF)
+│   └── HR_Interview_Analyzer_Presentation.pptx   #Presentation
 ├── results/
 │   ├── Documentation_Report.md # Markdown documentation
-│   └── Documentation.pdf       # Final formatted report (PDF)
-│
+│   
 ├── notebooks/                  # Experiments and analysis (optional)
 │
 ├── tests/
