@@ -177,12 +177,15 @@ python -m pytest
 
 ---
 
+<<<<<<< HEAD
 ## 8. Troubleshooting
 
 * **Error: `FileNotFoundError: [WinError 2] The system cannot find the file specified**`
 * **Cause:** FFmpeg is not installed or it is not added to your system PATH.
 * **Fix:** Install FFmpeg and restart your terminal.
 
+=======
+>>>>>>> 4586488d0567618656ca3a92fe2fcbdf5578d3f2
 
 * **App crashes with "Out of Memory"**
 * **Cause:** The Whisper model (defaulting to "medium") is too large for your available RAM.
