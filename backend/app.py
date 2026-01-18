@@ -1,3 +1,6 @@
+import librosa
+import numpy as np
+
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import os
@@ -19,6 +22,27 @@ CORS(app)
 @app.route("/audio/<filename>")
 def serve_audio(filename):
     return send_from_directory("data/clean_audio", filename)
+
+# ===== WAVEFORM API =====
+@app.route("/waveform/<filename>")
+def get_waveform(filename):
+    audio_path = os.path.join("data/clean_audio", filename)
+
+    if not os.path.exists(audio_path):
+        return jsonify({"error": "Audio file not found"}), 404
+
+    # Load audio
+    y, sr = librosa.load(audio_path, sr=None)
+
+    # Downsample for faster response
+    y = y[::100]
+    time = np.linspace(0, len(y) / sr, num=len(y))
+
+    return jsonify({
+        "time": time.tolist(),
+        "amplitude": y.tolist()
+    })
+
 
 # ===== PIPELINE =====
 @app.route("/upload", methods=["POST"])

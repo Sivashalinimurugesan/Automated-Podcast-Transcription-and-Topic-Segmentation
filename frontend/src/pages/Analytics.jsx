@@ -33,12 +33,7 @@ export default function Analytics() {
         <h1>Podcast Analytics</h1>
       </div>
 
-      <div className="analytics-card">
-        <h3>Waveform Timeline</h3>
-        <div className="waveform-box">
-          <Waveform audioUrl={audioUrl} segments={segments} />
-        </div>
-      </div>
+      
 
       <div className="analytics-card main-viz-area">
         {viewMode === "keywords" ? (
@@ -49,6 +44,12 @@ export default function Analytics() {
             <SentimentGraph segments={segments} />
           </>
         )}
+      </div>
+      <div className="analytics-card">
+        <h3>Audio Stream</h3>
+        <div className="waveform-box">
+          <Waveform audioUrl={audioUrl} segments={segments} />
+        </div>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import "./PodcastResult.css";
 import SentimentGraph from "./SentimentGraph";
-// import Waveform from "./Waveform"; // ❌ yahan waveform nahi use kar rahe
+
 
 export default function PodcastResult({ result, mode }) {
   const [currentTime, setCurrentTime] = useState(0);
@@ -12,7 +12,7 @@ export default function PodcastResult({ result, mode }) {
 
   const segments = result.segments || [];
 
-  // 🔹 "00:23" → seconds
+  //  "00:23" → seconds
   const timeToSeconds = (time) => {
     if (!time) return 0;
     const [m, s] = time.split(":").map(Number);
@@ -38,7 +38,7 @@ export default function PodcastResult({ result, mode }) {
       )
   );
 
-  // 🔹 TRANSCRIBE ONLY MODE
+  //  TRANSCRIBE ONLY MODE
   if (mode === "transcribe") {
     return (
       <div className="podcast-dashboard">
@@ -51,10 +51,10 @@ export default function PodcastResult({ result, mode }) {
     );
   }
 
-  // 🔹 TRANSCRIBE + SUMMARIZE MODE
+  //  TRANSCRIBE + SUMMARIZE MODE
   return (
     <div className="podcast-dashboard">
-      {/* 🔥 AUDIO */}
+      {/*  AUDIO */}
       <div className="viz-container">
         <div className="main-audio-box">
           <audio
@@ -82,7 +82,7 @@ export default function PodcastResult({ result, mode }) {
       </div>
 
       <div className="main-content-split">
-        {/* 🔹 SIDEBAR */}
+        {/*  SIDEBAR */}
         <aside className="navigation-sidebar">
           <h4>Topic Index</h4>
           <input
@@ -106,7 +106,7 @@ export default function PodcastResult({ result, mode }) {
           </div>
         </aside>
 
-        {/* 🔹 SEGMENTS WITH AUTO HIGHLIGHT */}
+        {/* SEGMENTS WITH AUTO HIGHLIGHT */}
         <div className="display-area">
           {filteredSegments.map((seg, index) => {
             const start = timeToSeconds(seg.start_time);
