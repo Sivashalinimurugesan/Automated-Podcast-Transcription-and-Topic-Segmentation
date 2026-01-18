@@ -160,8 +160,6 @@ Automated-Podcast-Transcription-and-Topic-Segmentation/
 │   └── keywords.txt            # Extracted keywords
 │   └── Documentation.pdf       # Final report (PDF)
 │   └── HR_Interview_Analyzer_Presentation.pptx   #Presentation
-├── results/
-│   ├── Documentation_Report.md # Markdown documentation
 │   
 ├── notebooks/                  # Experiments and analysis (optional)
 │
