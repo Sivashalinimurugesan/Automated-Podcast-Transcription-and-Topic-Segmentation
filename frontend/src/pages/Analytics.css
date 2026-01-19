@@ -38,7 +38,7 @@
   color: #6b7280;
 }
 
-/* Card style */
+
 .analytics-card {
   background: #ffffff;
   border-radius: 16px;
@@ -47,16 +47,16 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
 }
 
-/* Waveform container */
+
 .waveform-box {
   width: 100%;
-  min-height: 140px;   /* 🔥 VERY IMPORTANT */
+  min-height: 140px;   
 }
 
-/* Chart container */
+
 .chart-box {
   width: 100%;
-  height: 360px;       /* 🔥 VERY IMPORTANT */
+  height: 360px;      
 }
 .analytics-action-bar {
   display: flex;

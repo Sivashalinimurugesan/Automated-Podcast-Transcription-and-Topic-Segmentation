@@ -18,7 +18,7 @@ export default function Home() {
         Navigate efficiently by browsing topics and key discussion point without listening to the entire episode
       </p>
 
-      {/* ✅ Upload only (NO result handling here) */}
+      {/* Upload only (NO result handling here) */}
       <UploadCard />
 
       <div id="features">
