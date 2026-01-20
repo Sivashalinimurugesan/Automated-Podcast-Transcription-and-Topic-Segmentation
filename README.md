@@ -4,10 +4,7 @@
 Springboard Internship Program
 
 ## Dataset Selected
-- This American Life Podcast Dialog Transcripts (Kaggle)
-
-## Episodes Selected
-- Episode 1: Sample English podcast audio
+- Spotify Language Podcasts (Kaggle)
 
 ## Week 1 Work Done
 - Reviewed mentor project repository and guidelines
