@@ -10,17 +10,17 @@ def test_process_segments_returns_segments():
 
     test_wav = "data/clean_audio/test_audio.wav"
 
-    # Skip test if audio file not present
+    
     if not os.path.exists(test_wav):
         return
 
     segments = process_segments(dummy_text, test_wav)
 
-    # Basic validations
+    
     assert isinstance(segments, list)
     assert len(segments) > 0
 
-    # Validate structure of one segment
+    
     segment = segments[0]
 
     assert "segment_number" in segment

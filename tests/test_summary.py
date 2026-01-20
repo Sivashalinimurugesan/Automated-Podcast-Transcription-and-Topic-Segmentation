@@ -9,11 +9,10 @@ def test_summarize_segment_returns_text():
 
     summary = summarize_segment(sample_text)
 
-    # Check output type
     assert isinstance(summary, str)
 
-    # Summary should not be empty
+    
     assert len(summary) > 0
 
-    # Summary length should be <= original text
+   
     assert len(summary) <= len(sample_text)
