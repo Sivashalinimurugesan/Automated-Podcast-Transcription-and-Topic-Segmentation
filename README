@@ -1,1 +1,13 @@
+## Week 2 Progress Update
+
+- Installed and tested Whisper ASR
+- Selected sample audio from Speaker Recognition Audio Dataset
+- Generated transcript using Whisper (baseline ASR)
+- Stored transcript for further processing
+
+## Observations
+
+- ASR output is generally accurate
+- Minor issues observed with punctuation and pauses
+- Suitable for downstream text cleaning and segmentation
 
