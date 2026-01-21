@@ -11,3 +11,52 @@
 - Minor issues observed with punctuation and pauses
 - Suitable for downstream text cleaning and segmentation
 
+## Week 3 – Transcript Cleaning
+
+- Selected a sample audio file from the Speaker Recognition Audio Dataset
+- Generated ASR transcript using Whisper
+- Performed basic transcript cleaning (removed extra line breaks and spacing)
+- Stored cleaned transcript for future topic segmentation
+
+### Files Added
+- transcripts/Speaker_0025_00001_transcript.txt
+- transcripts/Speaker_0025_00001_cleaned.txt
+- notebooks/transcript_cleaning.ipynb
+
+## Week 4 – Topic Segmentation (Initial)
+
+- Implemented basic topic segmentation on cleaned transcripts
+- Segmented transcript using sentence-based grouping
+- Generated initial topic segments for further refinement
+- Prepared groundwork for advanced segmentation methods (TextTiling, embeddings)
+
+## Week 5 – Keyword Extraction
+
+- Implemented basic keyword extraction from cleaned transcripts
+- Used frequency-based approach to identify important terms
+- Generated top keywords representing podcast content
+- Prepared keywords for future summarization and UI integration
+
+### Files Added
+- notebooks/keyword_extraction.ipynb
+
+## Week 6 – Summarization
+
+- Implemented basic extractive summarization on cleaned transcripts
+- Generated concise summary from podcast content
+- Provided quick overview of episode discussion
+- Prepared summaries for future UI and visualization integration
+
+### Files Added
+- notebooks/summarization.ipynb
+
+## Week 7 – Visualization
+
+- Created word frequency visualization from cleaned transcript
+- Displayed top keywords using a bar chart
+- Added visual analytics to understand podcast content trends
+- Prepared visual components for final demo
+
+### Files Added
+- notebooks/visualization.ipynb
+
